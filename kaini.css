@@ -1,0 +1,288 @@
+body {
+	font-family: "Palatino Linotype";
+}
+
+form {
+	border: 1px solid black; 
+	padding: 0.5em;
+}
+
+.hidden {
+	display: none!important;
+}
+
+#language {
+	position: absolute;
+	top: 0;
+	right: 5px;
+}
+
+#canvasDiv {
+	width: 850px;
+	margin: 20px auto;
+}
+
+#loadingDiv {
+	margin-left: 0.5em;
+}
+
+#buttons {
+	float: right;
+	margin-bottom: 20px;
+}
+
+#buttonToggles {
+	display: inline-block;
+}
+
+#buttonToggles button {
+	width: 64px;
+	height: 64px;
+	border-radius: 32px;
+	position: relative;
+}
+
+#buttonToggles .toprightlabel {
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: right;
+	color:red;
+	font-size: 10px;
+}
+
+#buttonToggles button.active {
+	background: gray;
+}
+
+.furnitureClass {
+	height: 250px;
+	padding: 0 5px;
+	margin-bottom: 2em;
+	overflow-y: scroll;
+	font-size: 0.75em;
+	width: 23.5%;
+}
+
+#Window span {
+	display: inline-block;
+}
+
+.shipOptions {
+	padding-left: 1em;
+	margin-bottom: 1em;
+}
+
+.shipOptions div:first-child {
+	border-top: 1px dotted black;
+}
+
+.shipOptions div {
+	border-bottom: 1px dotted black;
+}
+
+.shipOptions label {
+	display: inline-block;
+	padding: 0.5em 0;
+}
+
+#ttkInfo {
+	margin-bottom: 0.5em;
+}
+
+#flagTab {
+	max-height: 350px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+#avatars {
+	display: inline-block;
+	width: 80%;
+	width: calc(100% - 180px);
+	margin-left: 11.5%;
+	margin-left: calc(0% + 175px);
+}
+
+#fleetWrapper {
+	vertical-align: top;
+	position: absolute;
+	display: inline-block;
+	width: 11.5%;
+	width: calc(0% + 175px);
+}
+
+.shipList > label {
+	display: block;
+	border: 1px solid black;
+	margin-bottom: 5px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.shipList img {
+	width: 50px;
+	height: 50px;
+	border: 1px dashed gray;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#avatars img.flagship, .shipList img.selected {
+	border: 1px solid red;
+}
+
+.shipList img:hover {
+	cursor: pointer;
+	border: 1px dashed red;
+}
+
+.shipList span {
+	display: inline-block;
+	border: 1px solid black;
+	background: white;
+	width: 20px;
+	text-align: center;
+	margin-left: -15px;
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#avatars .abyss {
+	margin-bottom: 5px;
+}
+
+#flagTab button {
+	vertical-align: top;
+}
+
+#flagTab span.damaged {
+	background: red;
+}
+
+#fleets, #fleetSelect {
+	margin-bottom: 5px;
+	text-select: none;
+}
+
+#fleetSelect div.chosen {
+	color: red!important;
+}
+
+#fleets div.chosen {
+	border: 1px solid red;
+}
+
+#fleetSelect > div {
+	display: inline-block;
+	cursor: pointer;
+	width: 20px;
+	height: 24px;
+	text-align: center;
+	border: 1px solid black;
+}
+
+#fleets > div {
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+}
+
+#fleets {
+	width: 50px;
+}
+
+#fleetLevels {
+	width: 100px;
+}
+
+#fleets, #fleetLevels {
+	vertical-align: top;
+	display: inline-block;
+}
+
+#fleetLevels > div {
+	margin-top: 13px;
+	height: 37px;
+	display: inline-block;
+}
+
+#fleetLevels input {
+	width: 40px;
+}
+
+.shipClasses > div {
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	vertical-align: top;
+}
+
+#ttkInfo > div {
+	display: inline-block;
+	padding-right: 1em;
+}
+
+.shipClass, .furnitureClass {
+	vertical-align: top;
+	display: inline-block;
+	margin-right: 0.5em;
+}
+
+.shipClass > h3, .furnitureClass > h3 {
+	font-size: 16px;
+	font-weight: 800;
+	margin: 5px;
+}
+
+.blueprint {
+	color: #9999FF;
+}
+
+#footer {
+	margin-top: 20px;
+	font-size: 10px;
+	text-align: center;
+}
+
+#tabs {
+	display: none;
+}
+
+#colleDiv .colleAll {
+	width: 100%;
+}
+
+/****************************************** Core */
+.liteTabs { position: relative; margin: 0; padding: 0; overflow: hidden;}
+.liteTabs ul { margin: 0; padding: 0; overflow: hidden; font: 12px/14px Verdana, Arial, sans-serif; display:table; width:100%;  }
+.liteTabs li { display: table-cell; list-style-type: none }
+.liteTabs li a { display: block; text-decoration: none; outline: 0; padding: 6px 12px; margin-right: 2px; color: #111; background: #b1b1b1 }
+.liteTabs a:hover { background: #999 }
+.liteTabs a:focus { text-decoration: underline }
+.liteTabs a.selected, .liteTabs a.selected:hover { background: white }
+.liteTabs div { background: white }
+.liteTabs div.selected { position: static !important; padding: 20px; border: 1px solid black; }
+
+/*************************************** Rounded */
+.rounded ul { -moz-border-radius: 8px 8px 0 0; border-radius: 8px 8px 0 0 }
+.rounded li a { -moz-border-radius: 8px 8px 0 0; border-radius: 8px 8px 0 0 }
+.rounded div { -moz-border-radius: 0 8px 8px 8px; border-radius: 0 8px 8px 8px }
+
+/**************************************** Borders */
+.borders ul { position: relative; top: 1px }
+.borders li a { border: 1px solid #999; border-bottom: 0 }
+.borders div { border: 1px solid #999 }
+
+/****************************************** Boxed */
+.boxed { padding: 2px; background: #ddd; border: 1px solid #666 }
+.boxed ul {	background: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(204,204,204)), color-stop(1, rgb(238,238,238)));
+	background: -moz-linear-gradient(center bottom, rgb(204,204,204) 0%, rgb(238,238,238) 100%) }

@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>KanColle Interactive Quest Flowchart</title>
+		<meta charset="UTF-8">
+		<link href='http://fonts.googleapis.com/css?family=Exo' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="../jquery.min.js"></script>
+		<script type="text/javascript" src="./dagre.js"></script>
+		<script type="text/javascript" src="../cytoscape.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.0/jquery.qtip.min.js"></script>
+		<script src="https://cdn.rawgit.com/cytoscape/cytoscape.js-qtip/2.1.0/cytoscape-qtip.js"></script>
+		<script type="text/javascript" src="../litetabs.jquery.js"></script>
+		<script type="text/javascript" src="./quest.js"></script>
+		<script type="text/javascript" src="../ga.js"></script>
+		<link href="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.0/jquery.qtip.min.css" rel="stylesheet" type="text/css" />
+		<link href="./quests.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div id="table">
+			<div id="info">
+				<h3 id="questName">Quest Info</h3>
+				<div id="questDetails">
+					<b>ID</b><div id="questId">a</div>
+					<b>Description</b><div id="questDesc">b</div>
+					<b>Reward</b><div id="questReward">c</div>
+				</div>
+				<div id="metrics">
+					<b>Progress: </b> <span id="completed"></span>/<span id="total"></span>
+				</div>
+			</div>
+			<div id="quests">
+
+			</div>
+		</div>
+		<div id="loading">Loading...</div>
+	</body>
+</html>

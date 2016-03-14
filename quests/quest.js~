@@ -1,0 +1,191 @@
+$(function(){ // on dom ready
+
+var completed = {};
+var lastNode;
+var fillQuestData = function(node) {
+	if (!node) return;
+	$("#questName").html(node.data("name")?node.data("name"):"???");
+	$("#questId").html(node.data("id")?node.data("id"):"???");
+	$("#questDesc").html(node.data("desc")?node.data("desc"):"???");
+
+	var rewardStr = "";
+	var rewards = node.data("reward");
+	for (var reward in rewards) {
+console.log(rewards[reward]);
+		if (rewards[reward]) {
+			rewardStr += reward;
+			rewardStr += rewards[reward] === true ? "" : ": " + rewards[reward];
+			rewardStr += "<br/>";
+		}
+	}
+
+	$("#questReward").html(rewardStr ? rewardStr : "None");
+}
+
+$.ajax({
+	  dataType: "json",
+	  timeout: 10000,
+	  url: 'quests.json',
+	  success: function(result){
+		var cy = cytoscape({
+		  container: $('#quests')[0],
+		  
+		  style: cytoscape.stylesheet()
+		    .selector('node')
+		      .css({
+			'content': 'data(id)',
+			'text-valign': 'center',
+			'color': 'white',
+			'text-outline-width': 1,
+			'text-outline-color': '#888',
+			'background-color': 'data(outlineColor)',
+			'width': '45px'
+		      })
+		    .selector('node.inactive')
+		      .css({
+			'background-color': 'white',
+			'border-width': 1,
+			'border-color': 'data(outlineColor)',
+			'text-outline-color': '#333'
+		      })
+		    .selector('node.active')
+		      .css({
+			'content': '',
+			'color': 'white',
+			'background-image': 'url(./clear.png)',
+			'text-outline-width': 2,
+		      })
+		    .selector('edge')
+		      .css({
+			'width': 1,
+			'line-color': '#999',
+			'target-arrow-fill': 'hollow',
+			'target-arrow-shape': 'triangle'
+		      })
+		    .selector(':selected')
+		      .css({
+			'line-color': 'black',
+			'border-width': 1,
+			'border-color': 'data(outlineColor)',
+			'target-arrow-color': 'black',
+			'source-arrow-color': 'black',
+			'text-outline-color': 'black'
+		      })
+		    .selector('node.hover')
+		      .css({
+			'border-width': 1,
+			'border-color': 'yellow',
+		      }),
+		  
+		  elements: {
+		    nodes: result.quests,
+		    edges: result.requires
+		  },
+		  
+		  layout: {
+		    name: 'dagre',
+			fit: false,
+			rankSep: 30,
+			nodeSep: 15,
+			edgeSep: 0
+		  },
+
+		  ready: function(evt) {
+			$("#loading").hide();
+			$("#completed").html(cy.collection(".active").length);
+			$("#total").html(cy.nodes().length);
+			cy.nodes().addClass("inactive").roots().removeClass("inactive");
+
+			cy.on('tap', 'node', function(){
+				var nodes = this;
+				lastNode = this;
+				fillQuestData(lastNode);
+
+				var parents = nodes.connectedEdges(function(){
+				      return this.target().anySame( nodes );
+				    });
+				var children = this.connectedEdges(function(){
+				      return !this.target().anySame( nodes );
+				    });
+				if (this.hasClass("active")) {
+					while (children.length > 0 && Object.keys(completed).length > 0) {
+						var childNodes = children.connectedNodes(function(){
+							return this.incomers().anySame(children);
+						});
+						childNodes.each(function(i,e) {
+							completed[e.id()] = true;
+						});
+						childNodes.connectedEdges(function(){
+						      return this.target().anySame( childNodes ) && !this.target().hasClass("inactive");
+						}).targets().each(function(){
+							this.removeClass("active").addClass("inactive");
+							completed[this.id()] = false;
+						});
+
+						children = childNodes.connectedEdges(function(){
+							return !this.target().anySame( childNodes );
+						});
+					}
+					delete(completed[this.id()]);
+					this.removeClass("active");
+				} else {
+					while (parents.length > 0) {
+						var parentNodes = parents.connectedNodes(function(){
+							return this.outgoers().anySame(parents);
+						});
+						parentNodes.removeClass("inactive").addClass("active");
+						parentNodes.each(function(i,e) {
+							completed[e.id()] = true;
+						});
+						parentNodes.connectedEdges(function(){
+						      return !this.target().anySame( parentNodes );
+						}).targets().removeClass("inactive");
+
+						parents = parentNodes.connectedEdges(function(){
+							return this.target().anySame( parentNodes );
+						});
+					}
+					this.removeClass("inactive").addClass("active");
+					children.targets().each(function(){
+						var self = this;
+						var childParents = this.connectedEdges(function(){
+							return this.target().anySame( self );
+						});
+						var allParentsActive = true;
+						childParents.each(function(){
+							if (!this.source().hasClass("active")) {
+								allParentsActive = false;
+								return;
+							}
+						});
+						if (allParentsActive) self.removeClass("inactive");
+					})
+					completed[this.id()] = true;
+				}
+				$("#completed").html(cy.collection(".active").length);
+			});
+			cy.on('mouseover', 'node', function(){
+				fillQuestData(this);
+				this.addClass("hover");
+			});
+			cy.on('mouseout', 'node', function(){
+				fillQuestData(lastNode);
+				this.removeClass("hover");
+			});
+		  },
+
+		  zoom: 1,
+  		  pan: { x: -1400, y: 50 },
+		  minZoom: 0.4375,
+		  maxZoom: 4,
+		  touchTapThreshold: 25,
+		  desktopTapThreshold: 25 
+		});
+	},
+	  error: function(){
+		$("body").html("Can't find DB, please contact Pink Ryuuhou on Himeuta.net");
+	  }
+	}); 
+
+ 
+}); // on dom ready

@@ -1,0 +1,1422 @@
+{
+	"quests":[
+		{ "data": {
+			"id" : "A1",
+			"name" : "はじめての「編成」！",
+			"desc" : "Have 2 ships in your fleet.",
+			"reward" : {"Fuel":20,"Ammo":20,"Steel":0,"Bauxite":0,"Shirayuki": true},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A2",
+			"name" : "「駆逐隊」を編成せよ",
+			"desc" : "Have 4 Destroyers in your fleet.",
+			"reward": {"Fuel":30,"Ammo":30,"Steel":30,"Bauxite":0,"Instant Construction":1},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A3",
+			"name" : "「水雷戦隊」を編成せよ！",
+			"desc" : "Have a Light Cruiser as your flagship and complete the fleet with Destroyers.",
+			"reward": {"Fuel":40,"Ammo":40,"Steel":0,"Bauxite":40,"Repair Team":true},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A4",
+			"name" : "6隻編成の艦隊を編成せよ！",
+			"desc" : "Have 6 ships in your fleet.",
+			"reward": {"Fuel":50,"Ammo":0,"Steel":50,"Bauxite":0,"Fleet 2":true,"Expeditions":true},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A5",
+			"name" : "軽巡2隻を擁する隊を編成せよ！",
+			"desc" : "Have 2 Light Cruisers in your fleet.",
+			"reward": {"Fuel":60,"Ammo":60,"Steel":0,"Bauxite":0,"Development Material":1},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A6",
+			"name" : "第2艦隊を編成せよ！",
+			"desc" : "Have a flagship in your second fleet.",
+			"reward": {"Fuel":50,"Ammo":50,"Steel":100,"Bauxite":0,"Instant Repair":1},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A7",
+			"name" : "「重巡戦隊」を編成せよ！",
+			"desc" : "Have 2 Heavy Cruisers in your fleet (Aviation Cruisers don't count).",
+			"reward": {"Fuel":0,"Ammo":70,"Steel":0,"Bauxite":30,"Instant Repair":1},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A8",
+			"name" : "「天龍」型軽巡姉妹の全2艦を編成せよ！",
+			"desc" : "Have both Tenryuu-class light cruisers in your main fleet.  Includes Tenryuu (天龍) and Tatsuta (龍田).",
+			"reward": {"Fuel":100,"Ammo":100,"Steel":100,"Bauxite":50,"Instant Construction":2},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A9",
+			"name" : "「水上機母艦」を配備せよ！",
+			"desc" : "Have a Seaplane Tender in your fleet to make use of reconnaissance seaplanes.",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":200,"Development Material":1},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A10",
+			"name" : "Organize the 6th Destroyer Division",
+			"desc" : "Have (only) all 4 Akatsuki-class destroyers in your main fleet.  Includes Akatsuki (暁), Hibiki (響), Ikazuchi (雷), and Inazuma (電).",
+			"reward": {"Fuel":150,"Ammo":150,"Steel":0,"Bauxite":0,"Repair Team":1},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A11",
+			"name" : "第2艦隊で空母機動部隊を編成せよ！",
+			"desc" : "Have an Aircraft Carrier / Light Aircraft Carrier and 3 Destroyers in your SECOND fleet.",
+			"reward": {"Fuel":100,"Ammo":0,"Steel":0,"Bauxite":100,"Instant Construction":2},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A12",
+			"name" : "「空母機動部隊」を編成せよ！",
+			"desc" : "Have an Aircraft Carrier/Light Aircraft Carrier as a flagship and 3 Destroyers in your main fleet.",
+			"reward": {"Fuel":50,"Ammo":0,"Steel":0,"Bauxite":100,"Development Material":1},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A13",
+			"name" : "戦艦と重巡による主力艦隊を編成せよ！",
+			"desc" : "Have a Battleship and 2 Heavy Cruisers in your main fleet (Aviation Battleships don't count).",
+			"reward": {"Fuel":0,"Ammo":150,"Steel":0,"Bauxite":0,"Instant Construction":2},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A14",
+			"name" : "「川内」型軽巡姉妹の全3艦を編成せよ！",
+			"desc" : "Have all three Sendai-class Light Cruisers in your main fleet. Includes Sendai (川内), Jintsu (神通), and Naka (那珂).",
+			"reward": {"Fuel":100,"Ammo":0,"Steel":100,"Bauxite":0,"Fleet 3":true},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A15",
+			"name" : "「妙高」型重巡姉妹の全4隻を編成せよ！",
+			"desc" : "Have all four Myoukou-class Heavy Cruisers in your main fleet.  Includes Myoukou (妙高), Nachi (那智), Ashigara (足柄), and Haguro (羽黒).",
+			"reward": {"Fuel":150,"Ammo":100,"Steel":150,"Bauxite":100,"Instant Repair":1,"Development Material":1},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A16",
+			"name" : "「金剛」型による高速戦艦部隊を編成せよ！",
+			"desc" : "Have all four Kongou-class Battleships in your main fleet. Includes Kongou (金剛), Hiei (比叡), Haruna (榛名), and Kirishima (霧島).",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0,"Fleet 4":true},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A17",
+			"name" : "「扶桑」型戦艦姉妹の全2隻を編成せよ！",
+			"desc" : "Have both Fusou-class Battleships in your main fleet.  Includes Fusou (扶桑) and Yamashiro (山城).",
+			"reward": {"Fuel":200,"Ammo":200,"Steel":200,"Bauxite":200,"Instant Repair":2,"Development Material":1},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A18",
+			"name" : "「伊勢」型戦艦姉妹の全2隻を編成せよ！",
+			"desc" : "Have both Ise-class Battleships in your main fleet. Includes Ise (伊勢) and Hyuuga (日向).",
+			"reward": {"Fuel":300,"Ammo":200,"Steel":300,"Bauxite":200,"Instant Repair":2,"Development Material":2},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A19",
+			"name" : "「南雲機動部隊」を編成せよ！",
+			"desc" : "Have ONLY Akagi (赤城), Kaga (加賀), Hiryuu (飛龍), and Souryuu (蒼龍) in your main fleet.",
+			"reward": {"Fuel":500,"Ammo":500,"Steel":500,"Bauxite":500,"Instant Construction":2,"Development Material":4},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A20",
+			"name" : "「三川艦隊」を編成せよ！",
+			"desc" : "Have Choukai (鳥海), Aoba (青葉), Kako (加古), Furutaka (古鷹), and Tenryuu (天龍) in your main fleet, with one additional FAST ship.",
+			"reward": {"Fuel":400,"Ammo":0,"Steel":200,"Bauxite":0,"Instant Repair":3},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A21",
+			"name" : "「第四戦隊」を編成せよ！",
+			"desc" : "Have all four Takao-class Heavy Cruisers in your main fleet.  Includes Atago (愛宕), Takao (高雄), Choukai (鳥海), and Maya (摩耶).",
+			"reward": {"Fuel":300,"Ammo":150,"Steel":0,"Bauxite":0,"Instant Repair":3,"Development Material":1},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A22",
+			"name" : "「西村艦隊」を編成せよ！",
+			"desc" : "Have Fusou (扶桑), Yamashiro (山城), Mogami (最上), and Shigure (時雨) in your main fleet.",
+			"reward": {"Fuel":200,"Ammo":200,"Steel":200,"Bauxite":0,"Mamiya":1},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A23",
+			"name" : "「第五航空戦隊」を編成せよ！",
+			"desc" : "Have both Shoukaku (翔鶴) and Zuikaku (瑞鶴) in your main fleet along with 2 Destroyers.",
+			"reward": {"Fuel":300,"Ammo":0,"Steel":0,"Bauxite":300,"Repair Team":1},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A24",
+			"name" : "新「三川艦隊」を編成せよ！",
+			"desc" : "Have Choukai (鳥海), Aoba (青葉), Kinugasa (衣笠), Kako (加古), Furutaka (古鷹), and Tenryuu (天龍) in your main fleet.",
+			"reward": {"Fuel":300,"Ammo":0,"Steel":300,"Bauxite":0,"Mamiya":1},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A25",
+			"name" : "潜水艦隊を編成せよ！",
+			"desc" : "Have 2 Submarines in any one of your fleets.",
+			"reward": {"Fuel":150,"Ammo":150,"Steel":0,"Bauxite":0,"Repair Team":1},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A26",
+			"name" : "航空水上打撃艦隊を編成せよ！",
+			"desc" : "Have only 2 Aviation Battleships and 2 Aviation Cruisers in your main fleet.",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":200,"Bauxite":200,"Instant Repair":2},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A27",
+			"name" : "中規模潜水艦隊を編成せよ！",
+			"desc" : "Have 3 Submarines in your main fleet.",
+			"reward": {"Fuel":150,"Ammo":150,"Steel":0,"Bauxite":0,"Mamiya":1},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A28",
+			"name" : "「第六戦隊」を編成せよ！",
+			"desc" : "Have Furutaka (古鷹), Kako (加古), Kinugasa (衣笠) and Aoba (青葉) in your main fleet.",
+			"reward": {"Fuel":250,"Ammo":300,"Steel":0,"Bauxite":0,"Mamiya":1},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A29",
+			"name" : "第五艦隊」を編成せよ！",
+			"desc" : "Have Nachi (那智), Ashigara (足柄), Tama (多摩) and Kiso (木曾) in your fleet.",
+			"reward": {"Fuel":200,"Ammo":0,"Steel":300,"Bauxite":0},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A30",
+			"name" : "「第一水雷戦隊」を編成せよ！",
+			"desc" : "Have Abukuma (阿武隈), Akebono (曙), Ushio (潮), Kasumi (霞) and Shiranui (不知火) in your fleet.",
+			"reward": {"Fuel":200,"Ammo":300,"Steel":0,"Bauxite":0,"Repair Team":1},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A31",
+			"name" : "「第八駆逐隊」を編成せよ！",
+			"desc" : "Have ONLY Asashio (朝潮), Michishio (満潮), Ooshio (大潮), and Arashio (荒潮) in your fleet.",
+			"reward": {"Fuel":150,"Ammo":150,"Steel":0,"Bauxite":0,"Development Material":3},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A32",
+			"name" : "「第十八駆逐隊」を編成せよ！",
+			"desc" : "Have ONLY Kasumi (霞), Arare (霰), Kagerou (陽炎), and Shiranui (不知火) in your fleet.",
+			"reward": {"Fuel":180,"Ammo":180,"Steel":0,"Bauxite":0,"Development Material":1,"Repair Team":1},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A33",
+			"name" : "「第三十駆逐隊（第一次）」を編成せよ！",
+			"desc" : "Have only Mutsuki (睦月), Kisaragi (如月), Yayoi (弥生), and Mochizuki (望月) in your fleet.",
+			"reward": {"Fuel":200,"Ammo":200,"Steel":0,"Bauxite":0,"Instant Repair":2,"Repair Team":1},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A34",
+			"name" : "「第三十駆逐隊（第二次）」を編成せよ！",
+			"desc" : "Have only Mutsuki (睦月), Yayoi (弥生), Uzuki (卯月) and Mochizuki (望月) in your fleet.",
+			"reward": {"Fuel":220,"Ammo":220,"Steel":0,"Bauxite":0,"Development Material":3},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A35",
+			"name" : "「第五戦隊」を編成せよ！",
+			"desc" : "Have Myoukou (妙高), Nachi (那智) and Haguro (羽黒) in your fleet.",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":300,"Bauxite":0,"Development Material":5},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A36",
+			"name" : "新編「第二航空戦隊」を編制せよ！",
+			"desc" : "Have Hiryuu Kai-2 (飛龍改二) as flagship, Souryuu (蒼龍) and 2 Destroyers in your fleet.",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":400,"Instant Repair":2,"Development Material":2},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A37",
+			"name" : "潜水艦隊「第六艦隊」を編制せよ！",
+			"desc" : "Have a Submarine Tender as flagship with 4 Submarines or more in your fleet.",
+			"reward": {"Fuel":250,"Ammo":250,"Steel":0,"Bauxite":0,"Development Material":3},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A38",
+			"name" : "新型電探を配備せよ！",
+			"desc" : "Have Myoukou Kai-2 in your fleet as flagship.",
+			"reward": {"Fuel":300,"Ammo":0,"Steel":0,"Bauxite":300,"Type 22 Surface RADAR Kai 4":true},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A39",
+			"name" : "再編成「第二航空戦隊」を強化せよ！",
+			"desc" : "Have Souryuu Kai-2 (蒼龍改二) as flagship with Hiryuu Kai-2 (飛龍改二) and 2 Destroyers in your fleet.",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":450,"Instant Construction":2,"Development Material":2},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A40",
+			"name" : "精鋭「第三戦隊」全艦集結せよ！",
+			"desc" : "Have all four Kongou-class Kai-2 in your main fleet.",
+			"reward": {"Fuel":0,"Ammo":100,"Steel":0,"Bauxite":0,"Prototype 35.6cm Triple Gun Mount":true},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A41",
+			"name" : "「新型正規空母」を配備せよ！",
+			"desc" : "Have Unryuu in your fleet as flagship.",
+			"reward": {"Fuel":100,"Ammo":100,"Steel":100,"Bauxite":300,"Development Material":2},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A42",
+			"name" : "主力戦艦部隊「第二戦隊」を編成せよ！",
+			"desc" : "Have Nagato, Mutsu, Fusou & Yamashiro in your main fleet.",
+			"reward": {"Fuel":0,"Ammo":250,"Steel":250,"Bauxite":0,"Instant Repair":2},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A43",
+			"name" : "戦艦を主力とした水上打撃部隊を編成せよ！",
+			"desc" : "Have 3 either of the Nagato/Fusou/Ise/Yamato class and 1 Light Cruiser in your main fleet. Fleet must have ONLY 3 BB and 1 CL in order to complete.",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A44",
+			"name" : "「西村艦隊」を再編成せよ！",
+			"desc" : "Have Fusou, Yamashiro, Mogami, Shigure, Michishio in your main fleet.",
+			"reward": {"Fuel":300,"Ammo":300,"Steel":0,"Bauxite":0,"Development Material":3,"Improvement Material":3},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A45",
+			"name" : "改修工廠を準備せよ！",
+			"desc" : "Have Akashi as flagship in your main fleet.",
+			"reward": {"Fuel":100,"Ammo":0,"Steel":100,"Bauxite":0,"Improvement Material":5},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A46",
+			"name" : "軽快な「水上反撃部隊」を編成せよ！",
+			"desc" : "Have Kasumi as flagship, Ashigara, 1 Light Carrier, and 3 other Destroyers in your main fleet.",
+			"reward": {"Fuel":250,"Ammo":250,"Steel":0,"Bauxite":50,"Instant Repair":2,"Development Material":2},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A47",
+			"name" : "「第十一駆逐隊」を編制せよ！",
+			"desc" : "Have only Fubuki, Shirayuki, Hatsuyuki and Murakumo in your main fleet.",
+			"reward": {"Fuel":110,"Ammo":110,"Steel":110,"Bauxite":0,"Development Material":3},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A48",
+			"name" : "「第二一駆逐隊」を編成せよ！",
+			"desc" : "Have only Hatsuharu (初春), Hatsushimo (初霜), Nenohi (子日) and Wakaba (若葉) in your main fleet.",
+			"reward": {"Fuel":210,"Ammo":210,"Steel":0,"Bauxite":0,"Instant Repair":3},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A49",
+			"name" : "「第二二駆逐隊」を編成せよ！",
+			"desc" : "Have only Satsuki, Fumizuki, Nagatsuki and 1 more DD in your main fleet.",
+			"reward": {"Fuel":220,"Ammo":220,"Steel":0,"Bauxite":0,"Instant Repair":2,"Improvement Material":2},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A50",
+			"name" : "「三川艦隊」を新編、突入準備せよ！",
+			"desc" : "Have Choukai Kai-2 as flagship and fill the rest of the fleet with any combination of Furutaka, Kako, Aoba, Kinugasa, Yuubari and Tenryuu for a total of 6 ships.",
+			"reward": {"Fuel":300,"Ammo":300,"Steel":0,"Bauxite":0,"Instant Repair":2},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A51",
+			"name" : "「第十八戦隊」を新編成せよ！",
+			"desc" : "Have Tenryuu, Tatsuta and at least two other ships in your fleet.",
+			"reward": {"Fuel":180,"Ammo":180,"Steel":0,"Bauxite":180,"Development Material":2},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A52",
+			"name" : "海上突入部隊を編成せよ！",
+			"desc" : "Have Hiei, Kirishima, Nagara, Akatsuki, Ikazuchi, Inazuma in your fleet.",
+			"reward": {"Fuel":0,"Ammo":300,"Steel":0,"Bauxite":0,"Instant Repair":2,"Development Material":2},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "A53",
+			"name" : "新編「第六駆逐隊」を編成せよ！",
+			"desc" : "Have Akatsuki Kai-2 as flagship with Hibiki/Верный, Ikazuchi, Inazuma in your fleet.",
+			"reward": {"Fuel":150,"Ammo":150,"Steel":0,"Bauxite":0,"Searchlight":true},
+			"outlineColor": "#0f0"
+		}},
+
+		{ "data": {
+			"id" : "B1",
+			"name" : "はじめての「出撃」！",
+			"desc" : "Deploy your main fleet on a combat mission.",
+			"reward": {"Fuel":20,"Ammo":20,"Steel":0,"Bauxite":0,"Instant Repair":1},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B2",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B3",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B4",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B5",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B6",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B7",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B8",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B9",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B10",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B11",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B12",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B13",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B14",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B15",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B16",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B17",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B18",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B19",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B20",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B21",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B22",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B23",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B24",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B25",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B26",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B27",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B28",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B29",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B30",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B31",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B32",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B33",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B34",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B35",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B36",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B37",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B38",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B39",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B40",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B41",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B42",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "B43",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+
+
+		{ "data": {
+			"id" : "C1",
+			"name" : "はじめての「演習」！",
+			"desc" : "Challenge another fleet in practice mode.",
+			"reward": {"Fuel":10,"Ammo":10,"Steel":0,"Bauxite":0,"Development Material":1},
+			"outlineColor": "#cfc"
+		}},
+		{ "data": {
+			"id" : "C2",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#cfc"
+		}},
+		{ "data": {
+			"id" : "C3",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#cfc"
+		}},
+
+		{ "data": {
+			"id" : "C4",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#cfc"
+		}},
+
+		{ "data": {
+			"id" : "C5",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#cfc"
+		}},
+
+		{ "data": {
+			"id" : "C6",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#cfc"
+		}},
+
+
+		{ "data": {
+			"id" : "D1",
+			"name" : "はじめての「遠征」！",
+			"desc" : "Perform an expedition.",
+			"reward": {"Fuel":30,"Ammo":30,"Steel":30,"Bauxite":30},
+			"outlineColor": "#0ff"
+		}},
+		{ "data": {
+			"id" : "D2",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#0ff"
+		}},
+		{ "data": {
+			"id" : "D3",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#0ff"
+		}},
+		{ "data": {
+			"id" : "D4",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#0ff"
+		}},
+		{ "data": {
+			"id" : "D5",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#0ff"
+		}},
+		{ "data": {
+			"id" : "D6",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#0ff"
+		}},
+		{ "data": {
+			"id" : "D7",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#0ff"
+		}},
+		{ "data": {
+			"id" : "D8",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#0ff"
+		}},
+		{ "data": {
+			"id" : "D9",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#0ff"
+		}},
+		{ "data": {
+			"id" : "D10",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#0ff"
+		}},
+		{ "data": {
+			"id" : "D11",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#0ff"
+		}},
+		{ "data": {
+			"id" : "D12",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#0ff"
+		}},
+		{ "data": {
+			"id" : "D13",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#0ff"
+		}},
+		{ "data": {
+			"id" : "D14",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#0ff"
+		}},
+		{ "data": {
+			"id" : "D15",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#0ff"
+		}},
+		{ "data": {
+			"id" : "D16",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#0ff"
+		}},
+		{ "data": {
+			"id" : "D17",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#0ff"
+		}},
+		{ "data": {
+			"id" : "D18",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#0ff"
+		}},
+
+
+		{ "data": {
+			"id" : "F1",
+			"name" : "はじめての「補給」！",
+			"desc" : "Resupply a ship.",
+			"reward": {"Fuel":20,"Ammo":20,"Steel":0,"Bauxite":0,"Instant Repair":1},
+			"outlineColor": "#c90"
+		}},
+		{ "data": {
+			"id" : "F2",
+			"name" : "はじめての「入渠」！",
+			"desc" : "Repair a ship.",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":30,"Bauxite":0,"Development Material":1},
+			"outlineColor": "#c90"
+		}},
+		{ "data": {
+			"id" : "F3",
+			"name" : "艦隊大整備！",
+			"desc" : "Repair 5 ships.",
+			"reward": {"Fuel":30,"Ammo":30,"Steel":30,"Bauxite":30,"Instant Repair":2},
+			"outlineColor": "#c90"
+		}},
+		{ "data": {
+			"id" : "F4",
+			"name" : "艦隊酒保祭り！",
+			"desc" : "Resupply your ships 15 times.",
+			"reward": {"Fuel":50,"Ammo":50,"Steel":50,"Bauxite":50,"Instant Construction":1,"Development Material":1},
+			"outlineColor": "#c90"
+		}},
+		{ "data": {
+			"id" : "F5",
+			"name" : "新装備「開発」指令",
+			"desc" : "Craft a piece of equipment. (Failures are OK)",
+			"reward": {"Fuel":40,"Ammo":40,"Steel":40,"Bauxite":40,"Instant Construction":1,"Development Material":1},
+			"outlineColor": "#c90"
+		}},
+		{ "data": {
+			"id" : "F6",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#c90"
+		}},
+		{ "data": {
+			"id" : "F7",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#c90"
+		}},
+		{ "data": {
+			"id" : "F8",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#c90"
+		}},
+		{ "data": {
+			"id" : "F9",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#c90"
+		}},
+		{ "data": {
+			"id" : "F10",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#c90"
+		}},
+		{ "data": {
+			"id" : "F11",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#c90"
+		}},
+		{ "data": {
+			"id" : "F12",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#c90"
+		}},
+		{ "data": {
+			"id" : "F13",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#c90"
+		}},
+		{ "data": {
+			"id" : "F14",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#c90"
+		}},
+		{ "data": {
+			"id" : "F15",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#c90"
+		}},
+		{ "data": {
+			"id" : "F16",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#c90"
+		}},
+		{ "data": {
+			"id" : "F17",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#c90"
+		}},
+		{ "data": {
+			"id" : "F18",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#c90"
+		}},
+
+
+		{ "data": {
+			"id" : "G1",
+			"name" : "はじめての「近代化改修」！",
+			"desc" : "Perform a successful modernization. ",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":50,"Bauxite":30,"Development Material":1},
+			"outlineColor": "#90c"
+		}},
+		{ "data": {
+			"id" : "G2",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#90c"
+		}},
+		{ "data": {
+			"id" : "G3",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#90c"
+		}},
+		{ "data": {
+			"id" : "G4",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#90c"
+		}},
+
+
+		{ "data": {
+			"id" : "WF01",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#c90"
+		}},
+		{ "data": {
+			"id" : "WC01",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#cfc"
+		}},
+		{ "data": {
+			"id" : "WA01",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "WA02",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#0f0"
+		}},
+		{ "data": {
+			"id" : "WB01",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+		{ "data": {
+			"id" : "WB02",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#f00"
+		}},
+
+		{ "data": {
+			"id" : "Bd1",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#a00"
+		}},
+		{ "data": {
+			"id" : "Bd2",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#a00"
+		}},
+		{ "data": {
+			"id" : "Bd3",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#a00"
+		}},
+		{ "data": {
+			"id" : "Bd4",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#a00"
+		}},
+		{ "data": {
+			"id" : "Bd5",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#a00"
+		}},
+		{ "data": {
+			"id" : "Bd6",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#a00"
+		}},
+		{ "data": {
+			"id" : "Bd7",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#a00"
+		}},
+		{ "data": {
+			"id" : "Bd8",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#a00"
+		}},
+
+		{ "data": {
+			"id" : "Bw1",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#a00"
+		}},
+		{ "data": {
+			"id" : "Bw2",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#a00"
+		}},
+		{ "data": {
+			"id" : "Bw3",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#a00"
+		}},
+		{ "data": {
+			"id" : "Bw4",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#a00"
+		}},
+		{ "data": {
+			"id" : "Bw5",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#a00"
+		}},
+		{ "data": {
+			"id" : "Bw6",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#a00"
+		}},
+		{ "data": {
+			"id" : "Bw7",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#a00"
+		}},
+		{ "data": {
+			"id" : "Bw8",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#a00"
+		}},
+		{ "data": {
+			"id" : "Bw9",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#a00"
+		}},
+		{ "data": {
+			"id" : "Bw10",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#a00"
+		}},
+
+		{ "data": {
+			"id" : "Bm1",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#a00"
+		}},
+		{ "data": {
+			"id" : "Bm2",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#a00"
+		}},
+		{ "data": {
+			"id" : "Bm3",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#a00"
+		}},
+		{ "data": {
+			"id" : "Bm4",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#a00"
+		}},
+		{ "data": {
+			"id" : "Bm5",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#a00"
+		}},
+		{ "data": {
+			"id" : "Bm6",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#a00"
+		}},
+		{ "data": {
+			"id" : "Bm7",
+			"name" : "",
+			"desc" : "",
+			"reward": {"Fuel":0,"Ammo":0,"Steel":0,"Bauxite":0},
+			"outlineColor": "#a00"
+		}}
+
+	],
+	"requires":[
+			{ "data": { "source": "A1", "target": "A2" } },
+			{ "data": { "source": "A2", "target": "A3" } },
+			{ "data": { "source": "A3", "target": "A4" } },
+			{ "data": { "source": "A3", "target": "A5" } },
+			{ "data": { "source": "A3", "target": "B6" } },
+			{ "data": { "source": "A4", "target": "A6" } },
+			{ "data": { "source": "A4", "target": "A9" } },
+			{ "data": { "source": "A5", "target": "A7" } },
+			{ "data": { "source": "A5", "target": "A8" } },
+			{ "data": { "source": "A5", "target": "B29" } },
+			{ "data": { "source": "A5", "target": "D1" } },
+			{ "data": { "source": "A5", "target": "F11" } },
+			{ "data": { "source": "A6", "target": "B3" } },
+			{ "data": { "source": "A7", "target": "A14" } },
+			{ "data": { "source": "A8", "target": "A17" } },
+			{ "data": { "source": "A9", "target": "A10" } },
+			{ "data": { "source": "A9", "target": "A45" } },
+			{ "data": { "source": "A10", "target": "A28" } },
+			{ "data": { "source": "A10", "target": "B12" } },
+			{ "data": { "source": "A11", "target": "A12" } },
+			{ "data": { "source": "A11", "target": "B10" } },
+			{ "data": { "source": "A12", "target": "A13" } },
+			{ "data": { "source": "A13", "target": "A19" } },
+			{ "data": { "source": "A13", "target": "A20" } },
+			{ "data": { "source": "A14", "target": "A15" } },
+			{ "data": { "source": "A14", "target": "G4" } },
+			{ "data": { "source": "A15", "target": "A16" } },
+			{ "data": { "source": "A15", "target": "A28" } },
+			{ "data": { "source": "A16", "target": "WF01" } },
+			{ "data": { "source": "A17", "target": "A18" } },
+			{ "data": { "source": "A20", "target": "A21" } },
+			{ "data": { "source": "A20", "target": "B11" } },
+			{ "data": { "source": "A21", "target": "A22" } },
+			{ "data": { "source": "A21", "target": "A24" } },
+			{ "data": { "source": "A21", "target": "A25" } },
+			{ "data": { "source": "A21", "target": "A27" } },
+			{ "data": { "source": "A21", "target": "A29" } },
+			{ "data": { "source": "A21", "target": "B13" } },
+			{ "data": { "source": "A22", "target": "A23" } },
+			{ "data": { "source": "A22", "target": "A26" } },
+			{ "data": { "source": "A22", "target": "B14" } },
+			{ "data": { "source": "A23", "target": "A41" } },
+			{ "data": { "source": "A23", "target": "A46" } },
+			{ "data": { "source": "A23", "target": "B15" } },
+			{ "data": { "source": "A24", "target": "B16" } },
+			{ "data": { "source": "A25", "target": "A31" } },
+			{ "data": { "source": "A25", "target": "B17" } },
+			{ "data": { "source": "A26", "target": "B18" } },
+			{ "data": { "source": "A27", "target": "A37" } },
+			{ "data": { "source": "A27", "target": "D5" } },
+			{ "data": { "source": "A28", "target": "A36" } },
+			{ "data": { "source": "A28", "target": "B19" } },
+			{ "data": { "source": "A29", "target": "A30" } },
+			{ "data": { "source": "A30", "target": "D9" } },
+			{ "data": { "source": "A31", "target": "A33" } },
+			{ "data": { "source": "A31", "target": "B20" } },
+			{ "data": { "source": "A32", "target": "A42" } },
+			{ "data": { "source": "A32", "target": "A47" } },
+			{ "data": { "source": "A32", "target": "B21" } },
+			{ "data": { "source": "A33", "target": "A34" } },
+			{ "data": { "source": "A33", "target": "B22" } },
+			{ "data": { "source": "A34", "target": "A50" } },
+			{ "data": { "source": "A34", "target": "B24" } },
+			{ "data": { "source": "A35", "target": "A38" } },
+			{ "data": { "source": "A35", "target": "A44" } },
+			{ "data": { "source": "A35", "target": "D17" } },
+			{ "data": { "source": "A35", "target": "Bm1" } },
+			{ "data": { "source": "A36", "target": "B25" } },
+			{ "data": { "source": "A37", "target": "D13" } },
+			{ "data": { "source": "A39", "target": "B26" } },
+			{ "data": { "source": "A40", "target": "C5" } },
+			{ "data": { "source": "A41", "target": "B28" } },
+			{ "data": { "source": "A42", "target": "B31" } },
+			{ "data": { "source": "A43", "target": "Bm4" } },
+			{ "data": { "source": "A44", "target": "B33" } },
+			{ "data": { "source": "A45", "target": "F17" } },
+			{ "data": { "source": "A46", "target": "Bm7" } },
+			{ "data": { "source": "A47", "target": "B35" } },
+			{ "data": { "source": "A47", "target": "B36" } },
+			{ "data": { "source": "A48", "target": "B37" } },
+			{ "data": { "source": "A49", "target": "B39" } },
+			{ "data": { "source": "A51", "target": "B43" } },
+
+			{ "data": { "source": "B1", "target": "B2" } },
+			{ "data": { "source": "B2", "target": "B4" } },
+			{ "data": { "source": "B3", "target": "A11" } },
+			{ "data": { "source": "B4", "target": "B5" } },
+			{ "data": { "source": "B4", "target": "Bd1" } },
+			{ "data": { "source": "B5", "target": "B6" } },
+			{ "data": { "source": "B6", "target": "B7" } },
+			{ "data": { "source": "B6", "target": "B30" } },
+			{ "data": { "source": "B7", "target": "B8" } },
+			{ "data": { "source": "B7", "target": "D15" } },
+			{ "data": { "source": "B8", "target": "B9" } },
+			{ "data": { "source": "B14", "target": "A44" } },
+			{ "data": { "source": "B14", "target": "A53" } },
+			{ "data": { "source": "B16", "target": "A50" } },
+			{ "data": { "source": "B16", "target": "A52" } },
+			{ "data": { "source": "B20", "target": "A32" } },
+			{ "data": { "source": "B20", "target": "B34" } },
+			{ "data": { "source": "B20", "target": "D10" } },
+			{ "data": { "source": "B20", "target": "Bm6" } },
+			{ "data": { "source": "B24", "target": "A35" } },
+			{ "data": { "source": "B24", "target": "B27" } },
+			{ "data": { "source": "B25", "target": "A39" } },
+			{ "data": { "source": "B25", "target": "F13" } },
+			{ "data": { "source": "B26", "target": "F14" } },
+			{ "data": { "source": "B28", "target": "F15" } },
+			{ "data": { "source": "B30", "target": "Bm2" } },
+			{ "data": { "source": "B31", "target": "A43" } },
+			{ "data": { "source": "B35", "target": "A48" } },
+			{ "data": { "source": "B37", "target": "B38" } },
+			{ "data": { "source": "B38", "target": "A49" } },
+			{ "data": { "source": "B40", "target": "D16" } },
+			{ "data": { "source": "B42", "target": "A51" } },
+
+			{ "data": { "source": "C1", "target": "C2" } },
+			{ "data": { "source": "C2", "target": "C3" } },
+			{ "data": { "source": "C2", "target": "C4" } },
+			{ "data": { "source": "C5", "target": "B41" } },
+			{ "data": { "source": "C6", "target": "D18" } },
+
+			{ "data": { "source": "D1", "target": "D2" } },
+			{ "data": { "source": "D1", "target": "D4" } },
+			{ "data": { "source": "D2", "target": "D3" } },
+			{ "data": { "source": "D5", "target": "D6" } },
+			{ "data": { "source": "D6", "target": "D7" } },
+			{ "data": { "source": "D7", "target": "D8" } },
+			{ "data": { "source": "D9", "target": "D11" } },
+			{ "data": { "source": "D10", "target": "B23" } },
+			{ "data": { "source": "D10", "target": "D12" } },
+			{ "data": { "source": "D13", "target": "D14" } },
+			{ "data": { "source": "D15", "target": "B40" } },
+			{ "data": { "source": "D17", "target": "C6" } },
+
+			{ "data": { "source": "F6", "target": "F7" } },
+			{ "data": { "source": "F7", "target": "F8" } },
+			{ "data": { "source": "F7", "target": "F1" } },
+			{ "data": { "source": "F8", "target": "F9" } },
+			{ "data": { "source": "F1", "target": "F2" } },
+			{ "data": { "source": "F2", "target": "F3" } },
+			{ "data": { "source": "F3", "target": "F4" } },
+			{ "data": { "source": "F4", "target": "F5" } },
+			{ "data": { "source": "F4", "target": "F16" } },
+			{ "data": { "source": "F4", "target": "F18" } },
+			{ "data": { "source": "F8", "target": "F18" } },
+			{ "data": { "source": "F17", "target": "Bw10" } },
+
+			{ "data": { "source": "G1", "target": "G2" } },
+			{ "data": { "source": "G2", "target": "G3" } },
+			{ "data": { "source": "G4", "target": "F10" } },
+
+			{ "data": { "source": "WF01", "target": "WC01" } },
+			{ "data": { "source": "WC01", "target": "WA01" } },
+			{ "data": { "source": "WA01", "target": "WB01" } },
+			{ "data": { "source": "WB01", "target": "WA02" } },
+			{ "data": { "source": "WA02", "target": "WB02" } },
+			{ "data": { "source": "WB02", "target": "A40" } },
+
+			{ "data": { "source": "Bd1", "target": "Bd2" } },
+			{ "data": { "source": "Bd1", "target": "Bd4" } },
+			{ "data": { "source": "Bd1", "target": "Bd6" } },
+			{ "data": { "source": "Bd2", "target": "Bd3" } },
+			{ "data": { "source": "Bd2", "target": "Bd5" } },
+			{ "data": { "source": "Bd2", "target": "Bw1" } },
+			{ "data": { "source": "Bd2", "target": "Bw3" } },
+			{ "data": { "source": "Bd2", "target": "B42" } },
+			{ "data": { "source": "Bd5", "target": "Bd7" } },
+			{ "data": { "source": "Bd5", "target": "Bw2" } },
+			{ "data": { "source": "Bd7", "target": "Bd8" } },
+
+			{ "data": { "source": "Bw1", "target": "Bw2" } },
+			{ "data": { "source": "Bw1", "target": "Bw4" } },
+			{ "data": { "source": "Bw2", "target": "Bw5" } },
+			{ "data": { "source": "Bw3", "target": "B12" } },
+			{ "data": { "source": "Bw4", "target": "Bw10" } },
+			{ "data": { "source": "Bw4", "target": "Bm3" } },
+			{ "data": { "source": "Bw5", "target": "F12" } },
+			{ "data": { "source": "Bw5", "target": "Bw6" } },
+			{ "data": { "source": "Bw5", "target": "Bw7" } },
+			{ "data": { "source": "Bw6", "target": "Bw8" } },
+			{ "data": { "source": "Bw8", "target": "Bw9" } },
+
+			{ "data": { "source": "Bm1", "target": "B38" } },
+			{ "data": { "source": "Bm1", "target": "Bm5" } },
+			{ "data": { "source": "Bm4", "target": "B32" } },
+			{ "data": { "source": "Bm6", "target": "Bm7" } }
+	]
+}

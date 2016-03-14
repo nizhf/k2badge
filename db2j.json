@@ -1,0 +1,1030 @@
+{
+	"ikyuu1": {
+		"offset": {
+			"x": 120,
+			"y": -50
+		},
+		"type": "ADD",
+		"full": "イ級",
+		"name": "イ級"
+	},
+	"ikyuu2": {
+		"offset": {
+			"x": 275,
+			"y": -100
+		},
+		"type": "ADD",
+		"full": "イ級elite",
+		"name": "イ級"
+	},
+	"ikyuu3": {
+		"offset": {
+			"x": 285,
+			"y": -160
+		},
+		"type": "ADD",
+		"full": "イ級flagship",
+		"name": "イ級"
+	},
+	"ikyuu4": {
+		"offset": {
+			"x": 120,
+			"y": -50
+		},
+		"type": "ADD",
+		"full": "イ級後期型",
+		"name": "イ級"
+	},
+	"rokyuu1": {
+		"offset": {
+			"x": 75,
+			"y": -100
+		},
+		"type": "ADD",
+		"full": "ロ級",
+		"name": "ロ級"
+	},
+	"rokyuu2": {
+		"offset": {
+			"x": 200,
+			"y": -250
+		},
+		"type": "ADD",
+		"full": "ロ級elite",
+		"name": "ロ級"
+	},
+	"rokyuu3": {
+		"offset": {
+			"x": 250,
+			"y": -275
+		},
+		"type": "ADD",
+		"full": "ロ級flagship",
+		"name": "ロ級"
+	},
+	"rokyuu4": {
+		"offset": {
+			"x": 75,
+			"y": -100
+		},
+		"type": "ADD",
+		"full": "ロ級後期型",
+		"name": "ロ級"
+	},
+	"hakyuu1": {
+		"offset": {
+			"x": -25,
+			"y": -150
+		},
+		"type": "ADD",
+		"full": "ハ級",
+		"name": "ハ級"
+	},
+	"hakyuu2": {
+		"offset": {
+			"x": 50,
+			"y": -235
+		},
+		"type": "ADD",
+		"full": "ハ級elite",
+		"name": "ハ級"
+	},
+	"hakyuu3": {
+		"offset": {
+			"x": 40,
+			"y": -300
+		},
+		"type": "ADD",
+		"full": "ハ級flagship",
+		"name": "ハ級"
+	},
+	"hakyuu4": {
+		"offset": {
+			"x": -25,
+			"y": -150
+		},
+		"type": "ADD",
+		"full": "ハ級後期型",
+		"name": "ハ級"
+	},
+	"nikyuu1": {
+		"offset": {
+			"x": -25,
+			"y": -250
+		},
+		"type": "ADD",
+		"full": "ニ級",
+		"name": "ニ級"
+	},
+	"nikyuu2": {
+		"offset": {
+			"x": 45,
+			"y": -313
+		},
+		"type": "ADD",
+		"full": "ニ級elite",
+		"name": "ニ級"
+	},
+	"nikyuu3": {
+		"offset": {
+			"x": -30,
+			"y": -248
+		},
+		"type": "ADD",
+		"full": "ニ級後期型",
+		"name": "ニ級"
+	},
+	"nikyuu4": {
+		"offset": {
+			"x": 30,
+			"y": -297
+		},
+		"type": "ADD",
+		"full": "ニ級後期型elite",
+		"name": "ニ級"
+	},
+	"kuchikuhime1": {
+		"offset": {
+			"x": 25,
+			"y": -100
+		},
+		"type": "ADD",
+		"full": "駆逐棲姫",
+		"name": "駆逐"
+	},
+	"boukuuseikihime1": {
+		"offset": {
+			"x": 0,
+			"y": -100
+		},
+		"type": "ADD",
+		"full": "防空棲姫",
+		"name": "駆逐"
+	},
+	"kuchikusuioni1": {
+		"offset": {
+			"x": 50,
+			"y": 25
+		},
+		"offset2": {
+			"x": 50,
+			"y": 31
+		},
+		"type": "ADD",
+		"damageable": true,
+		"full": "駆逐水鬼",
+		"name": "駆逐"
+	},
+	"chikyuu1": {
+		"offset": {
+			"x": 0,
+			"y": 25
+		},
+		"type": "ACL",
+		"full": "チ級",
+		"name": "チ級"
+	},
+	"chikyuu2": {
+		"offset": {
+			"x": 30,
+			"y": -55
+		},
+		"type": "ACL",
+		"full": "チ級elite",
+		"name": "チ級"
+	},
+	"chikyuu3": {
+		"offset": {
+			"x": 60,
+			"y": -100
+		},
+		"type": "ACL",
+		"full": "チ級flagship",
+		"name": "チ級"
+	},
+	"hekyuu1": {
+		"offset": {
+			"x": 50,
+			"y": -75
+		},
+		"type": "ACL",
+		"full": "ヘ級",
+		"name": "ヘ級"
+	},
+	"hekyuu2": {
+		"offset": {
+			"x": 50,
+			"y": -75
+		},
+		"type": "ACL",
+		"full": "ヘ級elite",
+		"name": "ヘ級"
+	},
+	"hekyuu3": {
+		"offset": {
+			"x": 95,
+			"y": -70
+		},
+		"type": "ACL",
+		"full": "ヘ級flagship",
+		"name": "ヘ級"
+	},
+	"hokyuu1": {
+		"offset": {
+			"x": 50,
+			"y": -150
+		},
+		"type": "ACL",
+		"full": "ホ級",
+		"name": "ホ級"
+	},
+	"hokyuu2": {
+		"offset": {
+			"x": 100,
+			"y": -225
+		},
+		"type": "ACL",
+		"full": "ホ級elite",
+		"name": "ホ級"
+	},
+	"hokyuu3": {
+		"offset": {
+			"x": 145,
+			"y": -215
+		},
+		"type": "ACL",
+		"full": "ホ級flagship",
+		"name": "ホ級"
+	},
+	"tokyuu1": {
+		"offset": {
+			"x": 50,
+			"y": -75
+		},
+		"type": "ACL",
+		"full": "ト級",
+		"name": "ト級"
+	},
+	"tokyuu2": {
+		"offset": {
+			"x": 125,
+			"y": -150
+		},
+		"type": "ACL",
+		"full": "ト級elite",
+		"name": "ト級"
+	},
+	"tsukyuu1": {
+		"offset": {
+			"x": 10,
+			"y": 10
+		},
+		"type": "ACL",
+		"full": "ツ級",
+		"name": "ツ級"
+	},
+	"tsukyuu2": {
+		"offset": {
+			"x": 50,
+			"y": -50
+		},
+		"type": "ACL",
+		"full": "ツ級elite",
+		"name": "ツ級"
+	},
+	"keijunoni1": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"type": "ACL",
+		"full": "軽巡棲鬼 (那珂)",
+		"name": "軽巡"
+	},
+	"keijunoni2": {
+		"offset": {
+			"x": 0,
+			"y": 10
+		},
+		"type": "ACL",
+		"full": "軽巡棲鬼 (阿賀野)",
+		"name": "軽巡"
+	},
+	"keijunhime1": {
+		"offset": {
+			"x": 100,
+			"y": 50
+		},
+		"type": "ACL",
+		"full": "軽巡棲姫",
+		"name": "軽巡"
+	},
+	"rikyuu1": {
+		"offset": {
+			"x": 50,
+			"y": 0
+		},
+		"type": "ACA",
+		"full": "リ級",
+		"name": "リ級"
+	},
+	"rikyuu2": {
+		"offset": {
+			"x": 50,
+			"y": -50
+		},
+		"type": "ACA",
+		"full": "リ級elite",
+		"name": "リ級"
+	},
+	"rikyuu3": {
+		"offset": {
+			"x": 110,
+			"y": -105
+		},
+		"type": "ACA",
+		"full": "リ級flagship",
+		"name": "リ級"
+	},
+	"rikyuu4": {
+		"offset": {
+			"x": 120,
+			"y": -105
+		},
+		"type": "ACA",
+		"full": "リ級flagship改",
+		"name": "リ級"
+	},
+	"nekyuu1": {
+		"offset": {
+			"x": 100,
+			"y": -75
+		},
+		"type": "ACA",
+		"full": "ネ級",
+		"name": "ネ級"
+	},
+	"nekyuu2": {
+		"offset": {
+			"x": 175,
+			"y": -90
+		},
+		"type": "ACA",
+		"full": "ネ級elite",
+		"name": "ネ級"
+	},
+	"juujunhime1": {
+		"offset": {
+			"x": 75,
+			"y": 0
+		},
+		"offset2": {
+			"x": 69,
+			"y": -49
+		},
+		"type": "ACA",
+		"damageable": true,
+		"full": "重巡棲姫",
+		"name": "重巡"
+	},
+	"takaof": {
+		"offset": {
+			"x": 0,
+			"y": 30
+		},
+		"offset2": {
+			"x": 75,
+			"y": -33
+		},
+		"type": "ACA",
+		"playable": true,
+		"full": "タカオ",
+		"name": "タカオ"
+	},
+	"mayaf": {
+		"offset": {
+			"x": 75,
+			"y": 33
+		},
+		"type": "ACA",
+		"full": "マヤ",
+		"name": "タカオ"
+	},
+	"rukyuu1": {
+		"offset": {
+			"x": 100,
+			"y": 0
+		},
+		"type": "ABB",
+		"full": "ル級",
+		"name": "ル級"
+	},
+	"rukyuu2": {
+		"offset": {
+			"x": 166,
+			"y": -55
+		},
+		"type": "ABB",
+		"full": "ル級elite",
+		"name": "ル級"
+	},
+	"rukyuu3": {
+		"offset": {
+			"x": 180,
+			"y": -75
+		},
+		"type": "ABB",
+		"full": "ル級flagship",
+		"name": "ル級"
+	},
+	"rukyuu4": {
+		"offset": {
+			"x": 148,
+			"y": -75
+		},
+		"type": "ABB",
+		"full": "ル級flagship改",
+		"name": "ル級"
+	},
+	"takyuu1": {
+		"offset": {
+			"x": 130,
+			"y": 25
+		},
+		"type": "ABB",
+		"full": "タ級",
+		"name": "タ級"
+	},
+	"takyuu2": {
+		"offset": {
+			"x": 150,
+			"y": 0
+		},
+		"type": "ABB",
+		"full": "タ級elite",
+		"name": "タ級"
+	},
+	"takyuu3": {
+		"offset": {
+			"x": 150,
+			"y": 0
+		},
+		"type": "ABB",
+		"full": "タ級flagship",
+		"name": "タ級"
+	},
+	"rekyuu1": {
+		"offset": {
+			"x": 0,
+			"y": 25
+		},
+		"type": "ABB",
+		"full": "レ級",
+		"name": "レ級"
+	},
+	"rekyuu2": {
+		"offset": {
+			"x": 175,
+			"y": 0
+		},
+		"type": "ABB",
+		"full": "レ級elite",
+		"name": "レ級"
+	},
+	"soukoukuubooni1": {
+		"offset": {
+			"x": 300,
+			"y": 0
+		},
+		"type": "ABB",
+		"full": "装甲空母鬼",
+		"name": "装甲空母"
+	},
+	"soukoukuubohime1": {
+		"offset": {
+			"x": 250,
+			"y": 0
+		},
+		"type": "ABB",
+		"full": "装甲空母姫",
+		"name": "装甲空母"
+	},
+	"nanpouoni1": {
+		"offset": {
+			"x": 100,
+			"y": 0
+		},
+		"type": "ABB",
+		"full": "南方棲鬼",
+		"name": "南方"
+	},
+	"nanpousenoni1": {
+		"offset": {
+			"x": 150,
+			"y": 0
+		},
+		"type": "ABB",
+		"full": "南方棲戦鬼",
+		"name": "南方"
+	},
+	"nanpouhime1": {
+		"offset": {
+			"x": 150,
+			"y": -50
+		},
+		"type": "ABB",
+		"full": "南方棲戦姫",
+		"name": "南方"
+	},
+	"senkanhime1": {
+		"offset": {
+			"x": 50,
+			"y": -50
+		},
+		"type": "ABB",
+		"full": "戦艦棲姫",
+		"name": "戦艦"
+	},
+	"senkansuihime1": {
+		"offset": {
+			"x": 125,
+			"y": -25
+		},
+		"type": "ABB",
+		"full": "戦艦水鬼",
+		"name": "戦艦"
+	},
+	"harunaf": {
+		"offset": {
+			"x": 50,
+			"y": 35
+		},
+		"offset2": {
+			"x": 50,
+			"y": 0
+		},
+		"type": "ABB",
+		"playable": true,
+		"full": "ハルナ",
+		"name": "コンゴウ"
+	},
+	"kirishimaf": {
+		"offset": {
+			"x": 100,
+			"y": -25
+		},
+		"type": "ABB",
+		"full": "キリシマ",
+		"name": "コンゴウ"
+	},
+	"kongouf": {
+		"offset": {
+			"x": -150,
+			"y": 10
+		},
+		"type": "ABB",
+		"full": "コンゴウ",
+		"name": "コンゴウ"
+	},
+	"nukyuu1": {
+		"offset": {
+			"x": 25,
+			"y": -125
+		},
+		"type": "ACV",
+		"full": "ヌ級",
+		"name": "ヌ級"
+	},
+	"nukyuu2": {
+		"offset": {
+			"x": 75,
+			"y": -150
+		},
+		"type": "ACV",
+		"full": "ヌ級elite",
+		"name": "ヌ級"
+	},
+	"nukyuu3": {
+		"offset": {
+			"x": 150,
+			"y": -200
+		},
+		"type": "ACV",
+		"full": "ヌ級flagship",
+		"name": "ヌ級"
+	},
+	"wokyuu1": {
+		"offset": {
+			"x": 100,
+			"y": -30
+		},
+		"type": "ACV",
+		"full": "ヲ級",
+		"name": "ヲ級"
+	},
+	"wokyuu2": {
+		"offset": {
+			"x": 250,
+			"y": -66
+		},
+		"type": "ACV",
+		"full": "ヲ級elite",
+		"name": "ヲ級"
+	},
+	"wokyuu3": {
+		"offset": {
+			"x": 300,
+			"y": -125
+		},
+		"type": "ACV",
+		"full": "ヲ級flagship",
+		"name": "ヲ級"
+	},
+	"wokyuu4": {
+		"offset": {
+			"x": 300,
+			"y": -125
+		},
+		"type": "ACV",
+		"full": "空母ヲ級改flagship",
+		"name": "ヲ級"
+	},
+	"kuubooni1": {
+		"offset": {
+			"x": 100,
+			"y": -10
+		},
+		"type": "ACV",
+		"full": "空母棲鬼",
+		"name": "空母"
+	},
+	"kuubohime1": {
+		"offset": {
+			"x": 100,
+			"y": -10
+		},
+		"type": "ACV",
+		"full": "空母棲姫",
+		"name": "空母"
+	},
+	"kuubosuioni1": {
+		"offset": {
+			"x": 100,
+			"y": -10
+		},
+		"type": "ACV",
+		"full": "空母水鬼",
+		"name": "空母"
+	},
+	"kakyuu1": {
+		"offset": {
+			"x": 100,
+			"y": -50
+		},
+		"type": "ASS",
+		"full": "カ級",
+		"name": "カ級"
+	},
+	"kakyuu2": {
+		"offset": {
+			"x": 100,
+			"y": -100
+		},
+		"type": "ASS",
+		"full": "カ級elite",
+		"name": "カ級"
+	},
+	"kakyuu3": {
+		"offset": {
+			"x": 100,
+			"y": -75
+		},
+		"type": "ASS",
+		"full": "カ級flagship",
+		"name": "カ級"
+	},
+	"yokyuu1": {
+		"offset": {
+			"x": 150,
+			"y": -100
+		},
+		"type": "ASS",
+		"full": "ヨ級",
+		"name": "ヨ級"
+	},
+	"yokyuu2": {
+		"offset": {
+			"x": 200,
+			"y": -150
+		},
+		"type": "ASS",
+		"full": "ヨ級elite",
+		"name": "ヨ級"
+	},
+	"yokyuu3": {
+		"offset": {
+			"x": 200,
+			"y": -150
+		},
+		"type": "ASS",
+		"full": "ヨ級flagship",
+		"name": "ヨ級"
+	},
+	"sokyuu1": {
+		"offset": {
+			"x": 50,
+			"y": -60
+		},
+		"type": "ASS",
+		"full": "ソ級",
+		"name": "ソ級"
+	},
+	"sokyuu2": {
+		"offset": {
+			"x": 50,
+			"y": -75
+		},
+		"type": "ASS",
+		"full": "ソ級elite",
+		"name": "ソ級"
+	},
+	"sokyuu3": {
+		"offset": {
+			"x": 60,
+			"y": -80
+		},
+		"type": "ASS",
+		"full": "ソ級flagship",
+		"name": "ソ級"
+	},
+	"sensuihime1": {
+		"offset": {
+			"x": 100,
+			"y": -85
+		},
+		"type": "ASS",
+		"damageable": true,
+		"full": "潜水棲姫",
+		"name": "潜水"
+	},
+	"ionaf": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": -33
+		},
+		"type": "ASS",
+		"playable": true,
+		"full": "イオナ",
+		"name": "イオナ"
+	},
+	"hikouhime1": {
+		"offset": {
+			"x": 100,
+			"y": -33
+		},
+		"type": "AINS",
+		"playable": true,
+		"full": "飛行場姫",
+		"name": "飛行"
+	},
+	"chuukanhime1": {
+		"offset": {
+			"x": 150,
+			"y": -125
+		},
+		"offset2": {
+			"x": 100,
+			"y": -50
+		},
+		"type": "AINS",
+		"playable": true,
+		"full": "中間棲姫",
+		"name": "中間"
+	},
+	"hoppouhime1": {
+		"offset": {
+			"x": 0,
+			"y": -50
+		},
+		"type": "AINS",
+		"full": "北方棲姫",
+		"name": "北方"
+	},
+	"hoppouhime2": {
+		"offset": {
+			"x": 0,
+			"y": -50
+		},
+		"type": "AINS",
+		"full": "北方棲姫Final",
+		"name": "北方"
+	},
+	"hoppouhime3": {
+		"offset": {
+			"x": 50,
+			"y": -100
+		},
+		"type": "AINS",
+		"full": "北方棲姫3-5",
+		"name": "北方"
+	},
+	"hoppouhime4": {
+		"offset": {
+			"x": 63,
+			"y": -107
+		},
+		"type": "AINS",
+		"full": "クリスマス北方棲姫3-5",
+		"name": "北方"
+	},
+	"hoppouhime5": {
+		"offset": {
+			"x": 0,
+			"y": -50
+		},
+		"type": "AINS",
+		"full": "梅雨北方棲姫Final",
+		"name": "北方"
+	},
+	"hoppouhime6": {
+		"offset": {
+			"x": 50,
+			"y": -100
+		},
+		"type": "AINS",
+		"full": "新年北方棲姫",
+		"name": "北方"
+	},
+	"kouwanhime1": {
+		"offset": {
+			"x": 150,
+			"y": -100
+		},
+		"offset2": {
+			"x": 125,
+			"y": 0
+		},
+		"type": "AINS",
+		"playable": true,
+		"full": "港湾棲姫",
+		"name": "港湾"
+	},
+	"kouwansuioni1": {
+		"offset": {
+			"x": 250,
+			"y": -100
+		},
+		"type": "AINS",
+		"full": "港湾水鬼",
+		"name": "港湾"
+	},
+	"ritouoni1": {
+		"offset": {
+			"x": 75,
+			"y": -25
+		},
+		"type": "AINS",
+		"full": "離島棲鬼",
+		"name": "離島"
+	},
+	"ritouhime1": {
+		"offset": {
+			"x": 75,
+			"y": -25
+		},
+		"type": "AINS",
+		"full": "離島棲姫",
+		"name": "離島"
+	},
+	"hakuchioni1": {
+		"offset": {
+			"x": 75,
+			"y": -25
+		},
+		"type": "AINS",
+		"full": "泊地棲鬼",
+		"name": "泊地"
+	},
+	"hakuchihime1": {
+		"offset": {
+			"x": 125,
+			"y": -75
+		},
+		"type": "AINS",
+		"full": "泊地棲姫",
+		"name": "泊地"
+	},
+	"hakuchisuioni1": {
+		"offset": {
+			"x": 75,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": -50
+		},
+		"type": "AINS",
+		"playable": true,
+		"full": "泊地水鬼",
+		"name": "泊地"
+	},
+	"shuusekichihime1": {
+		"offset": {
+			"x": 80,
+			"y": 10
+		},
+		"offset2": {
+			"x": 60,
+			"y": 0
+		},
+		"type": "AINS",
+		"damageable": true,
+		"full": "集積地棲姫",
+		"name": "集積地"
+	},
+	"wakyuu1": {
+		"offset": {
+			"x": 100,
+			"y": 0
+		},
+		"type": "AAX",
+		"full": "ワ級",
+		"name": "ワ級"
+	},
+	"wakyuu2": {
+		"offset": {
+			"x": 175,
+			"y": 0
+		},
+		"type": "AAX",
+		"full": "ワ級elite",
+		"name": "ワ級"
+	},
+	"wakyuu3": {
+		"offset": {
+			"x": 155,
+			"y": -50
+		},
+		"type": "AAX",
+		"full": "ワ級flagship",
+		"name": "ワ級"
+	},
+	"goeiyousai1": {
+		"offset": {
+			"x": 150,
+			"y": -150
+		},
+		"type": "AAX",
+		"full": "浮遊要塞1",
+		"name": "浮遊要塞"
+	},
+	"goeiyousai2": {
+		"offset": {
+			"x": 150,
+			"y": -200
+		},
+		"type": "AAX",
+		"full": "浮遊要塞2",
+		"name": "浮遊要塞"
+	},
+	"goeiyousai3": {
+		"offset": {
+			"x": 200,
+			"y": -150
+		},
+		"type": "AAX",
+		"full": "浮遊要塞3",
+		"name": "浮遊要塞"
+	},
+	"suiboseikihime1": {
+		"offset": {
+			"x": 100,
+			"y": 10
+		},
+		"type": "AAX",
+		"full": "水母棲姫",
+		"name": "水母"
+	},
+	"ptkoonigun1": {
+		"offset": {
+			"x": 25,
+			"y": -100
+		},
+		"type": "AAX",
+		"full": "PT小鬼群",
+		"name": "PT"
+	},
+	"koudaikooni1": {
+		"offset": {
+			"x": 0,
+			"y": -75
+		},
+		"type": "AAX",
+		"full": "砲台小鬼",
+		"name": "砲台"
+	}
+}

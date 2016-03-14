@@ -1,0 +1,38 @@
+body{
+	overflow-y: hidden;
+}
+
+#loading {
+	text-align: center;
+	margin: -300px auto 0;
+	width: 1024px;
+	height: 600px;
+}
+
+#table {
+	display: table;
+	border: 1px solid gray;
+	width: 100%;
+}
+
+#info {
+	display: table-cell;
+	width: 250px;
+	position: relative;
+}
+
+#quests {
+	border-left: 1px solid black;
+	display: table-cell;
+	height: 600px;
+}
+
+#questDetails div {
+	padding-left: 15px;
+}
+
+#metrics {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
