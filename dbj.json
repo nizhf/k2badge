@@ -1295,6 +1295,17 @@
 		"full": "大潮",
 		"name": "朝潮型"
 	},
+	"ooshio2": {
+		"offset": {
+			"x": -50,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "DD",
+		"unique": false,
+		"full": "大潮改二",
+		"name": "朝潮型"
+	},
 	"michishio1": {
 		"offset": {
 			"x": 0,

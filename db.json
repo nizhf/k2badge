@@ -1295,6 +1295,17 @@
 		"full": "Ooshio",
 		"name": "Asashio"
 	},
+	"ooshio2": {
+		"offset": {
+			"x": -50,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "DD",
+		"unique": false,
+		"full": "Ooshio Kai 2",
+		"name": "Asashio"
+	},
 	"michishio1": {
 		"offset": {
 			"x": 0,

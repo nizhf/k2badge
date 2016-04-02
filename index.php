@@ -205,6 +205,10 @@
 							<span><input type="checkbox" name="shigure2" id="shigure2"></span>
 							<label for="shigure2">Shigure 時雨 (60)</label>
 						</div>
+						<div class="kai blueprint">
+							<span><input type="checkbox" name="ooshio2" id="ooshio2"></span>
+							<label for="ooshio2">Ooshio 大潮 (65)</label>
+						</div>
 						<div>
 							<span><input type="checkbox" name="kasumi2" id="kasumi2"></span>
 							<label for="kasumi2">Kasumi 霞 (75/88)</label>
@@ -671,7 +675,7 @@
 			</div>
 		</div>
 		<span style="font-family:'Exo';visibility:hidden;">.</span><span style="font-family:'Ubuntu';visibility:hidden;">.</span>
-		<div id="footer"><p>© 2014-2016 TBES, all rights belong to their respective owners. Last updated: Mar 12 2016</p></div>
+		<div id="footer"><p>© 2014-2016 TBES, all rights belong to their respective owners. Last updated: Apr 1 2016</p></div>
 		<div style="visibility:hidden; overflow-y: hidden; height:0;" id="icondump">
 			<img src="bg.jpg" id="bg"></img>
 			<img src="furniture/chest/000.png" id="r0"></img>
