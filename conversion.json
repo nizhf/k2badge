@@ -57,6 +57,7 @@
 	    "shoukaku2": ["shoukaku1"],
 	    "zuikaku3": ["zuikaku1"],
 	    "ooshio2": ["ooshio1"],
+        "kawakaze4": ["kawakaze1"],
 	    "kasumi2": ["kasumi1"],
 	    "akashi2": ["akashi1"],
             "akitsumaru2": ["akitsumaru1"],
@@ -176,6 +177,7 @@
 	    "464":"kasumi2",
 	    "466":"shoukaku2",
 	    "467":"zuikaku3",
+        "469":"kawakaze4",
 	    "470":"kasumi2"
 	},
 	"mstId2FleetIdTable": {  
