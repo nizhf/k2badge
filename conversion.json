@@ -81,6 +81,8 @@
 		"hyuuga2": ["hyuuga1"],
 		"ise2": ["ise1"],
 		"isokaze2": ["isokaze1"],
+		"asashio2": ["asashio1"],
+		"asashio3": ["asashio1"],
 		"kasumi2": ["kasumi1"],
 		"kasumi3": ["kasumi1"],
 		"kitakami2": ["kitakami1"],
@@ -173,9 +175,11 @@
 		"447":"roma2",
 		"461":"shoukaku2",
 		"462":"zuikaku3",
+		"463":"asashio2",
 		"464":"kasumi2",
 		"466":"shoukaku2",
 		"467":"zuikaku3",
+		"468":"asashio2",
 		"469":"kawakaze4",
 		"470":"kasumi2"
 	},
@@ -520,10 +524,12 @@
 		"460":"hayasui1",
 		"461":"shoukaku2",
 		"462":"zuikaku3",
+		"463":"asashio2",
 		"464":"kasumi2",
 		"465":"kashima1",
 		"466":"shoukaku3",
 		"467":"zuikaku4",
+		"468":"asashio3",
 		"470":"kasumi3"
 	}
 }
