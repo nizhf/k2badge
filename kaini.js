@@ -1,4 +1,5 @@
 var lang = "en";
+var globalship = null;
 var globalbg = null;
 var globalavatar = null;
 var k2 = {};
@@ -576,7 +577,35 @@ $(document).ready(function() {
 		if (selected && $("#hit" + selected).hasClass("damaged")) damaged = true;
 		var dir = $(".flagship").parent().length > 0 ? $(".flagship").parent().attr("class") : null;
 
-		if (selected) {
+		if (globalship != null) {
+			var img = new Image();
+			img.onload = function() {
+				var offx = 0;
+				var offy = 0;
+
+				offx += document.getElementById("customX").value ? parseInt(document.getElementById("customX").value):0;
+				offy += document.getElementById("customY").value ? parseInt(document.getElementById("customY").value):0;
+
+				ctx.save();
+				var scale = document.getElementById("customZ").value ? parseInt(document.getElementById("customZ").value) + 100:100;
+				scale = scale/100;
+				ctx.translate(c.width-img.width*7/8+offx,c.height/2-img.height/5+offy);
+				ctx.translate(img.width/2,img.height/2);
+				ctx.scale(scale, scale);
+				ctx.drawImage(img,-img.width/2,-img.height/2);
+				ctx.restore();
+			
+				callback();
+				
+				if (!hideAvatar) {
+					drawCustomAvatar(ctx);
+				}
+			};
+			img.onerror = callback;
+
+			img.src = globalship;
+		}
+		else if (selected) {
 			var img = new Image();
 			img.onload = function() {
 				var offx = 0;
@@ -687,13 +716,6 @@ $(document).ready(function() {
 		var maxPerLine = 40;
 		var linebarwidth = newLength*(2*Math.sin(Math.PI/2) + 1);
 		var line1 = 55;
-		var line2 = line1+linebarwidth + linebarwidth/4;
-		var line3 = line2+linebarwidth/2 + linebarwidth/4;
-		var line4 = line3+linebarwidth/2 + linebarwidth/4;
-		var line5 = line4+linebarwidth/2 + linebarwidth/4;
-		var line6 = line5+linebarwidth/2 + linebarwidth/4;
-		var line7 = line6+linebarwidth/2 + linebarwidth/4;
-		var line8 = line7+linebarwidth/2 + linebarwidth/4;
 		var bottomLine = c.height - 10;
 		var row1 = 40;
 		var row1box = row1+15;
@@ -746,6 +768,14 @@ $(document).ready(function() {
 		ctx.font = "14px " + numberfont;
 		drawText(maxDD + "/" + numDD + " (" + (maxDD/numDD*100).toFixed() + "%)", row1box + maxPerLine*hexRectangleWidth + 8, line1);
 		ctx.restore();
+
+		var line2 = line1+linebarwidth + linebarwidth/4 + Math.floor(numDD/maxPerLine)*8;
+		var line3 = line2+linebarwidth/2 + linebarwidth/4;
+		var line4 = line3+linebarwidth/2 + linebarwidth/4;
+		var line5 = line4+linebarwidth/2 + linebarwidth/4;
+		var line6 = line5+linebarwidth/2 + linebarwidth/4;
+		var line7 = line6+linebarwidth/2 + linebarwidth/4;
+		var line8 = line7+linebarwidth/2 + linebarwidth/4;
 
 		drawText((lang=="en"?"CL":"軽巡"), row2, line2 + newLength-9);
 		var numCL = 0;
@@ -1497,7 +1527,7 @@ $(document).ready(function() {
 		}
 
 		$("#colleDiv .shipClasses").each(function(i) {
-			var selectClass = $("<div class='colleAll'><input id='selectAll-" + i +"' type='checkbox'/><label for='selectAll-" + i +"'>"+(lang=="jp"?"全て選択":lang=="cn"?"全選":"Select All")+"</label></div>");
+			var selectClass = $("<div class='colleAll'><input id='selectAll-" + i +"' type='checkbox'/><label for='selectAll-" + i +"'>"+(lang=="jp"?"全て選択":(lang=="cn"||lang=="tw")?"全選":"Select All")+"</label></div>");
 			$(this).append(selectClass);
 			selectClass.find("input").change(function(){
 				var imgs = $(this).parent().parent().find("img");
@@ -1740,11 +1770,11 @@ $(document).ready(function() {
 		});
 
 		$('#avatar').load(function() {
-			generateFunction("avatarImgChange");
+			if ($.isEmptyObject(loading)) generateFunction("avatarImgChange");
 		});
 
 		$('#bg').load(function() {
-			generateFunction("bgImgChange");
+			if ($.isEmptyObject(loading)) generateFunction("bgImgChange");
 		});
 
 		$("#customInputs input[type='checkbox']").change(function() {
@@ -1768,6 +1798,20 @@ $(document).ready(function() {
 			}
 		});
 
+		$("#shipImg").change(function(){	
+			if (this.files && this.files[0]) {
+			    var reader = new FileReader();
+			    
+			    reader.onload = function (e) {
+				$('#customShip').attr('src', e.target.result);
+				globalship = e.target.result;
+				generateFunction("customShipChange");
+			    }
+			    
+			    reader.readAsDataURL(this.files[0]);
+			}
+		});
+
 		$("#bgImg").change(function(){			
 			$("#useBG").prop("checked",false);
 			if (this.files && this.files[0]) {
@@ -1782,14 +1826,23 @@ $(document).ready(function() {
 			}
 		});
 
+		$("#shipClear").click(function(){
+			globalship = null;
+			$('#shipImg').val("");
+			$('#customShip').removeAttr('src');
+			generateFunction('clear');
+		});
+
 		$("#avatarClear").click(function(){
 			globalavatar = null;
+			$('#avatarImg').val("");
 			$('#avatar').removeAttr('src');
 			generateFunction('clear');
 		});
 
 		$("#bgClear").click(function(){
 			globalbg = null;
+			$('#bgImg').val("");
 			$('#bg').attr('src', 'bg.jpg');
 			generateFunction('clear');
 		});

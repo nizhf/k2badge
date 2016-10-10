@@ -175,6 +175,24 @@
 		"full": "駆逐水鬼",
 		"name": "駆逐"
 	},
+	"kuchikukooni1": {
+		"offset": {
+			"x": 100,
+			"y": 0
+		},
+		"type": "ADD",
+		"full": "駆逐古鬼",
+		"name": "駆逐古"
+	},
+	"kuchikukohime1": {
+		"offset": {
+			"x": 150,
+			"y": 0
+		},
+		"type": "ADD",
+		"full": "駆逐古姫",
+		"name": "駆逐古"
+	},
 	"chikyuu1": {
 		"offset": {
 			"x": 0,
@@ -946,6 +964,29 @@
 		"full": "集積地棲姫",
 		"name": "集積地"
 	},
+	"rikorisuhime1": {
+		"offset": {
+			"x": 80,
+			"y": 60
+		},
+		"type": "AINS",
+		"full": "リコリス棲姫",
+		"name": "リコリス"
+	},
+	"chuusuuhime1": {
+		"offset": {
+			"x": 150,
+			"y": -150
+		},
+		"offset2": {
+			"x": 55,
+			"y": -165
+		},
+		"type": "AINS",
+		"damageable": true,
+		"full": "中枢棲姫",
+		"name": "中枢"
+	},
 	"wakyuu1": {
 		"offset": {
 			"x": 100,
@@ -1026,5 +1067,41 @@
 		"type": "AAX",
 		"full": "砲台小鬼",
 		"name": "砲台"
+	},
+	"akashishop2": {
+		"offset": {
+			"x": -25,
+			"y": 25
+		},
+		"type": "AAX",
+		"full": "初夏アイテム屋娘明石",
+		"name": "屋"
+	},
+	"akashishop3": {
+		"offset": {
+			"x": -25,
+			"y": 25
+		},
+		"type": "AAX",
+		"full": "初夏改修工廠明石",
+		"name": "屋"
+	},
+	"mamiyashop2": {
+		"offset": {
+			"x": 25,
+			"y": 10
+		},
+		"type": "AAX",
+		"full": "初夏間宮",
+		"name": "屋"
+	},
+	"irakoshop2": {
+		"offset": {
+			"x": 25,
+			"y": 0
+		},
+		"type": "AAX",
+		"full": "初夏伊良湖",
+		"name": "屋"
 	}
 }

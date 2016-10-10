@@ -117,6 +117,17 @@
 		"full": "磯波",
 		"name": "吹雪型"
 	},
+	"uranami1": {
+		"offset": {
+			"x": -40,
+			"y": -10
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": true,
+		"full": "浦波",
+		"name": "吹雪型"
+	},
 	"ayanami1": {
 		"offset": {
 			"x": 0,
@@ -206,6 +217,36 @@
 		"full": "朧改",
 		"name": "綾波型"
 	},
+	"oboro5": {
+		"offset": {
+			"x": 0,
+			"y": 30
+		},
+		"offset2": {
+			"x": 0,
+			"y": -10
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "初夏2016朧",
+		"name": "綾波型"
+	},
+	"oboro6": {
+		"offset": {
+			"x": 0,
+			"y": -50
+		},
+		"offset2": {
+			"x": 5,
+			"y": -84
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "初夏2016朧改",
+		"name": "綾波型"
+	},
 	"akebono1": {
 		"offset": {
 			"x": 20,
@@ -256,6 +297,36 @@
 		"type": "DD",
 		"unique": false,
 		"full": "秋曙",
+		"name": "綾波型"
+	},
+	"akebono5": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "梅雨曙",
+		"name": "綾波型"
+	},
+	"akebono6": {
+		"offset": {
+			"x": 39,
+			"y": 40
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "初夏2016曙",
 		"name": "綾波型"
 	},
 	"sazanami1": {
@@ -668,6 +739,21 @@
 		"full": "バレンタイン卯月",
 		"name": "睦月型"
 	},
+	"minazuki1": {
+		"offset": {
+			"x": -75,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": true,
+		"full": "水無月",
+		"name": "睦月型"
+	},
 	"akatsuki1": {
 		"offset": {
 			"x": -50,
@@ -911,7 +997,22 @@
 		"rarity": 4,
 		"type": "DD",
 		"unique": false,
-		"full": "初夏白露型",
+		"full": "初夏白露",
+		"name": "白露型"
+	},
+	"shiratsuyu4": {
+		"offset": {
+			"x": 0,
+			"y": 10
+		},
+		"offset2": {
+			"x": 50,
+			"y": 0
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "携帯mode白露",
 		"name": "白露型"
 	},
 	"shigure1": {
@@ -1213,6 +1314,21 @@
 		"full": "バレンタイン春雨",
 		"name": "白露型"
 	},
+	"harusame5": {
+		"offset": {
+			"x": 0,
+			"y": 20
+		},
+		"offset2": {
+			"x": 0,
+			"y": -98
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": false,
+		"full": "春春雨",
+		"name": "白露型"
+	},
 	"umikaze1": {
 		"offset": {
 			"x": 70,
@@ -1273,15 +1389,60 @@
 		"full": "クリスマス江風",
 		"name": "白露型"
 	},
+	"kawakaze4": {
+		"offset": {
+			"x": 125,
+			"y": -50
+		},
+		"offset2": {
+			"x": 25,
+			"y": -30
+		},
+		"rarity": 6,
+		"type": "DD",
+		"unique": false,
+		"full": "江風改二",
+		"name": "白露型"
+	},
 	"asashio1": {
 		"offset": {
-			"x": -20,
-			"y": -25
+			"x": -50,
+			"y": -40
 		},
 		"rarity": 3,
 		"type": "DD",
 		"unique": true,
 		"full": "朝潮",
+		"name": "朝潮型"
+	},
+	"asashio2": {
+		"offset": {
+			"x": -50,
+			"y": 25
+		},
+		"offset2": {
+			"x": -25,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "DD",
+		"unique": false,
+		"full": "朝潮改二",
+		"name": "朝潮型"
+	},
+	"asashio3": {
+		"offset": {
+			"x": -50,
+			"y": 25
+		},
+		"offset2": {
+			"x": -25,
+			"y": 0
+		},
+		"rarity": 7,
+		"type": "DD",
+		"unique": false,
+		"full": "朝潮改二丁",
 		"name": "朝潮型"
 	},
 	"ooshio1": {
@@ -1747,6 +1908,21 @@
 		"full": "萩風",
 		"name": "陽炎型"
 	},
+	"oyashio1": {
+		"offset": {
+			"x": -65,
+			"y": 25
+		},
+		"offset2": {
+			"x": -65,
+			"y": 25
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": true,
+		"full": "親潮",
+		"name": "陽炎型"
+	},
 	"yuugumo1": {
 		"offset": {
 			"x": 0,
@@ -1767,6 +1943,21 @@
 		"type": "DD",
 		"unique": false,
 		"full": "新年夕雲",
+		"name": "夕雲型"
+	},
+	"yuugumo3": {
+		"offset": {
+			"x": -50,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": -15
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": false,
+		"full": "春夕雲",
 		"name": "夕雲型"
 	},
 	"makigumo1": {
@@ -1810,6 +2001,21 @@
 		"full": "風雲",
 		"name": "夕雲型"
 	},
+	"kazagumo2": {
+		"offset": {
+			"x": -25,
+			"y": 25
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": false,
+		"full": "初夏2016風雲",
+		"name": "夕雲型"
+	},
 	"naganami1": {
 		"offset": {
 			"x": 0,
@@ -1821,6 +2027,21 @@
 		"full": "長波",
 		"name": "夕雲型"
 	},
+	"naganami2": {
+		"offset": {
+			"x": 0,
+			"y": -10
+		},
+		"offset2": {
+			"x": 0,
+			"y": -40
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": false,
+		"full": "春長波",
+		"name": "夕雲型"
+	},
 	"hayashimo1": {
 		"offset": {
 			"x": 0,
@@ -1830,6 +2051,21 @@
 		"type": "DD",
 		"unique": true,
 		"full": "早霜",
+		"name": "夕雲型"
+	},
+	"hayashimo2": {
+		"offset": {
+			"x": 0,
+			"y": -10
+		},
+		"offset2": {
+			"x": 100,
+			"y": 0
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": false,
+		"full": "梅雨早霜",
 		"name": "夕雲型"
 	},
 	"kiyoshimo1": {
@@ -1852,6 +2088,17 @@
 		"type": "DD",
 		"unique": false,
 		"full": "節分清霜",
+		"name": "夕雲型"
+	},
+	"kiyoshimo3": {
+		"offset": {
+			"x": 0,
+			"y": -10
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": false,
+		"full": "梅雨清霜",
 		"name": "夕雲型"
 	},
 	"takanami1": {
@@ -1927,6 +2174,21 @@
 		"type": "DD",
 		"unique": true,
 		"full": "沖波",
+		"name": "夕雲型"
+	},
+	"okinami2": {
+		"offset": {
+			"x": -50,
+			"y": 10
+		},
+		"offset2": {
+			"x": -20,
+			"y": 10
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": false,
+		"full": "初夏2016沖波",
 		"name": "夕雲型"
 	},
 	"z11": {
@@ -2058,6 +2320,36 @@
 		"unique": false,
 		"full": "秋Libeccio",
 		"name": "Maestrale"
+	},
+	"kamikaze1": {
+		"offset": {
+			"x": 50,
+			"y": -10
+		},
+		"offset2": {
+			"x": 0,
+			"y": -20
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": true,
+		"full": "神風",
+		"name": "神風型"
+	},
+	"harukaze1": {
+		"offset": {
+			"x": 25,
+			"y": 10
+		},
+		"offset2": {
+			"x": 25,
+			"y": -20
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": true,
+		"full": "Harukaze",
+		"name": "神風型"
 	},
 	"tenryuu1": {
 		"offset": {
@@ -2310,6 +2602,21 @@
 		"full": "五十鈴改二",
 		"name": "長良型"
 	},
+	"isuzu3": {
+		"offset": {
+			"x": 150,
+			"y": 30
+		},
+		"offset2": {
+			"x": 50,
+			"y": 30
+		},
+		"rarity": 4,
+		"type": "CL",
+		"unique": false,
+		"full": "初夏2016五十鈴",
+		"name": "長良型"
+	},
 	"natori1": {
 		"offset": {
 			"x": 0,
@@ -2519,6 +2826,17 @@
 		"type": "CL",
 		"unique": true,
 		"full": "夕張",
+		"name": "夕張型"
+	},
+	"yuubari2": {
+		"offset": {
+			"x": 0,
+			"y": 25
+		},
+		"rarity": 6,
+		"type": "CL",
+		"unique": false,
+		"full": "梅雨夕張",
 		"name": "夕張型"
 	},
 	"agano1": {
@@ -3108,6 +3426,21 @@
 		"full": "最上改",
 		"name": "最上型"
 	},
+	"mogami3": {
+		"offset": {
+			"x": 0,
+			"y": -25
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "CA",
+		"unique": false,
+		"full": "梅雨最上",
+		"name": "最上型"
+	},
 	"mikuma1": {
 		"offset": {
 			"x": -50,
@@ -3128,6 +3461,21 @@
 		"type": "CA",
 		"unique": false,
 		"full": "三隈改",
+		"name": "最上型"
+	},
+	"mikuma3": {
+		"offset": {
+			"x": 50,
+			"y": -50
+		},
+		"offset2": {
+			"x": -50,
+			"y": -50
+		},
+		"rarity": 6,
+		"type": "CA",
+		"unique": false,
+		"full": "夏2016三隈",
 		"name": "最上型"
 	},
 	"suzuya1": {
@@ -3214,6 +3562,22 @@
 		"type": "CA",
 		"unique": true,
 		"full": "Zara",
+		"name": "Zara型"
+	},
+	"pola1": {
+		"offset": {
+			"x": 100,
+			"y": 20
+		},
+		"offset2": {
+			
+			"x": 50,
+			"y": -50
+		},
+		"rarity": 6,
+		"type": "CA",
+		"unique": true,
+		"full": "Pola",
 		"name": "Zara型"
 	},
 	"nagato1": {
@@ -3308,6 +3672,17 @@
 		"full": "榛名改二",
 		"name": "金剛型"
 	},
+	"haruna3": {
+		"offset": {
+			"x": 50,
+			"y": 0
+		},
+		"rarity": 7,
+		"type": "BB",
+		"unique": false,
+		"full": "夏2016榛名改二",
+		"name": "金剛型"
+	},
 	"kirishima1": {
 		"offset": {
 			"x": 50,
@@ -3382,6 +3757,21 @@
 		"full": "新年扶桑",
 		"name": "扶桑型"
 	},
+	"fusou5": {
+		"offset": {
+			"x": 125,
+			"y": 20
+		},
+		"offset2": {
+			"x": 125,
+			"y": -5
+		},
+		"rarity": 5,
+		"type": "BB",
+		"unique": false,
+		"full": "初夏2016扶桑",
+		"name": "扶桑型"
+	},
 	"yamashiro1": {
 		"offset": {
 			"x": 0,
@@ -3432,6 +3822,21 @@
 		"type": "BB",
 		"unique": false,
 		"full": "新年山城",
+		"name": "扶桑型"
+	},
+	"yamashiro5": {
+		"offset": {
+			"x": -40,
+			"y": 10
+		},
+		"offset2": {
+			"x": 100,
+			"y": -50
+		},
+		"rarity": 5,
+		"type": "BB",
+		"unique": false,
+		"full": "初夏2016山城",
 		"name": "扶桑型"
 	},
 	"ise1": {
@@ -3506,6 +3911,21 @@
 		"type": "BB",
 		"unique": false,
 		"full": "大和改",
+		"name": "大和型"
+	},
+	"yamato3": {
+		"offset": {
+			"x": 0,
+			"y": -20
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 8,
+		"type": "BB",
+		"unique": false,
+		"full": "夏2016大和",
 		"name": "大和型"
 	},
 	"musashi1": {
@@ -3733,6 +4153,36 @@
 		"full": "秋Roma",
 		"name": "V・ヴェネト級"
 	},
+	"iowa1": {
+		"offset": {
+			"x": 100,
+			"y": -10
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 7,
+		"type": "BB",
+		"unique": true,
+		"full": "Iowa",
+		"name": "Iowa級"
+	},
+	"warspite1": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 50,
+			"y": -5
+		},
+		"rarity": 7,
+		"type": "BB",
+		"unique": true,
+		"full": "Warspite",
+		"name": "Queen_Elizabeth級"
+	},
 	"houshou1": {
 		"offset": {
 			"x": 0,
@@ -3775,6 +4225,51 @@
 		"type": "CVL",
 		"unique": false,
 		"full": "龍驤改二",
+		"name": "龍驤型"
+	},
+	"ryuujou4": {
+		"offset": {
+			"x": 25,
+			"y": 40
+		},
+		"offset2": {
+			"x": -29,
+			"y": 40
+		},
+		"rarity": 5,
+		"type": "CVL",
+		"unique": false,
+		"full": "クリスマス龍驤",
+		"name": "龍驤型"
+	},
+	"ryuujou5": {
+		"offset": {
+			"x": 50,
+			"y": -50
+		},
+		"offset2": {
+			"x": 30,
+			"y": -70
+		},
+		"rarity": 6,
+		"type": "CVL",
+		"unique": false,
+		"full": "クリスマス龍驤改二",
+		"name": "龍驤型"
+	},
+	"ryuujou6": {
+		"offset": {
+			"x": -30,
+			"y": 15
+		},
+		"offset2": {
+			"x": 50,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "CVL",
+		"unique": false,
+		"full": "すき家龍驤改二",
 		"name": "龍驤型"
 	},
 	"hiyou1": {
@@ -3979,6 +4474,21 @@
 		"type": "CVL",
 		"unique": false,
 		"full": "龍鳳改",
+		"name": "龍鳳型"
+	},
+	"ryuuhou3": {
+		"offset": {
+			"x": -50,
+			"y": 20
+		},
+		"offset2": {
+			"x": -75,
+			"y": -50
+		},
+		"rarity": 6,
+		"type": "CVL",
+		"unique": false,
+		"full": "夏2016龍鳳",
 		"name": "龍鳳型"
 	},
 	"akagi1": {
@@ -4312,6 +4822,21 @@
 		"full": "Graf Zeppelin改",
 		"name": "Graf_Zeppelin級"
 	},
+	"aquila1": {
+		"offset": {
+			"x": 25,
+			"y": 10
+		},
+		"offset2": {
+			"x": -75,
+			"y": -25
+		},
+		"rarity": 7,
+		"type": "CV",
+		"unique": true,
+		"full": "Aquila",
+		"name": "Aquila級"
+	},
 	"i1681": {
 		"offset": {
 			"x": 0,
@@ -4422,6 +4947,21 @@
 		"unique": false,
 		"full": "呂500",
 		"name": "UボートIXC型"
+	},
+	"i261": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 25,
+			"y": 25
+		},
+		"rarity": 4,
+		"type": "SS",
+		"unique": true,
+		"full": "伊26",
+		"name": "巡潜乙型"
 	},
 	"chitose1": {
 		"offset": {
@@ -4649,6 +5189,21 @@
 		"full": "新年大鯨/新年龍鳳",
 		"name": "潜水母艦"
 	},
+	"taigei3": {
+		"offset": {
+			"x": -50,
+			"y": 20
+		},
+		"offset2": {
+			"x": -75,
+			"y": -50
+		},
+		"rarity": 4,
+		"type": "AX",
+		"unique": false,
+		"full": "夏2016大鯨",
+		"name": "潜水母艦"
+	},
 	"akitsushima1": {
 		"offset": {
 			"x": 50,
@@ -4782,6 +5337,36 @@
 		"type": "AX",
 		"unique": false,
 		"full": "すき家瑞穂",
+		"name": "瑞穂型"
+	},
+	"mizuho7": {
+		"offset": {
+			"x": 0,
+			"y": 1
+		},
+		"offset2": {
+			"x": 10,
+			"y": 9
+		},
+		"rarity": 6,
+		"type": "AX",
+		"unique": false,
+		"full": "春瑞穂",
+		"name": "瑞穂型"
+	},
+	"mizuho8": {
+		"offset": {
+			"x": 0,
+			"y": 1
+		},
+		"offset2": {
+			"x": 10,
+			"y": 9
+		},
+		"rarity": 6,
+		"type": "AX",
+		"unique": false,
+		"full": "夏瑞穂",
 		"name": "瑞穂型"
 	},
 	"hayasui1": {

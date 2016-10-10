@@ -27,7 +27,7 @@
 	</head>
 	<body>
 		<h2>舰队 Collection 签名生成器</h2>
-		<div id="language"><a href="index.php">EN</a> <a href="index-jp.php">日本</a> <b>中国</b></div>
+		<div id="language"><a href="index.php">EN</a> <a href="index-jp.php">日本語</a> <b>简体中文</b> <a href="index-tw.php">繁體中文</a></div>
 		<p>
 			签名生成器支持通过主流浏览器（IE10+, Firefox, Chrome, or Safari）的 Javascript 功能生
 成自定义签名图。 如遇本工具更新，请务必清理浏览器的缓存后再使用。所生成签名右侧的立绘默认为秘书舰（第一舰队旗舰）。使用中遇到程序错误或有任何建议请在<a target="_blank" href="http://himeuta.org/showthread.php?1818-Tool-Kancolle-Kai-Ni-Badge-Generator">[这里]</a>反馈。
@@ -206,6 +206,14 @@
 							<span><input type="checkbox" name="shigure2" id="shigure2"></span>
 							<label for="shigure2">時雨 (60)</label>
 						</div>
+						<div>
+							<span><input type="checkbox" name="kawakaze4" id="kawakaze4"></span>
+							<label for="kawakaze4">江風 (75)</label>
+						</div>
+						<div>
+							<span><input type="checkbox" name="asashio2" id="asashio2"></span>
+							<label for="asashio2">朝潮 (70)</label>
+						</div>
 						<div class="kai blueprint">
 							<span><input type="checkbox" name="ooshio2" id="ooshio2"></span>
 							<label for="ooshio2">大潮 (65)</label>
@@ -350,6 +358,7 @@
 					<div><input type="radio" name="floor" value="035" id="f35"><label for="f35">戦艦タイルの床</label></div>
 					<div><input type="radio" name="floor" value="037" id="f37"><label for="f37">い草の畳</label></div>
 					<div><input type="radio" name="floor" value="038" id="f38"><label for="f38">浜茶屋の床</label></div>
+					<div><input type="radio" name="floor" value="039" id="f39"><label for="f39">卯月の床</label></div>
 				</div>
 			</div>
 			<div class="furnitureClass invert" id="Wall">
@@ -391,6 +400,7 @@
 					<div><input type="radio" name="wall" value="037" id="w37"><label for="w37">梅紫の壁紙</label></div>
 					<div><input type="radio" name="wall" value="038" id="w38"><label for="w38">梅雨の壁紙</label></div>
 					<div><input type="radio" name="wall" value="039" id="w39"><label for="w39">浜茶屋の仮設壁</label></div>
+					<div><input type="radio" name="wall" value="040" id="w40"><label for="w40">卯月の壁紙</label></div>
 				</div>
 			</div>
 			<div class="furnitureClass invert" id="Desk">
@@ -450,6 +460,11 @@
 					<div><input type="radio" name="desk" value="057" id="d57"><label for="d57">七面鳥のディナー</label></div>
 					<div><input type="radio" name="desk" value="058" id="d58"><label for="d58">年末年始の提督大奮発</label></div>
 					<div><input type="radio" name="desk" value="059" id="d59"><label for="d59">睦月の机</label></div>
+					<div><input type="radio" name="desk" value="060" id="d60"><label for="d60">提督のクッキーキッチン</label></div>
+					<div><input type="radio" name="desk" value="061a" id="d61a"><label for="d61a">提督の作る食卓「朝ごはん」</label></div>
+					<div><input type="radio" name="desk" value="061b" id="d61b"><label for="d61b">提督の作る食卓「カレー」</label></div>
+					<div><input type="radio" name="desk" value="061c" id="d61c"><label for="d61c">提督の作る食卓「フーカデン」</label></div>
+					<div><input type="radio" name="desk" value="062" id="d62"><label for="d62">卯月の机</label></div>
 				</div>
 			</div>
 			<div class="furnitureClass invert" id="Object">
@@ -513,6 +528,11 @@
 					<div><input type="radio" name="object" value="056" id="o56"><label for="o56">「佐世保鎮守府」掛け軸</label></div>
 					<div><input type="radio" name="object" value="057" id="o57"><label for="o57">航空母艦ステンドグラス</label></div>
 					<div><input type="radio" name="object" value="058" id="o58"><label for="o58">航空戦艦ステンドグラス</label></div>
+					<div><input type="radio" name="object" value="059" id="o59"><label for="o59">「春の一番」掛け軸</label></div>
+					<div><input type="radio" name="object" value="060" id="o60"><label for="o60">春の乙型姉妹パネル</label></div>
+					<div><input type="radio" name="object" value="061a" id="o61a"><label for="o61a">卯月の掛け軸「上」</label></div>
+					<div><input type="radio" name="object" value="061b" id="o61b"><label for="o61b">卯月の掛け軸「下」</label></div>
+					<div><input type="radio" name="object" value="062" id="o62"><label for="o62">「三周年記念」掛け軸</label></div>
 				</div>
 			</div>
 			<div class="furnitureClass invert" id="Chest">
@@ -639,10 +659,11 @@
 					<div><input type="radio" name="window" value="038" id="p38" data-pType="full"><label for="p38">鬼灯の花の窓</label></div>
 					<div><input type="radio" name="window" value="039" id="p39" data-pType="full"><label for="p39">浜茶屋の窓</label></div>
 					<div><input type="radio" name="window" value="040" id="p40" data-pType="full"><label for="p40">睦月の窓</label></div>
+					<div><input type="radio" name="window" value="041" id="p41" data-pType="full"><label for="p41">卯月の窓</label></div>
 				</div>
 			</div>
 			<div class="furnitureClass" id="Outside">
-				<h3>Time of Day</h3>
+				<h3>当日时间</h3>
 				<div class="shipOptions">
 					<div><input type="radio" name="outside" value="day" id="t1" checked><label for="t1">昼</label></div>
 					<div><input type="radio" name="outside" value="rise" id="t2"><label for="t2">朝</label></div>
@@ -655,6 +676,7 @@
 			<div style="clear:both;"></div>
 			</div>
 			<div id="customInputs" name="#customTab">
+				<div>自订义舰娘立绘: <input type='file' id="shipImg" /> <button type="button" id="shipClear">Clear</button></div>
 				<div>右侧立绘横轴: <input type="number" id="customX" min="-800" max="800" value="0"> 右侧立绘纵轴: <input type="number" id="customY" min="-500" max="500" value="0"></div>
 				<div>右侧立绘缩放: +<input type="number" id="customZ" min="-50" max="50" value="0">%</div>
 				<div>提督室背景纵轴: <input type="number" id="roomY" min="-173" max="134" value="0"></div>
@@ -670,7 +692,7 @@
 			</div>
 		</div>
 		<span style="font-family:'Exo';visibility:hidden;">.</span><span style="font-family:'Ubuntu';visibility:hidden;">.</span>
-		<div id="footer"><p>© 2014-2016 TBES, all rights belong to their respective owners. Translated to CN by Laforet. Last updated: Apr 1 2016</p></div>
+		<div id="footer"><p>© 2014-2016 TBES, all rights belong to their respective owners. Translated by Laforet. Last updated: Jul 29 2016</p></div>
 		<div style="visibility:hidden; overflow-y: hidden; height:0;" id="icondump">
 			<img src="bg.jpg" id="bg"></img>
 			<img src="furniture/chest/000.png" id="r0"></img>
@@ -698,6 +720,7 @@
 			<img src="furniture/window/001.png" id="activeWindow"></img>
 			<img src="furniture/outside/day1.png" id="activeOutside"></img>
 			<img id="avatar"></img>
+			<img id="customShip"></img>
 		</div>
 	</body>
 </html>

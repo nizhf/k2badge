@@ -202,6 +202,24 @@
 		"full": "Destroyer Water Demon",
 		"name": "Destroyer"
 	},
+	"kuchikukooni1": {
+		"offset": {
+			"x": 100,
+			"y": 0
+		},
+		"type": "ADD",
+		"full": "Old Destroyer Demon",
+		"name": "Old Destroyer"
+	},
+	"kuchikukohime1": {
+		"offset": {
+			"x": 150,
+			"y": 0
+		},
+		"type": "ADD",
+		"full": "Old Destroyer Princess",
+		"name": "Old Destroyer"
+	},
 	"chikyuu1": {
 		"offset": {
 			"x": 0,
@@ -973,6 +991,29 @@
 		"full": "Supply Depot Princess",
 		"name": "Supply_Depot"
 	},
+	"rikorisuhime1": {
+		"offset": {
+			"x": 80,
+			"y": 60
+		},
+		"type": "AINS",
+		"full": "Lycoris Princess",
+		"name": "Lycoris"
+	},
+	"chuusuuhime1": {
+		"offset": {
+			"x": 150,
+			"y": -150
+		},
+		"offset2": {
+			"x": 55,
+			"y": -165
+		},
+		"type": "AINS",
+		"damageable": true,
+		"full": "Central Princess",
+		"name": "Central"
+	},
 	"wakyuu1": {
 		"offset": {
 			"x": 100,
@@ -1053,5 +1094,41 @@
 		"type": "AAX",
 		"full": "Battery Imp",
 		"name": "Battery"
+	},
+	"akashishop2": {
+		"offset": {
+			"x": -25,
+			"y": 25
+		},
+		"type": "AAX",
+		"full": "Early Summer Shopkeeper Akashi",
+		"name": "Shop"
+	},
+	"akashishop3": {
+		"offset": {
+			"x": -25,
+			"y": 25
+		},
+		"type": "AAX",
+		"full": "Early Summer Improvement Akashi",
+		"name": "Shop"
+	},
+	"mamiyashop2": {
+		"offset": {
+			"x": 25,
+			"y": 10
+		},
+		"type": "AAX",
+		"full": "Early Summer Mamiya",
+		"name": "Shop"
+	},
+	"irakoshop2": {
+		"offset": {
+			"x": 25,
+			"y": 0
+		},
+		"type": "AAX",
+		"full": "Early Summer Irako",
+		"name": "Shop"
 	}
 }

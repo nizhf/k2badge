@@ -44,7 +44,7 @@
     			height : settings.height,
     			width : settings.width - (parseInt($div.css('padding-left')) + parseInt($div.css('padding-right'))),
     			position : 'absolute',
-    			left : -9999
+    			left : -99999
     		});
 
     		// on tab click...

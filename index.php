@@ -27,7 +27,7 @@
 	</head>
 	<body>
 		<h2>KanColle Badge Generator</h2>
-		<div id="language"><b>EN</b> <a href="index-jp.php">日本</a> <a href="index-cn.php">中国</a></div>
+		<div id="language"><b>EN</b> <a href="index-jp.php">日本語</a> <a href="index-cn.php">简体中文</a> <a href="index-tw.php">繁體中文</a></div>
 		<p>
 			This tool requires a modern browser (IE10+, Firefox, Chrome, or Safari) with Javascript enabled.  Please refresh your cache when there is a new update.  The Flagship of the first fleet will be featured on the badge.  Please leave any bug reports or feature requests <a target="_blank" href="http://himeuta.org/showthread.php?1818-Tool-Kancolle-Kai-Ni-Badge-Generator">here</a>.
 		</p>
@@ -205,6 +205,14 @@
 							<span><input type="checkbox" name="shigure2" id="shigure2"></span>
 							<label for="shigure2">Shigure 時雨 (60)</label>
 						</div>
+						<div>
+							<span><input type="checkbox" name="kawakaze4" id="kawakaze4"></span>
+							<label for="kawakaze4">Kawakaze 江風 (75)</label>
+						</div>
+						<div>
+							<span><input type="checkbox" name="asashio2" id="asashio2"></span>
+							<label for="asashio2">Asashio 朝潮 (70)</label>
+						</div>
 						<div class="kai blueprint">
 							<span><input type="checkbox" name="ooshio2" id="ooshio2"></span>
 							<label for="ooshio2">Ooshio 大潮 (65)</label>
@@ -350,6 +358,7 @@
 					<div><input type="radio" name="floor" value="035" id="f35"><label for="f35">Battleship Tile Floor<br/>戦艦タイルの床</label></div>
 					<div><input type="radio" name="floor" value="037" id="f37"><label for="f37">Igusa Tatami Mat<br/>い草の畳</label></div>
 					<div><input type="radio" name="floor" value="038" id="f38"><label for="f38">Beach Teahouse Floor<br/>浜茶屋の床</label></div>
+					<div><input type="radio" name="floor" value="039" id="f39"><label for="f39">Uzuki's Floor<br/>卯月の床</label></div>
 				</div>
 			</div>
 			<div class="furnitureClass invert" id="Wall">
@@ -391,6 +400,7 @@
 					<div><input type="radio" name="wall" value="037" id="w37"><label for="w37">Plum-Purple Wallpaper<br/>梅紫の壁紙</label></div>
 					<div><input type="radio" name="wall" value="038" id="w38"><label for="w38">Rainy Season Wallpaper<br/>梅雨の壁紙</label></div>
 					<div><input type="radio" name="wall" value="039" id="w39"><label for="w39">Beach Teahouse Temporary Wallboard<br/>浜茶屋の仮設壁</label></div>
+					<div><input type="radio" name="wall" value="040" id="w40"><label for="w40">Uzuki's Wallpaper<br/>卯月の壁紙</label></div>
 
 				</div>
 			</div>
@@ -455,6 +465,7 @@
 					<div><input type="radio" name="desk" value="061a" id="d61a"><label for="d61a">Admiral's Dining Table (Breakfast)<br/>提督の作る食卓「朝ごはん」</label></div>
 					<div><input type="radio" name="desk" value="061b" id="d61b"><label for="d61b">Admiral's Dining Table (Curry)<br/>提督の作る食卓「カレー」</label></div>
 					<div><input type="radio" name="desk" value="061c" id="d61c"><label for="d61c">Admiral's Dining Table (Fricandeau)<br/>提督の作る食卓「フーカデン」</label></div>
+					<div><input type="radio" name="desk" value="062" id="d62"><label for="d62">Uzuki's Desk<br/>卯月の机</label></div>
 				</div>
 			</div>
 			<div class="furnitureClass invert" id="Object">
@@ -518,6 +529,11 @@
 					<div><input type="radio" name="object" value="056" id="o56"><label for="o56">"Sasebo Guardian Office" Hanging Scroll<br/>「佐世保鎮守府」掛け軸</label></div>
 					<div><input type="radio" name="object" value="057" id="o57"><label for="o57">Aircraft Carrier Stained Glass<br/>航空母艦ステンドグラス</label></div>
 					<div><input type="radio" name="object" value="058" id="o58"><label for="o58">Aviation Battleship Stained Glass<br/>航空戦艦ステンドグラス</label></div>
+					<div><input type="radio" name="object" value="059" id="o59"><label for="o59">"Spring is Number 1" Hanging Scroll<br/>「春の一番」掛け軸</label></div>
+					<div><input type="radio" name="object" value="060" id="o60"><label for="o60">Spring Type B Sisters Panel<br/>春の乙型姉妹パネル</label></div>
+					<div><input type="radio" name="object" value="061a" id="o61a"><label for="o61a">Uzuki's Hanging Scroll "Up"<br/>卯月の掛け軸「上」</label></div>
+					<div><input type="radio" name="object" value="061b" id="o61b"><label for="o61b">Uzuki's Hanging Scroll "Down"<br/>卯月の掛け軸「下」</label></div>
+					<div><input type="radio" name="object" value="062" id="o62"><label for="o62">"Third Anniversary" Hanging Scroll<br/>「三周年記念」掛け軸</label></div>
 				</div>
 			</div>
 			<div class="furnitureClass invert" id="Chest">
@@ -644,6 +660,7 @@
 					<div><input type="radio" name="window" value="038" id="p38" data-pType="full"><label for="p38">Chinese Lantern Plant Flower Window<br/>鬼灯の花の窓</label></div>
 					<div><input type="radio" name="window" value="039" id="p39" data-pType="full"><label for="p39">Beach Teahouse Window<br/>浜茶屋の窓</label></div>
 					<div><input type="radio" name="window" value="040" id="p40" data-pType="full"><label for="p40">Mutsuki's Window<br/>睦月の窓</label></div>
+					<div><input type="radio" name="window" value="041" id="p41" data-pType="full"><label for="p41">Uzuki's Window<br/>卯月の窓</label></div>
 				</div>
 			</div>
 			<div class="furnitureClass" id="Outside">
@@ -660,6 +677,7 @@
 			<div style="clear:both;"></div>
 			</div>
 			<div id="customInputs" name="#customTab">
+				<div>Custom Kanmusu Image: <input type='file' id="shipImg" /> <button type="button" id="shipClear">Clear</button></div>
 				<div>Kanmusu X: <input type="number" id="customX" min="-800" max="800" value="0"> Kanmusu Y: <input type="number" id="customY" min="-500" max="500" value="0"></div>
 				<div>Kanmusu Zoom: +<input type="number" id="customZ" min="-50" max="50" value="0">%</div>
 				<div>Room Camera Y: <input type="number" id="roomY" min="-173" max="134" value="0"></div>
@@ -675,7 +693,7 @@
 			</div>
 		</div>
 		<span style="font-family:'Exo';visibility:hidden;">.</span><span style="font-family:'Ubuntu';visibility:hidden;">.</span>
-		<div id="footer"><p>© 2014-2016 TBES, all rights belong to their respective owners. Last updated: Apr 1 2016</p></div>
+		<div id="footer"><p>© 2014-2016 TBES, all rights belong to their respective owners. Last updated: Jul 29 2016</p></div>
 		<div style="visibility:hidden; overflow-y: hidden; height:0;" id="icondump">
 			<img src="bg.jpg" id="bg"></img>
 			<img src="furniture/chest/000.png" id="r0"></img>
@@ -703,6 +721,7 @@
 			<img src="furniture/window/001.png" id="activeWindow"></img>
 			<img src="furniture/outside/day1.png" id="activeOutside"></img>
 			<img id="avatar"></img>
+			<img id="customShip"></img>
 		</div>
 	</body>
 </html>

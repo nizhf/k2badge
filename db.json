@@ -117,6 +117,17 @@
 		"full": "Isonami",
 		"name": "Fubuki"
 	},
+	"uranami1": {
+		"offset": {
+			"x": -40,
+			"y": -10
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": true,
+		"full": "Uranami",
+		"name": "Fubuki"
+	},
 	"ayanami1": {
 		"offset": {
 			"x": 0,
@@ -206,6 +217,36 @@
 		"full": "Oboro Kai",
 		"name": "Ayanami"
 	},
+	"oboro5": {
+		"offset": {
+			"x": 0,
+			"y": 30
+		},
+		"offset2": {
+			"x": 0,
+			"y": -10
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Early Summer 2016 Oboro",
+		"name": "Ayanami"
+	},
+	"oboro6": {
+		"offset": {
+			"x": 0,
+			"y": -50
+		},
+		"offset2": {
+			"x": 5,
+			"y": -84
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Early Summer 2016 Oboro Kai",
+		"name": "Ayanami"
+	},
 	"akebono1": {
 		"offset": {
 			"x": 20,
@@ -256,6 +297,36 @@
 		"type": "DD",
 		"unique": false,
 		"full": "Autumn Akebono",
+		"name": "Ayanami"
+	},
+	"akebono5": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Rainy Season Akebono",
+		"name": "Ayanami"
+	},
+	"akebono6": {
+		"offset": {
+			"x": 39,
+			"y": 40
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Early Summer 2016 Akebono",
 		"name": "Ayanami"
 	},
 	"sazanami1": {
@@ -668,6 +739,21 @@
 		"full": "Valentines Uzuki",
 		"name": "Mutsuki"
 	},
+	"minazuki1": {
+		"offset": {
+			"x": -75,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": true,
+		"full": "Minazuki",
+		"name": "Mutsuki"
+	},
 	"akatsuki1": {
 		"offset": {
 			"x": -50,
@@ -912,6 +998,21 @@
 		"type": "DD",
 		"unique": false,
 		"full": "Early Summer Shiratsuyu",
+		"name": "Shiratsuyu"
+	},
+	"shiratsuyu4": {
+		"offset": {
+			"x": 0,
+			"y": 10
+		},
+		"offset2": {
+			"x": 50,
+			"y": 0
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Mobile Mode Shiratsuyu",
 		"name": "Shiratsuyu"
 	},
 	"shigure1": {
@@ -1213,6 +1314,21 @@
 		"full": "Valentines Harusame",
 		"name": "Shiratsuyu"
 	},
+	"harusame5": {
+		"offset": {
+			"x": 0,
+			"y": 20
+		},
+		"offset2": {
+			"x": 0,
+			"y": -98
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": false,
+		"full": "Spring Harusame",
+		"name": "Shiratsuyu"
+	},
 	"umikaze1": {
 		"offset": {
 			"x": 70,
@@ -1273,15 +1389,60 @@
 		"full": "Christmas Kawakaze",
 		"name": "Shiratsuyu"
 	},
+	"kawakaze4": {
+		"offset": {
+			"x": 125,
+			"y": -50
+		},
+		"offset2": {
+			"x": 25,
+			"y": -30
+		},
+		"rarity": 6,
+		"type": "DD",
+		"unique": false,
+		"full": "Kawakaze Kai 2",
+		"name": "Shiratsuyu"
+	},
 	"asashio1": {
 		"offset": {
-			"x": -20,
-			"y": -25
+			"x": -50,
+			"y": -40
 		},
 		"rarity": 3,
 		"type": "DD",
 		"unique": true,
 		"full": "Asashio",
+		"name": "Asashio"
+	},
+	"asashio2": {
+		"offset": {
+			"x": -50,
+			"y": 25
+		},
+		"offset2": {
+			"x": -25,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "DD",
+		"unique": false,
+		"full": "Asashio Kai 2",
+		"name": "Asashio"
+	},
+	"asashio3": {
+		"offset": {
+			"x": -50,
+			"y": 25
+		},
+		"offset2": {
+			"x": -25,
+			"y": 0
+		},
+		"rarity": 7,
+		"type": "DD",
+		"unique": false,
+		"full": "Asashio Kai 2 D",
 		"name": "Asashio"
 	},
 	"ooshio1": {
@@ -1755,6 +1916,21 @@
 		"full": "Hagikaze",
 		"name": "Kagerou"
 	},
+	"oyashio1": {
+		"offset": {
+			"x": -65,
+			"y": 25
+		},
+		"offset2": {
+			"x": -65,
+			"y": 25
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": true,
+		"full": "Oyashio",
+		"name": "Kagerou"
+	},
 	"yuugumo1": {
 		"offset": {
 			"x": 0,
@@ -1775,6 +1951,21 @@
 		"type": "DD",
 		"unique": false,
 		"full": "New Year's Yuugumo",
+		"name": "Yuugumo"
+	},
+	"yuugumo3": {
+		"offset": {
+			"x": -50,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": -15
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": false,
+		"full": "Spring Yuugumo",
 		"name": "Yuugumo"
 	},
 	"makigumo1": {
@@ -1818,6 +2009,21 @@
 		"full": "Kazagumo",
 		"name": "Yuugumo"
 	},
+	"kazagumo2": {
+		"offset": {
+			"x": -25,
+			"y": 25
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": false,
+		"full": "Early Summer 2016 Kazagumo",
+		"name": "Yuugumo"
+	},
 	"naganami1": {
 		"offset": {
 			"x": 0,
@@ -1829,6 +2035,21 @@
 		"full": "Naganami",
 		"name": "Yuugumo"
 	},
+	"naganami2": {
+		"offset": {
+			"x": 0,
+			"y": -10
+		},
+		"offset2": {
+			"x": 0,
+			"y": -40
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": false,
+		"full": "Spring Naganami",
+		"name": "Yuugumo"
+	},
 	"hayashimo1": {
 		"offset": {
 			"x": 0,
@@ -1838,6 +2059,21 @@
 		"type": "DD",
 		"unique": true,
 		"full": "Hayashimo",
+		"name": "Yuugumo"
+	},
+	"hayashimo2": {
+		"offset": {
+			"x": 0,
+			"y": -10
+		},
+		"offset2": {
+			"x": 100,
+			"y": 0
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": false,
+		"full": "Rainy Season Hayashimo",
 		"name": "Yuugumo"
 	},
 	"kiyoshimo1": {
@@ -1860,6 +2096,17 @@
 		"type": "DD",
 		"unique": false,
 		"full": "Setsubun Kiyoshimo",
+		"name": "Yuugumo"
+	},
+	"kiyoshimo3": {
+		"offset": {
+			"x": 0,
+			"y": -10
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": false,
+		"full": "Rainy Season Kiyoshimo",
 		"name": "Yuugumo"
 	},
 	"takanami1": {
@@ -1935,6 +2182,21 @@
 		"type": "DD",
 		"unique": true,
 		"full": "Okinami",
+		"name": "Yuugumo"
+	},
+	"okinami2": {
+		"offset": {
+			"x": -50,
+			"y": 10
+		},
+		"offset2": {
+			"x": -20,
+			"y": 10
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": false,
+		"full": "Early Summer 2016 Okinami",
 		"name": "Yuugumo"
 	},
 	"z11": {
@@ -2066,6 +2328,36 @@
 		"unique": false,
 		"full": "Autumn Libeccio",
 		"name": "Maestrale"
+	},
+	"kamikaze1": {
+		"offset": {
+			"x": 50,
+			"y": -10
+		},
+		"offset2": {
+			"x": 0,
+			"y": -20
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": true,
+		"full": "Kamikaze",
+		"name": "Kamikaze"
+	},
+	"harukaze1": {
+		"offset": {
+			"x": 25,
+			"y": 10
+		},
+		"offset2": {
+			"x": 25,
+			"y": -20
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": true,
+		"full": "Harukaze",
+		"name": "Kamikaze"
 	},
 	"tenryuu1": {
 		"offset": {
@@ -2299,7 +2591,7 @@
 	"isuzu1": {
 		"offset": {
 			"x": 0,
-			"y": 50
+			"y": 30
 		},
 		"rarity": 2,
 		"type": "CL",
@@ -2310,12 +2602,27 @@
 	"isuzu2": {
 		"offset": {
 			"x": 45,
-			"y": 60
+			"y": 40
 		},
 		"rarity": 5,
 		"type": "CL",
 		"unique": false,
 		"full": "Isuzu Kai 2",
+		"name": "Nagara"
+	},
+	"isuzu3": {
+		"offset": {
+			"x": 150,
+			"y": 30
+		},
+		"offset2": {
+			"x": 50,
+			"y": 30
+		},
+		"rarity": 4,
+		"type": "CL",
+		"unique": false,
+		"full": "Early Summer 2016 Isuzu",
 		"name": "Nagara"
 	},
 	"natori1": {
@@ -2527,6 +2834,17 @@
 		"type": "CL",
 		"unique": true,
 		"full": "Yuubari",
+		"name": "Yuubari"
+	},
+	"yuubari2": {
+		"offset": {
+			"x": 0,
+			"y": 25
+		},
+		"rarity": 6,
+		"type": "CL",
+		"unique": false,
+		"full": "Rainy Season Yuubari",
 		"name": "Yuubari"
 	},
 	"agano1": {
@@ -3116,6 +3434,21 @@
 		"full": "Mogami Kai",
 		"name": "Mogami"
 	},
+	"mogami3": {
+		"offset": {
+			"x": 0,
+			"y": -25
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "CA",
+		"unique": false,
+		"full": "Rainy Season Mogami",
+		"name": "Mogami"
+	},
 	"mikuma1": {
 		"offset": {
 			"x": -50,
@@ -3136,6 +3469,21 @@
 		"type": "CA",
 		"unique": false,
 		"full": "Mikuma Kai",
+		"name": "Mogami"
+	},
+	"mikuma3": {
+		"offset": {
+			"x": 50,
+			"y": -50
+		},
+		"offset2": {
+			"x": -50,
+			"y": -50
+		},
+		"rarity": 6,
+		"type": "CA",
+		"unique": false,
+		"full": "Summer 2016 Mikuma",
 		"name": "Mogami"
 	},
 	"suzuya1": {
@@ -3222,6 +3570,22 @@
 		"type": "CA",
 		"unique": true,
 		"full": "Zara",
+		"name": "Zara"
+	},
+	"pola1": {
+		"offset": {
+			"x": 100,
+			"y": 20
+		},
+		"offset2": {
+			
+			"x": 50,
+			"y": -50
+		},
+		"rarity": 6,
+		"type": "CA",
+		"unique": true,
+		"full": "Pola",
 		"name": "Zara"
 	},
 	"nagato1": {
@@ -3316,6 +3680,17 @@
 		"full": "Haruna Kai 2",
 		"name": "Kongou"
 	},
+	"haruna3": {
+		"offset": {
+			"x": 50,
+			"y": 0
+		},
+		"rarity": 7,
+		"type": "BB",
+		"unique": false,
+		"full": "Summer 2016 Haruna Kai 2",
+		"name": "Kongou"
+	},
 	"kirishima1": {
 		"offset": {
 			"x": 50,
@@ -3390,6 +3765,21 @@
 		"full": "New Year's Fusou",
 		"name": "Fusou"
 	},
+	"fusou5": {
+		"offset": {
+			"x": 125,
+			"y": 20
+		},
+		"offset2": {
+			"x": 125,
+			"y": -5
+		},
+		"rarity": 5,
+		"type": "BB",
+		"unique": false,
+		"full": "Early Summer 2016 Fusou",
+		"name": "Fusou"
+	},
 	"yamashiro1": {
 		"offset": {
 			"x": 0,
@@ -3440,6 +3830,21 @@
 		"type": "BB",
 		"unique": false,
 		"full": "New Year's Yamashiro",
+		"name": "Fusou"
+	},
+	"yamashiro5": {
+		"offset": {
+			"x": -40,
+			"y": 10
+		},
+		"offset2": {
+			"x": 100,
+			"y": -50
+		},
+		"rarity": 5,
+		"type": "BB",
+		"unique": false,
+		"full": "Early Summer 2016 Yamashiro",
 		"name": "Fusou"
 	},
 	"ise1": {
@@ -3514,6 +3919,21 @@
 		"type": "BB",
 		"unique": false,
 		"full": "Yamato Kai",
+		"name": "Yamato"
+	},
+	"yamato3": {
+		"offset": {
+			"x": 0,
+			"y": -20
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 8,
+		"type": "BB",
+		"unique": false,
+		"full": "Summer 2016 Yamato",
 		"name": "Yamato"
 	},
 	"musashi1": {
@@ -3740,6 +4160,36 @@
 		"unique": false,
 		"full": "Autumn Roma",
 		"name": "Vittorio_Veneto"
+	},
+	"iowa1": {
+		"offset": {
+			"x": 100,
+			"y": -10
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 7,
+		"type": "BB",
+		"unique": true,
+		"full": "Iowa",
+		"name": "Iowa"
+	},
+	"warspite1": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 50,
+			"y": -5
+		},
+		"rarity": 7,
+		"type": "BB",
+		"unique": true,
+		"full": "Warspite",
+		"name": "Queen_Elizabeth"
 	},
 	"houshou1": {
 		"offset": {
@@ -4032,6 +4482,21 @@
 		"type": "CVL",
 		"unique": false,
 		"full": "Ryuuhou Kai",
+		"name": "Ryuuhou"
+	},
+	"ryuuhou3": {
+		"offset": {
+			"x": -50,
+			"y": 20
+		},
+		"offset2": {
+			"x": -75,
+			"y": -50
+		},
+		"rarity": 6,
+		"type": "CVL",
+		"unique": false,
+		"full": "Summer 2016 Ryuuhou",
 		"name": "Ryuuhou"
 	},
 	"akagi1": {
@@ -4365,6 +4830,21 @@
 		"full": "Graf Zeppelin Kai",
 		"name": "Graf_Zeppelin"
 	},
+	"aquila1": {
+		"offset": {
+			"x": 25,
+			"y": 10
+		},
+		"offset2": {
+			"x": -75,
+			"y": -25
+		},
+		"rarity": 7,
+		"type": "CV",
+		"unique": true,
+		"full": "Aquila",
+		"name": "Aquila"
+	},
 	"i1681": {
 		"offset": {
 			"x": 0,
@@ -4476,6 +4956,21 @@
 		"full": "Ro",
 		"name": "Type_IXC"
 	},
+	"i261": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 25,
+			"y": 25
+		},
+		"rarity": 4,
+		"type": "SS",
+		"unique": true,
+		"full": "Nimu",
+		"name": "Junsen_Type_B"
+	},
 	"chitose1": {
 		"offset": {
 			"x": 0,
@@ -4524,6 +5019,21 @@
 		"full": "Autumn Chitose",
 		"name": "Chitose_AV"
 	},
+	"chitose5": {
+		"offset": {
+			"x": 25,
+			"y": 15
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 3,
+		"type": "AX",
+		"unique": false,
+		"full": "Rainy Season Chitose",
+		"name": "Chitose_AV"
+	},
 	"chiyoda1": {
 		"offset": {
 			"x": 0,
@@ -4570,6 +5080,21 @@
 		"type": "AX",
 		"unique": false,
 		"full": "Autumn Chiyoda",
+		"name": "Chitose_AV"
+	},
+	"chiyoda5": {
+		"offset": {
+			"x": -50,
+			"y": -15
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 3,
+		"type": "AX",
+		"unique": false,
+		"full": "Rainy Season Chiyoda",
 		"name": "Chitose_AV"
 	},
 	"akitsumaru1": {
@@ -4710,6 +5235,21 @@
 		"full": "New Year's Taigei/Ryuuhou",
 		"name": "Taigei"
 	},
+	"taigei3": {
+		"offset": {
+			"x": -50,
+			"y": 20
+		},
+		"offset2": {
+			"x": -75,
+			"y": -50
+		},
+		"rarity": 4,
+		"type": "AX",
+		"unique": false,
+		"full": "Summer 2016 Taigei",
+		"name": "Taigei"
+	},
 	"akitsushima1": {
 		"offset": {
 			"x": 50,
@@ -4843,6 +5383,36 @@
 		"type": "AX",
 		"unique": false,
 		"full": "Sukiya Mizuho",
+		"name": "Mizuho"
+	},
+	"mizuho7": {
+		"offset": {
+			"x": 0,
+			"y": 1
+		},
+		"offset2": {
+			"x": 10,
+			"y": 9
+		},
+		"rarity": 6,
+		"type": "AX",
+		"unique": false,
+		"full": "Spring Mizuho",
+		"name": "Mizuho"
+	},
+	"mizuho8": {
+		"offset": {
+			"x": 0,
+			"y": 1
+		},
+		"offset2": {
+			"x": 10,
+			"y": 9
+		},
+		"rarity": 6,
+		"type": "AX",
+		"unique": false,
+		"full": "Summer Mizuho",
 		"name": "Mizuho"
 	},
 	"hayasui1": {
