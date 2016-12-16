@@ -69,7 +69,7 @@
             "chitose2": ["chitose1"],
             "chitose3": ["chitose1"],
             "chitosecvl1": ["chitose1"],
-            "chiyoda2": ["chiyoda1"],
+            "chiyoda2": ["chiyoda1"],	
             "chiyoda3": ["chiyoda1"],
             "chiyodacvl1": ["chiyoda1"],
             "fusou2": ["fusou1"],
@@ -86,6 +86,7 @@
             "kasumi2": ["kasumi1"],
             "kasumi3": ["kasumi1"],
             "kitakami2": ["kitakami1"],
+            "kinu2": ["kinu1"],
             "kumano2": ["kumano1"],
             "mikuma2": ["mikuma1"],
             "mogami2": ["mogami1"],
@@ -497,6 +498,8 @@
 	    "366":"minazuki1",
 	    "367":"i261",
 	    "368":"uranami1",
+	    "369":"yamakaze1",
+	    "372":"commandantteste1",
 	    "398":"i1681",
 	    "399":"i581",
 	    "400":"i81",
@@ -533,6 +536,7 @@
 	    "454":"arashi1",
 	    "455":"hagikaze1",
 	    "456":"oyashio1",
+	    "457":"yamakaze1",
 	    "458":"umikaze1",
 	    "459":"kawakaze1",
 	    "460":"hayasui1",
@@ -550,6 +554,8 @@
 	    "476":"kamikaze1",
 	    "481":"minazuki1",
 	    "483":"i261",
-	    "483":"uranami1"
+	    "483":"uranami1",
+	    "487":"kinu2",
+	    "491":"commandantteste1"
 	}
 }
