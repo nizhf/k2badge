@@ -2680,6 +2680,21 @@
 		"full": "鬼怒",
 		"name": "長良型"
 	},
+	"kinu2": {
+		"offset": {
+			"x": 50,
+			"y": 25
+		},
+		"offset2": {
+			"x": -50,
+			"y": 25
+		},
+		"rarity": 4,
+		"type": "CL",
+		"unique": false,
+		"full": "鬼怒改二",
+		"name": "長良型"
+	},
 	"abukuma1": {
 		"offset": {
 			"x": 0,

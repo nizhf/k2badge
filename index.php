@@ -237,6 +237,7 @@
 						<div><span><input type="checkbox" name="kitakami3" id="kitakami3"></span><label for="kitakami3">Kitakami 北上 (50)</label></div>
 						<div><span><input type="checkbox" name="ooi3" id="ooi3"></span><label for="ooi3">Ooi 大井 (50)</label></div>
 						<div><span><input type="checkbox" name="kiso2" id="kiso2"></span><label for="kiso2">Kiso 木曾 (65)</label></div>
+						<div class="kai blueprint"><span><input type="checkbox" name="kinu2" id="kinu2"></span><label for="kinu2">Kinu 鬼怒 (75)</label></div>
 						<div class="kai blueprint"><span><input type="checkbox" name="abukuma2" id="abukuma2"></span><label for="abukuma2">Abukuma 阿武隈 (75)</label></div>
 						<div><span><input type="checkbox" name="isuzu2" id="isuzu2"></span><label for="isuzu2">Isuzu 五十鈴 (50)</label></div>
 						<div><span><input type="checkbox" name="sendai2" id="sendai2"></span><label for="sendai2">Sendai 川内 (60)</label></div>

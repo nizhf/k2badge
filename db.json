@@ -2688,6 +2688,21 @@
 		"full": "Kinu",
 		"name": "Nagara"
 	},
+	"kinu2": {
+		"offset": {
+			"x": 50,
+			"y": 25
+		},
+		"offset2": {
+			"x": -50,
+			"y": 25
+		},
+		"rarity": 7,
+		"type": "CL",
+		"unique": false,
+		"full": "Kinu Kai 2",
+		"name": "Nagara"
+	},
 	"abukuma1": {
 		"offset": {
 			"x": 0,
