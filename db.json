@@ -5328,6 +5328,36 @@
 		"full": "Sukiya Akashi Kai",
 		"name": "Akashi"
 	},
+	"akashi7": {
+		"offset": {
+			"x": 50,
+			"y": -20
+		},
+		"offset2": {
+			"x": 50,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "AX",
+		"unique": false,
+		"full": "Christmas Akashi",
+		"name": "Akashi"
+	},
+	"akashi8": {
+		"offset": {
+			"x": 100,
+			"y": 50
+		},
+		"offset2": {
+			"x": 50,
+			"y": 20
+		},
+		"rarity": 7,
+		"type": "AX",
+		"unique": false,
+		"full": "Christmas Akashi Kai",
+		"name": "Akashi"
+	},
 	"taigei1": {
 		"offset": {
 			"x": -75,
@@ -5538,6 +5568,21 @@
 		"full": "Summer Mizuho",
 		"name": "Mizuho"
 	},
+	"mizuho9": {
+		"offset": {
+			"x": 0,
+			"y": 1
+		},
+		"offset2": {
+			"x": 10,
+			"y": 9
+		},
+		"rarity": 6,
+		"type": "AX",
+		"unique": false,
+		"full": "Christmas Mizuho",
+		"name": "Mizuho"
+	},
 	"hayasui1": {
 		"offset": {
 			"x": 0,
@@ -5583,4 +5628,19 @@
 		"full": "Commandant Teste",
 		"name": "Commandant_Teste"
 	}
+	"commandantteste2": {
+		"offset": {
+			"x": 30,
+			"y": 30
+		},
+		"offset2": {
+			"x": 30,
+			"y": -30
+		},
+		"rarity": 7,
+		"type": "AX",
+		"unique": false,
+		"full": "Christmas Commandant Teste",
+		"name": "Commandant Teste"
+	}		
 }
