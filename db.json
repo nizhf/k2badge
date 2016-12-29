@@ -5053,6 +5053,21 @@
 		"full": "Maruyu",
 		"name": "Type_3"
 	},
+	"maruyu2": {
+		"offset": {
+			"x": 0,
+			"y": 33
+		},
+		"offset2": {
+			"x": 50,
+			"y": -20
+		},
+		"rarity": 5,
+		"type": "SS",
+		"unique": false,
+		"full": "Christmas Maruyu",
+		"name": "Type_3"
+	},
 	"u5111": {
 		"offset": {
 			"x": 0,
