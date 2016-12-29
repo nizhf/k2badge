@@ -3479,6 +3479,17 @@
 		"full": "Tone Kai 2",
 		"name": "Tone"
 	},
+	"tone3": {
+		"offset": {
+			"x": 0,
+			"y": -30
+		},
+		"rarity": 7,
+		"type": "CA",
+		"unique": false,
+		"full": "Christmas Tone Kai 2",
+		"name": "Tone"
+	},
 	"chikuma1": {
 		"offset": {
 			"x": 0,
@@ -3503,6 +3514,21 @@
 		"type": "CA",
 		"unique": false,
 		"full": "Chikuma Kai 2",
+		"name": "Tone"
+	},
+	"chikuma3": {
+		"offset": {
+			"x": 0,
+			"y": 30
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 7,
+		"type": "CA",
+		"unique": false,
+		"full": "Christmas Chikuma Kai 2",
 		"name": "Tone"
 	},
 	"mogami1": {
@@ -3598,7 +3624,18 @@
 		"rarity": 5,
 		"type": "CA",
 		"unique": false,
-		"full": "Suzuya Kai1",
+		"full": "Suzuya Kai",
+		"name": "Mogami"
+	},
+	"suzuya3": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 5,
+		"type": "CA",
+		"unique": false,
+		"full": "Christmas Suzuya",
 		"name": "Mogami"
 	},
 	"kumano1": {
@@ -3625,6 +3662,21 @@
 		"type": "CA",
 		"unique": false,
 		"full": "Kumano Kai",
+		"name": "Mogami"
+	},
+	"kumano3": {
+		"offset": {
+			"x": 50,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": -150
+		},
+		"rarity": 5,
+		"type": "CA",
+		"unique": false,
+		"full": "Christmas Kumano",
 		"name": "Mogami"
 	},
 	"prinzeugen1": {
