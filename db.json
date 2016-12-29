@@ -377,6 +377,28 @@
 		"full": "Christmas Sazanami 2015",
 		"name": "Ayanami"
 	},
+	"sazanami5": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Sazanami Kai",
+		"name": "Ayanami"
+	},
+	"sazanami6": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Christmas Sazanami 2016",
+		"name": "Ayanami"
+	},
 	"ushio1": {
 		"offset": {
 			"x": 0,
@@ -1578,6 +1600,21 @@
 		"full": "Asagumo Kai",
 		"name": "Asashio"
 	},
+	"asagumo3": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 50,
+			"y": 0
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": false,
+		"full": "Christmas Asagumo",
+		"name": "Asashio"
+	},
 	"yamagumo1": {
 		"offset": {
 			"x": 0,
@@ -1598,6 +1635,17 @@
 		"type": "DD",
 		"unique": false,
 		"full": "Yamagumo Kai",
+		"name": "Asashio"
+	},
+	"yamagumo3": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": false,
+		"full": "Christmas Yamagumo",
 		"name": "Asashio"
 	},
 	"kagerou1": {
