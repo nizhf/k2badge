@@ -3074,6 +3074,32 @@
 		"full": "Sukiya Ooyodo Kai",
 		"name": "Ooyodo"
 	},
+	"ooyodo9": {
+		"offset": {
+			"x": 40,
+			"y": 35
+		},
+		"rarity": 6,
+		"type": "CL",
+		"unique": false,
+		"full": "Summer Ooyodo",
+		"name": "Ooyodo"
+	},
+	"ooyodo10": {
+		"offset": {
+			"x": 75,
+			"y": 15
+		},
+		"offset2": {
+			"x": 65,
+			"y": 35
+		},
+		"rarity": 7,
+		"type": "CL",
+		"unique": false,
+		"full": "Summer Ooyodo Kai",
+		"name": "Ooyodo"
+	},
 	"katori1": {
 		"offset": {
 			"x": -25,
