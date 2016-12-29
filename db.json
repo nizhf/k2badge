@@ -4555,6 +4555,17 @@
 		"full": "Akagi",
 		"name": "Akagi"
 	},
+	"akagi2": {
+		"offset": {
+			"x": 50,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "CV",
+		"unique": false,
+		"full": "Oyakodon Akagi",
+		"name": "Akagi"
+	},
 	"kaga1": {
 		"offset": {
 			"x": 0,
@@ -4813,6 +4824,21 @@
 		"type": "CV",
 		"unique": false,
 		"full": "New Year's Amagi",
+		"name": "Unryuu"
+	},
+	"amagi5": {
+		"offset": {
+			"x": -75,
+			"y": 35
+		},
+		"offset2": {
+			"x": 75,
+			"y": -20
+		},
+		"rarity": 7,
+		"type": "CV",
+		"unique": false,
+		"full": "Shopping Amagi",
 		"name": "Unryuu"
 	},
 	"katsuragi1": {
