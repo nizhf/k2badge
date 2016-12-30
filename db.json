@@ -329,6 +329,21 @@
 		"full": "Early Summer 2016 Akebono",
 		"name": "Ayanami"
 	},
+	"akebono9": {
+		"offset": {
+			"x": 39,
+			"y": 40
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Akebono Kai",
+		"name": "Ayanami"
+	},
 	"sazanami1": {
 		"offset": {
 			"x": 20,
