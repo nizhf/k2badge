@@ -2594,6 +2594,17 @@
 		"rarity": 4,
 		"type": "CL",
 		"unique": false,
+		"full": "Autumn Festival Tama",
+		"name": "Kuma"
+	},
+	"tama3": {
+		"offset": {
+			"x": 75,
+			"y": 25
+		},
+		"rarity": 4,
+		"type": "CL",
+		"unique": false,
 		"full": "Autumn Tama",
 		"name": "Kuma"
 	},
@@ -2813,6 +2824,17 @@
 		"type": "CL",
 		"unique": true,
 		"full": "Yura",
+		"name": "Nagara"
+	},
+	"yura2": {
+		"offset": {
+			"x": 0,
+			"y": 30
+		},
+		"rarity": 1,
+		"type": "CL",
+		"unique": false,
+		"full": "Autumn Festival Yura",
 		"name": "Nagara"
 	},
 	"kinu1": {
