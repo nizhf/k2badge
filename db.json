@@ -3816,6 +3816,17 @@
 		"full": "Mutsu",
 		"name": "Nagato"
 	},
+	"mutsu2": {
+		"offset": {
+			"x": 75,
+			"y": 0
+		},
+		"rarity": 7,
+		"type": "BB",
+		"unique": false,
+		"full": "Autumn Festival Mutsu",
+		"name": "Nagato"
+	},
 	"kongou1": {
 		"offset": {
 			"x": 100,
@@ -3840,6 +3851,32 @@
 		"type": "BB",
 		"unique": false,
 		"full": "Kongou Kai 2",
+		"name": "Kongou"
+	},
+	"kongou3": {
+		"offset": {
+			"x": 100,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 5,
+		"type": "BB",
+		"unique": false,
+		"full": "Shopping Kongou",
+		"name": "Kongou"
+	},
+	"kongou4": {
+		"offset": {
+			"x": 80,
+			"y": 0
+		},
+		"rarity": 7,
+		"type": "BB",
+		"unique": false,
+		"full": "Shopping Kongou Kai 2",
 		"name": "Kongou"
 	},
 	"hiei1": {
@@ -3986,6 +4023,21 @@
 		"full": "Early Summer 2016 Fusou",
 		"name": "Fusou"
 	},
+	"fusou6": {
+		"offset": {
+			"x": 125,
+			"y": 20
+		},
+		"offset2": {
+			"x": 125,
+			"y": -5
+		},
+		"rarity": 5,
+		"type": "BB",
+		"unique": false,
+		"full": "Autumn Fusou",
+		"name": "Fusou"
+	},
 	"yamashiro1": {
 		"offset": {
 			"x": 0,
@@ -4051,6 +4103,21 @@
 		"type": "BB",
 		"unique": false,
 		"full": "Early Summer 2016 Yamashiro",
+		"name": "Fusou"
+	},
+	"yamashiro6": {
+		"offset": {
+			"x": -40,
+			"y": 10
+		},
+		"offset2": {
+			"x": 100,
+			"y": -50
+		},
+		"rarity": 5,
+		"type": "BB",
+		"unique": false,
+		"full": "Oyakodon Yamashiro",
 		"name": "Fusou"
 	},
 	"ise1": {
