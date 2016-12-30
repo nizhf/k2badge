@@ -1131,6 +1131,24 @@
 		"full": "Early Summer Improvement Akashi",
 		"name": "Shop"
 	},
+		"akashishop6": {
+		"offset": {
+			"x": -25,
+			"y": 25
+		},
+		"type": "AAX",
+		"full": "New Year's Shopkeeper Akashi",
+		"name": "Shop"
+	},
+	"akashishop7": {
+		"offset": {
+			"x": -25,
+			"y": 25
+		},
+		"type": "AAX",
+		"full": "New Year's Improvement Akashi",
+		"name": "Shop"
+	},
 	"mamiyashop2": {
 		"offset": {
 			"x": 25,
@@ -1148,5 +1166,14 @@
 		"type": "AAX",
 		"full": "Early Summer Irako",
 		"name": "Shop"
+	}
+	"ooyodoquest2": {
+		"offset": {
+			"x": 25,
+			"y": 0
+		},
+		"type": "AAX",
+		"full": "New Year's Ooyodo",
+		"name": "Quest"
 	}
 }
