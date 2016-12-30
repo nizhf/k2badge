@@ -913,6 +913,24 @@
 		"full": "New Year's Northern Princess",
 		"name": "Northern"
 	},
+	"hoppouhime8": {
+		"offset": {
+			"x": 50,
+			"y": -100
+		},
+		"type": "AINS",
+		"full": "Valentines Northern Princess",
+		"name": "Northern"
+	},
+	"hoppouhime9": {
+		"offset": {
+			"x": 50,
+			"y": -100
+		},
+		"type": "AINS",
+		"full": "Sukiya Northern Princess",
+		"name": "Northern"
+	},
 	"kouwanhime1": {
 		"offset": {
 			"x": 150,
