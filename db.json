@@ -1232,6 +1232,21 @@
 		"full": "Summer Yuudachi Kai 2",
 		"name": "Shiratsuyu"
 	},
+	"yuudachi5": {
+		"offset": {
+			"x": 225,
+			"y": -25
+		},
+		"offset2": {
+			"x": 200,
+			"y": -50
+		},
+		"rarity": 6,
+		"type": "DD",
+		"unique": false,
+		"full": "Rainy Season Yuudachi Kai 2",
+		"name": "Shiratsuyu"
+	},
 	"samidare1": {
 		"offset": {
 			"x": 0,
@@ -2154,6 +2169,21 @@
 		"full": "Takanami Kai",
 		"name": "Yuugumo"
 	},
+	"takanami3": {
+		"offset": {
+			"x": 50,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": 25
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Rainy Season Takanami",
+		"name": "Yuugumo"
+	}
 	"asashimo1": {
 		"offset": {
 			"x": 48,
@@ -5488,6 +5518,21 @@
 		"type": "AX",
 		"unique": false,
 		"full": "Summer Mizuho",
+		"name": "Mizuho"
+	},
+	"mizuho10": {
+		"offset": {
+			"x": 0,
+			"y": 1
+		},
+		"offset2": {
+			"x": 10,
+			"y": 9
+		},
+		"rarity": 6,
+		"type": "AX",
+		"unique": false,
+		"full": "Rainy Season Mizuho",
 		"name": "Mizuho"
 	},
 	"hayasui1": {
