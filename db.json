@@ -5709,7 +5709,7 @@
 		"unique": true,
 		"full": "Commandant Teste",
 		"name": "Commandant_Teste"
-	}
+	},
 	"commandantteste2": {
 		"offset": {
 			"x": 30,
@@ -5723,6 +5723,6 @@
 		"type": "AX",
 		"unique": false,
 		"full": "Christmas Commandant Teste",
-		"name": "Commandant Teste"
+		"name": "Commandant_Teste"
 	}		
 }
