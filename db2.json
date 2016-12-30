@@ -913,6 +913,15 @@
 		"full": "New Year's Northern Princess",
 		"name": "Northern"
 	},
+	"hoppouhime7": {
+		"offset": {
+			"x": 50,
+			"y": -100
+		},
+		"type": "AINS",
+		"full": "Autumn Northern Princess",
+		"name": "Northern"
+	},
 	"kouwanhime1": {
 		"offset": {
 			"x": 150,
@@ -1148,5 +1157,14 @@
 		"type": "AAX",
 		"full": "Early Summer Irako",
 		"name": "Shop"
+	},
+	"ooyodoquest3": {
+		"offset": {
+			"x": 25,
+			"y": 0
+		},
+		"type": "AAX",
+		"full": "Autumn Ooyodo",
+		"name": "Quest"
 	}
 }

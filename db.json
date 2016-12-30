@@ -4705,6 +4705,21 @@
 		"full": "Summer 2016 Ryuuhou",
 		"name": "Ryuuhou"
 	},
+	"ryuuhou4": {
+		"offset": {
+			"x": -50,
+			"y": 20
+		},
+		"offset2": {
+			"x": -75,
+			"y": -50
+		},
+		"rarity": 6,
+		"type": "CVL",
+		"unique": false,
+		"full": "Autumn Ryuuhou",
+		"name": "Ryuuhou"
+	},
 	"akagi1": {
 		"offset": {
 			"x": 50,
@@ -5385,6 +5400,21 @@
 		"full": "Akitsumaru Kai",
 		"name": "Hei"
 	},
+	"akitsumaru3": {
+		"offset": {
+			"x": 50,
+			"y": -25
+		},
+		"offset2": {
+			"x": -25,
+			"y": 45
+		},
+		"rarity": 6,
+		"type": "AX",
+		"unique": false,
+		"full": "Autumn Akitsumaru",
+		"name": "Hei"
+	},
 	"akashi1": {
 		"offset": {
 			"x": 50,
@@ -5510,6 +5540,21 @@
 		"type": "AX",
 		"unique": false,
 		"full": "Summer 2016 Taigei",
+		"name": "Taigei"
+	},
+	"taigei4": {
+		"offset": {
+			"x": -50,
+			"y": 20
+		},
+		"offset2": {
+			"x": -75,
+			"y": -50
+		},
+		"rarity": 4,
+		"type": "AX",
+		"unique": false,
+		"full": "Autumn Taigei",
 		"name": "Taigei"
 	},
 	"akitsushima1": {
