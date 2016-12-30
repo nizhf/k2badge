@@ -1149,6 +1149,15 @@
 		"full": "Early Summer Improvement Akashi",
 		"name": "Shop"
 	},
+	"akashishop8": {
+		"offset": {
+			"x": -25,
+			"y": 25
+		},
+		"type": "AAX",
+		"full": "Sukiya Shopkeeper Akashi",
+		"name": "Shop"
+	},
 	"mamiyashop2": {
 		"offset": {
 			"x": 25,
@@ -1165,6 +1174,15 @@
 		},
 		"type": "AAX",
 		"full": "Early Summer Irako",
+		"name": "Shop"
+	},
+	"ooyodoquest5": {
+		"offset": {
+			"x": 25,
+			"y": 0
+		},
+		"type": "AAX",
+		"full": "Sukiya Ooyodo",
 		"name": "Shop"
 	}
 }
