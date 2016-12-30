@@ -3747,6 +3747,22 @@
 		"full": "Zara",
 		"name": "Zara"
 	},
+	"zara2": {
+		"offset": {
+			"x": 75,
+			"y": 30
+		},
+		"offset2": {
+			
+			"x": 75,
+			"y": -30
+		},
+		"rarity": 6,
+		"type": "CA",
+		"unique": false,
+		"full": "Autumn Zara",
+		"name": "Zara"
+	},
 	"pola1": {
 		"offset": {
 			"x": 100,
@@ -3761,6 +3777,21 @@
 		"type": "CA",
 		"unique": true,
 		"full": "Pola",
+		"name": "Zara"
+	},
+	"pola2": {
+		"offset": {
+			"x": 100,
+			"y": 20
+		},
+		"offset2": {
+			"x": 50,
+			"y": -50
+		},
+		"rarity": 6,
+		"type": "CA",
+		"unique": false,
+		"full": "Shopping Pola",
 		"name": "Zara"
 	},
 	"nagato1": {
