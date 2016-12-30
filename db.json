@@ -392,6 +392,28 @@
 		"full": "Christmas Sazanami 2015",
 		"name": "Ayanami"
 	},
+	"sazanami5": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Sazanami Kai",
+		"name": "Ayanami"
+	},
+	"sazanami6": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Christmas Sazanami 2016",
+		"name": "Ayanami"
+	},
 	"ushio1": {
 		"offset": {
 			"x": 0,
@@ -1593,6 +1615,21 @@
 		"full": "Asagumo Kai",
 		"name": "Asashio"
 	},
+	"asagumo3": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 50,
+			"y": 0
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": false,
+		"full": "Christmas Asagumo",
+		"name": "Asashio"
+	},
 	"yamagumo1": {
 		"offset": {
 			"x": 0,
@@ -1613,6 +1650,17 @@
 		"type": "DD",
 		"unique": false,
 		"full": "Yamagumo Kai",
+		"name": "Asashio"
+	},
+	"yamagumo3": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": false,
+		"full": "Christmas Yamagumo",
 		"name": "Asashio"
 	},
 	"kagerou1": {
@@ -2480,6 +2528,21 @@
 		"type": "CL",
 		"unique": false,
 		"full": "Autumn Kuma",
+		"name": "Kuma"
+	},
+	"kuma3": {
+		"offset": {
+			"x": 50,
+			"y": 10
+		},
+		"offset2": {
+			"x": 30,
+			"y": -40
+		},
+		"rarity": 5,
+		"type": "CL",
+		"unique": false,
+		"full": "Christmas Kuma",
 		"name": "Kuma"
 	},
 	"tama1": {
@@ -3446,6 +3509,17 @@
 		"full": "Tone Kai 2",
 		"name": "Tone"
 	},
+	"tone3": {
+		"offset": {
+			"x": 0,
+			"y": -30
+		},
+		"rarity": 7,
+		"type": "CA",
+		"unique": false,
+		"full": "Christmas Tone Kai 2",
+		"name": "Tone"
+	},
 	"chikuma1": {
 		"offset": {
 			"x": 0,
@@ -3470,6 +3544,21 @@
 		"type": "CA",
 		"unique": false,
 		"full": "Chikuma Kai 2",
+		"name": "Tone"
+	},
+	"chikuma3": {
+		"offset": {
+			"x": 0,
+			"y": 30
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 7,
+		"type": "CA",
+		"unique": false,
+		"full": "Christmas Chikuma Kai 2",
 		"name": "Tone"
 	},
 	"mogami1": {
@@ -3565,7 +3654,18 @@
 		"rarity": 5,
 		"type": "CA",
 		"unique": false,
-		"full": "Suzuya Kai1",
+		"full": "Suzuya Kai",
+		"name": "Mogami"
+	},
+	"suzuya3": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 5,
+		"type": "CA",
+		"unique": false,
+		"full": "Christmas Suzuya",
 		"name": "Mogami"
 	},
 	"kumano1": {
@@ -3592,6 +3692,21 @@
 		"type": "CA",
 		"unique": false,
 		"full": "Kumano Kai",
+		"name": "Mogami"
+	},
+	"kumano3": {
+		"offset": {
+			"x": 50,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": -150
+		},
+		"rarity": 5,
+		"type": "CA",
+		"unique": false,
+		"full": "Christmas Kumano",
 		"name": "Mogami"
 	},
 	"prinzeugen1": {
@@ -5020,6 +5135,21 @@
 		"full": "Maruyu",
 		"name": "Type_3"
 	},
+	"maruyu2": {
+		"offset": {
+			"x": 0,
+			"y": 33
+		},
+		"offset2": {
+			"x": 50,
+			"y": -20
+		},
+		"rarity": 5,
+		"type": "SS",
+		"unique": false,
+		"full": "Christmas Maruyu",
+		"name": "Type_3"
+	},
 	"u5111": {
 		"offset": {
 			"x": 0,
@@ -5295,6 +5425,36 @@
 		"full": "Sukiya Akashi Kai",
 		"name": "Akashi"
 	},
+	"akashi7": {
+		"offset": {
+			"x": 50,
+			"y": -20
+		},
+		"offset2": {
+			"x": 50,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "AX",
+		"unique": false,
+		"full": "Christmas Akashi",
+		"name": "Akashi"
+	},
+	"akashi8": {
+		"offset": {
+			"x": 100,
+			"y": 50
+		},
+		"offset2": {
+			"x": 50,
+			"y": 20
+		},
+		"rarity": 7,
+		"type": "AX",
+		"unique": false,
+		"full": "Christmas Akashi Kai",
+		"name": "Akashi"
+	},
 	"taigei1": {
 		"offset": {
 			"x": -75,
@@ -5505,6 +5665,21 @@
 		"full": "Summer Mizuho",
 		"name": "Mizuho"
 	},
+	"mizuho9": {
+		"offset": {
+			"x": 0,
+			"y": 1
+		},
+		"offset2": {
+			"x": 10,
+			"y": 9
+		},
+		"rarity": 6,
+		"type": "AX",
+		"unique": false,
+		"full": "Christmas Mizuho",
+		"name": "Mizuho"
+	},
 	"hayasui1": {
 		"offset": {
 			"x": 0,
@@ -5549,5 +5724,20 @@
 		"unique": true,
 		"full": "Commandant Teste",
 		"name": "Commandant_Teste"
-	}
+	},
+	"commandantteste2": {
+		"offset": {
+			"x": 30,
+			"y": 30
+		},
+		"offset2": {
+			"x": 30,
+			"y": -30
+		},
+		"rarity": 7,
+		"type": "AX",
+		"unique": false,
+		"full": "Christmas Commandant Teste",
+		"name": "Commandant_Teste"
+	}		
 }

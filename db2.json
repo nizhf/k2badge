@@ -1113,6 +1113,15 @@
 		"full": "Battery Imp",
 		"name": "Battery"
 	},
+	"akashishop1": {
+		"offset": {
+			"x": -25,
+			"y": 25
+		},
+		"type": "AAX",
+		"full": "Shopkeeper Akashi",
+		"name": "Shop"
+	},
 	"akashishop2": {
 		"offset": {
 			"x": -25,
@@ -1131,6 +1140,33 @@
 		"full": "Early Summer Improvement Akashi",
 		"name": "Shop"
 	},
+	"akashishop4": {
+		"offset": {
+			"x": -25,
+			"y": 25
+		},
+		"type": "AAX",
+		"full": "Christmas Shopkeeper Akashi",
+		"name": "Shop"
+	},
+	"akashishop5": {
+		"offset": {
+			"x": -25,
+			"y": 25
+		},
+		"type": "AAX",
+		"full": "Christmas Improvement Akashi",
+		"name": "Shop"
+	},
+	"mamiyashop1": {
+		"offset": {
+			"x": 25,
+			"y": 10
+		},
+		"type": "AAX",
+		"full": "Mamiya",
+		"name": "Shop"
+	},
 	"mamiyashop2": {
 		"offset": {
 			"x": 25,
@@ -1138,6 +1174,24 @@
 		},
 		"type": "AAX",
 		"full": "Early Summer Mamiya",
+		"name": "Shop"
+	},
+	"mamiyashop3": {
+		"offset": {
+			"x": 25,
+			"y": 10
+		},
+		"type": "AAX",
+		"full": "Christmas Mamiya",
+		"name": "Shop"
+	},
+	"irakoshop1": {
+		"offset": {
+			"x": 25,
+			"y": 0
+		},
+		"type": "AAX",
+		"full": "Irako",
 		"name": "Shop"
 	},
 	"irakoshop2": {
@@ -1148,5 +1202,23 @@
 		"type": "AAX",
 		"full": "Early Summer Irako",
 		"name": "Shop"
+	},
+	"irakoshop3": {
+		"offset": {
+			"x": 25,
+			"y": 0
+		},
+		"type": "AAX",
+		"full": "Christmas Irako",
+		"name": "Shop"
+	},
+	"ooyodoquest4": {
+		"offset": {
+			"x": 25,
+			"y": 0
+		},
+		"type": "AAX",
+		"full": "Christmas Ooyodo",
+		"name": "Quest"
 	}
 }
