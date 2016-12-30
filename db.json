@@ -36,6 +36,28 @@
 		"full": "Fubuki Kai 2",
 		"name": "Fubuki"
 	},
+	"fubuki3": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 3,
+		"type": "DD",
+		"unique": true,
+		"full": "Autumn Festival Fubuki",
+		"name": "Fubuki"
+	},
+	"fubuki4": {
+		"offset": {
+			"x": 0,
+			"y": -50
+		},
+		"rarity": 6,
+		"type": "DD",
+		"unique": false,
+		"full": "Autumn Festival Fubuki Kai 2",
+		"name": "Fubuki"
+	},
 	"shirayuki1": {
 		"offset": {
 			"x": 0,
@@ -1015,6 +1037,21 @@
 		"full": "Mobile Mode Shiratsuyu",
 		"name": "Shiratsuyu"
 	},
+	"shiratsuyu5": {
+		"offset": {
+			"x": 0,
+			"y": 10
+		},
+		"offset2": {
+			"x": 50,
+			"y": 0
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Autumn Festival Shiratsuyu",
+		"name": "Shiratsuyu"
+	},
 	"shigure1": {
 		"offset": {
 			"x": 0,
@@ -1230,6 +1267,21 @@
 		"type": "DD",
 		"unique": false,
 		"full": "Summer Yuudachi Kai 2",
+		"name": "Shiratsuyu"
+	},
+		"yuudachi6": {
+		"offset": {
+			"x": 225,
+			"y": -25
+		},
+		"offset2": {
+			"x": 200,
+			"y": -50
+		},
+		"rarity": 6,
+		"type": "DD",
+		"unique": false,
+		"full": "Udon Yuudachi Kai 2",
 		"name": "Shiratsuyu"
 	},
 	"samidare1": {
@@ -1983,6 +2035,21 @@
 		"full": "Spring Yuugumo",
 		"name": "Yuugumo"
 	},
+	"yuugumo4": {
+		"offset": {
+			"x": -50,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": -15
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": false,
+		"full": "Autumn Yuugumo",
+		"name": "Yuugumo"
+	},
 	"makigumo1": {
 		"offset": {
 			"x": 0,
@@ -2063,6 +2130,21 @@
 		"type": "DD",
 		"unique": false,
 		"full": "Spring Naganami",
+		"name": "Yuugumo"
+	},
+	"naganami3": {
+		"offset": {
+			"x": 0,
+			"y": -10
+		},
+		"offset2": {
+			"x": 0,
+			"y": -40
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": false,
+		"full": "Autumn Festival Naganami",
 		"name": "Yuugumo"
 	},
 	"hayashimo1": {
@@ -2184,6 +2266,21 @@
 		"full": "Asashimo Kai",
 		"name": "Yuugumo"
 	},
+	"asashimo3": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": -25
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Autumn Festival Asashimo",
+		"name": "Yuugumo"
+	},
 	"okinami1": {
 		"offset": {
 			"x": -50,
@@ -2282,6 +2379,17 @@
 		"type": "DD",
 		"unique": true,
 		"full": "Akizuki",
+		"name": "Akizuki"
+	},
+	"akizuki2": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "DD",
+		"unique": false,
+		"full": "Autumn Festival Akizuki",
 		"name": "Akizuki"
 	},
 	"teruzuki1": {
