@@ -1553,6 +1553,21 @@
 		"full": "Yamakaze",
 		"name": "Shiratsuyu"
 	},
+	"yamakaze2": {
+		"offset": {
+			"x": -40,
+			"y": 5
+		},
+		"offset2": {
+			"x": 0,
+			"y": -70
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Haregi Yamakaze",
+		"name": "Shiratsuyu"
+	},
 	"asashio1": {
 		"offset": {
 			"x": -50,
