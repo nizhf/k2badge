@@ -4706,6 +4706,21 @@
 		"full": "Iowa",
 		"name": "Iowa"
 	},
+	"iowa2": {
+		"offset": {
+			"x": 30,
+			"y": 45
+		},
+		"offset2": {
+			"x": 20,
+			"y": -5
+		},
+		"rarity": 7,
+		"type": "BB",
+		"unique": false,
+		"full": "Haregi Iowa",
+		"name": "Iowa"
+	},
 	"warspite1": {
 		"offset": {
 			"x": 0,
