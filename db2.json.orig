@@ -1140,40 +1140,34 @@
 		"full": "Early Summer Improvement Akashi",
 		"name": "Shop"
 	},
+<<<<<<< HEAD
 	"akashishop4": {
+=======
+		"akashishop6": {
+>>>>>>> Year_End+New_Years
 		"offset": {
 			"x": -25,
 			"y": 25
 		},
 		"type": "AAX",
+<<<<<<< HEAD
 		"full": "Christmas Shopkeeper Akashi",
 		"name": "Shop"
 	},
 	"akashishop5": {
-		"offset": {
-			"x": -25,
-			"y": 25
-		},
-		"type": "AAX",
-		"full": "Christmas Improvement Akashi",
-		"name": "Shop"
-	},
-	"akashishop6": {
-		"offset": {
-			"x": -25,
-			"y": 25
-		},
-		"type": "AAX",
-		"full": "New Years Shopkeeper Akashi",
+=======
+		"full": "New Year's Shopkeeper Akashi",
 		"name": "Shop"
 	},
 	"akashishop7": {
+>>>>>>> Year_End+New_Years
 		"offset": {
 			"x": -25,
 			"y": 25
 		},
 		"type": "AAX",
-		"full": "New Years Improvement Akashi",
+<<<<<<< HEAD
+		"full": "Christmas Improvement Akashi",
 		"name": "Shop"
 	},
 	"mamiyashop1": {
@@ -1183,6 +1177,9 @@
 		},
 		"type": "AAX",
 		"full": "Mamiya",
+=======
+		"full": "New Year's Improvement Akashi",
+>>>>>>> Year_End+New_Years
 		"name": "Shop"
 	},
 	"mamiyashop2": {
@@ -1221,23 +1218,19 @@
 		"full": "Early Summer Irako",
 		"name": "Shop"
 	},
+<<<<<<< HEAD
 	"irakoshop3": {
+=======
+	"ooyodoquest2": {
+>>>>>>> Year_End+New_Years
 		"offset": {
 			"x": 25,
 			"y": 0
 		},
 		"type": "AAX",
+<<<<<<< HEAD
 		"full": "Christmas Irako",
 		"name": "Shop"
-	},
-	"ooyodoquest2": {
-		"offset": {
-			"x": 25,
-			"y": 0
-		},
-		"type": "AAX",
-		"full": "New Year's Ooyodo",
-		"name": "Quest"
 	},
 	"ooyodoquest4": {
 		"offset": {
@@ -1246,6 +1239,9 @@
 		},
 		"type": "AAX",
 		"full": "Christmas Ooyodo",
+=======
+		"full": "New Year's Ooyodo",
+>>>>>>> Year_End+New_Years
 		"name": "Quest"
 	}
 }

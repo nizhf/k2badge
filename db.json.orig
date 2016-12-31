@@ -329,22 +329,11 @@
 		"full": "Early Summer 2016 Akebono",
 		"name": "Ayanami"
 	},
-	"akebono7": {
-		"offset": {
-			"x": 39,
-			"y": 40
-		},
-		"offset2": {
-			"x": 0,
-			"y": 0
-		},
-		"rarity": 4,
-		"type": "DD",
-		"unique": false,
-		"full": "Year's End 2015 Akebono",
-		"name": "Ayanami"
-	},
+<<<<<<< HEAD
 	"akebono9": {
+=======
+	"akebono7": {
+>>>>>>> Year_End+New_Years
 		"offset": {
 			"x": 39,
 			"y": 40
@@ -356,7 +345,11 @@
 		"rarity": 4,
 		"type": "DD",
 		"unique": false,
+<<<<<<< HEAD
 		"full": "Akebono Kai",
+=======
+		"full": "Year's End 2015 Akebono",
+>>>>>>> Year_End+New_Years
 		"name": "Ayanami"
 	},
 	"sazanami1": {
