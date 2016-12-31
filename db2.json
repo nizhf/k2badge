@@ -940,6 +940,16 @@
 		"full": "Sukiya Northern Princess",
 		"name": "Northern"
 	},
+	"hoppouhime10": {
+		"offset": {
+			"x": 0,
+			"y": -50
+		},
+		"type": "AINS",
+		"damageable": true,
+		"full": "Haregi Northern Princess",
+		"name": "Northern"
+	},
 	"kouwanhime1": {
 		"offset": {
 			"x": 150,
