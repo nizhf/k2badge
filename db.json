@@ -5986,6 +5986,21 @@
 		"full": "New Year's Akitsushima",
 		"name": "Akitsushima"
 	},
+	"akitsushima5": {
+		"offset": {
+			"x": 100,
+			"y": -50
+		},
+		"offset2": {
+			"x": 50,
+			"y": -25
+		},
+		"rarity": 7,
+		"type": "AX",
+		"unique": false,
+		"full": "New Year's Akitsushima 2017",
+		"name": "Akitsushima"
+	},
 	"mizuho1": {
 		"offset": {
 			"x": 0,
