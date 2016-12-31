@@ -913,6 +913,24 @@
 		"full": "New Year's Northern Princess",
 		"name": "Northern"
 	},
+	"hoppouhime8": {
+		"offset": {
+			"x": 50,
+			"y": -100
+		},
+		"type": "AINS",
+		"full": "Valentines Northern Princess",
+		"name": "Northern"
+	},
+	"hoppouhime9": {
+		"offset": {
+			"x": 50,
+			"y": -100
+		},
+		"type": "AINS",
+		"full": "Sukiya Northern Princess",
+		"name": "Northern"
+	},
 	"kouwanhime1": {
 		"offset": {
 			"x": 150,
@@ -1176,6 +1194,15 @@
 		"full": "New Years Improvement Akashi",
 		"name": "Shop"
 	},
+	"akashishop8": {
+		"offset": {
+			"x": -25,
+			"y": 25
+		},
+		"type": "AAX",
+		"full": "Sukiya Shopkeeper Akashi",
+		"name": "Shop"
+	},
 	"mamiyashop1": {
 		"offset": {
 			"x": 25,
@@ -1246,6 +1273,15 @@
 		},
 		"type": "AAX",
 		"full": "Christmas Ooyodo",
+		"name": "Quest"
+	},
+	"ooyodoquest5": {
+		"offset": {
+			"x": 25,
+			"y": 0
+		},
+		"type": "AAX",
+		"full": "Sukiya Ooyodo",
 		"name": "Quest"
 	}
 }

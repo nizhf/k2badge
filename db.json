@@ -344,6 +344,21 @@
 		"full": "Year's End 2015 Akebono",
 		"name": "Ayanami"
 	},
+	"akebono8": {
+		"offset": {
+			"x": 39,
+			"y": 40
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Valentines Akebono",
+		"name": "Ayanami"
+	},
 	"akebono9": {
 		"offset": {
 			"x": 39,
