@@ -36,6 +36,28 @@
 		"full": "Fubuki Kai 2",
 		"name": "Fubuki"
 	},
+	"fubuki3": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 3,
+		"type": "DD",
+		"unique": true,
+		"full": "Autumn Festival Fubuki",
+		"name": "Fubuki"
+	},
+	"fubuki4": {
+		"offset": {
+			"x": 0,
+			"y": -50
+		},
+		"rarity": 6,
+		"type": "DD",
+		"unique": false,
+		"full": "Autumn Festival Fubuki Kai 2",
+		"name": "Fubuki"
+	},
 	"shirayuki1": {
 		"offset": {
 			"x": 0,
@@ -1082,6 +1104,21 @@
 		"full": "Mobile Mode Shiratsuyu",
 		"name": "Shiratsuyu"
 	},
+	"shiratsuyu5": {
+		"offset": {
+			"x": 0,
+			"y": 10
+		},
+		"offset2": {
+			"x": 50,
+			"y": 0
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Autumn Festival Shiratsuyu",
+		"name": "Shiratsuyu"
+	},
 	"shigure1": {
 		"offset": {
 			"x": 0,
@@ -1312,6 +1349,21 @@
 		"type": "DD",
 		"unique": false,
 		"full": "Rainy Season Yuudachi Kai 2",
+		"name": "Shiratsuyu"
+	},
+	"yuudachi6": {
+		"offset": {
+			"x": 225,
+			"y": -25
+		},
+		"offset2": {
+			"x": 200,
+			"y": -50
+		},
+		"rarity": 6,
+		"type": "DD",
+		"unique": false,
+		"full": "Udon Yuudachi Kai 2",
 		"name": "Shiratsuyu"
 	},
 	"samidare1": {
@@ -2091,6 +2143,21 @@
 		"full": "Spring Yuugumo",
 		"name": "Yuugumo"
 	},
+	"yuugumo4": {
+		"offset": {
+			"x": -50,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": -15
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": false,
+		"full": "Autumn Yuugumo",
+		"name": "Yuugumo"
+	},
 	"makigumo1": {
 		"offset": {
 			"x": 0,
@@ -2171,6 +2238,21 @@
 		"type": "DD",
 		"unique": false,
 		"full": "Spring Naganami",
+		"name": "Yuugumo"
+	},
+	"naganami3": {
+		"offset": {
+			"x": 0,
+			"y": -10
+		},
+		"offset2": {
+			"x": 0,
+			"y": -40
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": false,
+		"full": "Autumn Festival Naganami",
 		"name": "Yuugumo"
 	},
 	"hayashimo1": {
@@ -2307,6 +2389,21 @@
 		"full": "Asashimo Kai",
 		"name": "Yuugumo"
 	},
+	"asashimo3": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": -25
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Autumn Festival Asashimo",
+		"name": "Yuugumo"
+	},
 	"okinami1": {
 		"offset": {
 			"x": -50,
@@ -2416,6 +2513,17 @@
 		"type": "DD",
 		"unique": true,
 		"full": "Akizuki",
+		"name": "Akizuki"
+	},
+	"akizuki2": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "DD",
+		"unique": false,
+		"full": "Autumn Festival Akizuki",
 		"name": "Akizuki"
 	},
 	"teruzuki1": {
@@ -2650,6 +2758,17 @@
 		"rarity": 4,
 		"type": "CL",
 		"unique": false,
+		"full": "Autumn Festival Tama",
+		"name": "Kuma"
+	},
+	"tama3": {
+		"offset": {
+			"x": 75,
+			"y": 25
+		},
+		"rarity": 4,
+		"type": "CL",
+		"unique": false,
 		"full": "Autumn Tama",
 		"name": "Kuma"
 	},
@@ -2869,6 +2988,17 @@
 		"type": "CL",
 		"unique": true,
 		"full": "Yura",
+		"name": "Nagara"
+	},
+	"yura2": {
+		"offset": {
+			"x": 0,
+			"y": 30
+		},
+		"rarity": 1,
+		"type": "CL",
+		"unique": false,
+		"full": "Autumn Festival Yura",
 		"name": "Nagara"
 	},
 	"kinu1": {
@@ -3859,6 +3989,22 @@
 		"full": "Zara",
 		"name": "Zara"
 	},
+	"zara2": {
+		"offset": {
+			"x": 75,
+			"y": 30
+		},
+		"offset2": {
+			
+			"x": 75,
+			"y": -30
+		},
+		"rarity": 6,
+		"type": "CA",
+		"unique": false,
+		"full": "Autumn Zara",
+		"name": "Zara"
+	},
 	"pola1": {
 		"offset": {
 			"x": 100,
@@ -3873,6 +4019,21 @@
 		"type": "CA",
 		"unique": true,
 		"full": "Pola",
+		"name": "Zara"
+	},
+	"pola2": {
+		"offset": {
+			"x": 100,
+			"y": 20
+		},
+		"offset2": {
+			"x": 50,
+			"y": -50
+		},
+		"rarity": 6,
+		"type": "CA",
+		"unique": false,
+		"full": "Shopping Pola",
 		"name": "Zara"
 	},
 	"nagato1": {
@@ -3895,6 +4056,17 @@
 		"type": "BB",
 		"unique": true,
 		"full": "Mutsu",
+		"name": "Nagato"
+	},
+	"mutsu2": {
+		"offset": {
+			"x": 75,
+			"y": 0
+		},
+		"rarity": 7,
+		"type": "BB",
+		"unique": false,
+		"full": "Autumn Festival Mutsu",
 		"name": "Nagato"
 	},
 	"kongou1": {
@@ -3921,6 +4093,32 @@
 		"type": "BB",
 		"unique": false,
 		"full": "Kongou Kai 2",
+		"name": "Kongou"
+	},
+	"kongou3": {
+		"offset": {
+			"x": 100,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 5,
+		"type": "BB",
+		"unique": false,
+		"full": "Shopping Kongou",
+		"name": "Kongou"
+	},
+	"kongou4": {
+		"offset": {
+			"x": 80,
+			"y": 0
+		},
+		"rarity": 7,
+		"type": "BB",
+		"unique": false,
+		"full": "Shopping Kongou Kai 2",
 		"name": "Kongou"
 	},
 	"hiei1": {
@@ -4067,6 +4265,21 @@
 		"full": "Early Summer 2016 Fusou",
 		"name": "Fusou"
 	},
+	"fusou6": {
+		"offset": {
+			"x": 125,
+			"y": 20
+		},
+		"offset2": {
+			"x": 125,
+			"y": -5
+		},
+		"rarity": 5,
+		"type": "BB",
+		"unique": false,
+		"full": "Autumn Fusou",
+		"name": "Fusou"
+	},
 	"yamashiro1": {
 		"offset": {
 			"x": 0,
@@ -4132,6 +4345,21 @@
 		"type": "BB",
 		"unique": false,
 		"full": "Early Summer 2016 Yamashiro",
+		"name": "Fusou"
+	},
+	"yamashiro6": {
+		"offset": {
+			"x": -40,
+			"y": 10
+		},
+		"offset2": {
+			"x": 100,
+			"y": -50
+		},
+		"rarity": 5,
+		"type": "BB",
+		"unique": false,
+		"full": "Oyakodon Yamashiro",
 		"name": "Fusou"
 	},
 	"ise1": {
@@ -4786,6 +5014,21 @@
 		"full": "Summer 2016 Ryuuhou",
 		"name": "Ryuuhou"
 	},
+	"ryuuhou4": {
+		"offset": {
+			"x": -50,
+			"y": 20
+		},
+		"offset2": {
+			"x": -75,
+			"y": -50
+		},
+		"rarity": 6,
+		"type": "CVL",
+		"unique": false,
+		"full": "Autumn Ryuuhou",
+		"name": "Ryuuhou"
+	},
 	"akagi1": {
 		"offset": {
 			"x": 50,
@@ -4795,6 +5038,17 @@
 		"type": "CV",
 		"unique": true,
 		"full": "Akagi",
+		"name": "Akagi"
+	},
+	"akagi2": {
+		"offset": {
+			"x": 50,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "CV",
+		"unique": false,
+		"full": "Oyakodon Akagi",
 		"name": "Akagi"
 	},
 	"kaga1": {
@@ -5055,6 +5309,21 @@
 		"type": "CV",
 		"unique": false,
 		"full": "New Year's Amagi",
+		"name": "Unryuu"
+	},
+	"amagi5": {
+		"offset": {
+			"x": -75,
+			"y": 35
+		},
+		"offset2": {
+			"x": 75,
+			"y": -20
+		},
+		"rarity": 7,
+		"type": "CV",
+		"unique": false,
+		"full": "Shopping Amagi",
 		"name": "Unryuu"
 	},
 	"katsuragi1": {
@@ -5455,6 +5724,21 @@
 		"full": "Akitsumaru Kai",
 		"name": "Hei"
 	},
+	"akitsumaru3": {
+		"offset": {
+			"x": 50,
+			"y": -25
+		},
+		"offset2": {
+			"x": -25,
+			"y": 45
+		},
+		"rarity": 6,
+		"type": "AX",
+		"unique": false,
+		"full": "Autumn Akitsumaru",
+		"name": "Hei"
+	},
 	"akashi1": {
 		"offset": {
 			"x": 50,
@@ -5610,6 +5894,21 @@
 		"type": "AX",
 		"unique": false,
 		"full": "Summer 2016 Taigei",
+		"name": "Taigei"
+	},
+	"taigei4": {
+		"offset": {
+			"x": -50,
+			"y": 20
+		},
+		"offset2": {
+			"x": -75,
+			"y": -50
+		},
+		"rarity": 4,
+		"type": "AX",
+		"unique": false,
+		"full": "Autumn Taigei",
 		"name": "Taigei"
 	},
 	"akitsushima1": {
