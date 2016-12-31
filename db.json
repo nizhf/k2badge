@@ -2396,6 +2396,17 @@
 		"full": "Z3 Zwei",
 		"name": "Type_1934"
 	},
+	"z33": {
+		"offset": {
+			"x": -25,
+			"y": 10
+		},
+		"rarity": 7,
+		"type": "DD",
+		"unique": false,
+		"full": "Summer Z3",
+		"name": "Type_1934"
+	},
 	"akizuki1": {
 		"offset": {
 			"x": 0,
@@ -2465,6 +2476,21 @@
 		"type": "DD",
 		"unique": false,
 		"full": "Autumn Libeccio",
+		"name": "Maestrale"
+	},
+		"libeccio3": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": -25,
+			"y": -30
+		},
+		"rarity": 7,
+		"type": "DD",
+		"unique": false,
+		"full": "Summer Libeccio",
 		"name": "Maestrale"
 	},
 	"kamikaze1": {
@@ -3184,6 +3210,32 @@
 		"type": "CL",
 		"unique": false,
 		"full": "Sukiya Ooyodo Kai",
+		"name": "Ooyodo"
+	},
+	"ooyodo9": {
+		"offset": {
+			"x": 40,
+			"y": 35
+		},
+		"rarity": 6,
+		"type": "CL",
+		"unique": false,
+		"full": "Summer Ooyodo",
+		"name": "Ooyodo"
+	},
+	"ooyodo10": {
+		"offset": {
+			"x": 75,
+			"y": 15
+		},
+		"offset2": {
+			"x": 65,
+			"y": 35
+		},
+		"rarity": 7,
+		"type": "CL",
+		"unique": false,
+		"full": "Summer Ooyodo Kai",
 		"name": "Ooyodo"
 	},
 	"katori1": {

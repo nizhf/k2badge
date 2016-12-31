@@ -1257,6 +1257,15 @@
 		"full": "Christmas Irako",
 		"name": "Shop"
 	},
+	"ooyodoquest1": {
+		"offset": {
+			"x": 25,
+			"y": 0
+		},
+		"type": "AAX",
+		"full": "Ooyodo",
+		"name": "Quest"
+	},
 	"ooyodoquest2": {
 		"offset": {
 			"x": 25,
@@ -1283,5 +1292,14 @@
 		"type": "AAX",
 		"full": "Sukiya Ooyodo",
 		"name": "Quest"
-	}
+	},
+	"ooyodoquest6": {
+		"offset": {
+			"x": 25,
+			"y": 0
+		},
+		"type": "AAX",
+		"full": "Summer Ooyodo",
+		"name": "Quest"
+	},
 }
