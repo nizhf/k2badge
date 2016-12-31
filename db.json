@@ -4747,6 +4747,21 @@
 		"full": "Houshou",
 		"name": "Houshou"
 	},
+	"houshou2": {
+		"offset": {
+			"x": -30,
+			"y": 40
+		},
+		"offset2": {
+			"x": -70,
+			"y": -30
+		},
+		"rarity": 3,
+		"type": "CVL",
+		"unique": false,
+		"full": "New Years Houshou",
+		"name": "Houshou"
+	},
 	"ryuujou1": {
 		"offset": {
 			"x": 0,
