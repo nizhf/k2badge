@@ -221,6 +221,10 @@
 							<span><input type="checkbox" name="kasumi2" id="kasumi2"></span>
 							<label for="kasumi2">Kasumi 霞 (75/88)</label>
 						</div>
+						<div class="kai blueprint">
+							<span><input type="checkbox" name="arashio2" id="arashio2"></span>
+							<label for="arashio2">Arashio 荒潮 (67)</label>
+						</div>
 						<div>
 							<span><input type="checkbox" name="z12" id="z12"></span>
 							<label for="z12">Z1 レーベレヒト・マース (70)</label>

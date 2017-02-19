@@ -65,6 +65,7 @@
         "akitsumaru2": ["akitsumaru1"],
         "akitsushima2": ["akitsushima1"],
         "amatsukaze2": ["amatsukaze1"],
+		"arashio2" : ["arashio1"],
         "asagumo2": ["asagumo1"],
         "asashimo2": ["asashimo1"],
         "bismarck2": ["bismarck1"],
@@ -185,7 +186,8 @@
 	    "467":"zuikaku3",
 	    "468":"asashio2",
 	    "469":"kawakaze4",
-	    "470":"kasumi2"
+	    "470":"kasumi2",
+		"490":"arashio2"
 	},
 	"mstId2FleetIdTable": {  
 	    "1":"mutsuki1",
@@ -561,6 +563,7 @@
 	    "483":"i261",
 	    "483":"uranami1",
 	    "487":"kinu2",
+		"490":"arashio2",
 	    "491":"commandantteste1"
 	}
 }

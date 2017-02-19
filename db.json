@@ -43,7 +43,7 @@
 		},
 		"rarity": 3,
 		"type": "DD",
-		"unique": true,
+		"unique": false,
 		"full": "Autumn Festival Fubuki",
 		"name": "Fubuki"
 	},
@@ -148,6 +148,17 @@
 		"type": "DD",
 		"unique": true,
 		"full": "Uranami",
+		"name": "Fubuki"
+	},
+	"uranami2": {
+		"offset": {
+			"x": -40,
+			"y": -10
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Setsubun Uranami",
 		"name": "Fubuki"
 	},
 	"ayanami1": {
@@ -1653,6 +1664,17 @@
 		"full": "Arashio",
 		"name": "Asashio"
 	},
+	"arashio2": {
+		"offset": {
+			"x": 0,
+			"y": 25
+		},
+		"rarity": 6,
+		"type": "DD",
+		"unique": false,
+		"full": "Arashio Kai 2",
+		"name": "Asashio"
+	},
 	"arare1": {
 		"offset": {
 			"x": 0,
@@ -2229,6 +2251,21 @@
 		"full": "Early Summer 2016 Kazagumo",
 		"name": "Yuugumo"
 	},
+	"kazagumo3": {
+		"offset": {
+			"x": -25,
+			"y": 25
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": false,
+		"full": "Setsubun Kazagumo",
+		"name": "Yuugumo"
+	},
 	"naganami1": {
 		"offset": {
 			"x": 0,
@@ -2449,6 +2486,21 @@
 		"full": "Early Summer 2016 Okinami",
 		"name": "Yuugumo"
 	},
+	"fujinami1": {
+		"offset": {
+			"x": -50,
+			"y": 10
+		},
+		"offset2": {
+			"x": -50,
+			"y": -30
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": true,
+		"full": "Fujinami",
+		"name": "Yuugumo"
+	},
 	"z11": {
 		"offset": {
 			"x": -25,
@@ -2659,6 +2711,21 @@
 		"type": "DD",
 		"unique": true,
 		"full": "Asakaze",
+		"name": "Kamikaze"
+	},
+	"matsukaze1": {
+		"offset": {
+			"x": 50,
+			"y": 10
+		},
+		"offset2": {
+			"x": 0,
+			"y": -20
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": true,
+		"full": "Matsukaze",
 		"name": "Kamikaze"
 	},
 	"tenryuu1": {
@@ -5617,6 +5684,36 @@
 		"full": "Nimu",
 		"name": "Junsen_Type_B"
 	},
+	"i131": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 25,
+			"y": 25
+		},
+		"rarity": 4,
+		"type": "SS",
+		"unique": true,
+		"full": "Hitomi",
+		"name": "Type AM"
+	},
+	"i141": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 25,
+			"y": 25
+		},
+		"rarity": 4,
+		"type": "SS",
+		"unique": true,
+		"full": "Iyo",
+		"name": "Type AM"
+	},
 	"chitose1": {
 		"offset": {
 			"x": 0,
@@ -5881,7 +5978,7 @@
 		"full": "Christmas Akashi",
 		"name": "Akashi"
 	},
-	"akashi8": {
+	"akashi9": {
 		"offset": {
 			"x": 100,
 			"y": 50
@@ -5894,6 +5991,36 @@
 		"type": "AX",
 		"unique": false,
 		"full": "Christmas Akashi Kai",
+		"name": "Akashi"
+	},
+		"akashi7": {
+		"offset": {
+			"x": 50,
+			"y": -20
+		},
+		"offset2": {
+			"x": 50,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "AX",
+		"unique": false,
+		"full": "Setsubun Akashi",
+		"name": "Akashi"
+	},
+	"akashi10": {
+		"offset": {
+			"x": 100,
+			"y": 50
+		},
+		"offset2": {
+			"x": 50,
+			"y": 20
+		},
+		"rarity": 7,
+		"type": "AX",
+		"unique": false,
+		"full": "Setsubun Akashi Kai",
 		"name": "Akashi"
 	},
 	"taigei1": {
@@ -6225,5 +6352,20 @@
 		"unique": false,
 		"full": "Christmas Commandant Teste",
 		"name": "Commandant_Teste"
-	}		
+	},
+	"commandantteste3": {
+		"offset": {
+			"x": 30,
+			"y": 30
+		},
+		"offset2": {
+			"x": 30,
+			"y": -30
+		},
+		"rarity": 7,
+		"type": "AX",
+		"unique": false,
+		"full": "Setsubun Commandant Teste",
+		"name": "Commandant_Teste"
+	}	
 }
