@@ -1520,7 +1520,7 @@ $(document).ready(function() {
 					$(".div" + ship.type).append('<div><label>'+ship.name.replace(new RegExp('_', 'g'),' ')+'</label><div data-name="' + ship.name + '" class="'+ship.type+'"></div></div>');
 				}
 				if (ship.unique) {
-					$("#colleDiv [data-name='" + ship.name + "']").append('<img title="'+ship.full+'" src="icons/'+ship.type+'/'+e+'.png" id="kore'+e+'"></img>').append(extraSpan);
+					$("#colleDiv [data-name='" + ship.name + "']").append('<img title="'+ship.full+'"alt="full/FinalBoss.png" src="icons/'+ship.type+'/'+e+'.png" id="kore'+e+'"></img>').append(extraSpan);
 				}
 				$("#avatars [data-name='" + ship.name + "']").append(newDiv).append(extraSpan);
 			}
