@@ -280,6 +280,21 @@
 		"full": "Early Summer 2016 Oboro Kai",
 		"name": "Ayanami"
 	},
+	"oboro7": {
+		"offset": {
+			"x": 0,
+			"y": -50
+		},
+		"offset2": {
+			"x": 5,
+			"y": -84
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Valentines Oboro Kai",
+		"name": "Ayanami"
+	},
 	"akebono1": {
 		"offset": {
 			"x": 20,
@@ -852,6 +867,21 @@
 		"type": "DD",
 		"unique": true,
 		"full": "Minazuki",
+		"name": "Mutsuki"
+	},
+	"minazuki2": {
+		"offset": {
+			"x": -75,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Valentines Minazuki",
 		"name": "Mutsuki"
 	},
 	"akatsuki1": {
@@ -2409,6 +2439,21 @@
 		"type": "DD",
 		"unique": false,
 		"full": "Rainy Season Takanami",
+		"name": "Yuugumo"
+	},
+	"takanami4": {
+		"offset": {
+			"x": 50,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": 25
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Valentines Takanami",
 		"name": "Yuugumo"
 	},
 	"asashimo1": {
@@ -4085,6 +4130,22 @@
 		"type": "CA",
 		"unique": false,
 		"full": "Autumn Zara",
+		"name": "Zara"
+	},
+	"zara3": {
+		"offset": {
+			"x": 75,
+			"y": 30
+		},
+		"offset2": {
+			
+			"x": 75,
+			"y": -30
+		},
+		"rarity": 6,
+		"type": "CA",
+		"unique": false,
+		"full": "Zara Kai Ni",
 		"name": "Zara"
 	},
 	"pola1": {
@@ -6367,5 +6428,20 @@
 		"unique": false,
 		"full": "Setsubun Commandant Teste",
 		"name": "Commandant_Teste"
-	}	
+	},
+	"commandantteste4": {
+		"offset": {
+			"x": 30,
+			"y": 30
+		},
+		"offset2": {
+			"x": 30,
+			"y": -30
+		},
+		"rarity": 7,
+		"type": "AX",
+		"unique": false,
+		"full": "Valentines Commandant Teste",
+		"name": "Commandant_Teste"
+	}
 }
