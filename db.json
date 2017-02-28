@@ -608,6 +608,36 @@
 		"full": "New Year's Ushio Kai 2",
 		"name": "Ayanami"
 	},
+	"ushio9": {
+		"offset": {
+			"x": -67,
+			"y": -9
+		},
+		"offset2": {
+			"x": -25,
+			"y": -60
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Hinamatsuri Ushio",
+		"name": "Ayanami"
+	},
+	"ushio10": {
+		"offset": {
+			"x": -67,
+			"y": -9
+		},
+		"offset2": {
+			"x": -25,
+			"y": -60
+		},
+		"rarity": 6,
+		"type": "DD",
+		"unique": false,
+		"full": "Hinamatsuri Ushio Kai 2",
+		"name": "Ayanami"
+	},
 	"mutsuki1": {
 		"offset": {
 			"x": 0,
@@ -1607,6 +1637,21 @@
 		"type": "DD",
 		"unique": false,
 		"full": "Haregi Yamakaze",
+		"name": "Shiratsuyu"
+	},
+	"yamakaze3": {
+		"offset": {
+			"x": -40,
+			"y": 5
+		},
+		"offset2": {
+			"x": 0,
+			"y": -70
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Hinamatsuri Yamakaze",
 		"name": "Shiratsuyu"
 	},
 	"asashio1": {
@@ -6354,6 +6399,21 @@
 		"full": "Rainy Season Mizuho",
 		"name": "Mizuho"
 	},
+	"mizuho11": {
+		"offset": {
+			"x": 0,
+			"y": 1
+		},
+		"offset2": {
+			"x": 10,
+			"y": 9
+		},
+		"rarity": 6,
+		"type": "AX",
+		"unique": false,
+		"full": "Hinamatsuri Mizuho",
+		"name": "Mizuho"
+	},
 	"hayasui1": {
 		"offset": {
 			"x": 0,
@@ -6442,6 +6502,21 @@
 		"type": "AX",
 		"unique": false,
 		"full": "Valentines Commandant Teste",
+		"name": "Commandant_Teste"
+	},
+	"commandantteste5": {
+		"offset": {
+			"x": 30,
+			"y": 30
+		},
+		"offset2": {
+			"x": 30,
+			"y": -30
+		},
+		"rarity": 7,
+		"type": "AX",
+		"unique": false,
+		"full": "Hinamatsuri Commandant Teste",
 		"name": "Commandant_Teste"
 	}
 }

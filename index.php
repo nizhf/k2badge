@@ -263,7 +263,7 @@
 						<div class="kai blueprint"><span><input type="checkbox" name="choukai2" id="choukai2"></span><label for="choukai2">Choukai 鳥海 (65)</label></div>
 						<div class="kai blueprint"><span><input type="checkbox" name="tone2" id="tone2"></span><label for="tone2">Tone 利根 (70)</label></div>
 						<div class="kai blueprint"><span><input type="checkbox" name="chikuma2" id="chikuma2"></span><label for="chikuma2">Chikuma 筑摩 (70)</label></div>
-						<div><span><input type="checkbox" name="zara3" id="zara3"></span><label for="zara3">Zara ザラ (??)</label></div>
+						<div class="kai blueprint"><span><input type="checkbox" name="zara3" id="zara3"></span><label for="zara3">Zara ザラ (88)</label></div>
 					</div>
 				</div>
 				<div class="shipClass" id="bb">
