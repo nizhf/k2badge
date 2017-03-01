@@ -244,7 +244,7 @@ $(document).ready(function() {
 		
   	}, function(){
 		//Kill the App
-		$("#buttons").html("Can't find DB, please contact Ryuuhou Kagiyama on Himeuta.net");
+		$("#buttons").html("Can't find Kanmusu DB, please contact Vultren or Nya-chan on Github");
 		$("#tabs").remove();
 	})
 
@@ -537,7 +537,7 @@ $(document).ready(function() {
 			$('.tooltip2').tooltipster();
 		  },
 		  error: function(){
-			$("#loadingDiv").html("Can't find Abyssal DB, please contact Pink Ryuuhou on Himeuta.net");
+			$("#loadingDiv").html("Can't find Abyssal DB, please contact Vultren or Nya-chan on Github");
 		  }
 		});
 	}
