@@ -32,7 +32,7 @@
 			本工具需要透過支援Javascript功能的主流瀏覽器（IE10+, Firefox, Chrome, or Safari）才能正常使用。
 如本工具有任何更新，請務必清理瀏覽器器快取後再使用。
 簽名檔右側的艦娘立繪預設為第一艦隊旗艦（秘書艦）。
-如果在使用過程中遇到程式bug或是有任何功能上的建議請於<a target="_blank" href="http://himeuta.org/showthread.php?1818-Tool-Kancolle-Kai-Ni-Badge-Generator">[此處]</a>反應。
+如果在使用過程中遇到程式bug或是有任何功能上的建議請於<a target="_blank" href="https://github.com/Nya-chan/k2badge/issues">[此處]</a>反應。
 		</p>
 		<div id="canvasDiv">
 			<canvas width="850" height="205" id="result"></canvas>

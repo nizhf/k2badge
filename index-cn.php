@@ -30,7 +30,7 @@
 		<div id="language"><a href="index.php">EN</a> <a href="index-jp.php">日本語</a> <b>简体中文</b> <a href="index-tw.php">繁體中文</a></div>
 		<p>
 			签名生成器支持通过主流浏览器（IE10+, Firefox, Chrome, or Safari）的 Javascript 功能生
-成自定义签名图。 如遇本工具更新，请务必清理浏览器的缓存后再使用。所生成签名右侧的立绘默认为秘书舰（第一舰队旗舰）。使用中遇到程序错误或有任何建议请在<a target="_blank" href="http://himeuta.org/showthread.php?1818-Tool-Kancolle-Kai-Ni-Badge-Generator">[这里]</a>反馈。
+成自定义签名图。 如遇本工具更新，请务必清理浏览器的缓存后再使用。所生成签名右侧的立绘默认为秘书舰（第一舰队旗舰）。使用中遇到程序错误或有任何建议请在<a target="_blank" href="https://github.com/Nya-chan/k2badge/issues">[这里]</a>反馈。
 		</p>
 		<div id="canvasDiv">
 			<canvas width="850" height="205" id="result"></canvas>
