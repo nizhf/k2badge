@@ -5805,6 +5805,21 @@
 		"full": "Hitomi",
 		"name": "Type AM"
 	},
+	"i132": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 25,
+			"y": 25
+		},
+		"rarity": 4,
+		"type": "SS",
+		"unique": false,
+		"full": "Hitomi Kai",
+		"name": "Type AM"
+	},
 	"i141": {
 		"offset": {
 			"x": 0,
@@ -5818,6 +5833,21 @@
 		"type": "SS",
 		"unique": true,
 		"full": "Iyo",
+		"name": "Type AM"
+	},
+	"i142": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 25,
+			"y": 25
+		},
+		"rarity": 4,
+		"type": "SS",
+		"unique": false,
+		"full": "Iyo Kai",
 		"name": "Type AM"
 	},
 	"chitose1": {
