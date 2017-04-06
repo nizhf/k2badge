@@ -264,6 +264,7 @@
 						<div class="kai blueprint"><span><input type="checkbox" name="tone2" id="tone2"></span><label for="tone2">Tone 利根 (70)</label></div>
 						<div class="kai blueprint"><span><input type="checkbox" name="chikuma2" id="chikuma2"></span><label for="chikuma2">Chikuma 筑摩 (70)</label></div>
 						<div class="kai blueprint"><span><input type="checkbox" name="zara3" id="zara3"></span><label for="zara3">Zara ザラ (88)</label></div>
+						<div class="blueprint"><span><input type="checkbox" name="suzuya4" id="suzuya4"></span><label for="suzuya4">Suzuya 鈴谷 (84)</label></div>
 					</div>
 				</div>
 				<div class="shipClass" id="bb">
@@ -289,6 +290,7 @@
 						<div><span><input type="checkbox" name="chitosecvl2" id="chitosecvl2"></span><label for="chitosecvl2">Chitose 千歳航 (50)</label></div>
 						<div><span><input type="checkbox" name="chiyodacvl2" id="chiyodacvl2"></span><label for="chiyodacvl2">Chiyoda 千代田 (50)</label></div>
 						<div class="kai blueprint"><span><input type="checkbox" name="ryuuhou2" id="ryuuhou2"></span><label for="ryuuhou2">Ryuuhou Kai 龍鳳改 (50)</label></div>
+						<div class="blueprint"><span><input type="checkbox" name="suzuyacvl1" id="suzuyacvl1"></span><label for="suzuyacvl1">Suzuya Kai Ni 鈴谷改二 (88)</label></div>
 					</div>
 				</div>
 				<div class="shipClass" id="cv">
@@ -699,7 +701,7 @@
 			</div>
 		</div>
 		<span style="font-family:'Exo';visibility:hidden;">.</span><span style="font-family:'Ubuntu';visibility:hidden;">.</span>
-		<div id="footer"><p>© 2014-2016 TBES, all rights belong to their respective owners. Last updated: Jul 29 2016</p></div>
+		<div id="footer"><p>© 2014-2017 TBES, Sanya.moe, all rights belong to their respective owners. Last updated: Apr 05 2017</p></div>
 		<div style="visibility:hidden; overflow-y: hidden; height:0;" id="icondump">
 			<img src="bg.jpg" id="bg"></img>
 			<img src="furniture/chest/000.png" id="r0"></img>

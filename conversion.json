@@ -331,6 +331,13 @@
     "suzuya2": [
       "suzuya1"
     ],
+    "suzuya4": [
+      "suzuya1"
+    ],
+    "suzuyacvl1": [
+      "suzuya4",
+      "suzuya1"
+    ],
     "taihou2": [
       "taihou1"
     ],
@@ -423,11 +430,13 @@
     "463": "asashio2",
     "464": "kasumi2",
     "466": "shoukaku2",
-    "467": "zuikaku3",
+    "467": "zuikaku4",
     "468": "asashio2",
     "469": "kawakaze4",
     "470": "kasumi2",
-    "490": "arashio2"
+    "490": "arashio2",
+    "503": "suzuya4",
+    "508": "suzuyacvl1"
   },
   "mstId2FleetIdTable": {
     "1": "mutsuki1",
@@ -814,6 +823,8 @@
     "491": "commandantteste1",
     "494": "i131",
     "495": "i141",
-    "496": "zara3"
+    "496": "zara3",
+    "503": "suzuya4",
+    "508": "suzuyacvl1"
   }
 }

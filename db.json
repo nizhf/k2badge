@@ -33,7 +33,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Fubuki Kai 2",
+		"full": "Fubuki Kai Ni",
 		"name": "Fubuki"
 	},
 	"fubuki3": {
@@ -55,7 +55,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Autumn Festival Fubuki Kai 2",
+		"full": "Autumn Festival Fubuki Kai Ni",
 		"name": "Fubuki"
 	},
 	"shirayuki1": {
@@ -110,7 +110,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Murakumo Kai 2",
+		"full": "Murakumo Kai Ni",
 		"name": "Fubuki"
 	},
 	"murakumo2": {
@@ -180,7 +180,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Ayanami Kai 2",
+		"full": "Ayanami Kai Ni",
 		"name": "Ayanami"
 	},
 	"shikinami1": {
@@ -515,7 +515,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Ushio Kai 2",
+		"full": "Ushio Kai Ni",
 		"name": "Ayanami"
 	},
 	"ushio3": {
@@ -545,7 +545,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Early Summer Ushio Kai 2",
+		"full": "Early Summer Ushio Kai Ni",
 		"name": "Ayanami"
 	},
 	"ushio5": {
@@ -575,7 +575,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Autumn Ushio Kai 2",
+		"full": "Autumn Ushio Kai Ni",
 		"name": "Ayanami"
 	},
 	"ushio7": {
@@ -605,7 +605,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "New Year's Ushio Kai 2",
+		"full": "New Year's Ushio Kai Ni",
 		"name": "Ayanami"
 	},
 	"ushio9": {
@@ -635,7 +635,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Hinamatsuri Ushio Kai 2",
+		"full": "Hinamatsuri Ushio Kai Ni",
 		"name": "Ayanami"
 	},
 	"mutsuki1": {
@@ -676,7 +676,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Mutsuki Kai 2",
+		"full": "Mutsuki Kai Ni",
 		"name": "Mutsuki"
 	},
 	"kisaragi1": {
@@ -713,7 +713,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Kisaragi Kai 2",
+		"full": "Kisaragi Kai Ni",
 		"name": "Mutsuki"
 	},
 	"satsuki1": {
@@ -743,7 +743,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Satsuki Kai 2",
+		"full": "Satsuki Kai Ni",
 		"name": "Mutsuki"
 	},
 	"fumizuki1": {
@@ -941,7 +941,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Akatsuki Kai 2",
+		"full": "Akatsuki Kai Ni",
 		"name": "Akatsuki"
 	},
 	"hibiki1": {
@@ -1045,7 +1045,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Hatsuhari Kai 2",
+		"full": "Hatsuhari Kai Ni",
 		"name": "Hatsuharu"
 	},
 	"nenohi1": {
@@ -1112,7 +1112,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Hatsushimo Kai 2",
+		"full": "Hatsushimo Kai Ni",
 		"name": "Hatsuharu"
 	},
 	"shiratsuyu1": {
@@ -1213,7 +1213,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Shigure Kai 2",
+		"full": "Shigure Kai Ni",
 		"name": "Shiratsuyu"
 	},
 	"shigure3": {
@@ -1228,7 +1228,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Christmas Shigure Kai 2",
+		"full": "Christmas Shigure Kai Ni",
 		"name": "Shiratsuyu"
 	},
 	"shigure4": {
@@ -1243,7 +1243,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Valentines Shigure Kai 2",
+		"full": "Valentines Shigure Kai Ni",
 		"name": "Shiratsuyu"
 	},
 	"shigure5": {
@@ -1258,7 +1258,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Summer Shigure Kai 2",
+		"full": "Summer Shigure Kai Ni",
 		"name": "Shiratsuyu"
 	},
 	"shigure6": {
@@ -1273,7 +1273,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Sukiya Shigure Kai 2",
+		"full": "Sukiya Shigure Kai Ni",
 		"name": "Shiratsuyu"
 	},
 	"murasame1": {
@@ -1374,7 +1374,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Yuudachi Kai 2",
+		"full": "Yuudachi Kai Ni",
 		"name": "Shiratsuyu"
 	},
 	"yuudachi3": {
@@ -1389,7 +1389,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "New Year's Yuudachi Kai 2",
+		"full": "New Year's Yuudachi Kai Ni",
 		"name": "Shiratsuyu"
 	},
 	"yuudachi4": {
@@ -1404,7 +1404,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Summer Yuudachi Kai 2",
+		"full": "Summer Yuudachi Kai Ni",
 		"name": "Shiratsuyu"
 	},
 	"yuudachi5": {
@@ -1419,7 +1419,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Rainy Season Yuudachi Kai 2",
+		"full": "Rainy Season Yuudachi Kai Ni",
 		"name": "Shiratsuyu"
 	},
 	"yuudachi6": {
@@ -1434,7 +1434,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Udon Yuudachi Kai 2",
+		"full": "Udon Yuudachi Kai Ni",
 		"name": "Shiratsuyu"
 	},
 	"samidare1": {
@@ -1606,7 +1606,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Kawakaze Kai 2",
+		"full": "Kawakaze Kai Ni",
 		"name": "Shiratsuyu"
 	},
 	"yamakaze1": {
@@ -1677,7 +1677,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Asashio Kai 2",
+		"full": "Asashio Kai Ni",
 		"name": "Asashio"
 	},
 	"asashio3": {
@@ -1692,7 +1692,7 @@
 		"rarity": 7,
 		"type": "DD",
 		"unique": false,
-		"full": "Asashio Kai 2 D",
+		"full": "Asashio Kai Ni D",
 		"name": "Asashio"
 	},
 	"ooshio1": {
@@ -1714,7 +1714,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Ooshio Kai 2",
+		"full": "Ooshio Kai Ni",
 		"name": "Asashio"
 	},
 	"michishio1": {
@@ -1747,7 +1747,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Arashio Kai 2",
+		"full": "Arashio Kai Ni",
 		"name": "Asashio"
 	},
 	"arare1": {
@@ -1780,7 +1780,7 @@
 		"rarity": 5,
 		"type": "DD",
 		"unique": false,
-		"full": "Kasumi Kai 2",
+		"full": "Kasumi Kai Ni",
 		"name": "Asashio"
 	},
 	"kasumi3": {
@@ -1791,7 +1791,7 @@
 		"rarity": 6,
 		"type": "DD",
 		"unique": false,
-		"full": "Kasumi Kai 2 B",
+		"full": "Kasumi Kai Ni B",
 		"name": "Asashio"
 	},
 	"asagumo1": {
@@ -2963,7 +2963,7 @@
 		"rarity": 6,
 		"type": "CL",
 		"unique": false,
-		"full": "Kiso Kai 2",
+		"full": "Kiso Kai Ni",
 		"name": "Kuma"
 	},
 	"kitakami1": {
@@ -2996,7 +2996,7 @@
 		"rarity": 7,
 		"type": "CL",
 		"unique": false,
-		"full": "Kitakami Kai 2",
+		"full": "Kitakami Kai Ni",
 		"name": "Kuma"
 	},
 	"ooi1": {
@@ -3029,7 +3029,7 @@
 		"rarity": 7,
 		"type": "CL",
 		"unique": false,
-		"full": "Ooi Kai 2",
+		"full": "Ooi Kai Ni",
 		"name": "Kuma"
 	},
 	"nagara1": {
@@ -3092,7 +3092,7 @@
 		"rarity": 5,
 		"type": "CL",
 		"unique": false,
-		"full": "Isuzu Kai 2",
+		"full": "Isuzu Kai Ni",
 		"name": "Nagara"
 	},
 	"isuzu3": {
@@ -3196,7 +3196,7 @@
 		"rarity": 7,
 		"type": "CL",
 		"unique": false,
-		"full": "Kinu Kai 2",
+		"full": "Kinu Kai Ni",
 		"name": "Nagara"
 	},
 	"abukuma1": {
@@ -3218,7 +3218,7 @@
 		"rarity": 7,
 		"type": "CL",
 		"unique": false,
-		"full": "Abukuma Kai 2",
+		"full": "Abukuma Kai Ni",
 		"name": "Nagara"
 	},
 	"sendai1": {
@@ -3248,7 +3248,7 @@
 		"rarity": 6,
 		"type": "CL",
 		"unique": false,
-		"full": "Sendai Kai 2",
+		"full": "Sendai Kai Ni",
 		"name": "Sendai"
 	},
 	"jintsuu1": {
@@ -3270,7 +3270,7 @@
 		"rarity": 6,
 		"type": "CL",
 		"unique": false,
-		"full": "Jintsuu Kai 2",
+		"full": "Jintsuu Kai Ni",
 		"name": "Sendai"
 	},
 	"jintsuu3": {
@@ -3285,7 +3285,7 @@
 		"rarity": 6,
 		"type": "CL",
 		"unique": false,
-		"full": "Autumn Festival Jintsuu Kai 2",
+		"full": "Autumn Festival Jintsuu Kai Ni",
 		"name": "Sendai"
 	},
 	"naka1": {
@@ -3307,7 +3307,7 @@
 		"rarity": 6,
 		"type": "CL",
 		"unique": false,
-		"full": "Naka Kai 2",
+		"full": "Naka Kai Ni",
 		"name": "Sendai"
 	},
 	"naka3": {
@@ -3638,7 +3638,7 @@
 		"rarity": 6,
 		"type": "CA",
 		"unique": false,
-		"full": "Furutaka Kai 2",
+		"full": "Furutaka Kai Ni",
 		"name": "Furutaka"
 	},
 	"kako1": {
@@ -3664,7 +3664,7 @@
 		"rarity": 6,
 		"type": "CA",
 		"unique": false,
-		"full": "Kako Kai 2",
+		"full": "Kako Kai Ni",
 		"name": "Furutaka"
 	},
 	"aoba1": {
@@ -3705,7 +3705,7 @@
 		"rarity": 6,
 		"type": "CA",
 		"unique": false,
-		"full": "Kinugasa Kai 2",
+		"full": "Kinugasa Kai Ni",
 		"name": "Aoba"
 	},
 	"kinugasa3": {
@@ -3750,7 +3750,7 @@
 		"rarity": 6,
 		"type": "CA",
 		"unique": false,
-		"full": "Myoukou Kai 2",
+		"full": "Myoukou Kai Ni",
 		"name": "Myoukou"
 	},
 	"nachi1": {
@@ -3776,7 +3776,7 @@
 		"rarity": 6,
 		"type": "CA",
 		"unique": false,
-		"full": "Nachi Kai 2",
+		"full": "Nachi Kai Ni",
 		"name": "Myoukou"
 	},
 	"haguro1": {
@@ -3802,7 +3802,7 @@
 		"rarity": 6,
 		"type": "CA",
 		"unique": false,
-		"full": "Haguro Kai 2",
+		"full": "Haguro Kai Ni",
 		"name": "Myoukou"
 	},
 	"ashigara1": {
@@ -3828,7 +3828,7 @@
 		"rarity": 6,
 		"type": "CA",
 		"unique": false,
-		"full": "Ashigara Kai 2",
+		"full": "Ashigara Kai Ni",
 		"name": "Myoukou"
 	},
 	"takao1": {
@@ -3872,7 +3872,7 @@
 		"rarity": 6,
 		"type": "CA",
 		"unique": false,
-		"full": "Maya Kai 2",
+		"full": "Maya Kai Ni",
 		"name": "Takao"
 	},
 	"choukai1": {
@@ -3898,7 +3898,7 @@
 		"rarity": 6,
 		"type": "CA",
 		"unique": false,
-		"full": "Choukai Kai 2",
+		"full": "Choukai Kai Ni",
 		"name": "Takao"
 	},
 	"tone1": {
@@ -3920,7 +3920,7 @@
 		"rarity": 7,
 		"type": "CA",
 		"unique": false,
-		"full": "Tone Kai 2",
+		"full": "Tone Kai Ni",
 		"name": "Tone"
 	},
 	"tone3": {
@@ -3931,7 +3931,7 @@
 		"rarity": 7,
 		"type": "CA",
 		"unique": false,
-		"full": "Christmas Tone Kai 2",
+		"full": "Christmas Tone Kai Ni",
 		"name": "Tone"
 	},
 	"chikuma1": {
@@ -3957,7 +3957,7 @@
 		"rarity": 7,
 		"type": "CA",
 		"unique": false,
-		"full": "Chikuma Kai 2",
+		"full": "Chikuma Kai Ni",
 		"name": "Tone"
 	},
 	"chikuma3": {
@@ -3972,7 +3972,7 @@
 		"rarity": 7,
 		"type": "CA",
 		"unique": false,
-		"full": "Christmas Chikuma Kai 2",
+		"full": "Christmas Chikuma Kai Ni",
 		"name": "Tone"
 	},
 	"mogami1": {
@@ -4080,6 +4080,17 @@
 		"type": "CA",
 		"unique": false,
 		"full": "Christmas Suzuya",
+		"name": "Mogami"
+	},
+	"suzuya4": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 7,
+		"type": "CA",
+		"unique": false,
+		"full": "Suzuya Kai Ni",
 		"name": "Mogami"
 	},
 	"kumano1": {
@@ -4280,7 +4291,7 @@
 		"rarity": 7,
 		"type": "BB",
 		"unique": false,
-		"full": "Kongou Kai 2",
+		"full": "Kongou Kai Ni",
 		"name": "Kongou"
 	},
 	"kongou3": {
@@ -4306,7 +4317,7 @@
 		"rarity": 7,
 		"type": "BB",
 		"unique": false,
-		"full": "Shopping Kongou Kai 2",
+		"full": "Shopping Kongou Kai Ni",
 		"name": "Kongou"
 	},
 	"hiei1": {
@@ -4328,7 +4339,7 @@
 		"rarity": 7,
 		"type": "BB",
 		"unique": false,
-		"full": "Hiei Kai 2",
+		"full": "Hiei Kai Ni",
 		"name": "Kongou"
 	},
 	"haruna1": {
@@ -4350,7 +4361,7 @@
 		"rarity": 7,
 		"type": "BB",
 		"unique": false,
-		"full": "Haruna Kai 2",
+		"full": "Haruna Kai Ni",
 		"name": "Kongou"
 	},
 	"haruna3": {
@@ -4361,7 +4372,18 @@
 		"rarity": 7,
 		"type": "BB",
 		"unique": false,
-		"full": "Summer 2016 Haruna Kai 2",
+		"full": "Summer 2016 Haruna Kai Ni",
+		"name": "Kongou"
+	},
+	"haruna4": {
+		"offset": {
+			"x": 50,
+			"y": 0
+		},
+		"rarity": 7,
+		"type": "BB",
+		"unique": false,
+		"full": "Shopping Haruna Kai Ni",
 		"name": "Kongou"
 	},
 	"kirishima1": {
@@ -4383,7 +4405,7 @@
 		"rarity": 7,
 		"type": "BB",
 		"unique": false,
-		"full": "Kirishima Kai 2",
+		"full": "Kirishima Kai Ni",
 		"name": "Kongou"
 	},
 	"fusou1": {
@@ -4420,7 +4442,7 @@
 		"rarity": 6,
 		"type": "BB",
 		"unique": false,
-		"full": "Fusou Kai 2",
+		"full": "Fusou Kai Ni",
 		"name": "Fusou"
 	},
 	"fusou4": {
@@ -4502,7 +4524,7 @@
 		"rarity": 6,
 		"type": "BB",
 		"unique": false,
-		"full": "Yamashiro Kai 2",
+		"full": "Yamashiro Kai Ni",
 		"name": "Fusou"
 	},
 	"yamashiro4": {
@@ -4965,7 +4987,7 @@
 		"rarity": 6,
 		"type": "CVL",
 		"unique": false,
-		"full": "Ryuujou Kai 2",
+		"full": "Ryuujou Kai Ni",
 		"name": "Ryuujou"
 	},
 	"ryuujou4": {
@@ -4995,7 +5017,7 @@
 		"rarity": 6,
 		"type": "CVL",
 		"unique": false,
-		"full": "Christmas Ryuujou Kai 2",
+		"full": "Christmas Ryuujou Kai Ni",
 		"name": "Ryuujou"
 	},
 	"ryuujou6": {
@@ -5010,7 +5032,7 @@
 		"rarity": 6,
 		"type": "CVL",
 		"unique": false,
-		"full": "Sukiya Ryuujou Kai 2",
+		"full": "Sukiya Ryuujou Kai Ni",
 		"name": "Ryuujou"
 	},
 	"hiyou1": {
@@ -5158,7 +5180,7 @@
 		"rarity": 6,
 		"type": "CVL",
 		"unique": false,
-		"full": "Chitose Carrier Kai 2",
+		"full": "Chitose Carrier Kai Ni",
 		"name": "Chitose_CVL"
 	},
 	"chiyodacvl1": {
@@ -5184,7 +5206,7 @@
 		"rarity": 6,
 		"type": "CVL",
 		"unique": false,
-		"full": "Chiyoda Carrier Kai 2",
+		"full": "Chiyoda Carrier Kai Ni",
 		"name": "Chitose_CVL"
 	},
 	"ryuuhou1": {
@@ -5247,6 +5269,17 @@
 		"full": "Autumn Ryuuhou",
 		"name": "Ryuuhou"
 	},
+	"suzuyacvl1": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 7,
+		"type": "CVL",
+		"unique": false,
+		"full": "Suzuya Carrier",
+		"name": "Mogami_CVL"
+	},
 	"akagi1": {
 		"offset": {
 			"x": 50,
@@ -5299,7 +5332,7 @@
 		"rarity": 7,
 		"type": "CV",
 		"unique": false,
-		"full": "Souryuu Kai 2",
+		"full": "Souryuu Kai Ni",
 		"name": "Souryuu"
 	},
 	"hiryuu1": {
@@ -5321,7 +5354,7 @@
 		"rarity": 8,
 		"type": "CV",
 		"unique": false,
-		"full": "Hiryuu Kai 2",
+		"full": "Hiryuu Kai Ni",
 		"name": "Hiryuu"
 	},
 	"shoukaku1": {
@@ -5347,7 +5380,7 @@
 		"rarity": 7,
 		"type": "CV",
 		"unique": false,
-		"full": "Shoukaku Kai 2",
+		"full": "Shoukaku Kai Ni",
 		"name": "Shoukaku"
 	},
 	"shoukaku3": {
@@ -5362,7 +5395,7 @@
 		"rarity": 7,
 		"type": "CV",
 		"unique": false,
-		"full": "Shoukaku Kai 2 A",
+		"full": "Shoukaku Kai Ni A",
 		"name": "Shoukaku"
 	},
 	"zuikaku1": {

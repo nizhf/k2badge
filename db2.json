@@ -432,6 +432,19 @@
 		"full": "Heavy Cruiser Princess",
 		"name": "Heavy_Cruiser"
 	},
+	"juujunnatsukihime1": {
+		"offset": {
+			"x": 75,
+			"y": 0
+		},
+		"offset2": {
+			"x": 69,
+			"y": -49
+		},
+		"type": "ACA",
+		"full": "Heavy Cruiser Summer Princess",
+		"name": "Heavy_Cruiser"
+	},
 	"takaof": {
 		"offset": {
 			"x": 0,
@@ -596,7 +609,37 @@
 			"y": -25
 		},
 		"type": "ABB",
+		"damageable": true,
 		"full": "Battleship Water Demon",
+		"name": "Battleship"
+	},
+	"senkannatsukihime1": {
+		"offset": {
+			"x": 50,
+			"y": -50
+		},
+		"type": "ABB",
+		"full": "Battleship Summer Princess",
+		"name": "Battleship"
+	},
+	"shinkaifutagoseikihime1": {
+		"offset": {
+			"x": 50,
+			"y": -50
+		},
+		"type": "ABB",
+		"damageable": true,
+		"full": "Abyssal Twin Princesses",
+		"name": "Battleship"
+	},
+	"shinkaifutagoseikihime2": {
+		"offset": {
+			"x": 50,
+			"y": -50
+		},
+		"type": "ABB",
+		"damageable": true,
+		"full": "Abyssal Twin Princesses - Damaged",
 		"name": "Battleship"
 	},
 	"harunaf": {
@@ -727,6 +770,7 @@
 			"y": -250
 		},
 		"type": "ACV",
+		"damageable": true,
 		"full": "Abyssal Jellyfish Princess",
 		"name": "Abyssal_Jellyfish"
 	},
@@ -819,6 +863,15 @@
 		"type": "ASS",
 		"damageable": true,
 		"full": "Submarine Princess",
+		"name": "Submarine"
+	},
+	"sensuinatsukihime1": {
+		"offset": {
+			"x": 100,
+			"y": -85
+		},
+		"type": "ASS",
+		"full": "Submarine Summer Princess",
 		"name": "Submarine"
 	},
 	"ionaf": {
@@ -971,6 +1024,20 @@
 		},
 		"type": "AINS",
 		"full": "Harbour Water Demon",
+		"name": "Harbour"
+	},
+	"kouwannatsukihime1": {
+		"offset": {
+			"x": 150,
+			"y": -100
+		},
+		"offset2": {
+			"x": 125,
+			"y": 0
+		},
+		"type": "AINS",
+		"damageable": true,
+		"full": "Harbour Summer Princess",
 		"name": "Harbour"
 	},
 	"ritouoni1": {
@@ -1129,6 +1196,7 @@
 			"y": 20
 		},
 		"type": "AAX",
+		"damageable": true,
 		"full": "Seaplane Tender Water Princess",
 		"name": "Seaplane_Tender"
 	},
