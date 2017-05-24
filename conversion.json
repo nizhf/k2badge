@@ -265,6 +265,15 @@
     "asashio3": [
       "asashio1"
     ],
+    "gangut2": [
+    	"gangut1"
+    ],
+    "kamoi2" : [
+    	"kamoi1"
+    ],
+    "kamoi3" : [
+    	"kamoi1"
+    ],
     "kasumi3": [
       "kasumi1"
     ],
@@ -292,11 +301,17 @@
     "nagara2": [
       "nagara1"
     ],
+    "nagato2": [
+    	"nagato1"
+    ],
     "natori2": [
       "natori1"
     ],
     "oboro4": [
       "oboro1"
+    ],
+    "oktyabrskaya1": [
+      "gangut1"
     ],
     "ooi2": [
       "ooi1"
@@ -438,8 +453,10 @@
     "469": "kawakaze4",
     "470": "kasumi2",
     "490": "arashio2",
+    "500": "kamoi3",
     "503": "suzuya4",
-    "508": "suzuyacvl1"
+    "508": "suzuyacvl1",
+    "513": "gangut2"
   },
   "mstId2FleetIdTable": {
     "1": "mutsuki1",
@@ -581,6 +598,7 @@
     "155": "i4011",
     "156": "taihou2",
     "161": "akitsumaru1",
+    "162": "kamoi1",
     "163": "maruyu1",
     "164": "yayoi1",
     "165": "uzuki1",
@@ -762,6 +780,10 @@
     "373": "fujinami1",
     "374": "i132",
     "375": "i142",
+    "376": "shimushu1",
+    "377": "kunashiri1",
+    "380": "taiyou2",
+    "383": "etorofu1",
     "398": "i1681",
     "399": "i581",
     "400": "i81",
@@ -827,7 +849,18 @@
     "494": "i131",
     "495": "i141",
     "496": "zara3",
+    "499": "kamoi2",
+    "500": "kamoi3",
     "503": "suzuya4",
-    "508": "suzuyacvl1"
+    "508": "suzuyacvl1",
+    "511": "gangut1",
+    "512": "oktyabrskaya1",
+    "513": "gangut2",
+    "517": "shimushu1",
+    "518": "kunashiri1",
+    "521": "kasugamaru1",
+    "524": "etorofu1",
+    "380": "taiyou1",
+    "380": "taiyou3",
   }
 }

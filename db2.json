@@ -701,6 +701,24 @@
 		"full": "Nu-Class Flagship",
 		"name": "Nu-Class"
 	},
+	"nukyuu4": {
+		"offset": {
+			"x": 150,
+			"y": -200
+		},
+		"type": "ACV",
+		"full": "Nu-Class Kai Elite",
+		"name": "Nu-Class"
+	},
+	"nukyuu5": {
+		"offset": {
+			"x": 150,
+			"y": -200
+		},
+		"type": "ACV",
+		"full": "Nu-Class Kai Flagship",
+		"name": "Nu-Class"
+	},
 	"wokyuu1": {
 		"offset": {
 			"x": 100,

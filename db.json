@@ -1,4 +1,49 @@
 {
+	"shimushu1": {
+		"offset": {
+			"x": 50,
+			"y": -50
+		},
+		"offset2": {
+			"x": 50,
+			"y": -50
+		},
+		"rarity": 4,
+		"type": "DE",
+		"unique": true,
+		"full": "Shimushu",
+		"name": "Shimushu"
+	},
+	"kunashiri1": {
+		"offset": {
+			"x": 50,
+			"y": -50
+		},
+		"offset2": {
+			"x": 50,
+			"y": -50
+		},
+		"rarity": 4,
+		"type": "DE",
+		"unique": true,
+		"full": "Kunashiri",
+		"name": "Shimushu"
+	},
+	"etorofu1": {
+		"offset": {
+			"x": 50,
+			"y": -50
+		},
+		"offset2": {
+			"x": 50,
+			"y": -50
+		},
+		"rarity": 4,
+		"type": "DE",
+		"unique": true,
+		"full": "Etorofu",
+		"name": "Etorofu"
+	},
 	"shimakaze1": {
 		"offset": {
 			"x": 50,
@@ -4246,6 +4291,17 @@
 		"full": "Nagato",
 		"name": "Nagato"
 	},
+	"nagato2": {
+		"offset": {
+			"x": 75,
+			"y": 0
+		},
+		"rarity": 8,
+		"type": "BB",
+		"unique": false,
+		"full": "Nagato Kai Ni",
+		"name": "Nagato"
+	},
 	"mutsu1": {
 		"offset": {
 			"x": 75,
@@ -4931,6 +4987,51 @@
 		"full": "Warspite",
 		"name": "Queen_Elizabeth"
 	},
+	"gangut1": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 50,
+			"y": -5
+		},
+		"rarity": 5,
+		"type": "BB",
+		"unique": true,
+		"full": "Gangut",
+		"name": "Gangut"
+	},
+    "oktyabrskaya1": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 50,
+			"y": -5
+		},
+		"rarity": 6,
+		"type": "BB",
+		"unique": false,
+		"full": "Октябрьская революция",
+		"name": "Gangut"
+	},
+    "gangut2": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 50,
+			"y": -5
+		},
+		"rarity": 7,
+		"type": "BB",
+		"unique": false,
+		"full": "Gangut dva",
+		"name": "Gangut"
+	},
 	"houshou1": {
 		"offset": {
 			"x": 0,
@@ -5279,6 +5380,50 @@
 		"unique": false,
 		"full": "Suzuya Carrier",
 		"name": "Mogami_CVL"
+	},
+	"kasugamaru1": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 4,
+		"type": "CVL",
+		"unique": true,
+		"full": "Kasuga Maru",
+		"name": "Kasuga_Maru"
+	},
+	"taiyou1": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 5,
+		"type": "CVL",
+		"unique": true,
+		"full": "Taiyou",
+		"name": "Taiyou"
+	},
+	"taiyou2": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "CVL",
+		"unique": false,
+		"full": "Taiyou Kai",
+		"name": "Taiyou"
+	},
+	"taiyou3": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 7,
+		"type": "CVL",
+		"unique": false,
+		"full": "Taiyou Kai Ni",
+		"name": "Taiyou"
 	},
 	"akagi1": {
 		"offset": {
@@ -6581,5 +6726,50 @@
 		"unique": false,
 		"full": "Hinamatsuri Commandant Teste",
 		"name": "Commandant_Teste"
+	},
+	"kamoi1": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 4,
+		"type": "AX",
+		"unique": true,
+		"full": "Kamoi",
+		"name": "Kamoi"
+	},
+	"kamoi2": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 5,
+		"type": "AX",
+		"unique": false,
+		"full": "Kamoi",
+		"name": "Kamoi"
+	},
+	"kamoi3": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 4,
+		"type": "AX",
+		"unique": false,
+		"full": "Kamoi",
+		"name": "Kamoi"
 	}
 }
