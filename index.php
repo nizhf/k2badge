@@ -29,7 +29,7 @@
 		<h2>KanColle Badge Generator</h2>
 		<div id="language"><b>EN</b> <a href="index-jp.php">日本語</a> <a href="index-cn.php">简体中文</a> <a href="index-tw.php">繁體中文</a></div>
 		<p>
-			This tool requires a modern browser (IE10+, Firefox, Chrome, or Safari) with Javascript enabled.  Please refresh your cache when there is a new update.  The Flagship of the first fleet will be featured on the badge.  Please leave any bug reports or feature requests <a target="_blank" href="http://himeuta.org/showthread.php?1818-Tool-Kancolle-Kai-Ni-Badge-Generator">here</a>.
+			This tool requires a modern browser (IE10+, Firefox, Chrome, or Safari) with Javascript enabled.  Please refresh your cache when there is a new update.  The Flagship of the first fleet will be featured on the badge.  Please leave any bug reports or feature requests <a target="_blank" href="https://github.com/Nya-chan/k2badge/issues">here</a>.
 		</p>
 		<div id="canvasDiv">
 			<canvas width="850" height="205" id="result"></canvas>

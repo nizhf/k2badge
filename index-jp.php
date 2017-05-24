@@ -29,7 +29,7 @@
 		<h2>艦これバッジジェネレータ</h2>
 		<div id="language"><a href="index.php">EN</a> <b>日本語</b> <a href="index-cn.php">简体中文</a> <a href="index-tw.php">繁體中文</a></div>
 		<p>
-			このジジェネレータは最新のブラウザとJavascriptをようします。 新しい更新の時、キャッシュのクリアをしてください。  バッジに第1艦隊の旗艦を見せる。  バグレポートとか機能リクエストがあるなら、<a target="_blank" href="http://himeuta.org/showthread.php?1818-Tool-Kancolle-Kai-Ni-Badge-Generator">こちらに</a>行ってください。
+			このジジェネレータは最新のブラウザとJavascriptをようします。 新しい更新の時、キャッシュのクリアをしてください。  バッジに第1艦隊の旗艦を見せる。  バグレポートとか機能リクエストがあるなら、<a target="_blank" href="https://github.com/Nya-chan/k2badge/issues">こちらに</a>行ってください。
 		</p>
 		<div id="canvasDiv">
 			<canvas width="850" height="205" id="result"></canvas>
