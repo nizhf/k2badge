@@ -114,6 +114,8 @@
 					</div>
 				</div>
 				<div id="avatars" class="shipList">
+					<label>DE 海防</label>
+					<div class="divDE shipClasses"></div>
 					<label>DD 駆逐</label>
 					<div class="divDD shipClasses"></div>
 					<label>CL/CLT 軽巡/雷巡</label>
@@ -280,6 +282,8 @@
 						<div class="kai blueprint"><span><input type="checkbox" name="bismarck4" id="bismarck4"></span><label for="bismarck4">Bismarck 3 ビスマルク drei (75)</label></div>
 						<div class="blueprint"><span><input type="checkbox" name="italia1" id="italia1"></span><label for="italia1">Italia イタリア (35)</label></div>
 						<div class="blueprint"><span><input type="checkbox" name="roma2" id="roma2"></span><label for="roma2">Roma ローマ (35)</label></div>
+						<div><span><input type="checkbox" name="gangut2" id="gangut2"></span><label for="gangut2">Гангут ガングート(75)</label></div>
+						<div class="blueprint"><span><input type="checkbox" name="nagato2" id="nagato2"></span><label for="nagato2">Nagato 長門 (88)</label></div>
 					</div>
 				</div>
 				<div class="shipClass" id="cvl">
@@ -291,6 +295,7 @@
 						<div><span><input type="checkbox" name="chiyodacvl2" id="chiyodacvl2"></span><label for="chiyodacvl2">Chiyoda 千代田 (50)</label></div>
 						<div class="kai blueprint"><span><input type="checkbox" name="ryuuhou2" id="ryuuhou2"></span><label for="ryuuhou2">Ryuuhou Kai 龍鳳改 (50)</label></div>
 						<div class="blueprint"><span><input type="checkbox" name="suzuyacvl1" id="suzuyacvl1"></span><label for="suzuyacvl1">Suzuya Kai Ni 鈴谷改二 (88)</label></div>
+						<div class="blueprint"><span><input type="checkbox" name="taiyou3" id="taiyou3"></span><label for="taiyou3">Taiyou 大鷹(85)</label></div>
 					</div>
 				</div>
 				<div class="shipClass" id="cv">
@@ -311,12 +316,20 @@
 						<div><span><input type="checkbox" name="ro5001" id="ro5001"></span><label for="ro5001">Ro-500 呂500 (55)</label></div>
 					</div>
 				</div>
+				<div class="shipClass" id="ax">
+					<h3>Auxiliary</h3>
+					<div class="shipOptions">
+						<div><span><input type="checkbox" name="kamoi3" id="kamoi3"></span><label for="kamoi3">Kamoi 神威 (60)</label></div>
+					</div>
+				</div>
 				<div style="clear:both">
 					<input type="checkbox" id="selectAll"><label for="selectAll">Select All</label>
 				</div>
 			</div>
 		<div id="colleDiv" name="#colleTab">
 			<div class="shipList">
+				<label>DE 海防</label>
+				<div class="divDE shipClasses"></div>
 				<label>DD 駆逐</label>
 				<div class="divDD shipClasses"></div>
 				<label>CL/CLT 軽巡/雷巡</label>
