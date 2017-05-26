@@ -456,7 +456,8 @@
     "500": "kamoi3",
     "503": "suzuya4",
     "508": "suzuyacvl1",
-    "513": "gangut2"
+    "513": "gangut2",
+    "541": "nagato2"
   },
   "mstId2FleetIdTable": {
     "1": "mutsuki1",
@@ -861,6 +862,7 @@
     "521": "kasugamaru1",
     "524": "etorofu1",
     "526": "taiyou1",
-    "529": "taiyou3"
+    "529": "taiyou3",
+    "541": "nagato2"
   }
 }
