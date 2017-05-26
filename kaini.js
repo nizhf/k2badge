@@ -747,18 +747,43 @@ $(document).ready(function() {
 		ctx.font = "14px " + textfont;
 
 		ctx.textAlign="right";
-		drawText((lang=="en"?"DD":"駆"), row1, line1 + newLength-9);
+		drawText((lang=="en"?"DE":"海"), row1, line1 + newLength-9);
+		var numDE = 0;
+		var maxDE = $("#colleDiv .divDE img.selected").length;
+		ctx.save();
+		ctx.fillStyle="white";
+
+		$("#colleDiv .divDE img").each(function(i){
+			
+			var x = row1box + numDE*hexRectangleWidth;
+			var y = Math.floor(numDE/maxPerLine)*+linebarwidth/2 + line1-15;
+			var img = document.getElementById(this.id);
+			drawHexagon(img,x,y,$(this).hasClass("selected"),false);
+
+			numDE++;
+		});
+		ctx.textAlign="left";
+		ctx.font = "14px " + numberfont;
+		drawText(maxDE + "/" + numDE + " (" + (maxDE/numDE*100).toFixed() + "%)", row1box + numDE*hexRectangleWidth + 8, line1);
+		ctx.restore();
+
+		var line2 = line1+linebarwidth/2 + linebarwidth/4;
+
+		ctx.font = "14px " + textfont;
+
+		ctx.textAlign="right";
+		drawText((lang=="en"?"DD":"駆"), row2, line2 + newLength-9);
 		var numDD = 0;
 		var maxDD = $("#colleDiv .divDD img.selected").length;
 		ctx.save();
 		ctx.fillStyle="white";
 
 		$("#colleDiv .divDD img").each(function(i){
-			var x = row1box + numDD%maxPerLine*hexRectangleWidth;
+			var x = row2box + numDD%maxPerLine*hexRectangleWidth;
 			if (Math.floor(numDD/maxPerLine%2) > 0) {
-				x = row1box + (maxPerLine-numDD%maxPerLine)*hexRectangleWidth - hexRadius;
+				x = row2box + (maxPerLine-numDD%maxPerLine)*hexRectangleWidth - hexRadius;
 			}
-			var y = Math.floor(numDD/maxPerLine)*+linebarwidth/2 + line1-15;
+			var y = Math.floor(numDD/maxPerLine)*+linebarwidth/2 + line2-15;
 			var img = document.getElementById(this.id);
 			drawHexagon(img,x,y,$(this).hasClass("selected"),false);
 
@@ -766,25 +791,26 @@ $(document).ready(function() {
 		});
 		ctx.textAlign="left";
 		ctx.font = "14px " + numberfont;
-		drawText(maxDD + "/" + numDD + " (" + (maxDD/numDD*100).toFixed() + "%)", row1box + maxPerLine*hexRectangleWidth + 8, line1);
+		drawText(maxDD + "/" + numDD + " (" + (maxDD/numDD*100).toFixed() + "%)", row2box + maxPerLine*hexRectangleWidth + 8, line2);
 		ctx.restore();
 
-		var line2 = line1+linebarwidth + linebarwidth/4 + Math.floor(numDD/maxPerLine)*8;
-		var line3 = line2+linebarwidth/2 + linebarwidth/4;
+		
+		var line3 = line2+linebarwidth + linebarwidth/4 + Math.floor(numDD/maxPerLine)*8;
 		var line4 = line3+linebarwidth/2 + linebarwidth/4;
 		var line5 = line4+linebarwidth/2 + linebarwidth/4;
 		var line6 = line5+linebarwidth/2 + linebarwidth/4;
 		var line7 = line6+linebarwidth/2 + linebarwidth/4;
 		var line8 = line7+linebarwidth/2 + linebarwidth/4;
+		var line9 = line8+linebarwidth/2 + linebarwidth/4;
 
-		drawText((lang=="en"?"CL":"軽巡"), row2, line2 + newLength-9);
+		drawText((lang=="en"?"CL":"軽巡"), row1, line3 + newLength-9);
 		var numCL = 0;
 		var maxCL = $("#colleDiv .divCL img.selected").length;
 		ctx.save();
 		ctx.fillStyle="white";
 		$("#colleDiv .divCL img").each(function(){
-			var x = row2box + numCL*hexRectangleWidth;
-			var y = line2-15;
+			var x = row1box + numCL*hexRectangleWidth;
+			var y = line3-15;
 			var img = document.getElementById(this.id);
 			drawHexagon(img,x,y,$(this).hasClass("selected"),false);
 
@@ -792,18 +818,18 @@ $(document).ready(function() {
 		});
 		ctx.textAlign="left";
 		ctx.font = "14px " + numberfont;
-		drawText(maxCL + "/" + numCL + " (" + (maxCL/numCL*100).toFixed() + "%)", row2box + numCL*hexRectangleWidth + 8, line2);
+		drawText(maxCL + "/" + numCL + " (" + (maxCL/numCL*100).toFixed() + "%)", row1box + numCL*hexRectangleWidth + 8, line3);
 		ctx.restore();
 
-		drawText((lang=="en"?"CA":"重巡"), row1, line3 + newLength-9);
+		drawText((lang=="en"?"CA":"重巡"), row2, line4 + newLength-9);
 		var numCA = 0;
 		var maxCA = $("#colleDiv .divCA img.selected").length;
 		var blue = 0;
 		ctx.save();
 		ctx.fillStyle="white";
 		$("#colleDiv .divCA img").each(function(){
-			var x = row1box + numCA*hexRectangleWidth;
-			var y = line3-15;
+			var x = row2box + numCA*hexRectangleWidth;
+			var y = line4-15;
 			var img = document.getElementById(this.id);
 			drawHexagon(img,x,y,$(this).hasClass("selected"),false);
 
@@ -811,17 +837,17 @@ $(document).ready(function() {
 		});
 		ctx.textAlign="left";
 		ctx.font = "14px " + numberfont;
-		drawText(maxCA + "/" + numCA + " (" + (maxCA/numCA*100).toFixed() + "%)", row1box + numCA*hexRectangleWidth + 8, line3);
+		drawText(maxCA + "/" + numCA + " (" + (maxCA/numCA*100).toFixed() + "%)", row1box + numCA*hexRectangleWidth + 8, line4);
 		ctx.restore();
 
-		drawText((lang=="en"?"CVL":"軽母"), row1, line5 + newLength-9);
+		drawText((lang=="en"?"CVL":"軽母"), row2, line6 + newLength-9);
 		var numCVL = 0;
 		var maxCVL = $("#colleDiv .divCVL img.selected").length;
 		ctx.save();
 		ctx.fillStyle="white";
 		$("#colleDiv .divCVL img").each(function(){
-			var x = row1box + numCVL*hexRectangleWidth;
-			var y = line5-15;
+			var x = row2box + numCVL*hexRectangleWidth;
+			var y = line6-15;
 			var img = document.getElementById(this.id);
 			drawHexagon(img,x,y,$(this).hasClass("selected"),false);
 
@@ -829,17 +855,17 @@ $(document).ready(function() {
 		});
 		ctx.textAlign="left";
 		ctx.font = "14px " + numberfont;
-		drawText(maxCVL + "/" + numCVL + " (" + (maxCVL/numCVL*100).toFixed() + "%)", row1box + numCVL*hexRectangleWidth + 8, line5);
+		drawText(maxCVL + "/" + numCVL + " (" + (maxCVL/numCVL*100).toFixed() + "%)", row2box + numCVL*hexRectangleWidth + 8, line6);
 		ctx.restore();
 
-		drawText((lang=="en"?"BB":"戦"), row2, line4 + newLength-9);
+		drawText((lang=="en"?"BB":"戦"), row1, line5 + newLength-9);
 		var numBB = 0;
 		var maxBB = $("#colleDiv .divBB img.selected").length;
 		ctx.save();
 		ctx.fillStyle="white";
 		$("#colleDiv .divBB img").each(function(){
-			var x = row2box + numBB*hexRectangleWidth;
-			var y = line4-15;
+			var x = row1box + numBB*hexRectangleWidth;
+			var y = line5-15;
 			var img = document.getElementById(this.id);
 			drawHexagon(img,x,y,$(this).hasClass("selected"),false);
 
@@ -847,17 +873,17 @@ $(document).ready(function() {
 		});
 		ctx.textAlign="left";
 		ctx.font = "14px " + numberfont;
-		drawText(maxBB + "/" + numBB + " (" + (maxBB/numBB*100).toFixed() + "%)", row2box + numBB*hexRectangleWidth + 8, line4);
+		drawText(maxBB + "/" + numBB + " (" + (maxBB/numBB*100).toFixed() + "%)", row1box + numBB*hexRectangleWidth + 8, line5);
 		ctx.restore();
 
-		drawText((lang=="en"?"CV":"航"), row2, line6 + newLength-9);
+		drawText((lang=="en"?"CV":"航"), row1, line7 + newLength-9);
 		var numCV = 0;
 		var maxCV = $("#colleDiv .divCV img.selected").length;
 		ctx.save();
 		ctx.fillStyle="white";
 		$("#colleDiv .divCV img").each(function(){
-			var x = row2box + numCV*hexRectangleWidth;
-			var y = line6-15;
+			var x = row1box + numCV*hexRectangleWidth;
+			var y = line7-15;
 			var img = document.getElementById(this.id);
 			drawHexagon(img,x,y,$(this).hasClass("selected"),false);
 
@@ -865,17 +891,17 @@ $(document).ready(function() {
 		});
 		ctx.textAlign="left";
 		ctx.font = "14px " + numberfont;
-		drawText(maxCV + "/" + numCV + " (" + (maxCV/numCV*100).toFixed() + "%)", row2box + numCV*hexRectangleWidth + 8, line6);
+		drawText(maxCV + "/" + numCV + " (" + (maxCV/numCV*100).toFixed() + "%)", row1box + numCV*hexRectangleWidth + 8, line7);
 		ctx.restore();
 
-		drawText((lang=="en"?"SS":"潜"), row1, line7 + newLength-9);
+		drawText((lang=="en"?"SS":"潜"), row2, line8 + newLength-9);
 		var numSS = 0;
 		var maxSS = $("#colleDiv .divSS img.selected").length;
 		ctx.save();
 		ctx.fillStyle="white";
 		$("#colleDiv .divSS img").each(function(){
-			var x = row1box + numSS*hexRectangleWidth;
-			var y = line7-15;
+			var x = row2box + numSS*hexRectangleWidth;
+			var y = line8-15;
 			var img = document.getElementById(this.id);
 			drawHexagon(img,x,y,$(this).hasClass("selected"),false);
 
@@ -883,17 +909,17 @@ $(document).ready(function() {
 		});
 		ctx.textAlign="left";
 		ctx.font = "14px " + numberfont;
-		drawText(maxSS + "/" + numSS + " (" + (maxSS/numSS*100).toFixed() + "%)", row2box + numSS*hexRectangleWidth + 8, line7);
+		drawText(maxSS + "/" + numSS + " (" + (maxSS/numSS*100).toFixed() + "%)", row2box + numSS*hexRectangleWidth + 8, line8);
 		ctx.restore();
 
-		drawText((lang=="en"?"AX":"他"), row2, line8 + newLength-9);
+		drawText((lang=="en"?"AX":"他"), row1, line9 + newLength-9);
 		var numAX = 0;
 		var maxAX = $("#colleDiv .divAX img.selected").length;
 		ctx.save();
 		ctx.fillStyle="white";
 		$("#colleDiv .divAX img").each(function(){
-			var x = row2box + numAX*hexRectangleWidth;
-			var y = line8-15;
+			var x = row1box + numAX*hexRectangleWidth;
+			var y = line9-15;
 			var img = document.getElementById(this.id);
 			drawHexagon(img,x,y,$(this).hasClass("selected"),false);
 
@@ -901,7 +927,7 @@ $(document).ready(function() {
 		});
 		ctx.textAlign="left";
 		ctx.font = "14px " + numberfont;
-		drawText(maxAX + "/" + numAX + " (" + (maxAX/numAX*100).toFixed() + "%)", row2box + numAX*hexRectangleWidth + 8, line8);
+		drawText(maxAX + "/" + numAX + " (" + (maxAX/numAX*100).toFixed() + "%)", row1box + numAX*hexRectangleWidth + 8, line9);
 		ctx.restore();
 
 		ctx.font = "12px " + textfont;
@@ -941,7 +967,7 @@ $(document).ready(function() {
 		$("#loadingDiv").html("");
 		$("#loadingProgress").hide();
 		$("#buttons button").prop('disabled',false);
-	}
+	};
 
 	var drawRoom = function(roomY){
 		var ratio = c.width/bg.clientWidth;
@@ -984,7 +1010,7 @@ $(document).ready(function() {
 		$("#loadingDiv").html("");
 		$("#loadingProgress").hide();
 		$("#buttons button").prop('disabled',false);
-	}
+	};
 
 	var drawText = function(text, posx, posy, width) {
 		ctx.save();
