@@ -537,6 +537,17 @@
 		"full": "Christmas Sazanami 2016",
 		"name": "Ayanami"
 	},
+	"sazanami7": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Rainy Season Sazanami",
+		"name": "Ayanami"
+	},
 	"ushio1": {
 		"offset": {
 			"x": 0,
@@ -4179,6 +4190,21 @@
 		"full": "Christmas Kumano",
 		"name": "Mogami"
 	},
+	"kumano4": {
+		"offset": {
+			"x": 50,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": -150
+		},
+		"rarity": 6,
+		"type": "CA",
+		"unique": false,
+		"full": "Kumano Kai Ni",
+		"name": "Mogami"
+	},
 	"prinzeugen1": {
 		"offset": {
 			"x": 46,
@@ -4544,6 +4570,36 @@
 		"type": "BB",
 		"unique": false,
 		"full": "Autumn Fusou",
+		"name": "Fusou"
+	},
+	"fusou7": {
+		"offset": {
+			"x": 125,
+			"y": 20
+		},
+		"offset2": {
+			"x": 125,
+			"y": -5
+		},
+		"rarity": 5,
+		"type": "BB",
+		"unique": false,
+		"full": "Rainy Season Fusou",
+		"name": "Fusou"
+	},
+	"fusou8": {
+		"offset": {
+			"x": 125,
+			"y": 20
+		},
+		"offset2": {
+			"x": 125,
+			"y": -5
+		},
+		"rarity": 5,
+		"type": "BB",
+		"unique": false,
+		"full": "Rainy Season Fusou Kai Ni",
 		"name": "Fusou"
 	},
 	"yamashiro1": {
@@ -5378,7 +5434,18 @@
 		"rarity": 7,
 		"type": "CVL",
 		"unique": false,
-		"full": "Suzuya Carrier",
+		"full": "Suzuya Carrier Kai Ni",
+		"name": "Mogami_CVL"
+	},
+	"kumanocvl1": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 7,
+		"type": "CVL",
+		"unique": false,
+		"full": "Kumano Carrier Kai Ni",
 		"name": "Mogami_CVL"
 	},
 	"kasugamaru1": {
@@ -5399,7 +5466,7 @@
 		},
 		"rarity": 5,
 		"type": "CVL",
-		"unique": true,
+		"unique": false,
 		"full": "Taiyou",
 		"name": "Taiyou"
 	},
@@ -6754,7 +6821,7 @@
 		"rarity": 5,
 		"type": "AX",
 		"unique": false,
-		"full": "Kamoi",
+		"full": "Kamoi Kai",
 		"name": "Kamoi"
 	},
 	"kamoi3": {
@@ -6766,10 +6833,55 @@
 			"x": 0,
 			"y": 0
 		},
+		"rarity": 6,
+		"type": "AX",
+		"unique": false,
+		"full": "Kamoi Kai Bo",
+		"name": "Kamoi"
+	},
+	"kamoi4": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
 		"rarity": 4,
 		"type": "AX",
 		"unique": false,
-		"full": "Kamoi",
+		"full": "Rainy Season Kamoi",
+		"name": "Kamoi"
+	},
+	"kamoi5": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 5,
+		"type": "AX",
+		"unique": false,
+		"full": "Rainy Season Kamoi Kai",
+		"name": "Kamoi"
+	},
+	"kamoi6": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "AX",
+		"unique": false,
+		"full": "Rainy Season Kamoi Kai Bo",
 		"name": "Kamoi"
 	}
 }

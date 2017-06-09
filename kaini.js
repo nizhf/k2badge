@@ -1293,7 +1293,7 @@ $(document).ready(function() {
 				var x = row1box + numCVL*hexRectangleWidth;
 				var y = line3-15;
 				var img = document.getElementById("icon"+this.id);
-				var blueprint = label.hasClass("blueprint") ? "lightblue" : "white";
+				var blueprint = label.hasClass("blueprint") ? (label.hasClass("prototype") ? "pink" : "lightblue") : "white";
 				drawHexagon(img,x,y,this.checked,blueprint);
 
 				numCVL++;
@@ -1447,7 +1447,7 @@ $(document).ready(function() {
 		$("#loadingDiv").html("");
 		$("#loadingProgress").hide();
 		$("#buttons button").prop('disabled',false);
-	}
+	};
 
 	var doneLoading = function() {
 		for (var i in colle) {
@@ -1475,7 +1475,7 @@ $(document).ready(function() {
 			}
 		}
 		generateFunction("initial");
-	}
+	};
 
 	//Begin Init Code
 	var init = function(){
