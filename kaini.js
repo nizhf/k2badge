@@ -1381,6 +1381,32 @@ $(document).ready(function() {
 		ctx.font = "14px " + numberfont;
 		drawText(maxSS-blue + "/" + numSS, startPositionSS + row2box + numSS*hexRectangleWidth + 8, line3 + newLength-9 + linebarwidth/2);
 		ctx.restore();
+		
+		var startPositionAX = (numCVL+3)*hexRectangleWidth;
+		drawText((lang=="en"?"AX":"その他"), row1 + startPositionAX, line3 + newLength-9);
+		var numAX = 0;
+		var maxAX = $("#ax").find("[type='checkbox']:checked").length;
+		var blue = 0;
+		ctx.save();
+		ctx.fillStyle="white";
+		$("#ax").find("[type='checkbox']").each(function(){
+			var label = $(this).parent().parent();
+			if (!(useBlue && label.hasClass("blueprint") && !label.hasClass("kai"))) {
+				var x = startPositionAX + row1box + numAX*hexRectangleWidth;
+				var y = line3-15;
+				var img = document.getElementById("icon"+this.id);
+				var blueprint = $(this).parent().parent().find("label").hasClass("blueprint") ? "lightblue" : "white";
+				drawHexagon(img,x,y,this.checked,blueprint);
+
+				numAX++;
+			} else if (this.checked && label.hasClass("blueprint")) {
+				blue++;
+			}
+		});
+		ctx.textAlign="left";
+		ctx.font = "14px " + numberfont;
+		drawText(maxAX-blue + "/" + numAX, startPositionAX + row1box + numAX*hexRectangleWidth + 8, line3 + newLength-9);
+		ctx.restore();
 
 		ctx.font = "12px " + textfont;
 		var shipBoxes = $(".shipOptions");
