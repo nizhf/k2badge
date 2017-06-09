@@ -278,12 +278,12 @@
 						<div><span><input type="checkbox" name="kirishima2" id="kirishima2"></span><label for="kirishima2">Kirishima 霧島 (75)</label></div>
 						<div class="kai blueprint"><span><input type="checkbox" name="fusou3" id="fusou3"></span><label for="fusou3">Fusou 扶桑 (80)</label></div>
 						<div class="kai blueprint"><span><input type="checkbox" name="yamashiro3" id="yamashiro3"></span><label for="yamashiro3">Yamashiro 山城 (80)</label></div>
-						<div class="blueprint"><span><input type="checkbox" name="bismarck3" id="bismarck3"></span><label for="bismarck3">Bismarck 2 ビスマルク zwei (50)</label></div>
+						<div class="kai blueprint"><span><input type="checkbox" name="bismarck3" id="bismarck3"></span><label for="bismarck3">Bismarck 2 ビスマルク zwei (50)</label></div>
 						<div class="kai blueprint"><span><input type="checkbox" name="bismarck4" id="bismarck4"></span><label for="bismarck4">Bismarck 3 ビスマルク drei (75)</label></div>
 						<div class="blueprint"><span><input type="checkbox" name="italia1" id="italia1"></span><label for="italia1">Italia イタリア (35)</label></div>
 						<div class="blueprint"><span><input type="checkbox" name="roma2" id="roma2"></span><label for="roma2">Roma ローマ (35)</label></div>
 						<div><span><input type="checkbox" name="gangut2" id="gangut2"></span><label for="gangut2">Гангут ガングート(75)</label></div>
-						<div class="blueprint"><span><input type="checkbox" name="nagato2" id="nagato2"></span><label for="nagato2">Nagato 長門 (88)</label></div>
+						<div class="kai blueprint"><span><input type="checkbox" name="nagato2" id="nagato2"></span><label for="nagato2">Nagato 長門 (88)</label></div>
 					</div>
 				</div>
 				<div class="shipClass" id="cvl">
@@ -294,8 +294,8 @@
 						<div><span><input type="checkbox" name="chitosecvl2" id="chitosecvl2"></span><label for="chitosecvl2">Chitose 千歳航 (50)</label></div>
 						<div><span><input type="checkbox" name="chiyodacvl2" id="chiyodacvl2"></span><label for="chiyodacvl2">Chiyoda 千代田 (50)</label></div>
 						<div class="kai blueprint"><span><input type="checkbox" name="ryuuhou2" id="ryuuhou2"></span><label for="ryuuhou2">Ryuuhou Kai 龍鳳改 (50)</label></div>
-						<div class="blueprint"><span><input type="checkbox" name="suzuyacvl1" id="suzuyacvl1"></span><label for="suzuyacvl1">Suzuya Kai Ni 鈴谷改二 (88)</label></div>
-						<div class="blueprint"><span><input type="checkbox" name="taiyou3" id="taiyou3"></span><label for="taiyou3">Taiyou 大鷹(85)</label></div>
+						<div class="kai blueprint"><span><input type="checkbox" name="suzuyacvl1" id="suzuyacvl1"></span><label for="suzuyacvl1">Suzuya Kai Ni 鈴谷改二 (88)</label></div>
+						<div class="kai blueprint prototype"><span><input type="checkbox" name="taiyou3" id="taiyou3"></span><label for="taiyou3">Taiyou 大鷹(85)</label></div>
 					</div>
 				</div>
 				<div class="shipClass" id="cv">
