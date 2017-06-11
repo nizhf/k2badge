@@ -286,6 +286,13 @@
     "kumano2": [
       "kumano1"
     ],
+    "kumano4": [
+      "kumano1"
+    ],
+    "kumanocvl1": [
+      "kumano4",
+      "kumano1"
+    ],
     "mikuma2": [
       "mikuma1"
     ],
@@ -455,7 +462,9 @@
     "490": "arashio2",
     "500": "kamoi3",
     "503": "suzuya4",
+    "503": "kumano4",
     "508": "suzuyacvl1",
+    "508": "kumanocvl1",
     "513": "gangut2",
     "541": "nagato2"
   },
@@ -853,7 +862,9 @@
     "499": "kamoi2",
     "500": "kamoi3",
     "503": "suzuya4",
+    "504": "kumano4",
     "508": "suzuyacvl1",
+    "509": "kumanocvl1",
     "511": "gangut1",
     "512": "oktyabrskaya1",
     "513": "gangut2",

@@ -266,7 +266,9 @@
 						<div class="kai blueprint"><span><input type="checkbox" name="tone2" id="tone2"></span><label for="tone2">Tone 利根 (70)</label></div>
 						<div class="kai blueprint"><span><input type="checkbox" name="chikuma2" id="chikuma2"></span><label for="chikuma2">Chikuma 筑摩 (70)</label></div>
 						<div class="kai blueprint"><span><input type="checkbox" name="zara3" id="zara3"></span><label for="zara3">Zara ザラ (88)</label></div>
-						<div class="blueprint"><span><input type="checkbox" name="suzuya4" id="suzuya4"></span><label for="suzuya4">Suzuya 鈴谷 (84)</label></div>
+						<div class="kai blueprint"><span><input type="checkbox" name="suzuya4" id="suzuya4"></span><label for="suzuya4">Suzuya 鈴谷 (84)</label></div>
+						<div class="kai blueprint"><span><input type="checkbox" name="kumano4" id="kumano4"></span><label for="kumano4">Kumano 熊野 (84)</label></div>
+						
 					</div>
 				</div>
 				<div class="shipClass" id="bb">
@@ -296,6 +298,7 @@
 						<div class="kai blueprint"><span><input type="checkbox" name="ryuuhou2" id="ryuuhou2"></span><label for="ryuuhou2">Ryuuhou Kai 龍鳳改 (50)</label></div>
 						<div class="kai blueprint"><span><input type="checkbox" name="suzuyacvl1" id="suzuyacvl1"></span><label for="suzuyacvl1">Suzuya Kai Ni 鈴谷改二 (88)</label></div>
 						<div class="kai blueprint prototype"><span><input type="checkbox" name="taiyou3" id="taiyou3"></span><label for="taiyou3">Taiyou 大鷹(85)</label></div>
+						<div class="kai blueprint"><span><input type="checkbox" name="kumanocvl1" id="kumanocvl1"></span><label for="kumanocvl1">Kumano Kai Ni 熊野改二 (88)</label></div>
 					</div>
 				</div>
 				<div class="shipClass" id="cv">
