@@ -223,14 +223,14 @@ $(document).ready(function() {
 	$.ajax({
 		dataType: "json",
 		timeout: 10000,
-		url: (lang=="en"?'db.json':'dbj.json')
+		url: (lang=="en"?'db.json?v=13':'dbj.json?v=13')
 	})
 	.then(function(data){		
 		shipDB = data; 
 		$.ajax({
 			dataType: "json",
 			timeout: 10000,
-			url: 'conversion.json'
+			url: 'conversion.json?v=13'
 		}).then(function(data2) {
 			conversion = data2;
 
@@ -498,7 +498,7 @@ $(document).ready(function() {
 		$.ajax({
 		  dataType: "json",
 		  timeout: 10000,
-	  	  url: (lang=="en"?'db2.json':'db2j.json'),
+	  	  url: (lang=="en"?'db2.json?v=13':'db2j.json?v=13'),
 		  success: function(data){
 			abyssDB = data;
 			$("#loadingDiv").html("Loading images: ");
@@ -1081,7 +1081,7 @@ $(document).ready(function() {
 		ctx.fillStyle = 'rgba(255, 255, 255, 0.25)';
 		ctx.strokeStyle = 'transparent';
 		var date = new Date();
-		drawText(date.getFullYear() + "-" + (date.getMonth()+1) + "-" + date.getDate(), 5, 200, 3);
+		drawText(date.getFullYear() + "-" + (date.getMonth()+1) + "-" + date.getDate(), 5, c.height - 5, 3);
 		ctx.restore();
 
 		ctx.font = "14px " + textfont;
@@ -1196,7 +1196,7 @@ $(document).ready(function() {
 		ctx.fillStyle = 'rgba(255, 255, 255, 0.25)';
 		ctx.strokeStyle = 'transparent';
 		var date = new Date();
-		drawText(date.getFullYear() + "-" + (date.getMonth()+1) + "-" + date.getDate(), 5, 200, 3);
+		drawText(date.getFullYear() + "-" + (date.getMonth()+1) + "-" + date.getDate(), 5, c.height - 5, 3);
 		ctx.restore();
 
 		ctx.font = "14px " + textfont;
@@ -1420,18 +1420,18 @@ $(document).ready(function() {
 		var barWidth = 300;
 
 		ctx.save();
-		ctx.strokeRect(progressrowbox, line3+4 + linebarwidth/2, barWidth, 8);
+		ctx.strokeRect(progressrowbox, c.height - 20, barWidth, 8);
 		var grd=ctx.createLinearGradient(progressrowbox,0,progressrowbox+barWidth,0);
 		grd.addColorStop(0,"#A00000");
 		grd.addColorStop(0.33,"#FF9900");
 		grd.addColorStop(0.66,"#DDDD33");
 		grd.addColorStop(1,"#00A000");
 		ctx.fillStyle=grd;
-		ctx.fillRect(progressrowbox, line3 + 4 + linebarwidth/2, (barWidth * shipPct).toFixed(), 8);
+		ctx.fillRect(progressrowbox, c.height - 20, (barWidth * shipPct).toFixed(), 8);
 		ctx.restore();
 
 		ctx.font = "20px " + numberfont;
-		drawText(ships + " (" + (shipPct*100).toFixed() + "%)", progressrowbox + barWidth,line3+4 + linebarwidth/2,3);
+		drawText(ships + " (" + (shipPct*100).toFixed() + "%)", progressrowbox + barWidth, c.height - 20,3);
 		ctx.font = "12px " + textfont;
 		ctx.textAlign = "center";
 		drawText("Lv. " + (level.value ? level.value : "?"), 85, line4-8);
@@ -1698,7 +1698,7 @@ $(document).ready(function() {
 			$("#buttonToggles button").removeClass("active");
 			$(this).addClass("active");
 			c.width = 850;
-			c.height = 205;
+			c.height = 240;
 			generateFunction("displayBadge");
 		});
 		$("#displayRoom").on("click", function() {
