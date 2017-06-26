@@ -390,6 +390,15 @@
     "zuikaku4": [
       "zuikaku3",
       "zuikaku1"
+    ],
+	"taiyou1": [
+      "kasugamaru1"
+    ],
+	"taiyou2": [
+      "kasugamaru1"
+    ],
+    "taiyou3": [
+      "kasugamaru1"
     ]
   },
   "mstId2KainiTable": {
@@ -462,9 +471,9 @@
     "490": "arashio2",
     "500": "kamoi3",
     "503": "suzuya4",
-    "503": "kumano4",
+    "504": "kumano4",
     "508": "suzuyacvl1",
-    "508": "kumanocvl1",
+    "509": "kumanocvl1",
     "513": "gangut2",
     "541": "nagato2"
   },
