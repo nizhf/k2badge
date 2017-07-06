@@ -3233,6 +3233,17 @@
 		"full": "Autumn Festival Yura",
 		"name": "Nagara"
 	},
+	"yura3": {
+		"offset": {
+			"x": 0,
+			"y": 30
+		},
+		"rarity": 6,
+		"type": "CL",
+		"unique": false,
+		"full": "Yura Kai Ni",
+		"name": "Nagara"
+	},
 	"kinu1": {
 		"offset": {
 			"x": 75,
@@ -4710,6 +4721,17 @@
 		"full": "Ise Kai",
 		"name": "Ise"
 	},
+	"ise3": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "BB",
+		"unique": false,
+		"full": "Zuiun Festival Ise Kai",
+		"name": "Ise"
+	},
 	"hyuuga1": {
 		"offset": {
 			"x": 0,
@@ -4730,6 +4752,17 @@
 		"type": "BB",
 		"unique": false,
 		"full": "Hyuuga Kai",
+		"name": "Ise"
+	},
+	"hyuuga3": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "BB",
+		"unique": false,
+		"full": "Zuiun Festival Hyuuga Kai",
 		"name": "Ise"
 	},
 	"yamato1": {
