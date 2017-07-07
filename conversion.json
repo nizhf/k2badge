@@ -378,6 +378,9 @@
     "yamato2": [
       "yamato1"
     ],
+	"yura3" : [
+    	"yura1"
+    ],
     "zara3" : [
     	"zara1"
     ],
@@ -468,6 +471,8 @@
     "468": "asashio2",
     "469": "kawakaze4",
     "470": "kasumi2",
+	"487": "kinu2",
+	"488": "yura3",
     "490": "arashio2",
     "500": "kamoi3",
     "503": "suzuya4",
@@ -863,6 +868,7 @@
     "485": "fujinami1",
     "486": "uranami1",
     "487": "kinu2",
+	"488": "yura3",
     "490": "arashio2",
     "491": "commandantteste1",
     "494": "i131",

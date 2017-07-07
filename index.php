@@ -254,6 +254,7 @@
 							<div><span><input type="checkbox" name="sendai2" id="sendai2"></span><label for="sendai2">Sendai 川内 (60)</label></div>
 							<div><span><input type="checkbox" name="jintsuu2" id="jintsuu2"></span><label for="jintsuu2">Jintsuu 神通 (60)</label></div>
 							<div><span><input type="checkbox" name="naka2" id="naka2"></span><label for="naka2">Naka 那珂 (48)</label></div>
+							<div class="kai blueprint"><span><input type="checkbox" name="yura3" id="yura3"></span><label for="yura3">Yura 由良 (77)</label></div>
 						</div>
 					</div>
 					<div class="shipClass" id="ca">
