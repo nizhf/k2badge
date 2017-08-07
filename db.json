@@ -923,7 +923,7 @@
 			"x": 0,
 			"y": -15
 		},
-		"rarity": 5,
+		"rarity": 4,
 		"type": "DD",
 		"unique": false,
 		"full": "Uzuki Kai",
@@ -3264,7 +3264,7 @@
 			"x": -50,
 			"y": 25
 		},
-		"rarity": 7,
+		"rarity": 6,
 		"type": "CL",
 		"unique": false,
 		"full": "Kinu Kai Ni",

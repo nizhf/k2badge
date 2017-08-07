@@ -1383,7 +1383,7 @@ $(document).ready(function() {
 		ctx.restore();
 		
 		var startPositionAX = (numCVL+3)*hexRectangleWidth;
-		drawText((lang=="en"?"AX":"その他"), row1 + startPositionAX, line3 + newLength-9);
+		drawText((lang=="en"?"AX":"他"), row1 + startPositionAX, line3 + newLength-9);
 		var numAX = 0;
 		var maxAX = $("#ax").find("[type='checkbox']:checked").length;
 		var blue = 0;
