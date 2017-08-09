@@ -3611,6 +3611,21 @@
 		"full": "Summer Ooyodo Kai",
 		"name": "Ooyodo"
 	},
+	"ooyodo11": {
+		"offset": {
+			"x": 75,
+			"y": 15
+		},
+		"offset2": {
+			"x": 65,
+			"y": 35
+		},
+		"rarity": 7,
+		"type": "CL",
+		"unique": false,
+		"full": "Summer 2017 Ooyodo Kai",
+		"name": "Ooyodo"
+	},
 	"katori1": {
 		"offset": {
 			"x": -25,
@@ -6396,7 +6411,7 @@
 		"full": "Christmas Akashi",
 		"name": "Akashi"
 	},
-	"akashi9": {
+	"akashi8": {
 		"offset": {
 			"x": 100,
 			"y": 50
@@ -6411,7 +6426,7 @@
 		"full": "Christmas Akashi Kai",
 		"name": "Akashi"
 	},
-		"akashi7": {
+	"akashi9": {
 		"offset": {
 			"x": 50,
 			"y": -20
@@ -6439,6 +6454,36 @@
 		"type": "AX",
 		"unique": false,
 		"full": "Setsubun Akashi Kai",
+		"name": "Akashi"
+	},
+	"akashi11": {
+		"offset": {
+			"x": 50,
+			"y": -20
+		},
+		"offset2": {
+			"x": 50,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "AX",
+		"unique": false,
+		"full": "Tekkotsu Bancho Akashi",
+		"name": "Akashi"
+	},
+	"akashi12": {
+		"offset": {
+			"x": 100,
+			"y": 50
+		},
+		"offset2": {
+			"x": 50,
+			"y": 20
+		},
+		"rarity": 7,
+		"type": "AX",
+		"unique": false,
+		"full": "Tekkotsu Bancho Akashi Kai",
 		"name": "Akashi"
 	},
 	"taigei1": {
@@ -6756,6 +6801,21 @@
 		"full": "Hayasui Kai",
 		"name": "Hayasui"
 	},
+	"hayasui3": {
+		"offset": {
+			"x": 0,
+			"y": 40
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 7,
+		"type": "AX",
+		"unique": false,
+		"full": "Zuiun Hayasui",
+		"name": "Hayasui"
+	},
 	"commandantteste1": {
 		"offset": {
 			"x": 0,
@@ -6829,6 +6889,21 @@
 		"type": "AX",
 		"unique": false,
 		"full": "Hinamatsuri Commandant Teste",
+		"name": "Commandant_Teste"
+	},
+	"commandantteste6": {
+		"offset": {
+			"x": 30,
+			"y": 30
+		},
+		"offset2": {
+			"x": 30,
+			"y": -30
+		},
+		"rarity": 7,
+		"type": "AX",
+		"unique": false,
+		"full": "Summer Commandant Teste",
 		"name": "Commandant_Teste"
 	},
 	"kamoi1": {
