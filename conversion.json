@@ -118,6 +118,9 @@
     "junyou2": [
       "junyou1"
     ],
+    "fumizuki2": [
+      "fumizuki1"
+    ],
     "fusou3": [
       "fusou1"
     ],
@@ -483,7 +486,8 @@
     "508": "suzuyacvl1",
     "509": "kumanocvl1",
     "513": "gangut2",
-    "541": "nagato2"
+    "541": "nagato2",
+    "548": "fumizuki2"
   },
   "mstId2FleetIdTable": {
     "1": "mutsuki1",
@@ -871,7 +875,7 @@
     "485": "fujinami1",
     "486": "uranami1",
     "487": "kinu2",
-	"488": "yura3",
+    "488": "yura3",
     "490": "arashio2",
     "491": "commandantteste1",
     "494": "i131",
@@ -892,6 +896,7 @@
     "524": "etorofu1",
     "526": "taiyou1",
     "529": "taiyou3",
-    "541": "nagato2"
+    "541": "nagato2",
+    "548": "fumizuki2"
   }
 }
