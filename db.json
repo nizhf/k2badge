@@ -44,6 +44,21 @@
 		"full": "Etorofu",
 		"name": "Etorofu"
 	},
+	"matsuwa1": {
+		"offset": {
+			"x": 50,
+			"y": -80
+		},
+		"offset2": {
+			"x": 50,
+			"y": -80
+		},
+		"rarity": 4,
+		"type": "DE",
+		"unique": true,
+		"full": "Matsuwa",
+		"name": "Etorofu"
+	},
 	"shimakaze1": {
 		"offset": {
 			"x": 50,
@@ -692,6 +707,28 @@
 		"type": "DD",
 		"unique": false,
 		"full": "Hinamatsuri Ushio Kai Ni",
+		"name": "Ayanami"
+	},
+	"sagiri1": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 3,
+		"type": "DD",
+		"unique": true,
+		"full": "Sagiri",
+		"name": "Ayanami"
+	},
+	"amagiri1": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 3,
+		"type": "DD",
+		"unique": true,
+		"full": "Amagiri",
 		"name": "Ayanami"
 	},
 	"mutsuki1": {
@@ -2876,6 +2913,21 @@
 		"type": "DD",
 		"unique": true,
 		"full": "Matsukaze",
+		"name": "Kamikaze"
+	},
+	"hatakaze1": {
+		"offset": {
+			"x": 50,
+			"y": 10
+		},
+		"offset2": {
+			"x": 0,
+			"y": -20
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": true,
+		"full": "Hatakaze",
 		"name": "Kamikaze"
 	},
 	"tenryuu1": {
@@ -5140,6 +5192,21 @@
 		"full": "Gangut dva",
 		"name": "Gangut"
 	},
+	"richelieu1": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 50,
+			"y": -5
+		},
+		"rarity": 7,
+		"type": "BB",
+		"unique": true,
+		"full": "Richelieu",
+		"name": "Richelieu"
+	},
 	"houshou1": {
 		"offset": {
 			"x": 0,
@@ -5946,6 +6013,21 @@
 		"full": "Saratoga Kai",
 		"name": "Lexington"
 	},
+	"arkroyal1": {
+		"offset": {
+			"x": 125,
+			"y": -20
+		},
+		"offset2": {
+			"x": -75,
+			"y": -15
+		},
+		"rarity": 6,
+		"type": "CV",
+		"unique": true,
+		"full": "Ark Royal",
+		"name": "Ark Royal"
+	},
 	"i1681": {
 		"offset": {
 			"x": 0,
@@ -6146,6 +6228,51 @@
 		"unique": false,
 		"full": "Iyo Kai",
 		"name": "Type AM"
+	},
+	"luigitorelli1": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 25,
+			"y": 25
+		},
+		"rarity": 4,
+		"type": "SS",
+		"unique": true,
+		"full": "Luigi Torelli",
+		"name": "Guglielmo Marconi"
+	},
+	"uit251": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 25,
+			"y": 25
+		},
+		"rarity": 6,
+		"type": "SS",
+		"unique": false,
+		"full": "UIT-25",
+		"name": "Guglielmo Marconi"
+	},
+	"i5041": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 25,
+			"y": 25
+		},
+		"rarity": 6,
+		"type": "SS",
+		"unique": false,
+		"full": "I-504",
+		"name": "Guglielmo Marconi"
 	},
 	"chitose1": {
 		"offset": {
