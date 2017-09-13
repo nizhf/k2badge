@@ -56,6 +56,21 @@
 		"rarity": 4,
 		"type": "DE",
 		"unique": false,
+		"full": "Etorofu Kai",
+		"name": "Etorofu"
+	},
+	"etorofu3": {
+		"offset": {
+			"x": 50,
+			"y": -80
+		},
+		"offset2": {
+			"x": 50,
+			"y": -80
+		},
+		"rarity": 4,
+		"type": "DE",
+		"unique": false,
 		"full": "Yukata Etorofu",
 		"name": "Etorofu"
 	},
