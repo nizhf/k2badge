@@ -170,6 +170,60 @@
 		"full": "Ni-Class Late Model Elite",
 		"name": "Ni-Class"
 	},
+	"nakyuu1": {
+		"offset": {
+			"x": -25,
+			"y": -250
+		},
+		"type": "ADD",
+		"full": "Na-Class",
+		"name": "Na-Class"
+	},
+	"nakyuu2": {
+		"offset": {
+			"x": 45,
+			"y": -313
+		},
+		"type": "ADD",
+		"full": "Na-Class Elite",
+		"name": "Na-Class"
+	},
+	"nakyuu3": {
+		"offset": {
+			"x": 45,
+			"y": -313
+		},
+		"type": "ADD",
+		"full": "Na-Class Flashship",
+		"name": "Na-Class"
+	},
+	"nakyuu4": {
+		"offset": {
+			"x": -25,
+			"y": -250
+		},
+		"type": "ADD",
+		"full": "Na-Class Late Model",
+		"name": "Na-Class"
+	},
+	"nakyuu5": {
+		"offset": {
+			"x": 45,
+			"y": -313
+		},
+		"type": "ADD",
+		"full": "Na-Class Late Model Elite",
+		"name": "Na-Class"
+	},
+	"nakyuu6": {
+		"offset": {
+			"x": 45,
+			"y": -313
+		},
+		"type": "ADD",
+		"full": "Na-Class Late Model Flashship",
+		"name": "Na-Class"
+	},
 	"kuchikuhime1": {
 		"offset": {
 			"x": 25,
@@ -418,6 +472,15 @@
 		"full": "Ne-Class Elite",
 		"name": "Ne-Class"
 	},
+	"nekyuu3": {
+		"offset": {
+			"x": 175,
+			"y": -90
+		},
+		"type": "ACA",
+		"full": "Ne-Class Flagship",
+		"name": "Ne-Class"
+	},
 	"juujunhime1": {
 		"offset": {
 			"x": 75,
@@ -642,6 +705,46 @@
 		"full": "Abyssal Twin Princesses - Damaged",
 		"name": "Battleship"
 	},
+	"oushuuhime1": {
+		"offset": {
+			"x": 50,
+			"y": -50
+		},
+		"type": "ABB",
+		"damageable": false,
+		"full": "European Princess",
+		"name": "Battleship"
+	},
+	"oushuuhime2": {
+		"offset": {
+			"x": 50,
+			"y": -50
+		},
+		"type": "ABB",
+		"damageable": false,
+		"full": "European Princess - Damaged",
+		"name": "Battleship"
+	},
+	"senkanfutsuhime1": {
+		"offset": {
+			"x": 50,
+			"y": -50
+		},
+		"type": "ABB",
+		"damageable": false,
+		"full": "French Battleship Princess",
+		"name": "Battleship"
+	},
+	"senkanfutsuhime2": {
+		"offset": {
+			"x": 50,
+			"y": -50
+		},
+		"type": "ABB",
+		"damageable": false,
+		"full": "French Battleship Princess - Damaged",
+		"name": "Battleship"
+	},
 	"harunaf": {
 		"offset": {
 			"x": 50,
@@ -773,6 +876,24 @@
 		"full": "Carrier Princess",
 		"name": "Carrier"
 	},
+	"kuubonatsukioni1": {
+		"offset": {
+			"x": 100,
+			"y": -10
+		},
+		"type": "ACV",
+		"full": "Carrier Summer Demon",
+		"name": "Carrier"
+	},
+	"kuubonatsukihime1": {
+		"offset": {
+			"x": 100,
+			"y": -10
+		},
+		"type": "ACV",
+		"full": "Carrier Summer Princess",
+		"name": "Carrier"
+	},
 	"kuubosuioni1": {
 		"offset": {
 			"x": 100,
@@ -890,6 +1011,16 @@
 		},
 		"type": "ASS",
 		"full": "Submarine Summer Princess",
+		"name": "Submarine"
+	},
+	"sensuishinhime1": {
+		"offset": {
+			"x": 100,
+			"y": -85
+		},
+		"type": "ASS",
+		"damageable": false,
+		"full": "Submarine New Princess",
 		"name": "Submarine"
 	},
 	"ionaf": {
@@ -1120,6 +1251,20 @@
 		"type": "AINS",
 		"damageable": true,
 		"full": "Supply Depot Princess",
+		"name": "Supply_Depot"
+	},
+	"shuusekichinatsukihime1": {
+		"offset": {
+			"x": 80,
+			"y": 10
+		},
+		"offset2": {
+			"x": 60,
+			"y": 0
+		},
+		"type": "AINS",
+		"damageable": false,
+		"full": "Supply Depot Summer Princess",
 		"name": "Supply_Depot"
 	},
 	"rikorisuhime1": {
