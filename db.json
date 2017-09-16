@@ -243,6 +243,17 @@
 		"full": "Ayanami Kai Ni",
 		"name": "Ayanami"
 	},
+	"ayanami3": {
+		"offset": {
+			"x": 50,
+			"y": -25
+		},
+		"rarity": 6,
+		"type": "DD",
+		"unique": false,
+		"full": "Yukata Ayanami",
+		"name": "Ayanami"
+	},
 	"shikinami1": {
 		"offset": {
 			"x": 0,
@@ -252,6 +263,17 @@
 		"type": "DD",
 		"unique": true,
 		"full": "Shikinami",
+		"name": "Ayanami"
+	},
+	"shikinami2": {
+		"offset": {
+			"x": 0,
+			"y": 25
+		},
+		"rarity": 2,
+		"type": "DD",
+		"unique": false,
+		"full": "Yukata Shikinami",
 		"name": "Ayanami"
 	},
 	"oboro1": {
@@ -854,6 +876,21 @@
 		"full": "Fumizuki",
 		"name": "Mutsuki"
 	},
+	"fumizuki2": {
+		"offset": {
+			"x": 20,
+			"y": -100
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "DD",
+		"unique": false,
+		"full": "Fumizuki Kai Ni",
+		"name": "Mutsuki"
+	},
 	"nagatsuki1": {
 		"offset": {
 			"x": -50,
@@ -960,7 +997,7 @@
 			"x": 0,
 			"y": -15
 		},
-		"rarity": 5,
+		"rarity": 4,
 		"type": "DD",
 		"unique": false,
 		"full": "Uzuki Kai",
@@ -1640,6 +1677,21 @@
 		"type": "DD",
 		"unique": true,
 		"full": "Umikaze",
+		"name": "Shiratsuyu"
+	},
+	"umikaze2": {
+		"offset": {
+			"x": 70,
+			"y": 30
+		},
+		"offset2": {
+			"x": 0,
+			"y": -50
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Summer Umikaze",
 		"name": "Shiratsuyu"
 	},
 	"kawakaze1": {
@@ -2479,6 +2531,21 @@
 		"full": "Autumn Festival Naganami",
 		"name": "Yuugumo"
 	},
+	"naganami4": {
+		"offset": {
+			"x": -20,
+			"y": 30
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": false,
+		"full": "Fried Rice Naganami",
+		"name": "Yuugumo"
+	},
 	"hayashimo1": {
 		"offset": {
 			"x": 0,
@@ -2643,6 +2710,21 @@
 		"full": "Autumn Festival Asashimo",
 		"name": "Yuugumo"
 	},
+	"asashimo4": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": -25
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Yukata Asashimo",
+		"name": "Yuugumo"
+	},
 	"okinami1": {
 		"offset": {
 			"x": -50,
@@ -2686,6 +2768,21 @@
 		"type": "DD",
 		"unique": true,
 		"full": "Fujinami",
+		"name": "Yuugumo"
+	},
+	"fujinami2": {
+		"offset": {
+			"x": -50,
+			"y": 10
+		},
+		"offset2": {
+			"x": -50,
+			"y": -30
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "Yukata Fujinami",
 		"name": "Yuugumo"
 	},
 	"z11": {
@@ -3316,7 +3413,7 @@
 			"x": -50,
 			"y": 25
 		},
-		"rarity": 7,
+		"rarity": 6,
 		"type": "CL",
 		"unique": false,
 		"full": "Kinu Kai Ni",
@@ -3779,6 +3876,21 @@
 		"full": "Furutaka Kai Ni",
 		"name": "Furutaka"
 	},
+	"furutaka3": {
+		"offset": {
+			"x": 50,
+			"y": 45
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "CA",
+		"unique": false,
+		"full": "Yukata Furutaka",
+		"name": "Furutaka"
+	},
 	"kako1": {
 		"offset": {
 			"x": 0,
@@ -4150,6 +4262,21 @@
 		"full": "Rainy Season Mogami",
 		"name": "Mogami"
 	},
+	"mogami4": {
+		"offset": {
+			"x": 0,
+			"y": -25
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "CA",
+		"unique": false,
+		"full": "Summer Mogami",
+		"name": "Mogami"
+	},
 	"mikuma1": {
 		"offset": {
 			"x": -50,
@@ -4185,6 +4312,21 @@
 		"type": "CA",
 		"unique": false,
 		"full": "Summer 2016 Mikuma",
+		"name": "Mogami"
+	},
+	"mikuma4": {
+		"offset": {
+			"x": 50,
+			"y": -50
+		},
+		"offset2": {
+			"x": -50,
+			"y": -50
+		},
+		"rarity": 6,
+		"type": "CA",
+		"unique": false,
+		"full": "Summer 2017 Mikuma",
 		"name": "Mogami"
 	},
 	"suzuya1": {
@@ -4684,6 +4826,21 @@
 		"full": "Rainy Season Fusou Kai Ni",
 		"name": "Fusou"
 	},
+	"fusou9": {
+		"offset": {
+			"x": 125,
+			"y": 20
+		},
+		"offset2": {
+			"x": 125,
+			"y": -5
+		},
+		"rarity": 5,
+		"type": "BB",
+		"unique": false,
+		"full": "Zuiun Fusou",
+		"name": "Fusou"
+	},
 	"yamashiro1": {
 		"offset": {
 			"x": 0,
@@ -4764,6 +4921,21 @@
 		"type": "BB",
 		"unique": false,
 		"full": "Oyakodon Yamashiro",
+		"name": "Fusou"
+	},
+	"yamashiro7": {
+		"offset": {
+			"x": -40,
+			"y": 10
+		},
+		"offset2": {
+			"x": 100,
+			"y": -50
+		},
+		"rarity": 5,
+		"type": "BB",
+		"unique": false,
+		"full": "Zuiun Yamashiro",
 		"name": "Fusou"
 	},
 	"ise1": {

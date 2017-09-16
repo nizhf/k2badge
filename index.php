@@ -233,6 +233,10 @@
 								<label for="arashio2">Arashio 荒潮 (67)</label>
 							</div>
 							<div>
+								<span><input type="checkbox" name="fumizuki2" id="fumizuki2"></span>
+								<label for="fumizuki2">Fumizuki  文月 (77)</label>
+							</div>
+							<div>
 								<span><input type="checkbox" name="z12" id="z12"></span>
 								<label for="z12">Z1 レーベレヒト・マース (70)</label>
 							</div>
