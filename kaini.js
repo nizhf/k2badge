@@ -1816,9 +1816,23 @@ $(document).ready(function() {
 		});
 
 		$("#export").on("click",function() {
-			alert("Right-click the image that opens up in a new tab and save it as PNG.");
-			var dataURL = c.toDataURL("image/png");
-			window.open(dataURL,"_blank");
+			var exportImg = document.createElement("img");
+			$(exportImg).attr("src", c.toDataURL("image/png"));
+			var exportContainer = document.createElement("div");
+			$(exportContainer).attr("class","export-container");
+			$(exportContainer).append(exportImg);
+			var exportSpan = document.createElement("span");
+			$(exportSpan).text('Right-click the image and choose "Save As..." to save it to your computer.');
+			$(exportContainer).append(exportSpan);
+			var exportCloser = document.createElement("span");
+			$(exportCloser).attr("class", "close");
+			$(exportCloser).text("+");
+			$(exportContainer).append(exportCloser);
+			$("body").prepend(exportContainer);
+		});
+		
+		$("body").on("click", ".export-container", function() {
+			$(".export-container").remove();
 		});
 
 		$('#avatar').load(function() {
