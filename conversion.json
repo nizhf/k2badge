@@ -118,6 +118,9 @@
     "junyou2": [
       "junyou1"
     ],
+    "fumizuki2": [
+      "fumizuki1"
+    ],
     "fusou3": [
       "fusou1"
     ],
@@ -267,6 +270,9 @@
     ],
     "asashio3": [
       "asashio1"
+    ],
+    "amagiri2": [
+      "amagiri1"
     ],
     "gangut2": [
     	"gangut1"
@@ -483,7 +489,8 @@
     "508": "suzuyacvl1",
     "509": "kumanocvl1",
     "513": "gangut2",
-    "541": "nagato2"
+    "541": "nagato2",
+    "548": "fumizuki2"
   },
   "mstId2FleetIdTable": {
     "1": "mutsuki1",
@@ -811,6 +818,12 @@
     "377": "kunashiri1",
     "380": "taiyou2",
     "383": "etorofu2",
+    "384": "matsuwa1",
+    "387": "hatakaze1",
+    "390": "amagiri1",
+    "391": "sagiri1",
+    "392": "richelieu1",
+    "393": "arkroyal1",
     "398": "i1681",
     "399": "i581",
     "400": "i81",
@@ -865,15 +878,19 @@
     "472": "asakaze1",
     "473": "harukaze1",
     "474": "matsukaze1",
+    "475": "hatakaze1",
     "476": "kamikaze1",
+    "479": "amagiri1",
+    "480": "sagiri1",
     "481": "minazuki1",
     "483": "i261",
     "485": "fujinami1",
     "486": "uranami1",
     "487": "kinu2",
-	"488": "yura3",
+    "488": "yura3",
     "490": "arashio2",
     "491": "commandantteste1",
+    "492": "richelieu1",
     "494": "i131",
     "495": "i141",
     "496": "zara3",
@@ -886,12 +903,18 @@
     "511": "gangut1",
     "512": "oktyabrskaya1",
     "513": "gangut2",
+    "515": "arkroyal1",
     "517": "shimushu1",
     "518": "kunashiri1",
     "521": "kasugamaru1",
     "524": "etorofu1",
     "526": "taiyou1",
     "529": "taiyou3",
-    "541": "nagato2"
+    "530": "i5041",
+    "535": "luigitorelli1",
+    "539": "uit251",
+    "541": "nagato2",
+    "548": "fumizuki2",
+    "605": "luigitorelli1"
   }
 }
