@@ -44,6 +44,66 @@
 		"full": "択捉",
 		"name": "択捉型"
 	},
+	"etorofu2": {
+		"offset": {
+			"x": 50,
+			"y": -80
+		},
+		"offset2": {
+			"x": 50,
+			"y": -80
+		},
+		"rarity": 4,
+		"type": "DE",
+		"unique": false,
+		"full": "択捉",
+		"name": "択捉型"
+	},
+	"etorofu3": {
+		"offset": {
+			"x": 50,
+			"y": -80
+		},
+		"offset2": {
+			"x": 50,
+			"y": -80
+		},
+		"rarity": 4,
+		"type": "DE",
+		"unique": false,
+		"full": "浴衣択捉",
+		"name": "択捉型"
+	},
+	"matsuwa1": {
+		"offset": {
+			"x": 50,
+			"y": -80
+		},
+		"offset2": {
+			"x": 50,
+			"y": -80
+		},
+		"rarity": 4,
+		"type": "DE",
+		"unique": true,
+		"full": "松輪",
+		"name": "択捉型"
+	},
+	"matsuwa2": {
+		"offset": {
+			"x": 50,
+			"y": -80
+		},
+		"offset2": {
+			"x": 50,
+			"y": -80
+		},
+		"rarity": 4,
+		"type": "DE",
+		"unique": false,
+		"full": "浴衣松輪",
+		"name": "択捉型"
+	},
 	"shimakaze1": {
 		"offset": {
 			"x": 50,
@@ -228,6 +288,17 @@
 		"full": "綾波改二",
 		"name": "綾波型"
 	},
+	"ayanami3": {
+		"offset": {
+			"x": 50,
+			"y": -25
+		},
+		"rarity": 6,
+		"type": "DD",
+		"unique": false,
+		"full": "浴衣綾波",
+		"name": "綾波型"
+	},
 	"shikinami1": {
 		"offset": {
 			"x": 0,
@@ -237,6 +308,17 @@
 		"type": "DD",
 		"unique": true,
 		"full": "敷波",
+		"name": "綾波型"
+	},
+	"shikinami2": {
+		"offset": {
+			"x": 0,
+			"y": 25
+		},
+		"rarity": 2,
+		"type": "DD",
+		"unique": false,
+		"full": "浴衣敷波",
 		"name": "綾波型"
 	},
 	"oboro1": {
@@ -694,6 +776,47 @@
 		"full": "桃の節句潮改二",
 		"name": "綾波型"
 	},
+	"amagiri1": {
+		"offset": {
+			"x": -67,
+			"y": -9
+		},
+		"offset2": {
+			"x": -25,
+			"y": -60
+		},
+		"rarity": 6,
+		"type": "DD",
+		"unique": true,
+		"full": "天霧",
+		"name": "綾波型"
+	},
+	"amagiri2": {
+		"offset": {
+			"x": -67,
+			"y": -9
+		},
+		"offset2": {
+			"x": -25,
+			"y": -60
+		},
+		"rarity": 6,
+		"type": "DD",
+		"unique": false,
+		"full": "天霧改",
+		"name": "綾波型"
+	},
+	"sagiri1": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 3,
+		"type": "DD",
+		"unique": true,
+		"full": "狭霧",
+		"name": "綾波型"
+	},
 	"mutsuki1": {
 		"offset": {
 			"x": 0,
@@ -815,6 +938,21 @@
 		"type": "DD",
 		"unique": true,
 		"full": "文月",
+		"name": "睦月型"
+	},
+	"fumizuki2": {
+		"offset": {
+			"x": 20,
+			"y": -100
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "DD",
+		"unique": false,
+		"full": "文月改二",
 		"name": "睦月型"
 	},
 	"nagatsuki1": {
@@ -1603,6 +1741,21 @@
 		"type": "DD",
 		"unique": true,
 		"full": "海風",
+		"name": "白露型"
+	},
+	"umikaze2": {
+		"offset": {
+			"x": 70,
+			"y": 30
+		},
+		"offset2": {
+			"x": 0,
+			"y": -50
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "夏海風",
 		"name": "白露型"
 	},
 	"kawakaze1": {
@@ -2442,6 +2595,21 @@
 		"full": "秋祭り長波",
 		"name": "夕雲型"
 	},
+	"naganami4": {
+		"offset": {
+			"x": -20,
+			"y": 30
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 5,
+		"type": "DD",
+		"unique": false,
+		"full": "炒飯長波",
+		"name": "夕雲型"
+	},
 	"hayashimo1": {
 		"offset": {
 			"x": 0,
@@ -2606,6 +2774,21 @@
 		"full": "秋祭り朝霜",
 		"name": "夕雲型"
 	},
+	"asashimo4": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": -25
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "浴衣朝霜",
+		"name": "夕雲型"
+	},
 	"okinami1": {
 		"offset": {
 			"x": -50,
@@ -2649,6 +2832,21 @@
 		"type": "DD",
 		"unique": true,
 		"full": "藤波",
+		"name": "夕雲型"
+	},
+	"fujinami2": {
+		"offset": {
+			"x": -50,
+			"y": 10
+		},
+		"offset2": {
+			"x": -50,
+			"y": -30
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": false,
+		"full": "浴衣藤波",
 		"name": "夕雲型"
 	},
 	"z11": {
@@ -2818,6 +3016,21 @@
 		"full": "夏Libeccio",
 		"name": "Maestrale級"
 	},
+	"libeccio4": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": -25,
+			"y": -30
+		},
+		"rarity": 7,
+		"type": "DD",
+		"unique": false,
+		"full": "浴衣Libeccio",
+		"name": "Maestrale級"
+	},
 	"kamikaze1": {
 		"offset": {
 			"x": 50,
@@ -2876,6 +3089,21 @@
 		"type": "DD",
 		"unique": true,
 		"full": "松風",
+		"name": "神風型"
+	},
+	"hatakaze1": {
+		"offset": {
+			"x": 50,
+			"y": 10
+		},
+		"offset2": {
+			"x": 0,
+			"y": -20
+		},
+		"rarity": 4,
+		"type": "DD",
+		"unique": true,
+		"full": "旗風",
 		"name": "神風型"
 	},
 	"tenryuu1": {
@@ -3242,6 +3470,17 @@
 		"type": "CL",
 		"unique": false,
 		"full": "由良改二",
+		"name": "長良型"
+	},
+	"yura4": {
+		"offset": {
+			"x": 0,
+			"y": 30
+		},
+		"rarity": 6,
+		"type": "CL",
+		"unique": false,
+		"full": "浴衣由良改二",
 		"name": "長良型"
 	},
 	"kinu1": {
@@ -3611,6 +3850,21 @@
 		"full": "夏大淀改",
 		"name": "大淀型"
 	},
+	"ooyodo11": {
+		"offset": {
+			"x": 75,
+			"y": 15
+		},
+		"offset2": {
+			"x": 65,
+			"y": 35
+		},
+		"rarity": 7,
+		"type": "CL",
+		"unique": false,
+		"full": "夏2017大淀改",
+		"name": "大淀型"
+	},
 	"katori1": {
 		"offset": {
 			"x": -25,
@@ -3710,6 +3964,21 @@
 		"type": "CA",
 		"unique": false,
 		"full": "古鷹改二",
+		"name": "古鷹型"
+	},
+	"furutaka3": {
+		"offset": {
+			"x": 50,
+			"y": 45
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "CA",
+		"unique": false,
+		"full": "浴衣古鷹",
 		"name": "古鷹型"
 	},
 	"kako1": {
@@ -4083,6 +4352,21 @@
 		"full": "梅雨最上",
 		"name": "最上型"
 	},
+	"mogami4": {
+		"offset": {
+			"x": 0,
+			"y": -25
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "CA",
+		"unique": false,
+		"full": "夏最上",
+		"name": "最上型"
+	},
 	"mikuma1": {
 		"offset": {
 			"x": -50,
@@ -4118,6 +4402,21 @@
 		"type": "CA",
 		"unique": false,
 		"full": "夏2016三隈",
+		"name": "最上型"
+	},
+	"mikuma4": {
+		"offset": {
+			"x": 50,
+			"y": -50
+		},
+		"offset2": {
+			"x": -50,
+			"y": -50
+		},
+		"rarity": 6,
+		"type": "CA",
+		"unique": false,
+		"full": "夏2017三隈",
 		"name": "最上型"
 	},
 	"suzuya1": {
@@ -4617,6 +4916,21 @@
 		"full": "梅雨扶桑改二",
 		"name": "扶桑型"
 	},
+	"fusou9": {
+		"offset": {
+			"x": 125,
+			"y": 20
+		},
+		"offset2": {
+			"x": 125,
+			"y": -5
+		},
+		"rarity": 5,
+		"type": "BB",
+		"unique": false,
+		"full": "瑞雲扶桑",
+		"name": "扶桑型"
+	},
 	"yamashiro1": {
 		"offset": {
 			"x": 0,
@@ -4697,6 +5011,21 @@
 		"type": "BB",
 		"unique": false,
 		"full": "なか卯山城",
+		"name": "扶桑型"
+	},
+	"yamashiro7": {
+		"offset": {
+			"x": -40,
+			"y": 10
+		},
+		"offset2": {
+			"x": 100,
+			"y": -50
+		},
+		"rarity": 5,
+		"type": "BB",
+		"unique": false,
+		"full": "瑞雲山城",
 		"name": "扶桑型"
 	},
 	"ise1": {
@@ -5124,6 +5453,21 @@
 		"unique": false,
 		"full": "Гангут два",
 		"name": "Гангут級"
+	},
+	"richelieu1": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 50,
+			"y": -5
+		},
+		"rarity": 7,
+		"type": "BB",
+		"unique": true,
+		"full": "Richelieu",
+		"name": "Richelieu"
 	},
 	"houshou1": {
 		"offset": {
@@ -5931,6 +6275,51 @@
 		"full": "Saratoga改",
 		"name": "Lexington級"
 	},
+	"saratoga3": {
+		"offset": {
+			"x": 80,
+			"y": -20
+		},
+		"offset2": {
+			"x": -75,
+			"y": -15
+		},
+		"rarity": 8,
+		"type": "CV",
+		"unique": false,
+		"full": "Saratoga Mk.II",
+		"name": "Lexington級"
+	},
+	"saratoga4": {
+		"offset": {
+			"x": 80,
+			"y": -20
+		},
+		"offset2": {
+			"x": -75,
+			"y": -15
+		},
+		"rarity": 8,
+		"type": "CV",
+		"unique": false,
+		"full": "Saratoga Mk.II Mod.2",
+		"name": "Lexington級"
+  },
+  "arkroyal1": {
+		"offset": {
+			"x": 125,
+      "y": -20
+		},
+		"offset2": {
+			"x": -75,
+			"y": -15
+		},
+		"rarity": 6,
+		"type": "CV",
+		"unique": true,
+		"full": "Ark Royal",
+		"name": "Ark Royal級"
+	},
 	"i1681": {
 		"offset": {
 			"x": 0,
@@ -6131,6 +6520,51 @@
 		"unique": false,
 		"full": "伊14改",
 		"name": "巡潜甲型改二"
+	},
+	"luigitorelli1": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 25,
+			"y": 25
+		},
+		"rarity": 4,
+		"type": "SS",
+		"unique": true,
+		"full": "Luigi Torelli",
+		"name": "Guglielmo Marconi級"
+	},
+	"uit251": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 25,
+			"y": 25
+		},
+		"rarity": 6,
+		"type": "SS",
+		"unique": false,
+		"full": "UIT-25",
+		"name": "Guglielmo Marconi級"
+	},
+	"i5041": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 25,
+			"y": 25
+		},
+		"rarity": 6,
+		"type": "SS",
+		"unique": false,
+		"full": "伊504",
+		"name": "Guglielmo Marconi級"
 	},
 	"chitose1": {
 		"offset": {
@@ -6396,7 +6830,7 @@
 		"full": "クリスマス明石",
 		"name": "工作艦"
 	},
-	"akashi9": {
+	"akashi8": {
 		"offset": {
 			"x": 100,
 			"y": 50
@@ -6411,7 +6845,7 @@
 		"full": "クリスマス明石改",
 		"name": "工作艦"
 	},
-		"akashi7": {
+	"akashi9": {
 		"offset": {
 			"x": 50,
 			"y": -20
@@ -6439,6 +6873,36 @@
 		"type": "AX",
 		"unique": false,
 		"full": "節分明石改",
+		"name": "工作艦"
+	},
+	"akashi11": {
+		"offset": {
+			"x": 50,
+			"y": -20
+		},
+		"offset2": {
+			"x": 50,
+			"y": 0
+		},
+		"rarity": 6,
+		"type": "AX",
+		"unique": false,
+		"full": "鉄骨番長明石",
+		"name": "工作艦"
+	},
+	"akashi12": {
+		"offset": {
+			"x": 100,
+			"y": 50
+		},
+		"offset2": {
+			"x": 50,
+			"y": 20
+		},
+		"rarity": 7,
+		"type": "AX",
+		"unique": false,
+		"full": "鉄骨番長明石改",
 		"name": "工作艦"
 	},
 	"taigei1": {
@@ -6756,6 +7220,21 @@
 		"full": "速吸改",
 		"name": "速吸型"
 	},
+	"hayasui3": {
+		"offset": {
+			"x": 0,
+			"y": 40
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 7,
+		"type": "AX",
+		"unique": false,
+		"full": "瑞雲速吸",
+		"name": "速吸型"
+	},
 	"commandantteste1": {
 		"offset": {
 			"x": 0,
@@ -6829,6 +7308,21 @@
 		"type": "AX",
 		"unique": false,
 		"full": "桃の節句Commandant Teste",
+		"name": "C.Teste級"
+	},
+	"commandantteste6": {
+		"offset": {
+			"x": 30,
+			"y": 30
+		},
+		"offset2": {
+			"x": 30,
+			"y": -30
+		},
+		"rarity": 7,
+		"type": "AX",
+		"unique": false,
+		"full": "夏Commandant Teste",
 		"name": "C.Teste級"
 	},
 	"kamoi1": {
@@ -6919,6 +7413,21 @@
 		"type": "AX",
 		"unique": false,
 		"full": "梅雨神威改母",
+		"name": "神威型"
+	},
+	"kamoi7": {
+		"offset": {
+			"x": 0,
+			"y": 0
+		},
+		"offset2": {
+			"x": 0,
+			"y": 0
+		},
+		"rarity": 4,
+		"type": "AX",
+		"unique": false,
+		"full": "浴衣Kamoi",
 		"name": "神威型"
 	}
 }

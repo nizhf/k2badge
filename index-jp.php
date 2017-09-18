@@ -233,6 +233,10 @@
 								<label for="arashio2">荒潮 (67)</label>
 							</div>
 							<div>
+								<span><input type="checkbox" name="fumizuki2" id="fumizuki2"></span>
+								<label for="fumizuki2">文月 (77)</label>
+							</div>
+							<div>
 								<span><input type="checkbox" name="z12" id="z12"></span>
 								<label for="z12">Z1 (70)</label>
 							</div>
@@ -317,6 +321,7 @@
 							<div class="blueprint"><span><input type="checkbox" name="unryuu2" id="unryuu2"></span><label for="unryuu2">雲龍 (50)</label></div>
 							<div class="blueprint"><span><input type="checkbox" name="amagi2" id="amagi2"></span><label for="amagi2">天城 (50)</label></div>
 							<div class="blueprint"><span><input type="checkbox" name="katsuragi2" id="katsuragi2"></span><label for="katsuragi2">葛城 (50)</label></div>
+							<div class="kai blueprint prototype"><span><input type="checkbox" name="saratoga3" id="saratoga3"></span><label for="saratoga3">Saratoga (85)</label></div>
 						</div>
 					</div>
 					<div class="shipClass" id="ss">
@@ -724,7 +729,7 @@
 			</div>
 			<span style="font-family:'Exo';visibility:hidden;">.</span><span style="font-family:'Ubuntu';visibility:hidden;">.</span>
 		</div>
-		<div id="footer"><p>© 2014-2017 TBES, Sanya.moe, all rights belong to their respective owners. Last updated: Jun 16 2017</p></div>
+		<div id="footer"><p>? 2014-2017 TBES, Sanya.moe, all rights belong to their respective owners. Last updated: Jun 16 2017</p></div>
 		<div style="visibility:hidden; overflow-y: hidden; height:0;" id="icondump">
 			<img src="bg.jpg" id="bg"></img>
 			<img src="furniture/chest/000.png" id="r0"></img>

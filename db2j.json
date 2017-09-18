@@ -170,6 +170,60 @@
 		"full": "ニ級後期型elite",
 		"name": "ニ級"
 	},
+	"nakyuu1": {
+		"offset": {
+			"x": -25,
+			"y": -250
+		},
+		"type": "ADD",
+		"full": "ナ級",
+		"name": "ナ級"
+	},
+	"nakyuu2": {
+		"offset": {
+			"x": 45,
+			"y": -313
+		},
+		"type": "ADD",
+		"full": "ナ級elite",
+		"name": "ナ級"
+	},
+	"nakyuu3": {
+		"offset": {
+			"x": 45,
+			"y": -313
+		},
+		"type": "ADD",
+		"full": "ナ級flashship",
+		"name": "ナ級"
+	},
+	"nakyuu4": {
+		"offset": {
+			"x": -25,
+			"y": -250
+		},
+		"type": "ADD",
+		"full": "ナ級後期型",
+		"name": "ナ級"
+	},
+	"nakyuu5": {
+		"offset": {
+			"x": 45,
+			"y": -313
+		},
+		"type": "ADD",
+		"full": "ナ級後期型elite",
+		"name": "ナ級"
+	},
+	"nakyuu6": {
+		"offset": {
+			"x": 45,
+			"y": -313
+		},
+		"type": "ADD",
+		"full": "ナ級後期型flashship",
+		"name": "ナ級"
+	},
 	"kuchikuhime1": {
 		"offset": {
 			"x": 25,
@@ -418,6 +472,15 @@
 		"full": "ネ級elite",
 		"name": "ネ級"
 	},
+	"nekyuu3": {
+		"offset": {
+			"x": 175,
+			"y": -90
+		},
+		"type": "ACA",
+		"full": "ネ級flagship",
+		"name": "ネ級"
+	},
 	"juujunhime1": {
 		"offset": {
 			"x": 75,
@@ -642,6 +705,46 @@
 		"full": "深海双子棲姫-壊",
 		"name": "戦艦"
 	},
+	"oushuuhime1": {
+		"offset": {
+			"x": 50,
+			"y": -50
+		},
+		"type": "ABB",
+		"damageable": false,
+		"full": "欧州棲姫",
+		"name": "戦艦"
+	},
+	"oushuuhime2": {
+		"offset": {
+			"x": 50,
+			"y": -50
+		},
+		"type": "ABB",
+		"damageable": false,
+		"full": "欧州棲姫-壊",
+		"name": "戦艦"
+	},
+	"senkanfutsuhime1": {
+		"offset": {
+			"x": 50,
+			"y": -50
+		},
+		"type": "ABB",
+		"damageable": false,
+		"full": "戦艦仏棲姫",
+		"name": "戦艦"
+	},
+	"senkanfutsuhime2": {
+		"offset": {
+			"x": 50,
+			"y": -50
+		},
+		"type": "ABB",
+		"damageable": false,
+		"full": "戦艦仏棲姫-壊",
+		"name": "戦艦"
+	},
 	"harunaf": {
 		"offset": {
 			"x": 50,
@@ -773,6 +876,24 @@
 		"full": "空母棲姫",
 		"name": "空母"
 	},
+	"kuubonatsukioni1": {
+		"offset": {
+			"x": 100,
+			"y": -10
+		},
+		"type": "ACV",
+		"full": "空母夏鬼",
+		"name": "空母"
+	},
+	"kuubonatsukihime1": {
+		"offset": {
+			"x": 100,
+			"y": -10
+		},
+		"type": "ACV",
+		"full": "空母夏姫",
+		"name": "空母"
+	},
 	"kuubosuioni1": {
 		"offset": {
 			"x": 100,
@@ -890,6 +1011,16 @@
 		},
 		"type": "ASS",
 		"full": "潜水夏姫",
+		"name": "潜水"
+	},
+	"sensuishinhime1": {
+		"offset": {
+			"x": 100,
+			"y": -85
+		},
+		"type": "ASS",
+		"damageable": false,
+		"full": "潜水新棲姫flagship",
 		"name": "潜水"
 	},
 	"ionaf": {
@@ -1120,6 +1251,20 @@
 		"type": "AINS",
 		"damageable": true,
 		"full": "集積地棲姫",
+		"name": "集積地"
+	},
+	"shuusekichinatsukihime1": {
+		"offset": {
+			"x": 80,
+			"y": 10
+		},
+		"offset2": {
+			"x": 60,
+			"y": 0
+		},
+		"type": "AINS",
+		"damageable": false,
+		"full": "集積地夏姫",
 		"name": "集積地"
 	},
 	"rikorisuhime1": {
