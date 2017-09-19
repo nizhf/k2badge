@@ -878,6 +878,7 @@
         "472": "asakaze1",
         "473": "harukaze1",
         "474": "matsukaze1",
+    "475": "hatakaze1",
         "476": "kamikaze1",
         "479": "amagiri1",
         "480": "sagiri1",
@@ -910,9 +911,10 @@
         "526": "taiyou1",
         "529": "taiyou3",
         "530": "i5041",
-        "535": "luigitorell1",
+    "535": "luigitorelli1",
         "539": "uit251",
-        "541": "nagato2",
-        "548": "fumizuki2"
+    "541": "nagato2",
+    "548": "fumizuki2",
+    "605": "luigitorelli1"
     }
 }

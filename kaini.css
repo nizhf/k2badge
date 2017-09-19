@@ -65,6 +65,10 @@ input[type="checkbox"] {width: 18px; height: 18px; margin: 0 5px; vertical-align
 
 #colleDiv .colleAll {width: 100%;}
 
+.export-container {position: fixed; width: 850px; height: 100%; padding: 25vh calc(50% - 425px) 0; background-color: rgba(255, 255, 255, 0.8); z-index: 999; text-align: center;}
+.export-container span {display: block; background-color: #FFF; padding: 10px 0px; border: 0px solid #000; border-width: 0 1px 1px;}
+.export-container span.close {position: absolute; right: calc(50% - 450px); top: 25vh; font-weight: bold; font-size: 70px; line-height: 0; transform: rotate(45deg) translateX(-35px); background-color: transparent; color: #C00; padding: 0; border: 0;}
+
 /****************************************** Core */
 .liteTabs {position: relative; margin: 0; padding: 0; overflow: hidden;}
 .liteTabs ul {margin: 0; padding: 0; font: 12px/14px Verdana, Arial, sans-serif; display:table; width:100%; }
