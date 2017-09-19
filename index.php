@@ -17,11 +17,13 @@
 			var importFleets = <?php echo isset($_POST["fleet"]) ? "'" . $_POST["fleet"] . "'" : "undefined" ?>;
 			var apiMode = importName || importLvl || importServer || importShips || importFleets;
 		</script>
+		<script type="text/javascript" src="./Base64.js"></script>
 		<script type="text/javascript" src="./kaini.min.js?version=13"></script>
 		<script type="text/javascript">
 			lang = "en";
 		</script>
 		<script type="text/javascript" src="./ga.js"></script>
+		
 		<link href="./kaini.css" rel="stylesheet" type="text/css"/>
 		<link href="./tooltipster.css" rel="stylesheet" type="text/css"/>
 	</head>
