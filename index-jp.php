@@ -17,7 +17,7 @@
 			var importFleets = <?php echo isset($_POST["fleet"]) ? "'" . $_POST["fleet"] . "'" : "undefined" ?>;
 			var apiMode = importName || importLvl || importServer || importShips || importFleets;
 		</script>
-		<script type="text/javascript" src="./kaini.min.js"></script>
+		<script type="text/javascript" src="./kaini.min.js?version=13"></script>
 		<script type="text/javascript">
 			lang = "jp";
 		</script>
@@ -87,8 +87,8 @@
 					</div>
 					<div><label for="avatarImg">プロフィール写真</label> <input type='file' id="avatarImg" /> <button type="button" id="avatarClear">消す</button></div>
 					<div>
-						<label for="useBG">家具を使う？</label> <input type="checkbox" name="useBG" id="useBG" checked>
-						<label for="k2">四つ艦隊を見せる？</label> <input type="checkbox" name="k2" id="k2">
+						<label for="useBG">家具を使う？</label> <input type="checkbox" name="useBG" id="useBG" checked><br />
+						<label for="k2">四つ艦隊を見せる？</label> <input type="checkbox" name="k2" id="k2"><br />
 						<label for="useBlue">設計図を無視する？</label> <input type="checkbox" name="useBlue" id="useBlue" checked>
 					</div>
 				</div>
@@ -119,6 +119,8 @@
 						</div>
 					</div>
 					<div id="avatars" class="shipList">
+						<label>DE 海防</label>
+						<div class="divDE shipClasses"></div>
 						<label>DD 駆逐</label>
 						<div class="divDD shipClasses"></div>
 						<label>CL/CLT 軽巡/雷巡</label>
@@ -226,13 +228,17 @@
 								<span><input type="checkbox" name="kasumi2" id="kasumi2"></span>
 								<label for="kasumi2">霞 (75/88)</label>
 							</div>
+							<div class="kai blueprint">
+								<span><input type="checkbox" name="arashio2" id="arashio2"></span>
+								<label for="arashio2">荒潮 (67)</label>
+							</div>
 							<div>
 								<span><input type="checkbox" name="z12" id="z12"></span>
-								<label for="z12">レーベレヒト・マース (70)</label>
+								<label for="z12">Z1 (70)</label>
 							</div>
 							<div>
 								<span><input type="checkbox" name="z32" id="z32"></span>
-								<label for="z32">マックス・シュルツ (70)</label>
+								<label for="z32">Z3 (70)</label>
 							</div>
 						</div>
 					</div>
@@ -248,6 +254,7 @@
 							<div><span><input type="checkbox" name="sendai2" id="sendai2"></span><label for="sendai2">川内 (60)</label></div>
 							<div><span><input type="checkbox" name="jintsuu2" id="jintsuu2"></span><label for="jintsuu2">神通 (60)</label></div>
 							<div><span><input type="checkbox" name="naka2" id="naka2"></span><label for="naka2">那珂 (48)</label></div>
+							<div class="kai blueprint"><span><input type="checkbox" name="yura3" id="yura3"></span><label for="yura3">由良 (77)</label></div>
 						</div>
 					</div>
 					<div class="shipClass" id="ca">
@@ -264,6 +271,10 @@
 							<div class="kai blueprint"><span><input type="checkbox" name="choukai2" id="choukai2"></span><label for="choukai2">鳥海 (65)</label></div>
 							<div class="kai blueprint"><span><input type="checkbox" name="tone2" id="tone2"></span><label for="tone2">利根 (70)</label></div>
 							<div class="kai blueprint"><span><input type="checkbox" name="chikuma2" id="chikuma2"></span><label for="chikuma2">筑摩 (70)</label></div>
+							<div class="kai blueprint"><span><input type="checkbox" name="zara3" id="zara3"></span><label for="zara3">ザラ (88)</label></div>
+							<div class="kai blueprint"><span><input type="checkbox" name="suzuya4" id="suzuya4"></span><label for="suzuya4">鈴谷 (84)</label></div>
+							<div class="kai blueprint"><span><input type="checkbox" name="kumano4" id="kumano4"></span><label for="kumano4">熊野 (84)</label></div>
+							
 						</div>
 					</div>
 					<div class="shipClass" id="bb">
@@ -275,10 +286,12 @@
 							<div><span><input type="checkbox" name="kirishima2" id="kirishima2"></span><label for="kirishima2">霧島 (75)</label></div>
 							<div class="kai blueprint"><span><input type="checkbox" name="fusou3" id="fusou3"></span><label for="fusou3">扶桑 (80)</label></div>
 							<div class="kai blueprint"><span><input type="checkbox" name="yamashiro3" id="yamashiro3"></span><label for="yamashiro3">山城 (80)</label></div>
-							<div class="blueprint"><span><input type="checkbox" name="bismarck3" id="bismarck3"></span><label for="bismarck3">zwei (50)</label></div>
-							<div class="kai blueprint"><span><input type="checkbox" name="bismarck4" id="bismarck4"></span><label for="bismarck4">drei (75)</label></div>
-							<div class="blueprint"><span><input type="checkbox" name="italia1" id="italia1"></span><label for="italia1">イタリア (35)</label></div>
-							<div class="blueprint"><span><input type="checkbox" name="roma2" id="roma2"></span><label for="roma2">ローマ (35)</label></div>
+							<div class="kai blueprint"><span><input type="checkbox" name="bismarck3" id="bismarck3"></span><label for="bismarck3">Bismarck zwei (50)</label></div>
+							<div class="kai blueprint"><span><input type="checkbox" name="bismarck4" id="bismarck4"></span><label for="bismarck4">Bismarck drei (75)</label></div>
+							<div class="blueprint"><span><input type="checkbox" name="italia1" id="italia1"></span><label for="italia1">Italia (35)</label></div>
+							<div class="blueprint"><span><input type="checkbox" name="roma2" id="roma2"></span><label for="roma2">Roma (35)</label></div>
+							<div><span><input type="checkbox" name="gangut2" id="gangut2"></span><label for="gangut2">Гангут (75)</label></div>
+							<div class="kai blueprint"><span><input type="checkbox" name="nagato2" id="nagato2"></span><label for="nagato2">長門 (88)</label></div>
 						</div>
 					</div>
 					<div class="shipClass" id="cvl">
@@ -289,6 +302,9 @@
 							<div><span><input type="checkbox" name="chitosecvl2" id="chitosecvl2"></span><label for="chitosecvl2">千歳航 (50)</label></div>
 							<div><span><input type="checkbox" name="chiyodacvl2" id="chiyodacvl2"></span><label for="chiyodacvl2">千代田 (50)</label></div>
 							<div class="kai blueprint"><span><input type="checkbox" name="ryuuhou2" id="ryuuhou2"></span><label for="ryuuhou2">龍鳳改 (50)</label></div>
+							<div class="kai blueprint"><span><input type="checkbox" name="suzuyacvl1" id="suzuyacvl1"></span><label for="suzuyacvl1">鈴谷改二 (88)</label></div>
+							<div class="kai blueprint prototype"><span><input type="checkbox" name="taiyou3" id="taiyou3"></span><label for="taiyou3">大鷹(85)</label></div>
+							<div class="kai blueprint"><span><input type="checkbox" name="kumanocvl1" id="kumanocvl1"></span><label for="kumanocvl1">熊野改二 (88)</label></div>
 						</div>
 					</div>
 					<div class="shipClass" id="cv">
@@ -309,12 +325,20 @@
 							<div><span><input type="checkbox" name="ro5001" id="ro5001"></span><label for="ro5001">呂500 (55)</label></div>
 						</div>
 					</div>
+					<div class="shipClass" id="ax">
+						<h3>他</h3>
+						<div class="shipOptions">
+							<div><span><input type="checkbox" name="kamoi3" id="kamoi3"></span><label for="kamoi3">神威 (60)</label></div>
+						</div>
+					</div>
 					<div style="clear:both">
 						<input type="checkbox" id="selectAll"><label for="selectAll">全て選択</label>
 					</div>
 				</div>
 			<div id="colleDiv" name="#colleTab">
 				<div class="shipList">
+					<label>DE 海防</label>
+					<div class="divDE shipClasses"></div>
 					<label>DD 駆逐</label>
 					<div class="divDD shipClasses"></div>
 					<label>CL/CLT 軽巡/雷巡</label>
@@ -372,7 +396,7 @@
 					<div class="shipOptions">
 						<div><input type="radio" name="wall" value="001" id="w1" checked><label for="w1">普通の壁紙</label></div>
 						<div><input type="radio" name="wall" value="002" id="w2" ><label for="w2">低予算な壁紙</label></div>
-						<div><input type="radio" name="wall" value="003" id="w3" ><label for="w3">Simple Japanese Wallpaper<br/>和のシンプル壁紙</div>
+						<div><input type="radio" name="wall" value="003" id="w3" ><label for="w3">和のシンプル壁紙</div>
 						<div><input type="radio" name="wall" value="004" id="w4" ><label for="w4">緑の壁紙</label></label></div>
 						<div><input type="radio" name="wall" value="005" id="w5"><label for="w5">春仕様の壁紙</label></div>
 						<div><input type="radio" name="wall" value="007" id="w7"><label for="w7">チョコレートの壁紙</label></div>
@@ -407,6 +431,7 @@
 						<div><input type="radio" name="wall" value="038" id="w38"><label for="w38">梅雨の壁紙</label></div>
 						<div><input type="radio" name="wall" value="039" id="w39"><label for="w39">浜茶屋の仮設壁</label></div>
 						<div><input type="radio" name="wall" value="040" id="w40"><label for="w40">卯月の壁紙</label></div>
+
 					</div>
 				</div>
 				<div class="furnitureClass invert" id="Desk">
@@ -568,7 +593,6 @@
 						<div><input type="radio" name="chest" value="025" id="c25"><label for="c25">しょうぶ和箪笥</label></div>
 						<div><input type="radio" name="chest" value="026" id="c26"><label for="c26">診療台セット</label></div>
 						<div><input type="radio" name="chest" value="027" id="c27"><label for="c27">教室セット「机」</label></div>
-						<div><input type="radio" name="chest" value="028" id="c28"><label for="c28">「武蔵」模型と桐箪笥</label></div>
 						<div><input type="radio" name="chest" value="028" id="c28"><label for="c28">「武蔵」模型と桐箪笥</label></div>
 						<div><input type="radio" name="chest" value="029a" id="c29a"><label for="c29a">「加賀」模型と桐箪笥「航空母」</label></div>
 						<div><input type="radio" name="chest" value="029b" id="c29b"><label for="c29b">「加賀」模型と桐箪笥「航空母+妖精」</label></div>

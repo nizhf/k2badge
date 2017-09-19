@@ -35,6 +35,15 @@
 		"full": "イ級後期型",
 		"name": "イ級"
 	},
+	"ikyuu5": {
+		"offset": {
+			"x": 153,
+			"y": -97
+		},
+		"type": "ADD",
+		"full": "イ級後期型elite",
+		"name": "イ級"
+	},
 	"rokyuu1": {
 		"offset": {
 			"x": 75,
@@ -71,6 +80,15 @@
 		"full": "ロ級後期型",
 		"name": "ロ級"
 	},
+	"rokyuu5": {
+		"offset": {
+			"x": 115,
+			"y": -150
+		},
+		"type": "ADD",
+		"full": "ロ級後期型elite",
+		"name": "ロ級"
+	},
 	"hakyuu1": {
 		"offset": {
 			"x": -25,
@@ -105,6 +123,15 @@
 		},
 		"type": "ADD",
 		"full": "ハ級後期型",
+		"name": "ハ級"
+	},
+	"hakyuu5": {
+		"offset": {
+			"x": 85,
+			"y": -180
+		},
+		"type": "ADD",
+		"full": "ハ級後期型elite",
 		"name": "ハ級"
 	},
 	"nikyuu1": {
@@ -405,6 +432,19 @@
 		"full": "重巡棲姫",
 		"name": "重巡"
 	},
+	"juujunnatsukihime1": {
+		"offset": {
+			"x": 75,
+			"y": 0
+		},
+		"offset2": {
+			"x": 69,
+			"y": -49
+		},
+		"type": "ACA",
+		"full": "重巡夏姫",
+		"name": "重巡"
+	},
 	"takaof": {
 		"offset": {
 			"x": 0,
@@ -415,7 +455,7 @@
 			"y": -33
 		},
 		"type": "ACA",
-		"playable": true,
+		"damageable": true,
 		"full": "タカオ",
 		"name": "タカオ"
 	},
@@ -569,7 +609,37 @@
 			"y": -25
 		},
 		"type": "ABB",
+		"damageable": true,
 		"full": "戦艦水鬼",
+		"name": "戦艦"
+	},
+	"senkannatsukihime1": {
+		"offset": {
+			"x": 50,
+			"y": -50
+		},
+		"type": "ABB",
+		"full": "戦艦夏姫",
+		"name": "戦艦"
+	},
+	"shinkaifutagoseikihime1": {
+		"offset": {
+			"x": 50,
+			"y": -50
+		},
+		"type": "ABB",
+		"damageable": true,
+		"full": "深海双子棲姫",
+		"name": "戦艦"
+	},
+	"shinkaifutagoseikihime2": {
+		"offset": {
+			"x": 50,
+			"y": -50
+		},
+		"type": "ABB",
+		"damageable": true,
+		"full": "深海双子棲姫-壊",
 		"name": "戦艦"
 	},
 	"harunaf": {
@@ -582,7 +652,7 @@
 			"y": 0
 		},
 		"type": "ABB",
-		"playable": true,
+		"damageable": true,
 		"full": "ハルナ",
 		"name": "コンゴウ"
 	},
@@ -629,6 +699,24 @@
 		},
 		"type": "ACV",
 		"full": "ヌ級flagship",
+		"name": "ヌ級"
+	},
+	"nukyuu4": {
+		"offset": {
+			"x": 150,
+			"y": -200
+		},
+		"type": "ACV",
+		"full": "ヌ級改elite",
+		"name": "ヌ級"
+	},
+	"nukyuu5": {
+		"offset": {
+			"x": 150,
+			"y": -200
+		},
+		"type": "ACV",
+		"full": "ヌ級改flagship",
 		"name": "ヌ級"
 	},
 	"wokyuu1": {
@@ -700,6 +788,7 @@
 			"y": -250
 		},
 		"type": "ACV",
+		"damageable": true,
 		"full": "深海海月姫",
 		"name": "深海海月"
 	},
@@ -794,6 +883,15 @@
 		"full": "潜水棲姫",
 		"name": "潜水"
 	},
+	"sensuinatsukihime1": {
+		"offset": {
+			"x": 100,
+			"y": -85
+		},
+		"type": "ASS",
+		"full": "潜水夏姫",
+		"name": "潜水"
+	},
 	"ionaf": {
 		"offset": {
 			"x": 0,
@@ -804,7 +902,7 @@
 			"y": -33
 		},
 		"type": "ASS",
-		"playable": true,
+		"damageable": true,
 		"full": "イオナ",
 		"name": "イオナ"
 	},
@@ -814,7 +912,7 @@
 			"y": -33
 		},
 		"type": "AINS",
-		"playable": true,
+		"damageable": true,
 		"full": "飛行場姫",
 		"name": "飛行"
 	},
@@ -828,7 +926,7 @@
 			"y": -50
 		},
 		"type": "AINS",
-		"playable": true,
+		"damageable": true,
 		"full": "中間棲姫",
 		"name": "中間"
 	},
@@ -886,6 +984,43 @@
 		"full": "新年北方棲姫",
 		"name": "北方"
 	},
+	"hoppouhime7": {
+		"offset": {
+			"x": 50,
+			"y": -100
+		},
+		"type": "AINS",
+		"full": "秋北方棲姫",
+		"name": "北方"
+	},
+	"hoppouhime8": {
+		"offset": {
+			"x": 50,
+			"y": -100
+		},
+		"type": "AINS",
+		"full": "バレンタイン北方棲姫",
+		"name": "北方"
+	},
+	"hoppouhime9": {
+		"offset": {
+			"x": 50,
+			"y": -100
+		},
+		"type": "AINS",
+		"full": "すき家北方棲姫",
+		"name": "北方"
+	},
+	"hoppouhime10": {
+		"offset": {
+			"x": 0,
+			"y": -50
+		},
+		"type": "AINS",
+		"damageable": true,
+		"full": "新春北方棲姫",
+		"name": "北方"
+	},
 	"kouwanhime1": {
 		"offset": {
 			"x": 150,
@@ -896,7 +1031,7 @@
 			"y": 0
 		},
 		"type": "AINS",
-		"playable": true,
+		"damageable": true,
 		"full": "港湾棲姫",
 		"name": "港湾"
 	},
@@ -907,6 +1042,20 @@
 		},
 		"type": "AINS",
 		"full": "港湾水鬼",
+		"name": "港湾"
+	},
+	"kouwannatsukihime1": {
+		"offset": {
+			"x": 150,
+			"y": -100
+		},
+		"offset2": {
+			"x": 125,
+			"y": 0
+		},
+		"type": "AINS",
+		"damageable": true,
+		"full": "港湾夏姫",
 		"name": "港湾"
 	},
 	"ritouoni1": {
@@ -930,7 +1079,7 @@
 	"hakuchioni1": {
 		"offset": {
 			"x": 75,
-			"y": -25
+			"y": 0
 		},
 		"type": "AINS",
 		"full": "泊地棲鬼",
@@ -955,7 +1104,7 @@
 			"y": -50
 		},
 		"type": "AINS",
-		"playable": true,
+		"damageable": true,
 		"full": "泊地水鬼",
 		"name": "泊地"
 	},
@@ -1065,6 +1214,7 @@
 			"y": 20
 		},
 		"type": "AAX",
+		"damageable": true,
 		"full": "水母水姫",
 		"name": "水母"
 	},
@@ -1086,6 +1236,15 @@
 		"full": "砲台小鬼",
 		"name": "砲台"
 	},
+	"akashishop1": {
+		"offset": {
+			"x": -25,
+			"y": 25
+		},
+		"type": "AAX",
+		"full": "アイテム屋娘明石",
+		"name": "アイテム屋"
+	},
 	"akashishop2": {
 		"offset": {
 			"x": -25,
@@ -1093,7 +1252,7 @@
 		},
 		"type": "AAX",
 		"full": "初夏アイテム屋娘明石",
-		"name": "屋"
+		"name": "アイテム屋"
 	},
 	"akashishop3": {
 		"offset": {
@@ -1102,7 +1261,61 @@
 		},
 		"type": "AAX",
 		"full": "初夏改修工廠明石",
-		"name": "屋"
+		"name": "改修工廠"
+	},
+	"akashishop4": {
+		"offset": {
+			"x": -25,
+			"y": 25
+		},
+		"type": "AAX",
+		"full": "クリスマスアイテム屋娘明石",
+		"name": "アイテム屋"
+	},
+	"akashishop5": {
+		"offset": {
+			"x": -25,
+			"y": 25
+		},
+		"type": "AAX",
+		"full": "クリスマス改修工廠明石",
+		"name": "改修工廠"
+	},
+	"akashishop6": {
+		"offset": {
+			"x": -25,
+			"y": 25
+		},
+		"type": "AAX",
+		"full": "年末年始アイテム屋明石",
+		"name": "アイテム屋"
+	},
+	"akashishop7": {
+		"offset": {
+			"x": -25,
+			"y": 25
+		},
+		"type": "AAX",
+		"full": "年末年始改修工廠明石",
+		"name": "改修工廠"
+	},
+	"akashishop8": {
+		"offset": {
+			"x": -25,
+			"y": 25
+		},
+		"type": "AAX",
+		"full": "すき家アイテム屋明石",
+		"name": "アイテム屋"
+	},
+	"mamiyashop1": {
+		"offset": {
+			"x": 25,
+			"y": 10
+		},
+		"type": "AAX",
+		"full": "間宮",
+		"name": "給糧艦"
 	},
 	"mamiyashop2": {
 		"offset": {
@@ -1111,7 +1324,25 @@
 		},
 		"type": "AAX",
 		"full": "初夏間宮",
-		"name": "屋"
+		"name": "給糧艦"
+	},
+	"mamiyashop3": {
+		"offset": {
+			"x": 25,
+			"y": 10
+		},
+		"type": "AAX",
+		"full": "クリスマス間宮",
+		"name": "給糧艦"
+	},
+	"irakoshop1": {
+		"offset": {
+			"x": 25,
+			"y": 0
+		},
+		"type": "AAX",
+		"full": "伊良湖",
+		"name": "給糧艦"
 	},
 	"irakoshop2": {
 		"offset": {
@@ -1120,6 +1351,69 @@
 		},
 		"type": "AAX",
 		"full": "初夏伊良湖",
-		"name": "屋"
+		"name": "給糧艦"
+	},
+	"irakoshop3": {
+		"offset": {
+			"x": 25,
+			"y": 0
+		},
+		"type": "AAX",
+		"full": "クリスマス伊良湖",
+		"name": "給糧艦"
+	},
+	"ooyodoquest1": {
+		"offset": {
+			"x": 25,
+			"y": 0
+		},
+		"type": "AAX",
+		"full": "大淀",
+		"name": "任務"
+	},
+	"ooyodoquest2": {
+		"offset": {
+			"x": 25,
+			"y": 0
+		},
+		"type": "AAX",
+		"full": "年末年始大淀",
+		"name": "任務"
+	},
+	"ooyodoquest3": {
+		"offset": {
+			"x": 25,
+			"y": 0
+		},
+		"type": "AAX",
+		"full": "秋大淀",
+		"name": "任務"
+	},
+	"ooyodoquest4": {
+		"offset": {
+			"x": 25,
+			"y": 0
+		},
+		"type": "AAX",
+		"full": "クリスマス大淀",
+		"name": "任務"
+	},
+	"ooyodoquest5": {
+		"offset": {
+			"x": 25,
+			"y": 0
+		},
+		"type": "AAX",
+		"full": "すき家大淀",
+		"name": "任務"
+	},
+	"ooyodoquest6": {
+		"offset": {
+			"x": 25,
+			"y": 0
+		},
+		"type": "AAX",
+		"full": "夏大淀",
+		"name": "任務"
 	}
 }

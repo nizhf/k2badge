@@ -233,6 +233,10 @@
 								<label for="arashio2">Arashio 荒潮 (67)</label>
 							</div>
 							<div>
+								<span><input type="checkbox" name="fumizuki2" id="fumizuki2"></span>
+								<label for="fumizuki2">Fumizuki  文月 (77)</label>
+							</div>
+							<div>
 								<span><input type="checkbox" name="z12" id="z12"></span>
 								<label for="z12">Z1 レーベレヒト・マース (70)</label>
 							</div>
@@ -317,6 +321,7 @@
 							<div class="blueprint"><span><input type="checkbox" name="unryuu2" id="unryuu2"></span><label for="unryuu2">Unryuu 雲龍 (50)</label></div>
 							<div class="blueprint"><span><input type="checkbox" name="amagi2" id="amagi2"></span><label for="amagi2">Amagi 天城 (50)</label></div>
 							<div class="blueprint"><span><input type="checkbox" name="katsuragi2" id="katsuragi2"></span><label for="katsuragi2">Katsuragi 葛城 (50)</label></div>
+							<div class="kai blueprint prototype"><span><input type="checkbox" name="saratoga3" id="saratoga3"></span><label for="saratoga3">Saratoga サラトガ (85)</label></div>
 						</div>
 					</div>
 					<div class="shipClass" id="ss">
