@@ -303,8 +303,8 @@
 						<div class="shipOptions">
 							<div><span><input type="checkbox" name="ryuujou3" id="ryuujou3"></span><label for="ryuujou3">Ryuujou Kai 龍驤 (75)</label></div>
 							<div><span><input type="checkbox" name="junyou2" id="junyou2"></span><label for="junyou2">Junyou 隼鷹 (80)</label></div>
-							<div><span><input type="checkbox" name="chitosecvl2" id="chitosecvl2"></span><label for="chitosecvl2">Chitose 千歳航 (50)</label></div>
-							<div><span><input type="checkbox" name="chiyodacvl2" id="chiyodacvl2"></span><label for="chiyodacvl2">Chiyoda 千代田 (50)</label></div>
+							<div><span><input type="checkbox" name="chitosecvl2" id="chitosecvl2"></span><label for="chitosecvl2">Chitose-Kou 千歳航 (50)</label></div>
+							<div><span><input type="checkbox" name="chiyodacvl2" id="chiyodacvl2"></span><label for="chiyodacvl2">Chiyoda-Kou 千代田航 (50)</label></div>
 							<div class="kai blueprint"><span><input type="checkbox" name="ryuuhou2" id="ryuuhou2"></span><label for="ryuuhou2">Ryuuhou Kai 龍鳳改 (50)</label></div>
 							<div class="kai blueprint"><span><input type="checkbox" name="suzuyacvl1" id="suzuyacvl1"></span><label for="suzuyacvl1">Suzuya Kai Ni 鈴谷改二 (88)</label></div>
 							<div class="kai blueprint prototype"><span><input type="checkbox" name="taiyou3" id="taiyou3"></span><label for="taiyou3">Taiyou 大鷹(85)</label></div>
@@ -328,11 +328,15 @@
 						<h3>Submarines</h3>
 						<div class="shipOptions">
 							<div><span><input type="checkbox" name="ro5001" id="ro5001"></span><label for="ro5001">Ro-500 呂500 (55)</label></div>
+							<div><span><input type="checkbox" name="uit251" id="uit251"></span><label for="uit251">UIT-25 (40)</label></div>
+							<div><span><input type="checkbox" name="i5041" id="i5041"></span><label for="i5041">I-504 伊504 (55)</label></div>
 						</div>
 					</div>
 					<div class="shipClass" id="ax">
 						<h3>Auxiliary</h3>
 						<div class="shipOptions">
+							<div><span><input type="checkbox" name="chitose3" id="chitose3"></span><label for="chitose3">Chitose 千歳 (12)</label></div>
+							<div><span><input type="checkbox" name="chiyoda3" id="chiyoda3"></span><label for="chiyoda3">Chiyoda 千代田 (12)</label></div>
 							<div><span><input type="checkbox" name="kamoi3" id="kamoi3"></span><label for="kamoi3">Kamoi 神威 (60)</label></div>
 						</div>
 					</div>

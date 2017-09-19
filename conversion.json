@@ -86,10 +86,12 @@
             "abukuma1"
         ],
         "chitosecvl2": [
-            "chitosecvl1"
+            "chitosecvl1",
+            "chitose1"
         ],
         "chiyodacvl2": [
-            "chiyodacvl1"
+            "chiyodacvl1",
+            "chiyoda1"
         ],
         "ryuuhou2": [
             "taigei"
@@ -259,6 +261,10 @@
         "i142": [
             "i141"
         ],
+        "i5041": [
+            "luigitorelli1",
+            "uit251"
+        ],
         "ise2": [
             "ise1"
         ],
@@ -347,6 +353,13 @@
         "saratoga2": [
             "saratoga1"
         ],
+        "saratoga3": [
+            "saratoga1"
+        ],
+        "saratoga4": [
+            "saratoga3",
+            "saratoga1"
+        ],
         "satsuki2": [
             "satsuki1"
         ],
@@ -374,6 +387,9 @@
         ],
         "takanami2": [
             "takanami1"
+        ],
+        "uit251": [
+            "luigitorelli1"
         ],
         "uzuki2": [
             "uzuki1"
@@ -414,6 +430,8 @@
         ]
     },
     "mstId2KainiTable": {
+        "106": "chitose3",
+        "107": "chiyoda3",
         "118": "ooi3",
         "119": "kitakami3",
         "141": "isuzu2",
@@ -468,7 +486,6 @@
         "435": "kisaragi3",
         "436": "ro5001",
         "437": "akatsuki2",
-        "438": "saratoga2",
         "446": "italia1",
         "447": "roma2",
         "461": "shoukaku2",
@@ -489,7 +506,10 @@
         "508": "suzuyacvl1",
         "509": "kumanocvl1",
         "513": "gangut2",
+        "530": "i5041",
+        "539": "uit251",
         "541": "nagato2",
+        "545": "saratoga3",
         "548": "fumizuki2"
     },
     "mstId2FleetIdTable": {
@@ -596,6 +616,8 @@
         "105": "chiyoda2",
         "106": "chitose3",
         "107": "chiyoda3",
+        "108": "chitosecvl1",
+        "109": "chiyodacvl1",
         "110": "shoukaku1",
         "111": "zuikaku1",
         "112": "zuikaku2",
@@ -878,7 +900,7 @@
         "472": "asakaze1",
         "473": "harukaze1",
         "474": "matsukaze1",
-    "475": "hatakaze1",
+        "475": "hatakaze1",
         "476": "kamikaze1",
         "479": "amagiri1",
         "480": "sagiri1",
@@ -908,13 +930,16 @@
         "518": "kunashiri1",
         "521": "kasugamaru1",
         "524": "etorofu1",
+        "525": "matsuwa1",
         "526": "taiyou1",
         "529": "taiyou3",
         "530": "i5041",
-    "535": "luigitorelli1",
+        "535": "luigitorelli1",
         "539": "uit251",
-    "541": "nagato2",
-    "548": "fumizuki2",
-    "605": "luigitorelli1"
+        "541": "nagato2",
+        "545": "saratoga3",
+        "548": "fumizuki2",
+        "550": "saratoga4",
+        "605": "luigitorelli1"
     }
 }
