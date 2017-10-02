@@ -787,6 +787,17 @@
         "full": "Sagiri",
         "name": "Ayanami"
     },
+    "sagiri2": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 3,
+        "type": "DD",
+        "unique": true,
+        "full": "Casual Sagiri",
+        "name": "Ayanami"
+    },
     "amagiri1": {
         "offset": {
             "x": -67,
@@ -1078,6 +1089,17 @@
         "full": "Valentines Uzuki",
         "name": "Mutsuki"
     },
+    "uzuki4": {
+        "offset": {
+            "x": -50,
+            "y": -25
+        },
+        "rarity": 5,
+        "type": "DD",
+        "unique": false,
+        "full": "Mackeral Pike Festival Uzuki",
+        "name": "Mutsuki"
+    },
     "minazuki1": {
         "offset": {
             "x": -75,
@@ -1166,6 +1188,21 @@
         "type": "DD",
         "unique": false,
         "full": "Верный",
+        "name": "Akatsuki"
+    },
+    "verniy2": {
+        "offset": {
+            "x": 0,
+            "y": 25
+        },
+        "offset2": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
+        "full": "Mackerel Pike Festival Верный",
         "name": "Akatsuki"
     },
     "ikazuchi1": {
@@ -1382,6 +1419,21 @@
         "type": "DD",
         "unique": false,
         "full": "Autumn Festival Shiratsuyu",
+        "name": "Shiratsuyu"
+    },
+    "shiratsuyu6": {
+        "offset": {
+            "x": 0,
+            "y": 10
+        },
+        "offset2": {
+            "x": 50,
+            "y": 0
+        },
+        "rarity": 4,
+        "type": "DD",
+        "unique": false,
+        "full": "Casual Shiratsuyu",
         "name": "Shiratsuyu"
     },
     "shigure1": {
@@ -3940,6 +3992,21 @@
         "full": "Valentines Kashima",
         "name": "Katori"
     },
+    "kashima4": {
+        "offset": {
+            "x": -75,
+            "y": 25
+        },
+        "offset2": {
+            "x": -25,
+            "y": 25
+        },
+        "rarity": 5,
+        "type": "CL",
+        "unique": false,
+        "full": "Casual Kashima",
+        "name": "Katori"
+    },
     "furutaka1": {
         "offset": {
             "x": 0,
@@ -5467,6 +5534,21 @@
         "type": "BB",
         "unique": true,
         "full": "Richelieu",
+        "name": "Richelieu"
+    },
+    "richelieu2": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "offset2": {
+            "x": 50,
+            "y": -5
+        },
+        "rarity": 7,
+        "type": "BB",
+        "unique": true,
+        "full": "Casual Richelieu",
         "name": "Richelieu"
     },
     "houshou1": {
