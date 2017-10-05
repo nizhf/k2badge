@@ -330,7 +330,6 @@
 						<h3>Submarines</h3>
 						<div class="shipOptions">
 							<div><span><input type="checkbox" name="ro5001" id="ro5001"></span><label for="ro5001">Ro-500 呂500 (55)</label></div>
-							<div><span><input type="checkbox" name="uit251" id="uit251"></span><label for="uit251">UIT-25 (40)</label></div>
 							<div><span><input type="checkbox" name="i5041" id="i5041"></span><label for="i5041">I-504 伊504 (55)</label></div>
 						</div>
 					</div>

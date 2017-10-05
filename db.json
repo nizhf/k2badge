@@ -794,7 +794,7 @@
         },
         "rarity": 3,
         "type": "DD",
-        "unique": true,
+        "unique": false,
         "full": "Casual Sagiri",
         "name": "Ayanami"
     },
@@ -5547,7 +5547,7 @@
         },
         "rarity": 7,
         "type": "BB",
-        "unique": true,
+        "unique": false,
         "full": "Casual Richelieu",
         "name": "Richelieu"
     },
