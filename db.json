@@ -263,7 +263,7 @@
         "rarity": 4,
         "type": "DD",
         "unique": false,
-        "full": "Setsubun Uranami",
+        "full": "Naval Review Uranami",
         "name": "Fubuki"
     },
     "ayanami1": {
@@ -795,7 +795,18 @@
         "rarity": 3,
         "type": "DD",
         "unique": false,
-        "full": "Casual Sagiri",
+        "full": "Mackeral Pike Festival Sagiri",
+        "name": "Ayanami"
+    },
+    "sagiri3": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 3,
+        "type": "DD",
+        "unique": false,
+        "full": "Autumn Casual Sagiri",
         "name": "Ayanami"
     },
     "amagiri1": {
@@ -826,6 +837,21 @@
         "type": "DD",
         "unique": false,
         "full": "Amagiri Kai",
+        "name": "Ayanami"
+    },
+    "amagiri3": {
+        "offset": {
+            "x": -67,
+            "y": -9
+        },
+        "offset2": {
+            "x": -25,
+            "y": -60
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
+        "full": "Autumn Casual Amagiri",
         "name": "Ayanami"
     },
     "mutsuki1": {
@@ -2159,6 +2185,17 @@
         "full": "Shiranui",
         "name": "Kagerou"
     },
+    "shiranui2": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 2,
+        "type": "DD",
+        "unique": false,
+        "full": "Autumn Casual Shiranui",
+        "name": "Kagerou"
+    },
     "kuroshio1": {
         "offset": {
             "x": 0,
@@ -2216,6 +2253,17 @@
         "type": "DD",
         "unique": true,
         "full": "Akigumo",
+        "name": "Kagerou"
+    },
+    "akigumo2": {
+        "offset": {
+            "x": 20,
+            "y": -50
+        },
+        "rarity": 4,
+        "type": "DD",
+        "unique": false,
+        "full": "Autumn Casual Akigumo",
         "name": "Kagerou"
     },
     "urakaze1": {
@@ -2899,6 +2947,21 @@
         "type": "DD",
         "unique": false,
         "full": "Yukata Fujinami",
+        "name": "Yuugumo"
+    },
+    "fujinami3": {
+        "offset": {
+            "x": -50,
+            "y": 10
+        },
+        "offset2": {
+            "x": -50,
+            "y": -30
+        },
+        "rarity": 4,
+        "type": "DD",
+        "unique": false,
+        "full": "Autumn Casual Fujinami",
         "name": "Yuugumo"
     },
     "z11": {
@@ -3611,6 +3674,21 @@
         "type": "CL",
         "unique": false,
         "full": "Sendai Kai Ni",
+        "name": "Sendai"
+    },
+    "sendai3": {
+        "offset": {
+            "x": 50,
+            "y": 40
+        },
+        "offset2": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 6,
+        "type": "CL",
+        "unique": false,
+        "full": "Autumn Casual Sendai",
         "name": "Sendai"
     },
     "jintsuu1": {
@@ -6010,6 +6088,17 @@
         "full": "Souryuu Kai Ni",
         "name": "Souryuu"
     },
+    "souryuu3": {
+        "offset": {
+            "x": 150,
+            "y": -150
+        },
+        "rarity": 7,
+        "type": "CV",
+        "unique": false,
+        "full": "Autumn Casual Souryuu",
+        "name": "Souryuu"
+    },
     "hiryuu1": {
         "offset": {
             "x": 0,
@@ -7270,6 +7359,36 @@
         "type": "AX",
         "unique": false,
         "full": "Hinamatsuri Mizuho",
+        "name": "Mizuho"
+    },
+    "mizuho12": {
+        "offset": {
+            "x": 0,
+            "y": 1
+        },
+        "offset2": {
+            "x": 10,
+            "y": 9
+        },
+        "rarity": 6,
+        "type": "AX",
+        "unique": false,
+        "full": "Oyakodon Mizuho",
+        "name": "Mizuho"
+    },
+    "mizuho13": {
+        "offset": {
+            "x": 0,
+            "y": 1
+        },
+        "offset2": {
+            "x": 10,
+            "y": 9
+        },
+        "rarity": 6,
+        "type": "AX",
+        "unique": false,
+        "full": "Halloween Mizuho",
         "name": "Mizuho"
     },
     "hayasui1": {
