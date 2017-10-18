@@ -263,6 +263,17 @@
         "rarity": 4,
         "type": "DD",
         "unique": false,
+        "full": "Setsubun Uranami",
+        "name": "Fubuki"
+    },
+    "uranami3": {
+        "offset": {
+            "x": -40,
+            "y": -10
+        },
+        "rarity": 4,
+        "type": "DD",
+        "unique": false,
         "full": "Naval Review Uranami",
         "name": "Fubuki"
     },
