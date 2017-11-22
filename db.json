@@ -104,6 +104,36 @@
         "full": "Yukata Matsuwa",
         "name": "Etorofu"
     },
+    "sado1": {
+        "offset": {
+            "x": 50,
+            "y": -80
+        },
+        "offset2": {
+            "x": 50,
+            "y": -80
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": true,
+        "full": "Sado",
+        "name": "Etorofu"
+    },
+    "tsushima1": {
+        "offset": {
+            "x": 50,
+            "y": -80
+        },
+        "offset2": {
+            "x": 50,
+            "y": -80
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": true,
+        "full": "Tsushima",
+        "name": "Etorofu"
+    },
     "shimakaze1": {
         "offset": {
             "x": 50,
@@ -1522,6 +1552,21 @@
         "full": "Sukiya Shigure Kai Ni",
         "name": "Shiratsuyu"
     },
+    "shigure7": {
+        "offset": {
+            "x": 0,
+            "y": -25
+        },
+        "offset2": {
+            "x": -50,
+            "y": -50
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
+        "full": "2017 Fall Event Shigure Kai Ni",
+        "name": "Shiratsuyu"
+    },
     "murasame1": {
         "offset": {
             "x": 0,
@@ -1987,6 +2032,28 @@
         "type": "DD",
         "unique": true,
         "full": "Michishio",
+        "name": "Asashio"
+    },
+    "michishio2": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 1,
+        "type": "DD",
+        "unique": false,
+        "full": "Michishio Kai Ni",
+        "name": "Asashio"
+    },
+    "michishio3": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 1,
+        "type": "DD",
+        "unique": false,
+        "full": "2017 Fall Event Michishio Kai Ni",
         "name": "Asashio"
     },
     "arashio1": {
@@ -3021,6 +3088,28 @@
         "type": "DD",
         "unique": true,
         "full": "Hatsuzuki",
+        "name": "Akizuki"
+    },
+    "suzutsuki1": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": true,
+        "full": "Suzutsuki",
+        "name": "Akizuki"
+    },
+    "suzutsuki2": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Suzutsuki Kai",
         "name": "Akizuki"
     },
     "libeccio1": {
@@ -6445,6 +6534,17 @@
         "unique": true,
         "full": "Hachi",
         "name": "Type_J3"
+    },
+    "i4001": {
+        "offset": {
+            "x": 10,
+            "y": 50
+        },
+        "rarity": 6,
+        "type": "SS",
+        "unique": true,
+        "full": "Shion",
+        "name": "Sentoku"
     },
     "i4011": {
         "offset": {
