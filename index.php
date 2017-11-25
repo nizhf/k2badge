@@ -239,6 +239,10 @@
 								<label for="fumizuki2">Fumizuki  文月 (77)</label>
 							</div>
 							<div>
+								<span><input type="checkbox" name="michishio2" id="michishio2"></span>
+								<label for="michishio2">Michishio  満潮 (77)</label>
+							</div>
+							<div>
 								<span><input type="checkbox" name="z12" id="z12"></span>
 								<label for="z12">Z1 レーベレヒト・マース (70)</label>
 							</div>

@@ -308,6 +308,9 @@
             "kumano4",
             "kumano1"
         ],
+        "michishio2":[
+            "michishio1"
+        ],
         "mikuma2": [
             "mikuma1"
         ],
@@ -371,6 +374,9 @@
         ],
         "shoukaku3": [
             "shoukaku2"
+        ],
+        "suzutsuki2":[
+            "suzutsuki1"
         ],
         "suzuya2": [
             "suzuya1"
@@ -499,6 +505,7 @@
         "470": "kasumi2",
         "487": "kinu2",
         "488": "yura3",
+        "489": "michishio2",
         "490": "arashio2",
         "500": "kamoi3",
         "503": "suzuya4",
@@ -841,6 +848,8 @@
         "380": "taiyou2",
         "383": "etorofu2",
         "384": "matsuwa1",
+        "385": "sado1",
+        "386": "tsushima1",
         "387": "hatakaze1",
         "390": "amagiri2",
         "391": "sagiri1",
@@ -914,6 +923,7 @@
         "490": "arashio2",
         "491": "commandantteste1",
         "492": "richelieu1",
+        "493": "i4001",
         "494": "i131",
         "495": "i141",
         "496": "zara3",
@@ -935,12 +945,17 @@
         "526": "taiyou1",
         "529": "taiyou3",
         "530": "i5041",
+        "531": "sado1",
+        "532": "suzutsuki1",
         "535": "luigitorelli1",
+        "537": "suzutsuki2",
         "539": "uit251",
+        "540": "tsushima1",
         "541": "nagato2",
         "545": "saratoga3",
         "548": "fumizuki2",
         "550": "saratoga4",
-        "605": "luigitorelli1"
+        "605": "luigitorelli1",
+        "606": "i4001"
     }
 }
