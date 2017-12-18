@@ -308,7 +308,7 @@
             "kumano4",
             "kumano1"
         ],
-        "michishio2":[
+        "michishio2": [
             "michishio1"
         ],
         "mikuma2": [
@@ -375,7 +375,7 @@
         "shoukaku3": [
             "shoukaku2"
         ],
-        "suzutsuki2":[
+        "suzutsuki2": [
             "suzutsuki1"
         ],
         "suzuya2": [
@@ -393,6 +393,9 @@
         ],
         "takanami2": [
             "takanami1"
+        ],
+        "tama4": [
+            "tama1"
         ],
         "uit251": [
             "luigitorelli1"
@@ -517,6 +520,7 @@
         "539": "uit251",
         "541": "nagato2",
         "545": "saratoga3",
+        "547": "tama4",
         "548": "fumizuki2"
     },
     "mstId2FleetIdTable": {
