@@ -119,6 +119,21 @@
         "full": "Sado",
         "name": "Etorofu"
     },
+    "sado2": {
+        "offset": {
+            "x": 50,
+            "y": -80
+        },
+        "offset2": {
+            "x": 50,
+            "y": -80
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": false,
+        "full": "Christmas Sado",
+        "name": "Etorofu"
+    },
     "tsushima1": {
         "offset": {
             "x": 50,
@@ -850,6 +865,28 @@
         "full": "Autumn Casual Sagiri",
         "name": "Ayanami"
     },
+    "sagiri4": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 3,
+        "type": "DD",
+        "unique": false,
+        "full": "Late Autumn Sagiri",
+        "name": "Ayanami"
+    },
+    "sagiri5": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 3,
+        "type": "DD",
+        "unique": false,
+        "full": "Christmas Sagiri",
+        "name": "Ayanami"
+    },
     "amagiri1": {
         "offset": {
             "x": -67,
@@ -1046,6 +1083,21 @@
         "type": "DD",
         "unique": true,
         "full": "Nagatsuki",
+        "name": "Mutsuki"
+    },
+    "nagatsuki2": {
+        "offset": {
+            "x": -50,
+            "y": -20
+        },
+        "offset2": {
+            "x": 0,
+            "y": -100
+        },
+        "rarity": 2,
+        "type": "DD",
+        "unique": false,
+        "full": "Christmas Nagatsuki",
         "name": "Mutsuki"
     },
     "kikuzuki1": {
@@ -2344,6 +2396,17 @@
         "full": "Autumn Casual Akigumo",
         "name": "Kagerou"
     },
+    "akigumo3": {
+        "offset": {
+            "x": 20,
+            "y": -50
+        },
+        "rarity": 4,
+        "type": "DD",
+        "unique": false,
+        "full": "Christmas Akigumo",
+        "name": "Kagerou"
+    },
     "urakaze1": {
         "offset": {
             "x": 0,
@@ -3246,6 +3309,21 @@
         "full": "Yukata Libeccio",
         "name": "Maestrale"
     },
+    "libeccio5": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "offset2": {
+            "x": -25,
+            "y": -30
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Christmas Libeccio",
+        "name": "Maestrale"
+    },
     "kamikaze1": {
         "offset": {
             "x": 50,
@@ -3445,6 +3523,17 @@
         "type": "CL",
         "unique": false,
         "full": "Autumn Tama",
+        "name": "Kuma"
+    },
+    "tama4": {
+        "offset": {
+            "x": 75,
+            "y": 25
+        },
+        "rarity": 4,
+        "type": "CL",
+        "unique": false,
+        "full": "Tama Kai Ni",
         "name": "Kuma"
     },
     "kiso1": {
@@ -4306,6 +4395,36 @@
         "type": "CA",
         "unique": false,
         "full": "Valentines Kinugasa",
+        "name": "Aoba"
+    },
+    "kinugasa4": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "offset2": {
+            "x": 100,
+            "y": 0
+        },
+        "rarity": 4,
+        "type": "CA",
+        "unique": false,
+        "full": "Christmas Kinugasa",
+        "name": "Aoba"
+    },
+    "kinugasa5": {
+        "offset": {
+            "x": 120,
+            "y": -80
+        },
+        "offset2": {
+            "x": 40,
+            "y": 40
+        },
+        "rarity": 6,
+        "type": "CA",
+        "unique": false,
+        "full": "Christmas Kinugasa Kai Ni",
         "name": "Aoba"
     },
     "myoukou1": {
@@ -6262,6 +6381,17 @@
         "full": "Shoukaku Kai Ni A",
         "name": "Shoukaku"
     },
+    "shoukaku4": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 5,
+        "type": "CV",
+        "unique": false,
+        "full": "Christmas Shoukaku",
+        "name": "Shoukaku"
+    },
     "zuikaku1": {
         "offset": {
             "x": 0,
@@ -7740,6 +7870,21 @@
         "type": "AX",
         "unique": false,
         "full": "Yukata Kamoi",
+        "name": "Kamoi"
+    },
+    "kamoi8": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "offset2": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 4,
+        "type": "AX",
+        "unique": false,
+        "full": "Christmas Kamoi",
         "name": "Kamoi"
     }
 }
