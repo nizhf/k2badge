@@ -323,6 +323,9 @@
         "musashi2": [
             "musashi1"
         ],
+        "naganami5": [
+            "naganami1"
+        ],
         "nagara2": [
             "nagara1"
         ],
@@ -519,6 +522,7 @@
         "530": "i5041",
         "539": "uit251",
         "541": "nagato2",
+        "543": "naganami5",
         "545": "saratoga3",
         "547": "tama4",
         "548": "fumizuki2"

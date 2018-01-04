@@ -250,6 +250,10 @@
 								<span><input type="checkbox" name="z32" id="z32"></span>
 								<label for="z32">Z3 マックス・シュルツ (70)</label>
 							</div>
+							<div class="kai blueprint">
+								<span><input type="checkbox" name="naganami5" id="naganami5"></span>
+								<label for="tama4">Naganami 長波 (75)</label>
+							</div>
 						</div>
 					</div>
 					<div class="shipClass" id="cl">
@@ -265,6 +269,7 @@
 							<div><span><input type="checkbox" name="jintsuu2" id="jintsuu2"></span><label for="jintsuu2">Jintsuu 神通 (60)</label></div>
 							<div><span><input type="checkbox" name="naka2" id="naka2"></span><label for="naka2">Naka 那珂 (48)</label></div>
 							<div class="kai blueprint"><span><input type="checkbox" name="yura3" id="yura3"></span><label for="yura3">Yura 由良 (77)</label></div>
+							<div class="kai blueprint"><span><input type="checkbox" name="tama4" id="tama4"></span><label for="tama4">Tama 多摩 (70)</label></div>
 						</div>
 					</div>
 					<div class="shipClass" id="ca">
