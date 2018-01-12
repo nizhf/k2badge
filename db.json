@@ -2208,6 +2208,17 @@
         "full": "Arare",
         "name": "Asashio"
     },
+    "arare2": {
+        "offset": {
+            "x": 0,
+            "y": -25
+        },
+        "rarity": 1,
+        "type": "DD",
+        "unique": false,
+        "full": "Christmas Arare",
+        "name": "Asashio"
+    },
     "kasumi1": {
         "offset": {
             "x": 50,
@@ -5596,7 +5607,7 @@
         "full": "Summer 2016 Yamato",
         "name": "Yamato"
     },
-    "yamato3": {
+    "yamato4": {
         "offset": {
             "x": 0,
             "y": -20
@@ -6901,6 +6912,17 @@
         "type": "SS",
         "unique": true,
         "full": "Hachi",
+        "name": "Type_J3"
+    },
+    "i82": {
+        "offset": {
+            "x": -50,
+            "y": -25
+        },
+        "rarity": 5,
+        "type": "SS",
+        "unique": false,
+        "full": "Christmas Hachi",
         "name": "Type_J3"
     },
     "i4001": {
