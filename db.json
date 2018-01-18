@@ -149,6 +149,36 @@
         "full": "Tsushima",
         "name": "Etorofu"
     },
+    "tsushima2": {
+        "offset": {
+            "x": 50,
+            "y": -80
+        },
+        "offset2": {
+            "x": 50,
+            "y": -80
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": false,
+        "full": "Year's End Tsushima",
+        "name": "Etorofu"
+    },
+    "tsushima3": {
+        "offset": {
+            "x": 50,
+            "y": -80
+        },
+        "offset2": {
+            "x": 50,
+            "y": -80
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": false,
+        "full": "Haregi Tsushima",
+        "name": "Etorofu"
+    },
     "shimakaze1": {
         "offset": {
             "x": 50,
@@ -2178,6 +2208,17 @@
         "full": "Arare",
         "name": "Asashio"
     },
+    "arare2": {
+        "offset": {
+            "x": 0,
+            "y": -25
+        },
+        "rarity": 1,
+        "type": "DD",
+        "unique": false,
+        "full": "Christmas Arare",
+        "name": "Asashio"
+    },
     "kasumi1": {
         "offset": {
             "x": 50,
@@ -2404,7 +2445,40 @@
         "rarity": 4,
         "type": "DD",
         "unique": false,
-        "full": "Christmas Akigumo",
+        "full": "Shuraba Akigumo",
+        "name": "Kagerou"
+    },
+    "akigumo4": {
+        "offset": {
+            "x": 20,
+            "y": -50
+        },
+        "rarity": 4,
+        "type": "DD",
+        "unique": false,
+        "full": "Super Shuraba Akigumo",
+        "name": "Kagerou"
+    },
+    "akigumo5": {
+        "offset": {
+            "x": 20,
+            "y": -50
+        },
+        "rarity": 4,
+        "type": "DD",
+        "unique": false,
+        "full": "After Celebration Akigumo",
+        "name": "Kagerou"
+    },
+    "akigumo6": {
+        "offset": {
+            "x": 20,
+            "y": -50
+        },
+        "rarity": 4,
+        "type": "DD",
+        "unique": false,
+        "full": "Oyakodon Akigumo",
         "name": "Kagerou"
     },
     "urakaze1": {
@@ -2795,6 +2869,21 @@
         "full": "Setsubun Kazagumo",
         "name": "Yuugumo"
     },
+    "kazagumo4": {
+        "offset": {
+            "x": -25,
+            "y": 25
+        },
+        "offset2": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 5,
+        "type": "DD",
+        "unique": false,
+        "full": "Salesgirl Kazagumo",
+        "name": "Yuugumo"
+    },
     "naganami1": {
         "offset": {
             "x": 0,
@@ -2849,6 +2938,21 @@
         "type": "DD",
         "unique": false,
         "full": "Fried Rice Naganami",
+        "name": "Yuugumo"
+    },
+    "naganami5": {
+        "offset": {
+            "x": -20,
+            "y": 30
+        },
+        "offset2": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Naganami Kai Ni",
         "name": "Yuugumo"
     },
     "hayashimo1": {
@@ -5503,6 +5607,21 @@
         "full": "Summer 2016 Yamato",
         "name": "Yamato"
     },
+    "yamato4": {
+        "offset": {
+            "x": 0,
+            "y": -20
+        },
+        "offset2": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 8,
+        "type": "BB",
+        "unique": false,
+        "full": "Haregi Yamato",
+        "name": "Yamato"
+    },
     "musashi1": {
         "offset": {
             "x": 0,
@@ -5758,6 +5877,21 @@
         "full": "Haregi Iowa",
         "name": "Iowa"
     },
+    "warspite2": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "offset2": {
+            "x": 50,
+            "y": -5
+        },
+        "rarity": 7,
+        "type": "BB",
+        "unique": false,
+        "full": "Haregi Warspite",
+        "name": "Queen_Elizabeth"
+    },
     "warspite1": {
         "offset": {
             "x": 0,
@@ -5846,6 +5980,21 @@
         "type": "BB",
         "unique": false,
         "full": "Casual Richelieu",
+        "name": "Richelieu"
+    },
+    "richelieu3": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "offset2": {
+            "x": 50,
+            "y": -5
+        },
+        "rarity": 7,
+        "type": "BB",
+        "unique": false,
+        "full": "Haregi Richelieu",
         "name": "Richelieu"
     },
     "houshou1": {
@@ -6763,6 +6912,17 @@
         "type": "SS",
         "unique": true,
         "full": "Hachi",
+        "name": "Type_J3"
+    },
+    "i82": {
+        "offset": {
+            "x": -50,
+            "y": -25
+        },
+        "rarity": 5,
+        "type": "SS",
+        "unique": false,
+        "full": "Christmas Hachi",
         "name": "Type_J3"
     },
     "i4001": {
