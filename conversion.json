@@ -320,6 +320,9 @@
         "murasame2": [
             "murasame1"
         ],
+        "murasame3": [
+            "murasame1"
+        ],
         "musashi2": [
             "musashi1"
         ],
@@ -399,6 +402,9 @@
         ],
         "tama4": [
             "tama1"
+        ],
+        "tatsuta3": [
+            "tatsuta1"
         ],
         "uit251": [
             "luigitorelli1"
@@ -509,10 +515,12 @@
         "468": "asashio2",
         "469": "kawakaze4",
         "470": "kasumi2",
+        "478": "tatsuta3",
         "487": "kinu2",
         "488": "yura3",
         "489": "michishio2",
         "490": "arashio2",
+        "498": "murasame3",
         "500": "kamoi3",
         "503": "suzuya4",
         "504": "kumano4",
