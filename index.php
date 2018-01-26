@@ -748,7 +748,7 @@
 			</div>
 			<span style="font-family:'Exo';visibility:hidden;">.</span><span style="font-family:'Ubuntu';visibility:hidden;">.</span>
 		</div>
-		<div id="footer"><p>© 2014-2017 TBES, Sanya.moe, all rights belong to their respective owners. Last updated: Jun 16 2017</p></div>
+		<div id="footer"><p>© 2014-2017 TBES, Sanya.moe, Harvestasya NT all rights belong to their respective owners. Last updated: Jan 22, 2018</p></div>
 		<div style="visibility:hidden; overflow-y: hidden; height:0;" id="icondump">
 			<img src="bg.jpg" id="bg"></img>
 			<img src="furniture/chest/000.png" id="r0"></img>

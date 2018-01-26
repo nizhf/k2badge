@@ -17,6 +17,7 @@ var fleetLevels = [
     [1, 1, 1, 1, 1, 1],
     [1, 1, 1, 1, 1, 1]
 ];
+var shipTypes = {};
 
 function setCookie(name, value, domain) {
     var dom = domain ? ("; domain=" + domain) : '';
@@ -115,7 +116,7 @@ $(document).ready(function() {
 
         }, function() {
             //Kill the App
-            $("#buttons").html("Can't find Kanmusu DB, please contact Vultren or Nya-chan on Github");
+            $("#buttons").html("Can't find Kanmusu DB, please contact Harvestasya or Nya-chan on Github");
             $("#tabs").remove();
         })
 
@@ -408,7 +409,7 @@ $(document).ready(function() {
                 $('.tooltip2').tooltipster();
             },
             error: function() {
-                $("#loadingDiv").html("Can't find Abyssal DB, please contact Vultren or Nya-chan on Github");
+                $("#loadingDiv").html("Can't find Abyssal DB, please contact Harvestasya or Nya-chan on Github");
             }
         });
     }
@@ -909,6 +910,29 @@ $(document).ready(function() {
         ctx.restore();
     }
 
+    var drawProgress = function(checked, total, offset) {
+        var progressrow = 530;
+        var progressrowbox = 540;
+        var ships = checked + "/" + total;
+        var shipPct = checked / total;
+        var barWidth = 300;
+        var grd = ctx.createLinearGradient(progressrowbox, 0, progressrowbox + barWidth, 0);
+
+        ctx.save();
+        ctx.strokeRect(progressrowbox, c.height - offset, barWidth, 8);
+
+        grd.addColorStop(0, "#A00000");
+        grd.addColorStop(0.33, "#FF9900");
+        grd.addColorStop(0.66, "#DDDD33");
+        grd.addColorStop(1, "#00A000");
+        ctx.fillStyle = grd;
+        ctx.fillRect(progressrowbox, c.height - offset, (barWidth * shipPct).toFixed(), 8);
+        ctx.restore();
+
+        ctx.font = "20px " + numberfont;
+        drawText(ships + " (" + (shipPct * 100).toFixed() + "%)", progressrowbox + barWidth, c.height - 20, 3);
+    };
+
     var drawNewBadge = function() {
         recalculateSides(22);
 
@@ -1026,23 +1050,17 @@ $(document).ready(function() {
         recalculateSides(newLength);
         ctx.save();
         ctx.strokeRect(35, 45, 100, 100);
+        //TODO: move to global variables
         var name = $("[name='name']")[0];
         var level = $("[name='level']")[0];
         var server = $("[name='server'] :selected").text();
         var useBlue = $("#useBlue").prop("checked");
         var maxPerLine = 12;
         var linebarwidth = newLength * (2 * Math.sin(Math.PI / 2) + 1);
-        var line1 = 55;
-        var line2 = line1 + linebarwidth;
-        var line3 = line2 + linebarwidth;
+        var line = 10;
         var line4 = 175;
-        var row1 = 175;
-        var row1box = row1 + 15;
-        var row2 = row1 + hexRadius;
-        var row2box = row1box + hexRadius;
-        var progressrow = 530;
-        var progressrowbox = 540;
-
+        var evenRow = true;
+    
         ctx.font = "20px " + textfont;
         ctx.imageSmoothingEnabled = true;
         ctx.fillStyle = 'white';
@@ -1052,7 +1070,7 @@ $(document).ready(function() {
         } else {
             drawText((lang == "en" ? "Nameless Admiral" : "無名提督"), 20, 25, 3);
         }
-
+    
         ctx.save();
         ctx.font = "10px " + textfont;
         ctx.globalCompositeOperation = "lighter";
@@ -1061,180 +1079,92 @@ $(document).ready(function() {
         var date = new Date();
         drawText(date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate(), 5, c.height - 5, 3);
         ctx.restore();
-
-        ctx.font = "14px " + textfont;
-
-        ctx.textAlign = "right";
-        drawText((lang == "en" ? "DD" : "駆"), row1, line1 + newLength - 9);
-        var numDD = 0;
-        var maxDD = $("#dd").find("[type='checkbox']:checked").length;
-        var blue = 0;
-        ctx.save();
-        ctx.fillStyle = "white";
-
-        $("#dd").find("[type='checkbox']").each(function(i) {
-            var label = $(this).parent().parent();
-            if (!(useBlue && label.hasClass("blueprint") && !label.hasClass("kai"))) {
-                var x = row1box + numDD % maxPerLine * hexRectangleWidth;
-                if (Math.floor(numDD / maxPerLine % 2) > 0) {
-                    x = row1box + (maxPerLine - numDD % maxPerLine) * hexRectangleWidth - hexRadius;
+    
+        for (var key in shipTypes) {
+            if ($("#" + key.toLowerCase()).find("[type='checkbox']").length == 0 || ["SS", "AX"].indexOf(key) > -1) {
+                continue;
+            }
+            var classLang = shipTypes[key]
+            var row = 175;
+            var rowbox = row + 15;
+            var loower = key.toLowerCase();
+            var num = 0;
+            var blue = $("#" + key.toLowerCase()).find(".blueprint").not(".kai").length;
+            var max = $("#" + key.toLowerCase()).find("[type='checkbox']").length;
+            var selected = $("#" + key.toLowerCase()).find("[type='checkbox']:checked").length;
+    
+            if (blue > 0 && useBlue) {
+                max -= blue;
+                selected = Math.max(0, selected - blue);
+            }
+            var percentLocation = Math.min(maxPerLine, max);
+    
+            if (Math.floor((max - 1) / maxPerLine % 2) == 1) {
+                evenRow = !evenRow;
+            }
+    
+            if (max / maxPerLine > 1) {
+                line = line + (linebarwidth * Math.floor(max / maxPerLine)) / 2;
+            }
+            if (evenRow) {
+                row = row + hexRadius;
+                rowbox = rowbox + hexRadius;
+    
+            }
+    
+            ctx.font = "14px " + textfont;
+    
+            ctx.textAlign = "right";
+            drawText((lang == "en" ? classLang[lang] : classLang["jp"]), row, line + newLength - 9);
+    
+            ctx.save();
+            ctx.fillStyle = "white";
+    
+            $($("#" + key.toLowerCase()).find("[type='checkbox']").get().reverse()).each(function (i) {
+                var label = $(this).parent().parent();
+                var current = max - num - 1;
+                if (!(useBlue && label.hasClass("blueprint") && !label.hasClass("kai"))) {
+                    var x = rowbox + current % maxPerLine * hexRectangleWidth;
+                    if (Math.floor(current / maxPerLine % 2) > 0) {
+                        x = rowbox + (maxPerLine - (current + 1) % maxPerLine) * hexRectangleWidth - hexRadius;
+                    }
+                    var y = Math.floor(current / maxPerLine) * -linebarwidth / 2 + line - 15;
+                    var img = document.getElementById("icon" + this.id);
+                    var blueprint = label.hasClass("blueprint") ? (label.hasClass("prototype") ? "pink" : "lightblue") : "white";
+                    drawHexagon(img, x, y, this.checked, blueprint);
+    
+                    num++;
                 }
-                var y = Math.floor(numDD / maxPerLine) * -linebarwidth / 2 + line1 - 15;
-                var img = document.getElementById("icon" + this.id);
-                var blueprint = label.hasClass("blueprint") ? "lightblue" : "white";
-                drawHexagon(img, x, y, this.checked, blueprint);
-
-                numDD++;
-            } else if (this.checked && label.hasClass("blueprint")) {
-                blue++;
-            }
-        });
-        ctx.textAlign = "left";
-        ctx.font = "14px " + numberfont;
-        drawText(maxDD - blue + "/" + numDD, row1box + maxPerLine * hexRectangleWidth + 8, line1 + newLength - 9);
-        ctx.restore();
-
-        drawText((lang == "en" ? "CL" : "軽巡"), row2, line1 + linebarwidth / 2 + newLength - 9);
-        var numCL = 0;
-        var maxCL = $("#cl").find("[type='checkbox']:checked").length;
-        var blue = 0;
-        ctx.save();
-        ctx.fillStyle = "white";
-        $("#cl").find("[type='checkbox']").each(function() {
-            var label = $(this).parent().parent();
-            if (!(useBlue && label.hasClass("blueprint") && !label.hasClass("kai"))) {
-                var x = row2box + numCL * hexRectangleWidth;
-                var y = line1 - 15 + linebarwidth / 2;
-                var img = document.getElementById("icon" + this.id);
-                var blueprint = label.hasClass("blueprint") ? "lightblue" : "white";
-                drawHexagon(img, x, y, this.checked, blueprint);
-
-                numCL++;
-            } else if (this.checked && label.hasClass("blueprint")) {
-                blue++;
-            }
-        });
-        ctx.textAlign = "left";
-        ctx.font = "14px " + numberfont;
-        drawText(maxCL - blue + "/" + numCL, row2box + numCL * hexRectangleWidth + 8, line1 + newLength - 9 + linebarwidth / 2);
-        ctx.restore();
-
-        drawText((lang == "en" ? "CA" : "重巡"), row1, line2 + newLength - 9);
-        var numCA = 0;
-        var maxCA = $("#ca").find("[type='checkbox']:checked").length;
-        var blue = 0;
-        ctx.save();
-        ctx.fillStyle = "white";
-        $("#ca").find("[type='checkbox']").each(function() {
-            var label = $(this).parent().parent();
-            if (!(useBlue && label.hasClass("blueprint") && !label.hasClass("kai"))) {
-                var x = row1box + numCA * hexRectangleWidth;
-                var y = line2 - 15;
-                var img = document.getElementById("icon" + this.id);
-                var blueprint = label.hasClass("blueprint") ? "lightblue" : "white";
-                drawHexagon(img, x, y, this.checked, blueprint);
-
-                numCA++;
-            } else if (this.checked && label.hasClass("blueprint")) {
-                blue++;
-            }
-        });
-        ctx.textAlign = "left";
-        ctx.font = "14px " + numberfont;
-        drawText(maxCA - blue + "/" + numCA, row1box + numCA * hexRectangleWidth + 8, line2 + newLength - 9);
-        ctx.restore();
-
-        drawText((lang == "en" ? "CVL" : "軽母"), row1, line3 + newLength - 9);
-        var numCVL = 0;
-        var maxCVL = $("#cvl").find("[type='checkbox']:checked").length;
-        var blue = 0;
-        ctx.save();
-        ctx.fillStyle = "white";
-        $("#cvl").find("[type='checkbox']").each(function() {
-            var label = $(this).parent().parent();
-            if (!(useBlue && label.hasClass("blueprint") && !label.hasClass("kai"))) {
-                var x = row1box + numCVL * hexRectangleWidth;
-                var y = line3 - 15;
-                var img = document.getElementById("icon" + this.id);
-                var blueprint = label.hasClass("blueprint") ? (label.hasClass("prototype") ? "pink" : "lightblue") : "white";
-                drawHexagon(img, x, y, this.checked, blueprint);
-
-                numCVL++;
-            } else if (this.checked && label.hasClass("blueprint")) {
-                blue++;
-            }
-        });
-        ctx.textAlign = "left";
-        ctx.font = "14px " + numberfont;
-        drawText(maxCVL - blue + "/" + numCVL, row1box + numCVL * hexRectangleWidth + 8, line3 + newLength - 9);
-        ctx.restore();
-
-        drawText((lang == "en" ? "BB" : "戦"), row2, line2 + linebarwidth / 2 + newLength - 9);
-        var numBB = 0;
-        var maxBB = $("#bb").find("[type='checkbox']:checked").length;
-        var blue = 0;
-        ctx.save();
-        ctx.fillStyle = "white";
-        $("#bb").find("[type='checkbox']").each(function() {
-            var label = $(this).parent().parent();
-            if (!(useBlue && label.hasClass("blueprint") && !label.hasClass("kai"))) {
-                var x = row2box + numBB * hexRectangleWidth;
-                var y = line2 - 15 + linebarwidth / 2;
-                var img = document.getElementById("icon" + this.id);
-                var blueprint = label.hasClass("blueprint") ? "lightblue" : "white";
-                drawHexagon(img, x, y, this.checked, blueprint);
-
-                numBB++;
-            } else if (this.checked && label.hasClass("blueprint")) {
-                blue++;
-            }
-        });
-        ctx.textAlign = "left";
-        ctx.font = "14px " + numberfont;
-        drawText(maxBB - blue + "/" + numBB, row2box + numBB * hexRectangleWidth + 8, line2 + newLength - 9 + linebarwidth / 2);
-        ctx.restore();
-
-        drawText((lang == "en" ? "CV" : "航"), row2, line3 + linebarwidth / 2 + newLength - 9);
-        var numCV = 0;
-        var maxCV = $("#cv").find("[type='checkbox']:checked").length;
-        var blue = 0;
-        ctx.save();
-        ctx.fillStyle = "white";
-        $("#cv").find("[type='checkbox']").each(function() {
-            var label = $(this).parent().parent();
-            if (!(useBlue && label.hasClass("blueprint") && !label.hasClass("kai"))) {
-                var x = row2box + numCV * hexRectangleWidth;
-                var y = line3 - 15 + linebarwidth / 2;
-                var img = document.getElementById("icon" + this.id);
-                var blueprint = label.hasClass("blueprint") ? (label.hasClass("prototype") ? "pink" : "lightblue") : "white";
-                drawHexagon(img, x, y, this.checked, blueprint);
-
-                numCV++;
-            } else if (this.checked && label.hasClass("blueprint")) {
-                blue++;
-            }
-        });
-        ctx.textAlign = "left";
-        ctx.font = "14px " + numberfont;
-        drawText(maxCV - blue + "/" + numCV, row2box + numCV * hexRectangleWidth + 8, line3 + newLength - 9 + linebarwidth / 2);
-        ctx.restore();
-
-        var startPositionSS = (numCV + 3) * hexRectangleWidth;
-        drawText((lang == "en" ? "SS" : "潜"), row2 + startPositionSS, line3 + linebarwidth / 2 + newLength - 9);
+    
+            });
+            ctx.textAlign = "left";
+            ctx.font = "14px " + numberfont;
+            drawText(selected + "/" + num, rowbox + percentLocation * hexRectangleWidth + 8, line + newLength - 9);
+            ctx.restore();
+            line = line + linebarwidth / 2;
+            evenRow = !evenRow;
+    
+        }
+        var numCV = $("#cv").find("[type='checkbox']").length - ((useBlue) ? $("#cv").find(".blueprint").not(".kai").length : 0);
+        var startPositionSS = (numCV + 2.5) * hexRectangleWidth;
         var numSS = 0;
         var maxSS = $("#ss").find("[type='checkbox']:checked").length;
+        var ssRow = 190;
+        var ssRowbox = ssRow + 15;
         var blue = 0;
+        line = line - linebarwidth;
+        drawText((lang == "en" ? "SS" : "潜"), ssRow + startPositionSS, line + linebarwidth / 2 + newLength - 9);
         ctx.save();
         ctx.fillStyle = "white";
         $("#ss").find("[type='checkbox']").each(function() {
             var label = $(this).parent().parent();
             if (!(useBlue && label.hasClass("blueprint") && !label.hasClass("kai"))) {
-                var x = startPositionSS + row2box + numSS * hexRectangleWidth;
-                var y = line3 - 15 + linebarwidth / 2;
+                var x = startPositionSS + ssRowbox + numSS * hexRectangleWidth;
+                var y = line - 15 + linebarwidth / 2;
                 var img = document.getElementById("icon" + this.id);
                 var blueprint = $(this).parent().parent().find("label").hasClass("blueprint") ? "lightblue" : "white";
                 drawHexagon(img, x, y, this.checked, blueprint);
-
+    
                 numSS++;
             } else if (this.checked && label.hasClass("blueprint")) {
                 blue++;
@@ -1242,11 +1172,14 @@ $(document).ready(function() {
         });
         ctx.textAlign = "left";
         ctx.font = "14px " + numberfont;
-        drawText(maxSS - blue + "/" + numSS, startPositionSS + row2box + numSS * hexRectangleWidth + 8, line3 + newLength - 9 + linebarwidth / 2);
+        drawText(maxSS - blue + "/" + numSS, startPositionSS + ssRowbox + numSS * hexRectangleWidth + 8, line + newLength - 9 + linebarwidth / 2);
         ctx.restore();
-
-        var startPositionAX = (numCVL + 3) * hexRectangleWidth;
-        drawText((lang == "en" ? "AX" : "他"), row1 + startPositionAX, line3 + newLength - 9);
+    
+        var numCVL = $("#cvl").find("[type='checkbox']").length - ((useBlue) ? $("#cvl").find(".blueprint").not(".kai").length : 0);
+        var startPositionAX = (numCVL + 3.5) * hexRectangleWidth;
+        var axRow = 163 + hexRadius;
+        var axRowbox = axRow + hexRadius;
+        drawText((lang == "en" ? "AX" : "その他"), axRow + startPositionAX, line + newLength - 9);
         var numAX = 0;
         var maxAX = $("#ax").find("[type='checkbox']:checked").length;
         var blue = 0;
@@ -1255,12 +1188,12 @@ $(document).ready(function() {
         $("#ax").find("[type='checkbox']").each(function() {
             var label = $(this).parent().parent();
             if (!(useBlue && label.hasClass("blueprint") && !label.hasClass("kai"))) {
-                var x = startPositionAX + row1box + numAX * hexRectangleWidth;
-                var y = line3 - 15;
+                var x = startPositionAX + axRowbox + numAX * hexRectangleWidth;
+                var y = line - 15;
                 var img = document.getElementById("icon" + this.id);
                 var blueprint = $(this).parent().parent().find("label").hasClass("blueprint") ? "lightblue" : "white";
                 drawHexagon(img, x, y, this.checked, blueprint);
-
+    
                 numAX++;
             } else if (this.checked && label.hasClass("blueprint")) {
                 blue++;
@@ -1268,37 +1201,22 @@ $(document).ready(function() {
         });
         ctx.textAlign = "left";
         ctx.font = "14px " + numberfont;
-        drawText(maxAX - blue + "/" + numAX, startPositionAX + row1box + numAX * hexRectangleWidth + 8, line3 + newLength - 9);
+        drawText(maxAX - blue + "/" + numAX, startPositionAX + axRowbox + numAX * hexRectangleWidth + 8, line + newLength - 9);
         ctx.restore();
-
+    
         ctx.font = "12px " + textfont;
         var shipBoxes = $(".shipOptions");
         var allBlue = shipBoxes.find(".blueprint").length - shipBoxes.find(".kai").length;
         var chkBlue = shipBoxes.find(".blueprint :checked").length - shipBoxes.find(".kai :checked").length;
         var chkShips = !useBlue ? shipBoxes.find("[type='checkbox']:checked").length : shipBoxes.find("[type='checkbox']:checked").length - chkBlue;
         var allShips = !useBlue ? shipBoxes.find("[type='checkbox']").length : shipBoxes.find("[type='checkbox']").length - allBlue;
-
-        var ships = chkShips + "/" + allShips;
-        var shipPct = chkShips / allShips;
-        var barWidth = 300;
-
-        ctx.save();
-        ctx.strokeRect(progressrowbox, c.height - 20, barWidth, 8);
-        var grd = ctx.createLinearGradient(progressrowbox, 0, progressrowbox + barWidth, 0);
-        grd.addColorStop(0, "#A00000");
-        grd.addColorStop(0.33, "#FF9900");
-        grd.addColorStop(0.66, "#DDDD33");
-        grd.addColorStop(1, "#00A000");
-        ctx.fillStyle = grd;
-        ctx.fillRect(progressrowbox, c.height - 20, (barWidth * shipPct).toFixed(), 8);
-        ctx.restore();
-
-        ctx.font = "20px " + numberfont;
-        drawText(ships + " (" + (shipPct * 100).toFixed() + "%)", progressrowbox + barWidth, c.height - 20, 3);
+    
+        drawProgress(chkShips, allShips, 20);
+    
         ctx.font = "12px " + textfont;
         ctx.textAlign = "center";
         drawText("Lv. " + (level.value ? level.value : "?"), 85, line4 - 8);
-
+    
         if (server !== "------") {
             drawText((lang == "en" ? server.substring(server.indexOf(" ") + 1) : server), 85, line4 + 7);
         } else {
@@ -1342,7 +1260,8 @@ $(document).ready(function() {
     //Begin Init Code
     var init = function() {
 
-        var mstId2FleetIdTable = $.extend({}, conversion.mstId2FleetIdTable, conversion.mstId2KainiTable);
+        var mstId2FleetIdTable = conversion.mstId2FleetIdTable;
+        shipTypes = conversion.shipTypes;
 
         if (apiMode) {
             if (importName) $("input[name='name']").val(importName);
