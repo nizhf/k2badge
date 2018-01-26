@@ -134,6 +134,21 @@
         "full": "Christmas Sado",
         "name": "Etorofu"
     },
+    "sado3": {
+        "offset": {
+            "x": 50,
+            "y": -80
+        },
+        "offset2": {
+            "x": 50,
+            "y": -80
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": false,
+        "full": "Setsubun Sado",
+        "name": "Etorofu"
+    },
     "tsushima1": {
         "offset": {
             "x": 50,
@@ -1714,6 +1729,21 @@
     },
     "murasame3": {
         "offset": {
+            "x": 0,
+            "y": 10
+        },
+        "offset2": {
+            "x": 50,
+            "y": -100
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
+        "full": "Murasame Kai Ni",
+        "name": "Shiratsuyu"
+    },
+    "murasame3": {
+        "offset": {
             "x": 50,
             "y": 0
         },
@@ -3134,6 +3164,21 @@
         "full": "Yukata Asashimo",
         "name": "Yuugumo"
     },
+    "asashimo5": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "offset2": {
+            "x": 0,
+            "y": -25
+        },
+        "rarity": 4,
+        "type": "DD",
+        "unique": false,
+        "full": "Setsubun Asashimo",
+        "name": "Yuugumo"
+    },
     "okinami1": {
         "offset": {
             "x": -50,
@@ -3553,6 +3598,21 @@
         "type": "CL",
         "unique": false,
         "full": "Summer Tatsuta",
+        "name": "Tenryuu"
+    },
+    "tatsuta3": {
+        "offset": {
+            "x": 75,
+            "y": 25
+        },
+        "offset2": {
+            "x": 75,
+            "y": -25
+        },
+        "rarity": 7,
+        "type": "CL",
+        "unique": false,
+        "full": "Tatsuta Kai Ni",
         "name": "Tenryuu"
     },
     "kuma1": {
