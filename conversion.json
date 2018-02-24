@@ -447,7 +447,7 @@
             "kasugamaru1"
         ]
     },
-    "mstId2KainiTable": {
+    "mstId2FleetIdTable": {
         "1": "mutsuki1",
         "2": "kisaragi1",
         "6": "nagatsuki1",
@@ -991,7 +991,7 @@
             "tcn": "",
             "tw": ""
         },
-        
+
         "CV": {
             "en": "CV",
             "jp": "",
