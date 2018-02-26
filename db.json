@@ -5706,10 +5706,25 @@
             "x": 0,
             "y": -25
         },
-        "rarity": 8,
+        "rarity": 7,
         "type": "BB",
         "unique": false,
         "full": "Musashi Kai",
+        "name": "Yamato"
+    },
+    "musashi3": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "offset2": {
+            "x": 0,
+            "y": -25
+        },
+        "rarity": 8,
+        "type": "BB",
+        "unique": false,
+        "full": "Musashi Kai Ni",
         "name": "Yamato"
     },
     "bismarck1": {
@@ -6285,6 +6300,28 @@
         "type": "CVL",
         "unique": false,
         "full": "New Year's Zuihou",
+        "name": "Shouhou"
+    },
+    "zuihou4": {
+        "offset": {
+            "x": -80,
+            "y": 25
+        },
+        "rarity": 7,
+        "type": "CVL",
+        "unique": false,
+        "full": "Zuihou Kai Ni",
+        "name": "Shouhou"
+    },
+    "zuihou5": {
+        "offset": {
+            "x": -80,
+            "y": 25
+        },
+        "rarity": 7,
+        "type": "CVL",
+        "unique": false,
+        "full": "Zuihou Kai Ni B",
         "name": "Shouhou"
     },
     "chitosecvl1": {

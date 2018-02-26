@@ -326,6 +326,9 @@
         "musashi2": [
             "musashi1"
         ],
+        "musashi3": [
+            "musashi1"
+        ],
         "naganami5": [
             "naganami1"
         ],
@@ -429,6 +432,14 @@
         ],
         "zuihou2": [
             "zuihou1"
+        ],
+        "zuihou4": [
+            "zuihou1"
+
+        ],
+        "zuihou5": [
+            "zuihou1",
+            "zuihou4"
         ],
         "zuikaku2": [
             "zuikaku1"
@@ -942,9 +953,12 @@
         "541": "nagato2",
         "543": "naganami5",
         "545": "saratoga3",
+        "546": "masashi3",
         "547": "tama4",
         "548": "fumizuki2",
         "550": "saratoga4",
+        "555": "zuihou4",
+        "560": "zuihou5",
         "605": "luigitorelli1",
         "606": "i4001"
     },
