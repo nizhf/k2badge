@@ -1,12 +1,12 @@
 {
     "shimushu1": {
         "offset": {
-            "x": -20,
-            "y": 0
+            "x": 25,
+            "y": 15
         },
         "offset2": {
             "x": -20,
-            "y": 0
+            "y": 15
         },
         "rarity": 4,
         "type": "DE",
@@ -193,6 +193,36 @@
         "unique": false,
         "full": "Haregi Tsushima",
         "name": "Etorofu"
+    },
+    "hiburi1": {
+        "offset": {
+            "x": 50,
+            "y": -80
+        },
+        "offset2": {
+            "x": 50,
+            "y": -80
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": true,
+        "full": "Hiburi",
+        "name": "Hiburi"
+    },
+    "daitou1": {
+        "offset": {
+            "x": 50,
+            "y": -80
+        },
+        "offset2": {
+            "x": 50,
+            "y": -80
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": true,
+        "full": "Daitou",
+        "name": "Hiburi"
     },
     "shimakaze1": {
         "offset": {
@@ -3254,6 +3284,21 @@
         "full": "Autumn Casual Fujinami",
         "name": "Yuugumo"
     },
+    "hamanami1": {
+        "offset": {
+            "x": -50,
+            "y": 10
+        },
+        "offset2": {
+            "x": -50,
+            "y": -30
+        },
+        "rarity": 4,
+        "type": "DD",
+        "unique": true,
+        "full": "Hamanami",
+        "name": "Yuugumo"
+    },
     "z11": {
         "offset": {
             "x": -25,
@@ -3547,6 +3592,39 @@
         "unique": true,
         "full": "Hatakaze",
         "name": "Kamikaze"
+    },
+    "jervis1": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": true,
+        "full": "Jervis",
+        "name": "J Class"
+    },
+    "jervis2": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Jervis Kai",
+        "name": "J Class"
+    },
+    "tashkent1": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": true,
+        "full": "Tashkent",
+        "name": "Tashkent"
     },
     "tenryuu1": {
         "offset": {
@@ -6498,6 +6576,17 @@
         "full": "Taiyou Kai Ni",
         "name": "Taiyou"
     },
+    "gambierbay1": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 5,
+        "type": "CVL",
+        "unique": true,
+        "full": "Gambier Bay",
+        "name": "Casablanca"
+     },
     "akagi1": {
         "offset": {
             "x": 50,
@@ -6951,6 +7040,36 @@
         "unique": false,
         "full": "Saratoga Mk.II Mod.2",
         "name": "Lexington"
+    },
+    "intrepid1": {
+        "offset": {
+            "x": 125,
+            "y": -20
+        },
+        "offset2": {
+            "x": -75,
+            "y": -15
+        },
+        "rarity": 6,
+        "type": "CV",
+        "unique": true,
+        "full": "Intrepid",
+        "name": "Essex"
+    },
+    "intrepid2": {
+        "offset": {
+            "x": 80,
+            "y": -20
+        },
+        "offset2": {
+            "x": -75,
+            "y": -15
+        },
+        "rarity": 7,
+        "type": "CV",
+        "unique": false,
+        "full": "Intrepid Kai",
+        "name": "Essex"
     },
     "arkroyal1": {
         "offset": {
