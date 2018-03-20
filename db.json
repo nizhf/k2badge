@@ -5345,6 +5345,10 @@
             "x": 75,
             "y": 0
         },
+		"offset2": {
+            "x": 75,
+            "y": 0
+        },
         "rarity": 7,
         "type": "BB",
         "unique": true,
@@ -5354,7 +5358,11 @@
     "nagato2": {
         "offset": {
             "x": 75,
-            "y": 0
+            "y": 30
+        },
+		"offset2": {
+            "x": -50,
+            "y": -20
         },
         "rarity": 8,
         "type": "BB",
@@ -5367,6 +5375,10 @@
             "x": 75,
             "y": 0
         },
+		"offset2": {
+            "x": 75,
+            "y": -30
+        },
         "rarity": 7,
         "type": "BB",
         "unique": true,
@@ -5375,8 +5387,12 @@
     },
     "mutsu2": {
         "offset": {
-            "x": 75,
-            "y": 0
+            "x": 25,
+            "y": 40
+        },
+		"offset2": {
+            "x": -55,
+            "y": 40
         },
         "rarity": 7,
         "type": "BB",
@@ -5902,7 +5918,7 @@
     "yamato4": {
         "offset": {
             "x": 0,
-            "y": -20
+            "y": 0
         },
         "offset2": {
             "x": 0,
@@ -5917,11 +5933,11 @@
     "musashi1": {
         "offset": {
             "x": 0,
-            "y": 0
+            "y": -20
         },
         "offset2": {
             "x": 0,
-            "y": -25
+            "y": -45
         },
         "rarity": 7,
         "type": "BB",
@@ -5932,11 +5948,11 @@
     "musashi2": {
         "offset": {
             "x": 0,
-            "y": 0
+            "y": -20
         },
         "offset2": {
             "x": 0,
-            "y": -25
+            "y": -45
         },
         "rarity": 7,
         "type": "BB",
@@ -5946,11 +5962,11 @@
     },
     "musashi3": {
         "offset": {
-            "x": 0,
-            "y": 0
+            "x": 200,
+            "y": -50
         },
         "offset2": {
-            "x": 0,
+            "x": -30,
             "y": -25
         },
         "rarity": 8,
@@ -6184,34 +6200,34 @@
         "full": "Haregi Iowa",
         "name": "Iowa"
     },
-    "warspite2": {
-        "offset": {
-            "x": 0,
-            "y": 0
-        },
-        "offset2": {
-            "x": 50,
-            "y": -5
-        },
-        "rarity": 7,
-        "type": "BB",
-        "unique": false,
-        "full": "Haregi Warspite",
-        "name": "Queen_Elizabeth"
-    },
     "warspite1": {
         "offset": {
-            "x": 0,
+            "x": -30,
             "y": 0
         },
         "offset2": {
-            "x": 50,
+            "x": 20,
             "y": -5
         },
         "rarity": 7,
         "type": "BB",
         "unique": true,
         "full": "Warspite",
+        "name": "Queen_Elizabeth"
+    },
+	"warspite2": {
+        "offset": {
+            "x": -20,
+            "y": 20
+        },
+        "offset2": {
+            "x": -30,
+            "y": -25
+        },
+        "rarity": 7,
+        "type": "BB",
+        "unique": false,
+        "full": "Haregi Warspite",
         "name": "Queen_Elizabeth"
     },
     "gangut1": {
