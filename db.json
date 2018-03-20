@@ -7643,7 +7643,11 @@
     "chitose1": {
         "offset": {
             "x": 0,
-            "y": 0
+            "y": 10
+        },
+		"offset2": {
+            "x": 0,
+            "y": 10
         },
         "rarity": 1,
         "type": "AX",
@@ -7654,7 +7658,11 @@
     "chitose2": {
         "offset": {
             "x": 0,
-            "y": 0
+            "y": 10
+        },
+		"offset2": {
+            "x": 0,
+            "y": 10
         },
         "rarity": 3,
         "type": "AX",
@@ -7665,7 +7673,11 @@
     "chitose3": {
         "offset": {
             "x": 0,
-            "y": 0
+            "y": 10
+        },
+		"offset2": {
+            "x": 0,
+            "y": 10
         },
         "rarity": 3,
         "type": "AX",
@@ -7676,11 +7688,11 @@
     "chitose4": {
         "offset": {
             "x": 25,
-            "y": 30
+            "y": 40
         },
         "offset2": {
             "x": 250,
-            "y": 30
+            "y": 40
         },
         "rarity": 3,
         "type": "AX",
@@ -7691,11 +7703,11 @@
     "chitose5": {
         "offset": {
             "x": 25,
-            "y": 15
+            "y": 25
         },
         "offset2": {
             "x": 0,
-            "y": 0
+            "y": 20
         },
         "rarity": 3,
         "type": "AX",
@@ -7708,6 +7720,10 @@
             "x": 0,
             "y": 0
         },
+		"offset2": {
+            "x": 40,
+            "y": -40
+        },
         "rarity": 1,
         "type": "AX",
         "unique": true,
@@ -7717,7 +7733,11 @@
     "chiyoda2": {
         "offset": {
             "x": 0,
-            "y": 0
+            "y": -20
+        },
+		"offset2": {
+            "x": 40,
+            "y": -40
         },
         "rarity": 3,
         "type": "AX",
@@ -7728,7 +7748,11 @@
     "chiyoda3": {
         "offset": {
             "x": 0,
-            "y": 0
+            "y": -20
+        },
+		"offset2": {
+            "x": 40,
+            "y": -40
         },
         "rarity": 3,
         "type": "AX",
@@ -7739,7 +7763,7 @@
     "chiyoda4": {
         "offset": {
             "x": 50,
-            "y": 25
+            "y": 30
         },
         "offset2": {
             "x": 50,
@@ -7754,11 +7778,11 @@
     "chiyoda5": {
         "offset": {
             "x": -50,
-            "y": -15
+            "y": -35
         },
         "offset2": {
             "x": 0,
-            "y": 0
+            "y": 20
         },
         "rarity": 3,
         "type": "AX",
@@ -7771,6 +7795,10 @@
             "x": -50,
             "y": 25
         },
+		"offset2": {
+            "x": -50,
+            "y": 35
+        },
         "rarity": 5,
         "type": "AX",
         "unique": true,
@@ -7780,11 +7808,11 @@
     "akitsumaru2": {
         "offset": {
             "x": 50,
-            "y": -25
+            "y": -35
         },
         "offset2": {
             "x": -25,
-            "y": 45
+            "y": 35
         },
         "rarity": 6,
         "type": "AX",
@@ -7794,12 +7822,12 @@
     },
     "akitsumaru3": {
         "offset": {
-            "x": 50,
-            "y": -25
+            "x": 0,
+            "y": 25
         },
         "offset2": {
             "x": -25,
-            "y": 45
+            "y": 25
         },
         "rarity": 6,
         "type": "AX",
@@ -7996,12 +8024,12 @@
     },
     "taigei2": {
         "offset": {
-            "x": -75,
-            "y": 10
+            "x": -45,
+            "y": 25
         },
         "offset2": {
-            "x": -75,
-            "y": -20
+            "x": -45,
+            "y": -35
         },
         "rarity": 4,
         "type": "AX",
@@ -8012,11 +8040,11 @@
     "taigei3": {
         "offset": {
             "x": -50,
-            "y": 20
+            "y": 50
         },
         "offset2": {
             "x": -75,
-            "y": -50
+            "y": -25
         },
         "rarity": 4,
         "type": "AX",
@@ -8027,11 +8055,11 @@
     "taigei4": {
         "offset": {
             "x": -50,
-            "y": 20
+            "y": 40
         },
         "offset2": {
-            "x": -75,
-            "y": -50
+            "x": -25,
+            "y": 30
         },
         "rarity": 4,
         "type": "AX",
@@ -8042,11 +8070,11 @@
     "akitsushima1": {
         "offset": {
             "x": 50,
-            "y": -25
+            "y": -45
         },
         "offset2": {
             "x": 50,
-            "y": -50
+            "y": -70
         },
         "rarity": 7,
         "type": "AX",
@@ -8057,11 +8085,11 @@
     "akitsushima2": {
         "offset": {
             "x": 73,
-            "y": -25
+            "y": -45
         },
         "offset2": {
             "x": 50,
-            "y": -50
+            "y": -70
         },
         "rarity": 7,
         "type": "AX",
@@ -8084,7 +8112,7 @@
         "full": "New Year's Akitsushima",
         "name": "Akitsushima"
     },
-    "akitsushima5": {
+    "akitsushima4": {
         "offset": {
             "x": 100,
             "y": -50
@@ -8342,11 +8370,11 @@
     "commandantteste1": {
         "offset": {
             "x": 0,
-            "y": 0
+            "y": 20
         },
         "offset2": {
             "x": 0,
-            "y": 0
+            "y": -40
         },
         "rarity": 6,
         "type": "AX",
@@ -8357,11 +8385,11 @@
     "commandantteste2": {
         "offset": {
             "x": 30,
-            "y": 30
+            "y": 20
         },
         "offset2": {
-            "x": 30,
-            "y": -30
+            "x": 0,
+            "y": -40
         },
         "rarity": 7,
         "type": "AX",
@@ -8370,13 +8398,13 @@
         "name": "Commandant_Teste"
     },
     "commandantteste3": {
-        "offset": {
+         "offset": {
             "x": 30,
-            "y": 30
+            "y": 20
         },
         "offset2": {
-            "x": 30,
-            "y": -30
+            "x": 0,
+            "y": -40
         },
         "rarity": 7,
         "type": "AX",
@@ -8385,13 +8413,13 @@
         "name": "Commandant_Teste"
     },
     "commandantteste4": {
-        "offset": {
+         "offset": {
             "x": 30,
-            "y": 30
+            "y": 20
         },
         "offset2": {
-            "x": 30,
-            "y": -30
+            "x": 0,
+            "y": -40
         },
         "rarity": 7,
         "type": "AX",
@@ -8400,13 +8428,13 @@
         "name": "Commandant_Teste"
     },
     "commandantteste5": {
-        "offset": {
+         "offset": {
             "x": 30,
-            "y": 30
+            "y": 20
         },
         "offset2": {
-            "x": 30,
-            "y": -30
+            "x": 0,
+            "y": -40
         },
         "rarity": 7,
         "type": "AX",
@@ -8415,13 +8443,13 @@
         "name": "Commandant_Teste"
     },
     "commandantteste6": {
-        "offset": {
+         "offset": {
             "x": 30,
-            "y": 30
+            "y": 20
         },
         "offset2": {
-            "x": 30,
-            "y": -30
+            "x": 0,
+            "y": -40
         },
         "rarity": 7,
         "type": "AX",
