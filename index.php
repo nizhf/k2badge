@@ -18,7 +18,7 @@
 			var apiMode = importName || importLvl || importServer || importShips || importFleets;
 		</script>
 		<script type="text/javascript" src="./Base64.js"></script>
-		<script type="text/javascript" src="./kaini.min.js?version=13"></script>
+		<script type="text/javascript" src="./kaini.min.js?version=14"></script>
 		<script type="text/javascript">
 			lang = "en";
 		</script>
@@ -35,7 +35,7 @@
 				This tool requires a modern browser (IE10+, Firefox, Chrome, or Safari) with Javascript enabled.  Please refresh your cache when there is a new update.  The Flagship of the first fleet will be featured on the badge.  Please leave any bug reports or feature requests <a target="_blank" href="https://github.com/Nya-chan/k2badge/issues">here</a>.
 			</p>
 			<div id="canvasDiv">
-				<canvas width="850" height="240" id="result"></canvas>
+				<canvas width="850" height="320" id="result"></canvas>
 				<div id="buttonToggles">
 					<button type="button" id="displayBadge" class="active">Kai 2</button>
 					<button type="button" id="displayPoster">Poster</button>
