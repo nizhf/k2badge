@@ -819,7 +819,7 @@ $(document).ready(function() {
         ctx.restore();
 
         ctx.font = "20px " + numberfont;
-        drawText(ships + " (" + (shipPct * 100).toFixed() + "%)", progressrowbox + barWidth, bottomLine - linebarwidth / 2, 3);
+        drawText(ships + " (" + (shipPct * 100).toFixed(1) + "%)", progressrowbox + barWidth, bottomLine - linebarwidth / 2, 3);
         ctx.font = "12px " + textfont;
         ctx.textAlign = "right";
         drawText("Lv. " + (level.value ? level.value : "?"), c.width / 2, 25);
@@ -930,7 +930,7 @@ $(document).ready(function() {
         ctx.restore();
 
         ctx.font = "20px " + numberfont;
-        drawText(ships + " (" + (shipPct * 100).toFixed() + "%)", progressrowbox + barWidth, c.height - 20, 3);
+        drawText(ships + " (" + (shipPct * 100).toFixed(1) + "%)", progressrowbox + barWidth, c.height - 20, 3);
     };
 
     var drawNewBadge = function() {
@@ -1479,7 +1479,7 @@ $(document).ready(function() {
             $("#buttonToggles button").removeClass("active");
             $(this).addClass("active");
             c.width = 850;
-            c.height = 240;
+            c.height = 320;
             generateFunction("displayBadge");
         });
         $("#displayRoom").on("click", function() {
