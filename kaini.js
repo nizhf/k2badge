@@ -1095,7 +1095,8 @@ $(document).ready(function() {
     
             if (blue > 0 && useBlue) {
                 max -= blue;
-                selected = Math.max(0, selected - blue);
+                var blueSelect = $("#" + key.toLowerCase()).find(".blueprint").not(".kai").find("[type='checkbox']:checked").length;
+                selected = Math.max(0, selected - blueSelect);
             }
             var percentLocation = Math.min(maxPerLine, max);
     
