@@ -312,6 +312,7 @@
 							<div class="blueprint"><span><input type="checkbox" name="roma2" id="roma2"></span><label for="roma2">Roma ローマ (35)</label></div>
 							<div><span><input type="checkbox" name="gangut2" id="gangut2"></span><label for="gangut2">Гангут ガングート(75)</label></div>
 							<div class="kai blueprint"><span><input type="checkbox" name="nagato2" id="nagato2"></span><label for="nagato2">Nagato 長門 (88)</label></div>
+							<div class="kai blueprint"><span><input type="checkbox" name="musashi3" id="musashi3"></span><label for="musashi3">Musashi 武蔵 (89)</label></div>
 						</div>
 					</div>
 					<div class="shipClass" id="cvl">
@@ -325,6 +326,7 @@
 							<div class="kai blueprint"><span><input type="checkbox" name="suzuyacvl1" id="suzuyacvl1"></span><label for="suzuyacvl1">Suzuya Kai Ni 鈴谷改二 (88)</label></div>
 							<div class="kai blueprint prototype"><span><input type="checkbox" name="taiyou3" id="taiyou3"></span><label for="taiyou3">Taiyou 大鷹(85)</label></div>
 							<div class="kai blueprint"><span><input type="checkbox" name="kumanocvl1" id="kumanocvl1"></span><label for="kumanocvl1">Kumano Kai Ni 熊野改二 (88)</label></div>
+							<div><span><input type="checkbox" name="zuihou4" id="zuihou4"></span><label for="zuihou4">Zuihou 瑞鳳 (80)</label></div>
 						</div>
 					</div>
 					<div class="shipClass" id="cv">

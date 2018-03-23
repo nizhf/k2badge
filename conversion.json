@@ -265,6 +265,9 @@
             "luigitorelli1",
             "uit251"
         ],
+        "intrepid2": [
+            "intrepid1"
+        ],
         "ise2": [
             "ise1"
         ],
@@ -282,6 +285,9 @@
         ],
         "gangut2": [
             "gangut1"
+        ],
+        "jervis2": [
+            "jervis1"
         ],
         "kamoi2": [
             "kamoi1"
@@ -324,6 +330,9 @@
             "murasame1"
         ],
         "musashi2": [
+            "musashi1"
+        ],
+        "musashi3": [
             "musashi1"
         ],
         "naganami5": [
@@ -379,7 +388,8 @@
             "shouhou1"
         ],
         "shoukaku3": [
-            "shoukaku2"
+            "shoukaku2",
+            "shoukaku1"
         ],
         "suzutsuki2": [
             "suzutsuki1"
@@ -429,6 +439,14 @@
         ],
         "zuihou2": [
             "zuihou1"
+        ],
+        "zuihou4": [
+            "zuihou1"
+
+        ],
+        "zuihou5": [
+            "zuihou1",
+            "zuihou4"
         ],
         "zuikaku2": [
             "zuikaku1"
@@ -818,6 +836,10 @@
         "391": "sagiri1",
         "392": "richelieu1",
         "393": "arkroyal1",
+        "394": "jervis2",
+        "395": "tashkent1",
+        "396": "gambierbay1",
+        "397": "intrepid2",
         "398": "i1681",
         "399": "i581",
         "400": "i81",
@@ -902,6 +924,7 @@
         "480": "sagiri1",
         "481": "minazuki1",
         "483": "i261",
+        "484": "hamanami1",
         "485": "fujinami1",
         "486": "uranami1",
         "487": "kinu2",
@@ -925,8 +948,10 @@
         "512": "oktyabrskaya1",
         "513": "gangut2",
         "515": "arkroyal1",
+        "516": "tashkent1",
         "517": "shimushu1",
         "518": "kunashiri1",
+        "519": "jervis1",
         "521": "kasugamaru1",
         "524": "etorofu1",
         "525": "matsuwa1",
@@ -941,12 +966,22 @@
         "540": "tsushima1",
         "541": "nagato2",
         "543": "naganami5",
+        "544": "gambierbay1",
         "545": "saratoga3",
+        "546": "masashi3",
         "547": "tama4",
         "548": "fumizuki2",
+        "549": "intrepid1",
         "550": "saratoga4",
+        "551": "hiburi1",
+        "552": "daitou1",
+        "555": "zuihou4",
+        "560": "zuihou5",
         "605": "luigitorelli1",
-        "606": "i4001"
+        "606": "i4001",
+        "678": "hiburi1",
+        "679": "daitou1",
+        "680": "hamanami1"
     },
     "shipTypes": {
         "DE": {
