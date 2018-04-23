@@ -258,6 +258,10 @@
 								<span><input type="checkbox" name="murasame3" id="murasame3"></span>
 								<label for="murasame3">Murasame 村雨(70)</label>
 							</div>
+							<div class="kai blueprint">
+								<span><input type="checkbox" name="arare3" id="arare3"></span>
+								<label for="arare3">Arare 霰 (63)</label>
+							</div>
 						</div>
 					</div>
 					<div class="shipClass" id="cl">

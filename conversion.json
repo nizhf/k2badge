@@ -201,6 +201,9 @@
         "amatsukaze2": [
             "amatsukaze1"
         ],
+        "arare3": [
+            "arare1"
+        ],
         "arashio2": [
             "arashio1"
         ],
@@ -240,6 +243,9 @@
         "graf2": [
             "graf1"
         ],
+        "hamakaze4": [
+            "hamakaze1"
+        ],
         "harusame2": [
             "harusame1"
         ],
@@ -272,6 +278,10 @@
             "ise1"
         ],
         "isokaze2": [
+            "isokaze1"
+        ],
+        "isokaze5": [
+            "isokaze2",
             "isokaze1"
         ],
         "asashio2": [
@@ -659,6 +669,7 @@
         "195": "ayanami2",
         "196": "hiryuu2",
         "197": "souryuu2",
+        "198": "arare3",
         "199": "ooshio2",
         "200": "abukuma2",
         "201": "fubuki1",
@@ -976,6 +987,8 @@
         "551": "hiburi1",
         "552": "daitou1",
         "555": "zuihou4",
+        "557": "isokaze5",
+        "558": "hamakaze4", 
         "560": "zuihou5",
         "605": "luigitorelli1",
         "606": "i4001",
