@@ -288,6 +288,7 @@
             "asashio1"
         ],
         "asashio3": [
+            "asashio2",
             "asashio1"
         ],
         "amagiri2": [
@@ -298,6 +299,9 @@
         ],
         "jervis2": [
             "jervis1"
+        ],
+        "kagerou2": [
+            "kagerou1"
         ],
         "kamoi2": [
             "kamoi1"
@@ -378,6 +382,9 @@
         "ryuujou2": [
             "ryuujou1"
         ],
+        "samuelbroberts2": [
+            "samuelbroberts1"
+        ],
         "saratoga2": [
             "saratoga1"
         ],
@@ -429,6 +436,9 @@
         "uit251": [
             "luigitorelli1"
         ],
+        "urakaze3": [
+            "urakaze1"
+        ],
         "uzuki2": [
             "uzuki1"
         ],
@@ -451,8 +461,8 @@
             "zuihou1"
         ],
         "zuihou4": [
+            "zuihou2",
             "zuihou1"
-
         ],
         "zuihou5": [
             "zuihou1",
@@ -987,14 +997,18 @@
         "551": "hiburi1",
         "552": "daitou1",
         "555": "zuihou4",
+        "556": "urakaze3",
         "557": "isokaze5",
         "558": "hamakaze4", 
         "560": "zuihou5",
+        "561": "samuelbroberts1",
+        "566": "kagerou2",
         "605": "luigitorelli1",
         "606": "i4001",
         "678": "hiburi1",
         "679": "daitou1",
-        "680": "hamanami1"
+        "680": "hamanami1",
+        "681": "samuelbroberts2"
     },
     "shipTypes": {
         "DE": {

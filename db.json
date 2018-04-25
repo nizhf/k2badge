@@ -2789,6 +2789,21 @@
         "full": "Kagerou",
         "name": "Kagerou"
     },
+    "kagerou2": {
+        "offset": {
+            "x": -20,
+            "y": 0
+        },
+		"offset2": {
+            "x": -60,
+            "y": -30
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Kagerou Kai Ni",
+        "name": "Kagerou"
+    },
     "shiranui1": {
         "offset": {
             "x": 0,
@@ -4243,6 +4258,36 @@
         "unique": true,
         "full": "Tashkent",
         "name": "Tashkent"
+    },
+    "samuelbroberts1": {
+        "offset": {
+            "x": -30,
+            "y": 10
+        },
+        "offset2": {
+            "x": -30,
+            "y": -10
+        },
+        "rarity": 5,
+        "type": "DD",
+        "unique": true,
+        "full": "Samuel B. Roberts",
+        "name": "John C. Butler"
+    },
+    "samuelbroberts2": {
+        "offset": {
+            "x": -30,
+            "y": 10
+        },
+        "offset2": {
+            "x": -30,
+            "y": -10
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
+        "full": "Samuel B. Roberts Kai",
+        "name": "John C. Butler"
     },
     "tenryuu1": {
         "offset": {

@@ -18,7 +18,7 @@
 			var apiMode = importName || importLvl || importServer || importShips || importFleets;
 		</script>
 		<script type="text/javascript" src="./Base64.js"></script>
-		<script type="text/javascript" src="./kaini.min.js?version=14"></script>
+		<script type="text/javascript" src="./kaini.min.js?version=15"></script>
 		<script type="text/javascript">
 			lang = "en";
 		</script>
@@ -261,6 +261,10 @@
 							<div class="kai blueprint">
 								<span><input type="checkbox" name="arare3" id="arare3"></span>
 								<label for="arare3">Arare 霰 (63)</label>
+							</div>
+							<div class="kai blueprint">
+								<span><input type="checkbox" name="kagerou2" id="kagerou2"></span>
+								<label for="kagerou2">Kagerou 陽炎 (70)</label>
 							</div>
 						</div>
 					</div>
@@ -754,7 +758,7 @@
 			</div>
 			<span style="font-family:'Exo';visibility:hidden;">.</span><span style="font-family:'Ubuntu';visibility:hidden;">.</span>
 		</div>
-		<div id="footer"><p>© 2014-2017 TBES, Sanya.moe, Harvestasya NT all rights belong to their respective owners. Last updated: Jan 22, 2018</p></div>
+		<div id="footer"><p>© 2014-2018 TBES, Sanya.moe, Harvestasya NT all rights belong to their respective owners. Last updated: Apr 25, 2018</p></div>
 		<div style="visibility:hidden; overflow-y: hidden; height:0;" id="icondump">
 			<img src="bg.jpg" id="bg"></img>
 			<img src="furniture/chest/000.png" id="r0"></img>
