@@ -542,11 +542,11 @@ $(document).ready(function() {
         var icon = document.getElementById("icon" + id);
         ctx.save();
         ctx.fillStyle = "black";
-        ctx.fillRect(35, 45, 100, 100);
-        ctx.strokeRect(35, 45, 100, 100);
+        ctx.fillRect(35, c.height*0.1875, 100, 100);
+        ctx.strokeRect(35, c.height*0.1875, 100, 100);
         ctx.restore();
-        ctx.drawImage(rarity, 30, 5, 100, 100, 35, 45, 100, 100);
-        ctx.drawImage(icon, 35, 45);
+        ctx.drawImage(rarity, 30, 5, 100, 100, 35, c.height*0.1875, 100, 100);
+        ctx.drawImage(icon, 35, c.height*0.1875);
     }
 
     var drawCustomAvatar = function(ctx) {
@@ -1049,7 +1049,7 @@ $(document).ready(function() {
         var newLength = 16;
         recalculateSides(newLength);
         ctx.save();
-        ctx.strokeRect(35, 45, 100, 100);
+        ctx.strokeRect(35, c.height*0.1875, 100, 100);
         //TODO: move to global variables
         var name = $("[name='name']")[0];
         var level = $("[name='level']")[0];
@@ -1057,7 +1057,7 @@ $(document).ready(function() {
         var useBlue = $("#useBlue").prop("checked");
         var maxPerLine = 12;
         var linebarwidth = newLength * (2 * Math.sin(Math.PI / 2) + 1);
-        var line = 10;
+        var line = 50;
         var line4 = 175;
         var evenRow = true;
     
@@ -1147,7 +1147,7 @@ $(document).ready(function() {
     
         }
         var numCV = $("#cv").find("[type='checkbox']").length - ((useBlue) ? $("#cv").find(".blueprint").not(".kai").length : 0);
-        var startPositionSS = (numCV + 2.5) * hexRectangleWidth;
+        var startPositionSS = (numCV + 3) * hexRectangleWidth;
         var numSS = 0;
         var maxSS = $("#ss").find("[type='checkbox']:checked").length;
         var ssRow = 190;
@@ -1216,12 +1216,12 @@ $(document).ready(function() {
     
         ctx.font = "12px " + textfont;
         ctx.textAlign = "center";
-        drawText("Lv. " + (level.value ? level.value : "?"), 85, line4 - 8);
+        drawText("Lv. " + (level.value ? level.value : "?"), 85, line4 - 2);
     
         if (server !== "------") {
-            drawText((lang == "en" ? server.substring(server.indexOf(" ") + 1) : server), 85, line4 + 7);
+            drawText((lang == "en" ? server.substring(server.indexOf(" ") + 1) : server), 85, line4 + 12);
         } else {
-            drawText((lang == "en" ? "Unknown Server" : "不明サーバ"), 85, line4 + 7);
+            drawText((lang == "en" ? "Unknown Server" : "不明サーバ"), 85, line4 + 15);
         }
         ctx.textAlign = "left";
         ctx.restore();

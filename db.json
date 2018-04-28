@@ -149,6 +149,21 @@
         "full": "Setsubun Sado",
         "name": "Etorofu"
     },
+    "sado4": {
+        "offset": {
+            "x": -40,
+            "y": -40
+        },
+        "offset2": {
+            "x": -40,
+            "y": -30
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": false,
+        "full": "Zuiun Sado",
+        "name": "Etorofu"
+    },
     "tsushima1": {
         "offset": {
             "x": -40,
@@ -192,6 +207,21 @@
         "type": "DE",
         "unique": false,
         "full": "Haregi Tsushima",
+        "name": "Etorofu"
+    },
+    "tsushima4": {
+        "offset": {
+            "x": -60,
+            "y": 0
+        },
+        "offset2": {
+            "x": -40,
+            "y": -30
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": false,
+        "full": "Zuiun Tsushima",
         "name": "Etorofu"
     },
     "hiburi1": {
@@ -627,6 +657,21 @@
         "type": "DD",
         "unique": false,
         "full": "Valentines Oboro Kai",
+        "name": "Ayanami"
+    },
+    "oboro8": {
+        "offset": {
+            "x": -20,
+            "y": 10
+        },
+        "offset2": {
+            "x": -20,
+            "y": 10
+        },
+        "rarity": 1,
+        "type": "DD",
+        "unique": false,
+        "full": "Sasebo Oboro",
         "name": "Ayanami"
     },
     "akebono1": {
@@ -1139,6 +1184,21 @@
         "full": "Autumn Casual Amagiri",
         "name": "Ayanami"
     },
+    "amagiri4": {
+        "offset": {
+            "x": -40,
+            "y": -20
+        },
+        "offset2": {
+            "x": -115,
+            "y": -65
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
+        "full": "Spring Amagiri",
+        "name": "Ayanami"
+    },
     "mutsuki1": {
         "offset": {
             "x": 0,
@@ -1392,6 +1452,21 @@
         "type": "DD",
         "unique": false,
         "full": "Valentines Yayoi",
+        "name": "Mutsuki"
+    },
+     "yayoi3": {
+        "offset": {
+            "x": -60,
+            "y": 10
+        },
+        "offset2": {
+            "x": -20,
+            "y": 10
+        },
+        "rarity": 5,
+        "type": "DD",
+        "unique": false,
+        "full": "Outing Yayoi",
         "name": "Mutsuki"
     },
     "uzuki1": {
@@ -2009,6 +2084,36 @@
         "full": "Murasame Kai Ni",
         "name": "Shiratsuyu"
     },
+    "murasame7": {
+        "offset": {
+            "x": -50,
+            "y": 10
+        },
+        "offset2": {
+            "x": -50,
+            "y": -10
+        },
+        "rarity": 4,
+        "type": "DD",
+        "unique": false,
+        "full": "Outing Murasame",
+        "name": "Shiratsuyu"
+    },
+    "murasame8": {
+        "offset": {
+            "x": -50,
+            "y": 10
+        },
+        "offset2": {
+            "x": -50,
+            "y": -10
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Outing Murasame Kai Ni",
+        "name": "Shiratsuyu"
+    },
     "yuudachi1": {
         "offset": {
             "x": 25,
@@ -2519,6 +2624,21 @@
         "full": "Christmas Arare",
         "name": "Asashio"
     },
+    "arare3": {
+        "offset": {
+            "x": -40,
+            "y": -25
+        },
+		"offset2": {
+            "x": 0,
+            "y": -55
+        },
+        "rarity": 1,
+        "type": "DD",
+        "unique": false,
+        "full": "Arare Kai Ni",
+        "name": "Asashio"
+    },
     "kasumi1": {
         "offset": {
             "x": 50,
@@ -2667,6 +2787,21 @@
         "type": "DD",
         "unique": true,
         "full": "Kagerou",
+        "name": "Kagerou"
+    },
+    "kagerou2": {
+        "offset": {
+            "x": -20,
+            "y": 0
+        },
+		"offset2": {
+            "x": -60,
+            "y": -30
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Kagerou Kai Ni",
         "name": "Kagerou"
     },
     "shiranui1": {
@@ -2879,6 +3014,21 @@
         "full": "Autumn Festival Urakaze",
         "name": "Kagerou"
     },
+    "urakaze3": {
+        "offset": {
+            "x": -5,
+            "y": -10
+        },
+        "offset2": {
+            "x": -30,
+            "y": -30
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
+        "full": "Urakaze D Kai",
+        "name": "Kagerou"
+    },
     "tanikaze1": {
         "offset": {
             "x": -40,
@@ -2954,6 +3104,21 @@
         "full": "Autumn Festival Hamakaze",
         "name": "Kagerou"
     },
+    "hamakaze4": {
+        "offset": {
+            "x": 35,
+            "y": -25
+        },
+        "offset2": {
+            "x": -20,
+            "y": -90
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
+        "full": "Hamakaze B Kai",
+        "name": "Kagerou"
+    },
     "isokaze1": {
         "offset": {
             "x": -25,
@@ -3012,6 +3177,21 @@
         "type": "DD",
         "unique": false,
         "full": "Autumn Isokaze Kai",
+        "name": "Kagerou"
+    },
+    "isokaze5": {
+        "offset": {
+            "x": 5,
+            "y": -25
+        },
+        "offset2": {
+            "x": -10,
+            "y": -20
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Isokaze B Kai",
         "name": "Kagerou"
     },
     "tokitsukaze1": {
@@ -3357,6 +3537,36 @@
         "type": "DD",
         "unique": false,
         "full": "Naganami Kai Ni",
+        "name": "Yuugumo"
+    },
+    "naganami6": { 
+        "offset": {
+            "x": -40,
+            "y": -10
+        },
+        "offset2": {
+            "x": -40,
+            "y": -40
+        },
+        "rarity": 5,
+        "type": "DD",
+        "unique": false,
+        "full": "Spring 2018 Naganami",
+        "name": "Yuugumo"
+    },
+    "naganami7": {
+        "offset": {
+            "x": -50,
+            "y": -40
+        },
+        "offset2": {
+            "x": 50,
+            "y": -20
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Spring 2018 Naganami Kai Ni",
         "name": "Yuugumo"
     },
     "hayashimo1": {
@@ -4048,6 +4258,36 @@
         "unique": true,
         "full": "Tashkent",
         "name": "Tashkent"
+    },
+    "samuelbroberts1": {
+        "offset": {
+            "x": -30,
+            "y": 10
+        },
+        "offset2": {
+            "x": -30,
+            "y": -10
+        },
+        "rarity": 5,
+        "type": "DD",
+        "unique": true,
+        "full": "Samuel B. Roberts",
+        "name": "John C. Butler"
+    },
+    "samuelbroberts2": {
+        "offset": {
+            "x": -30,
+            "y": 10
+        },
+        "offset2": {
+            "x": -30,
+            "y": -10
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
+        "full": "Samuel B. Roberts Kai",
+        "name": "John C. Butler"
     },
     "tenryuu1": {
         "offset": {
@@ -6436,6 +6676,21 @@
         "full": "Zuiun Festival Ise Kai",
         "name": "Ise"
     },
+    "ise4": {
+        "offset": {
+            "x": -15,
+            "y": 20
+        },
+		"offset2": {
+            "x": -15,
+            "y": 20
+        },
+        "rarity": 6,
+        "type": "BB",
+        "unique": false,
+        "full": "Zuiun Festival 2018 Ise Kai",
+        "name": "Ise"
+    },
     "hyuuga1": {
         "offset": {
             "x": 0,
@@ -6539,6 +6794,21 @@
         "type": "BB",
         "unique": false,
         "full": "Haregi Yamato",
+        "name": "Yamato"
+    },
+    "yamato5": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "offset2": {
+            "x": -90,
+            "y": -40
+        },
+        "rarity": 8,
+        "type": "BB",
+        "unique": false,
+        "full": "Spring Yamato",
         "name": "Yamato"
     },
     "musashi1": {
@@ -7454,6 +7724,21 @@
         "type": "CVL",
         "unique": true,
         "full": "Gambier Bay",
+        "name": "Casablanca"
+     },
+     "gambierbay2": {
+        "offset": {
+            "x": -50,
+            "y": 10
+        },
+        "offset2": {
+            "x": -50,
+            "y": -40
+        },
+        "rarity": 5,
+        "type": "CVL",
+        "unique": true,
+        "full": "Spring Gambier Bay",
         "name": "Casablanca"
      },
     "akagi1": {
