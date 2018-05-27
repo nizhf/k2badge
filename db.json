@@ -7737,7 +7737,7 @@
         },
         "rarity": 5,
         "type": "CVL",
-        "unique": true,
+        "unique": false,
         "full": "Spring Gambier Bay",
         "name": "Casablanca"
      },
