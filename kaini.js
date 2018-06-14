@@ -1,7 +1,10 @@
-var lang = "en";
+let lang = "en";
 var globalship = null;
 var globalbg = null;
 var globalavatar = null;
+let loader;
+
+let tabManager;
 var k2 = {};
 var colle = {};
 var shipDB = {};
@@ -92,33 +95,7 @@ $(document).ready(function() {
     var conversion = {};
     var abyssDB = {};
     var flagRarity = 0;
-    $.ajax({
-            dataType: "json",
-            timeout: 10000,
-            url: (lang == "en" ? 'db.json?v=13' : 'dbj.json?v=13')
-        })
-        .then(function(data) {
-            shipDB = data;
-            $.ajax({
-                dataType: "json",
-                timeout: 10000,
-                url: 'conversion.json?v=13'
-            }).then(function(data2) {
-                conversion = data2;
-
-                init();
-            }, function(error) {
-                //Continue but warn
-                console.log("import db not found or invalid format, not performing import");
-                init();
-            });
-
-
-        }, function() {
-            //Kill the App
-            $("#buttons").html("Can't find Kanmusu DB, please contact Harvestasya or Nya-chan on Github");
-            $("#tabs").remove();
-        })
+    
 
     var deskoffsetdb = {
         "016.png": { x: 0, y: -140 },
@@ -1260,10 +1237,15 @@ $(document).ready(function() {
 
     //Begin Init Code
     var init = function() {
+        var mstId2FleetIdTable = loader.getMstIdTable();
+        shipTypes = loader.getShipTypes();
+        shipDB = loader.getShips()
+        abyssDB = loader.getAbyssals();
 
-        var mstId2FleetIdTable = conversion.mstId2FleetIdTable;
-        shipTypes = conversion.shipTypes;
-
+        tabManager = new TabManager(loader);
+        tabManager.loadTabs();
+        
+        
         if (apiMode) {
             if (importName) $("input[name='name']").val(importName);
             if (importLvl) $("input[name='level']").val(importLvl);
@@ -1695,7 +1677,8 @@ $(document).ready(function() {
         });
 
     }
-
+    loader = new DataLoader(lang);
+    loader.initData(init);
 });
 
 $(window).load(function() {
