@@ -217,6 +217,24 @@
             "actionReport": false,
             "conversion": false
         },
+        "shiranui3":{
+            "base": "shiranui1",
+            "level": 72,
+            "kai": true,
+            "blueprint": true,
+            "prototype": false,
+            "actionReport": false,
+            "conversion": false
+        },
+        "kuroshio2":{
+            "base": "kuroshio1",
+            "level": 73,
+            "kai": true,
+            "blueprint": true,
+            "prototype": false,
+            "actionReport": false,
+            "conversion": false
+        },
         "z12":{
             "base": "z11",
             "level": 70,
@@ -591,6 +609,15 @@
             "blueprint": true,
             "prototype": false,
             "actionReport": false,
+            "conversion": false
+        },
+        "ise5":{
+            "base": "ise1",
+            "level": 88,
+            "kai": true,
+            "blueprint": true,
+            "prototype": true,
+            "actionReport": true,
             "conversion": false
         }
     },
