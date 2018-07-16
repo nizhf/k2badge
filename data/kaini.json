@@ -1,7 +1,7 @@
 {
     "DE": {},
     "DD": {
-        "fubuki2":{
+        "fubuki2": {
             "base": "fubuki1",
             "level": 70,
             "kai": false,
@@ -10,7 +10,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "murakumo3":{
+        "murakumo3": {
             "base": "murakumo1",
             "level": 70,
             "kai": false,
@@ -19,7 +19,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "ayanami2":{
+        "ayanami2": {
             "base": "ayanami1",
             "level": 70,
             "kai": false,
@@ -28,7 +28,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "ushio2":{
+        "ushio2": {
             "base": "ushio1",
             "level": 60,
             "kai": false,
@@ -37,7 +37,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "mutsuki3":{
+        "mutsuki3": {
             "base": "mutsuki1",
             "level": 65,
             "kai": false,
@@ -46,7 +46,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "kisaragi3":{
+        "kisaragi3": {
             "base": "kisaragi1",
             "level": 65,
             "kai": false,
@@ -55,7 +55,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "satsuki2":{
+        "satsuki2": {
             "base": "satsuki1",
             "level": 75,
             "kai": false,
@@ -64,7 +64,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "fumizuki2":{
+        "fumizuki2": {
             "base": "fumizuki1",
             "level": 77,
             "kai": false,
@@ -73,7 +73,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "akatsuki2":{
+        "akatsuki2": {
             "base": "akatsuki1",
             "level": 70,
             "kai": false,
@@ -82,7 +82,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "verniy1":{
+        "verniy1": {
             "base": "hibiki1",
             "level": 70,
             "kai": false,
@@ -91,7 +91,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "hatsuharu2":{
+        "hatsuharu2": {
             "base": "hatsuharu1",
             "level": 65,
             "kai": false,
@@ -100,7 +100,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "hatsushimo2":{
+        "hatsushimo2": {
             "base": "hatsushimo1",
             "level": 701,
             "kai": false,
@@ -109,7 +109,16 @@
             "actionReport": false,
             "conversion": false
         },
-        "yuudachi2":{
+        "shiratsuyu-kaini": {
+            "base": "shiratsuyu1",
+            "level": 77,
+            "kai": false,
+            "blueprint": false,
+            "prototype": false,
+            "actionReport": true,
+            "conversion": false
+        },
+        "yuudachi2": {
             "base": "yuudachi1",
             "level": 55,
             "kai": false,
@@ -118,7 +127,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "shigure2":{
+        "shigure2": {
             "base": "shigure1",
             "level": 60,
             "kai": false,
@@ -127,7 +136,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "kawakaze4":{
+        "kawakaze4": {
             "base": "kawakaze1",
             "level": 75,
             "kai": false,
@@ -136,7 +145,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "murasame3":{
+        "murasame3": {
             "base": "murasame1",
             "level": 70,
             "kai": false,
@@ -145,7 +154,16 @@
             "actionReport": true,
             "conversion": false
         },
-        "naganami5":{
+        "yuugumo-kaini": {
+            "base": "yuugumo1",
+            "level": 75,
+            "kai": true,
+            "blueprint": true,
+            "prototype": false,
+            "actionReport": true,
+            "conversion": false
+        },
+        "naganami5": {
             "base": "naganami1",
             "level": 75,
             "kai": true,
@@ -154,7 +172,7 @@
             "actionReport": true,
             "conversion": false
         },
-        "asashio2":{
+        "asashio2": {
             "base": "asashio1",
             "level": 70,
             "kai": false,
@@ -163,7 +181,7 @@
             "actionReport": false,
             "conversion": true
         },
-        "ooshio2":{
+        "ooshio2": {
             "base": "ooshio1",
             "level": 65,
             "kai": true,
@@ -172,7 +190,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "kasumi2":{
+        "kasumi2": {
             "base": "kasumi1",
             "level": 75,
             "kai": false,
@@ -181,7 +199,7 @@
             "actionReport": false,
             "conversion": true
         },
-        "arashio2":{
+        "arashio2": {
             "base": "arashio1",
             "level": 67,
             "kai": true,
@@ -190,7 +208,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "michishio2":{
+        "michishio2": {
             "base": "michishio1",
             "level": 77,
             "kai": false,
@@ -199,7 +217,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "arare3":{
+        "arare3": {
             "base": "arare1",
             "level": 63,
             "kai": true,
@@ -208,7 +226,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "kagerou2":{
+        "kagerou2": {
             "base": "kagerou1",
             "level": 70,
             "kai": true,
@@ -217,7 +235,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "shiranui3":{
+        "shiranui3": {
             "base": "shiranui1",
             "level": 72,
             "kai": true,
@@ -226,7 +244,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "kuroshio2":{
+        "kuroshio2": {
             "base": "kuroshio1",
             "level": 73,
             "kai": true,
@@ -235,7 +253,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "z12":{
+        "z12": {
             "base": "z11",
             "level": 70,
             "kai": false,
@@ -244,7 +262,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "z32":{
+        "z32": {
             "base": "z31",
             "level": 70,
             "kai": false,
@@ -255,7 +273,7 @@
         }
     },
     "CL": {
-        "kitakami3":{
+        "kitakami3": {
             "base": "kitakami1",
             "level": 50,
             "kai": false,
@@ -264,7 +282,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "ooi3":{
+        "ooi3": {
             "base": "ooi1",
             "level": 50,
             "kai": false,
@@ -273,7 +291,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "kiso2":{
+        "kiso2": {
             "base": "kiso1",
             "level": 65,
             "kai": false,
@@ -282,7 +300,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "tama4":{
+        "tama4": {
             "base": "tama1",
             "level": 70,
             "kai": true,
@@ -291,7 +309,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "kinu2":{
+        "kinu2": {
             "base": "kinu1",
             "level": 75,
             "kai": true,
@@ -300,7 +318,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "abukuma2":{
+        "abukuma2": {
             "base": "abukuma1",
             "level": 75,
             "kai": true,
@@ -309,7 +327,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "yura3":{
+        "yura3": {
             "base": "yura1",
             "level": 77,
             "kai": true,
@@ -318,7 +336,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "isuzu2":{
+        "isuzu2": {
             "base": "isuzu1",
             "level": 50,
             "kai": false,
@@ -327,8 +345,7 @@
             "actionReport": false,
             "conversion": false
         },
-        
-        "sendai2":{
+        "sendai2": {
             "base": "sendai1",
             "level": 62,
             "kai": false,
@@ -337,7 +354,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "jintsuu2":{
+        "jintsuu2": {
             "base": "jintsuu1",
             "level": 60,
             "kai": false,
@@ -346,7 +363,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "naka2":{
+        "naka2": {
             "base": "naka1",
             "level": 48,
             "kai": false,
@@ -355,7 +372,16 @@
             "actionReport": false,
             "conversion": false
         },
-        "tatsuta3":{
+        "tenryuu-kaini": {
+            "base": "tenryuu1",
+            "level": 80,
+            "kai": false,
+            "blueprint": false,
+            "prototype": false,
+            "actionReport": false,
+            "conversion": false
+        },
+        "tatsuta3": {
             "base": "tatsuta1",
             "level": 80,
             "kai": false,
@@ -366,7 +392,7 @@
         }
     },
     "CA": {
-        "furutaka2":{
+        "furutaka2": {
             "base": "furutaka1",
             "level": 65,
             "kai": false,
@@ -375,7 +401,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "kako2":{
+        "kako2": {
             "base": "kako1",
             "level": 65,
             "kai": false,
@@ -384,7 +410,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "kinugasa2":{
+        "kinugasa2": {
             "base": "kinugasa1",
             "level": 55,
             "kai": false,
@@ -393,7 +419,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "myoukou2":{
+        "myoukou2": {
             "base": "myoukou1",
             "level": 70,
             "kai": false,
@@ -402,7 +428,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "nachi2":{
+        "nachi2": {
             "base": "nachi1",
             "level": 65,
             "kai": false,
@@ -411,7 +437,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "haguro2":{
+        "haguro2": {
             "base": "haguro1",
             "level": 65,
             "kai": false,
@@ -420,7 +446,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "ashigara2":{
+        "ashigara2": {
             "base": "ashigara1",
             "level": 65,
             "kai": false,
@@ -429,7 +455,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "maya2":{
+        "maya2": {
             "base": "maya1",
             "level": 75,
             "kai": false,
@@ -438,7 +464,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "choukai2":{
+        "choukai2": {
             "base": "choukai1",
             "level": 65,
             "kai": true,
@@ -447,7 +473,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "tone2":{
+        "tone2": {
             "base": "tone1",
             "level": 70,
             "kai": true,
@@ -456,7 +482,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "chikuma2":{
+        "chikuma2": {
             "base": "chikuma1",
             "level": 70,
             "kai": true,
@@ -465,7 +491,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "zara3":{
+        "zara3": {
             "base": "zara1",
             "level": 88,
             "kai": true,
@@ -474,7 +500,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "suzuya4":{
+        "suzuya4": {
             "base": "suzuya1",
             "level": 84,
             "kai": true,
@@ -483,7 +509,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "kumano4":{
+        "kumano4": {
             "base": "kumano1",
             "level": 84,
             "kai": true,
@@ -494,7 +520,7 @@
         }
     },
     "BB": {
-        "kongou2":{
+        "kongou2": {
             "base": "kongou1",
             "level": 75,
             "kai": false,
@@ -503,7 +529,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "hiei2":{
+        "hiei2": {
             "base": "hiei1",
             "level": 75,
             "kai": false,
@@ -512,7 +538,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "haruna2":{
+        "haruna2": {
             "base": "haruna1",
             "level": 80,
             "kai": false,
@@ -521,7 +547,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "kirishima2":{
+        "kirishima2": {
             "base": "kirishima1",
             "level": 75,
             "kai": false,
@@ -530,7 +556,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "fusou3":{
+        "fusou3": {
             "base": "fusou1",
             "level": 75,
             "kai": true,
@@ -539,25 +565,25 @@
             "actionReport": false,
             "conversion": false
         },
-        "yamashiro3":{
+        "yamashiro3": {
             "base": "yamashiro1",
-            "level":80,
+            "level": 80,
             "kai": true,
             "blueprint": true,
             "prototype": false,
             "actionReport": false,
             "conversion": false
         },
-        "bismarck3":{
+        "bismarck3": {
             "base": "bismarck3",
-            "level":50,
+            "level": 50,
             "kai": true,
             "blueprint": true,
             "prototype": false,
             "actionReport": false,
             "conversion": false
         },
-        "bismarck4":{
+        "bismarck4": {
             "base": "bismarck4",
             "level": 75,
             "kai": true,
@@ -566,7 +592,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "italia1":{
+        "italia1": {
             "base": "italia1",
             "level": 35,
             "kai": false,
@@ -575,7 +601,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "roma2":{
+        "roma2": {
             "base": "roma1",
             "level": 35,
             "kai": false,
@@ -584,7 +610,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "gangut2":{
+        "gangut2": {
             "base": "gangut1",
             "level": 75,
             "kai": false,
@@ -593,7 +619,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "nagato2":{
+        "nagato2": {
             "base": "nagato1",
             "level": 88,
             "kai": true,
@@ -602,7 +628,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "musashi3":{
+        "musashi3": {
             "base": "musashi1",
             "level": 89,
             "kai": true,
@@ -611,7 +637,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "ise5":{
+        "ise5": {
             "base": "ise1",
             "level": 88,
             "kai": true,
@@ -622,7 +648,7 @@
         }
     },
     "CVL": {
-        "ryuujou3":{
+        "ryuujou3": {
             "base": "ryuujou1",
             "level": 75,
             "kai": false,
@@ -631,7 +657,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "junyou2":{
+        "junyou2": {
             "base": "junyou1",
             "level": 80,
             "kai": false,
@@ -640,7 +666,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "chitosecvl2":{
+        "chitosecvl2": {
             "base": "chitosecvl1",
             "level": 50,
             "kai": false,
@@ -649,7 +675,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "chiyodacvl2":{
+        "chiyodacvl2": {
             "base": "chiyodacvl1",
             "level": 50,
             "kai": false,
@@ -658,16 +684,16 @@
             "actionReport": false,
             "conversion": false
         },
-        "ryuuhou2":{
+        "ryuuhou2": {
             "base": "taigei1",
-            "level":50,
+            "level": 50,
             "kai": true,
             "blueprint": true,
             "prototype": false,
             "actionReport": false,
             "conversion": false
         },
-        "suzuyacvl1":{
+        "suzuyacvl1": {
             "base": "suzuya4",
             "level": 88,
             "kai": true,
@@ -676,7 +702,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "kumanocvl1":{
+        "kumanocvl1": {
             "base": "kumano4",
             "level": 88,
             "kai": true,
@@ -685,7 +711,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "taiyou3":{
+        "taiyou3": {
             "base": "taiyou1",
             "level": 85,
             "kai": true,
@@ -694,7 +720,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "zuihou4":{
+        "zuihou4": {
             "base": "zuihou1",
             "level": 80,
             "kai": false,
@@ -702,10 +728,10 @@
             "prototype": false,
             "actionReport": false,
             "conversion": false
-        }   
+        }
     },
     "CV": {
-        "souryuu2":{
+        "souryuu2": {
             "base": "souryuu1",
             "level": 78,
             "kai": false,
@@ -714,7 +740,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "hiryuu2":{
+        "hiryuu2": {
             "base": "hiryuu1",
             "level": 77,
             "kai": false,
@@ -723,16 +749,16 @@
             "actionReport": false,
             "conversion": false
         },
-        "shoukaku2":{
+        "shoukaku2": {
             "base": "shoukaku1",
-            "level":80,
+            "level": 80,
             "kai": true,
             "blueprint": true,
             "prototype": true,
             "actionReport": false,
             "conversion": true
         },
-        "zuikaku3":{
+        "zuikaku3": {
             "base": "zuikaku1",
             "level": 77,
             "kai": true,
@@ -741,65 +767,65 @@
             "actionReport": false,
             "conversion": true
         },
-        "unryuu2":{
+        "unryuu2": {
             "base": "unryuu1",
             "level": 50,
             "kai": false,
             "blueprint": true,
-            "prototype":false,
-            "actionReport":false,
+            "prototype": false,
+            "actionReport": false,
             "conversion": false
         },
-        "amagi2":{
+        "amagi2": {
             "base": "amagi1",
             "level": 50,
             "kai": false,
             "blueprint": true,
-            "prototype":false,
-            "actionReport":false,
+            "prototype": false,
+            "actionReport": false,
             "conversion": false
         },
-        "katsuragi2":{
+        "katsuragi2": {
             "base": "katsuragi1",
             "level": 50,
             "kai": false,
             "blueprint": true,
-            "prototype":false,
-            "actionReport":false,
+            "prototype": false,
+            "actionReport": false,
             "conversion": false
-        }
-        ,"saratoga3":{
+        },
+        "saratoga3": {
             "base": "saratoga1",
             "level": 85,
             "kai": true,
             "blueprint": true,
             "prototype": true,
-            "actionReport":false,
+            "actionReport": false,
             "conversion": true
         }
     },
     "SS": {
-        "ro5001":{
+        "ro5001": {
             "base": "ro5001",
             "level": 55,
             "kai": false,
             "blueprint": false,
             "prototype": false,
             "actionReport": false,
-            "conversion" :true
+            "conversion": true
         },
-        "i5041":{
+        "i5041": {
             "base": "i5041",
             "level": 55,
             "kai": false,
             "blueprint": false,
             "prototype": false,
             "actionReport": false,
-            "conversion" :true
+            "conversion": true
         }
     },
     "AX": {
-        "chitose3":{
+        "chitose3": {
             "base": "chitose1",
             "level": 12,
             "kai": false,
@@ -808,7 +834,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "chiyoda3":{
+        "chiyoda3": {
             "base": "chiyoda1",
             "level": 12,
             "kai": false,
@@ -817,7 +843,7 @@
             "actionReport": false,
             "conversion": false
         },
-        "kamoi3":{
+        "kamoi3": {
             "base": "kamoi1",
             "level": 60,
             "kai": false,

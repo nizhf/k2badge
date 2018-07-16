@@ -89,6 +89,21 @@
         "full": "Yukata Etorofu",
         "name": "Etorofu"
     },
+    "etorofu_ICE": {
+        "offset": {
+            "x": -50,
+            "y": -100
+        },
+        "offset2": {
+            "x": -50,
+            "y": -100
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": false,
+        "full": "Ice Festival Etorofu",
+        "name": "Etorofu"
+    },
     "matsuwa1": {
         "offset": {
             "x": -50,
@@ -117,6 +132,21 @@
         "type": "DE",
         "unique": false,
         "full": "Yukata Matsuwa",
+        "name": "Etorofu"
+    },
+    "matsuwa_ICE": {
+        "offset": {
+            "x": -50,
+            "y": -80
+        },
+        "offset2": {
+            "x": -40,
+            "y": -110
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": false,
+        "full": "Ice Festival Matsuwa",
         "name": "Etorofu"
     },
     "sado1": {
@@ -1889,6 +1919,21 @@
         "full": "Shiratsuyu Kai",
         "name": "Shiratsuyu"
     },
+    "shiratsuyu-kaini": {
+        "offset": {
+            "x": -40,
+            "y": -35
+        },
+        "offset2": {
+            "x": -50,
+            "y": -80
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Shiratsuyu Kai Ni",
+        "name": "Shiratsuyu"
+    },
     "shiratsuyu3": {
         "offset": {
             "x": -50,
@@ -3419,6 +3464,21 @@
         "full": "Yuugumo",
         "name": "Yuugumo"
     },
+    "yuugumo-kaini": {
+        "offset": {
+            "x": -10,
+            "y": -55
+        },
+		"offset2": {
+            "x": -20,
+            "y": -30
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Yuugumo Kai Ni",
+        "name": "Yuugumo"
+    },
     "yuugumo2": {
         "offset": {
             "x": -80,
@@ -3627,6 +3687,21 @@
         "type": "DD",
         "unique": false,
         "full": "Naganami Kai Ni",
+        "name": "Yuugumo"
+    },
+    "naganami-kaini_SUMCAS": {
+        "offset": {
+            "x": -50,
+            "y": -40
+        },
+        "offset2": {
+            "x": 50,
+            "y": -20
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Summer Causual Naganami Kai Ni",
         "name": "Yuugumo"
     },
     "naganami6": { 
@@ -4423,6 +4498,21 @@
         "type": "CL",
         "unique": true,
         "full": "Tenryuu",
+        "name": "Tenryuu"
+    },
+    "tenryuu-kaini": {
+        "offset": {
+            "x": 70,
+            "y": -10
+        },
+		"offset2": {
+            "x": -40,
+            "y": -70
+        },
+        "rarity": 7,
+        "type": "CL",
+        "unique": false,
+        "full": "Tenryuu Kai Ni",
         "name": "Tenryuu"
     },
     "tenryuu2": {
@@ -7875,6 +7965,21 @@
         "type": "CVL",
         "unique": false,
         "full": "Spring Gambier Bay",
+        "name": "Casablanca"
+     },
+     "gambierbay_ICE": {
+        "offset": {
+            "x": -50,
+            "y": 10
+        },
+        "offset2": {
+            "x": -50,
+            "y": -40
+        },
+        "rarity": 5,
+        "type": "CVL",
+        "unique": false,
+        "full": "Ice Festival Gambier Bay",
         "name": "Casablanca"
      },
     "akagi1": {

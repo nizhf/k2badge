@@ -409,6 +409,10 @@
         "shiratsuyu2": [
             "shiratsuyu1"
         ],
+        "shiratsuyu-kaini": [
+            "shiratsuyu2",
+            "shiratsuyu1"
+        ],
         "shiranui3": [
             "shiranui1"
         ],
@@ -441,6 +445,9 @@
         "tama4": [
             "tama1"
         ],
+        "tenryuu-kaini": [
+            "tenryuu1"
+        ],
         "tatsuta3": [
             "tatsuta1"
         ],
@@ -464,6 +471,9 @@
         ],
         "yura3": [
             "yura1"
+        ],
+        "yuugumo-kaini": [
+            "yuugumo1"
         ],
         "zara3": [
             "zara1"
@@ -951,6 +961,7 @@
         "474": "matsukaze1",
         "475": "hatakaze1",
         "476": "kamikaze1",
+        "477": "tenryuu-kaini",
         "478": "tatsuta3",
         "479": "amagiri1",
         "480": "sagiri1",
@@ -969,6 +980,7 @@
         "494": "i131",
         "495": "i141",
         "496": "zara3",
+        "497": "shiratsuyu-kaini",
         "498": "murasame3",
         "499": "kamoi2",
         "500": "kamoi3",
@@ -997,6 +1009,7 @@
         "539": "uit251",
         "540": "tsushima1",
         "541": "nagato2",
+        "542": "yuugumo-kaini",
         "543": "naganami5",
         "544": "gambierbay1",
         "545": "saratoga3",
