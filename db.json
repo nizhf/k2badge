@@ -74,6 +74,36 @@
         "full": "Yukata Etorofu",
         "name": "Etorofu"
     },
+    "etorofu4": {
+        "offset": {
+            "x": -45,
+            "y": -80
+        },
+        "offset2": {
+            "x": 0,
+            "y": -90
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": false,
+        "full": "Yukata Etorofu",
+        "name": "Etorofu"
+    },
+    "etorofu_ICE": {
+        "offset": {
+            "x": -50,
+            "y": -100
+        },
+        "offset2": {
+            "x": -50,
+            "y": -100
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": false,
+        "full": "Ice Festival Etorofu",
+        "name": "Etorofu"
+    },
     "matsuwa1": {
         "offset": {
             "x": -50,
@@ -102,6 +132,21 @@
         "type": "DE",
         "unique": false,
         "full": "Yukata Matsuwa",
+        "name": "Etorofu"
+    },
+    "matsuwa_ICE": {
+        "offset": {
+            "x": -50,
+            "y": -80
+        },
+        "offset2": {
+            "x": -40,
+            "y": -110
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": false,
+        "full": "Ice Festival Matsuwa",
         "name": "Etorofu"
     },
     "sado1": {
@@ -224,6 +269,36 @@
         "full": "Zuiun Tsushima",
         "name": "Etorofu"
     },
+    "fukae1": {
+        "offset": {
+            "x": -60,
+            "y": -80
+        },
+        "offset2": {
+            "x": 20,
+            "y": -120
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": true,
+        "full": "Fukae",
+        "name": "Etorofu"
+    },
+    "fukae2": {
+        "offset": {
+            "x": -10,
+            "y": -50
+        },
+        "offset2": {
+            "x": -50,
+            "y": -40
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": false,
+        "full": "Rainy Season Fukae",
+        "name": "Etorofu"
+    },
     "hiburi1": {
         "offset": {
             "x": -40,
@@ -274,7 +349,7 @@
             "x": -10,
             "y": -15
         },
-		"offset": {
+		"offset2": {
             "x": -10,
             "y": -15
         },
@@ -304,7 +379,7 @@
             "x": -40,
             "y": -20
         },
-		"offset": {
+		"offset2": {
             "x": -40,
             "y": -40
         },
@@ -394,7 +469,7 @@
             "x": 115,
             "y": -35
         },
-		"offset": {
+		"offset2": {
             "x": 125,
             "y": -35
         },
@@ -1139,6 +1214,21 @@
         "full": "Christmas Sagiri",
         "name": "Ayanami"
     },
+    "sagiri6": {
+        "offset": {
+            "x": -50,
+            "y": 5
+        },
+		"offset2": {
+            "x": -20,
+            "y": -95
+        },
+        "rarity": 3,
+        "type": "DD",
+        "unique": false,
+        "full": "Rainy Season Sagiri",
+        "name": "Ayanami"
+    },
     "amagiri1": {
         "offset": {
             "x": -70,
@@ -1827,6 +1917,21 @@
         "type": "DD",
         "unique": false,
         "full": "Shiratsuyu Kai",
+        "name": "Shiratsuyu"
+    },
+    "shiratsuyu-kaini": {
+        "offset": {
+            "x": -40,
+            "y": -35
+        },
+        "offset2": {
+            "x": -50,
+            "y": -80
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Shiratsuyu Kai Ni",
         "name": "Shiratsuyu"
     },
     "shiratsuyu3": {
@@ -2539,7 +2644,7 @@
             "x": -50,
             "y": 15
         },
-		"offset": {
+		"offset2": {
             "x": -40,
             "y": 0
         },
@@ -2554,7 +2659,7 @@
             "x": -50,
             "y": 15
         },
-		"offset": {
+		"offset2": {
             "x": -40,
             "y": 0
         },
@@ -2834,6 +2939,21 @@
         "full": "Autumn Casual Shiranui",
         "name": "Kagerou"
     },
+    "shiranui3": {
+        "offset": {
+            "x": -80,
+            "y": -10
+        },
+		"offset2": {
+            "x": -10,
+            "y": -50
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Shiranui Kai Ni",
+        "name": "Kagerou"
+    },
     "kuroshio1": {
         "offset": {
             "x": 0,
@@ -2847,6 +2967,21 @@
         "type": "DD",
         "unique": true,
         "full": "Kuroshio",
+        "name": "Kagerou"
+    },
+    "kuroshio2": {
+        "offset": {
+            "x": -20,
+            "y": 0
+        },
+		"offset2": {
+            "x": -50,
+            "y": -20
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": true,
+        "full": "Kuroshio Kai Ni",
         "name": "Kagerou"
     },
     "hatsukaze1": {
@@ -3064,7 +3199,7 @@
             "x": 0,
             "y": 0
         },
-		"offset": {
+		"offset2": {
             "x": -20,
             "y": -20
         },
@@ -3214,7 +3349,7 @@
             "x": -20,
             "y": 20
         },
-		"offset": {
+		"offset2": {
             "x": -20,
             "y": 20
         },
@@ -3327,6 +3462,21 @@
         "type": "DD",
         "unique": true,
         "full": "Yuugumo",
+        "name": "Yuugumo"
+    },
+    "yuugumo-kaini": {
+        "offset": {
+            "x": -10,
+            "y": -55
+        },
+		"offset2": {
+            "x": -20,
+            "y": -30
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Yuugumo Kai Ni",
         "name": "Yuugumo"
     },
     "yuugumo2": {
@@ -3537,6 +3687,21 @@
         "type": "DD",
         "unique": false,
         "full": "Naganami Kai Ni",
+        "name": "Yuugumo"
+    },
+    "naganami-kaini_SUMCAS": {
+        "offset": {
+            "x": -50,
+            "y": -40
+        },
+        "offset2": {
+            "x": 50,
+            "y": -20
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Summer Causual Naganami Kai Ni",
         "name": "Yuugumo"
     },
     "naganami6": { 
@@ -3854,6 +4019,22 @@
         "full": "Autumn Casual Fujinami",
         "name": "Yuugumo"
     },
+
+    "fujinami4": {
+        "offset": {
+            "x": -80,
+            "y": -10
+        },
+        "offset2": {
+            "x": -60,
+            "y": -10
+        },
+        "rarity": 4,
+        "type": "DD",
+        "unique": false,
+        "full": "Rainy Season Fujinami",
+        "name": "Yuugumo"
+    },
     "hamanami1": {
         "offset": {
             "x": -50,
@@ -3867,6 +4048,21 @@
         "type": "DD",
         "unique": true,
         "full": "Hamanami",
+        "name": "Yuugumo"
+    },
+    "hamanami2": {
+        "offset": {
+            "x": -50,
+            "y": -30
+        },
+        "offset2": {
+            "x": -50,
+            "y": -40
+        },
+        "rarity": 4,
+        "type": "DD",
+        "unique": false,
+        "full": "Rainy Season Hamanami",
         "name": "Yuugumo"
     },
     "z11": {
@@ -4304,6 +4500,21 @@
         "full": "Tenryuu",
         "name": "Tenryuu"
     },
+    "tenryuu-kaini": {
+        "offset": {
+            "x": 70,
+            "y": -10
+        },
+		"offset2": {
+            "x": -40,
+            "y": -70
+        },
+        "rarity": 7,
+        "type": "CL",
+        "unique": false,
+        "full": "Tenryuu Kai Ni",
+        "name": "Tenryuu"
+    },
     "tenryuu2": {
         "offset": {
             "x": 130,
@@ -4639,7 +4850,7 @@
             "x": -30,
             "y": 35
         },
-		"offset": {
+		"offset2": {
             "x": -30,
             "y": 35
         },
@@ -4684,7 +4895,7 @@
             "x": 30,
             "y": 0
         },
-		"offset": {
+		"offset2": {
             "x": 30,
             "y": 0
         },
@@ -6691,6 +6902,21 @@
         "full": "Zuiun Festival 2018 Ise Kai",
         "name": "Ise"
     },
+    "ise5": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+		"offset2": {
+            "x": 0,
+            "y": -20
+        },
+        "rarity": 8,
+        "type": "BB",
+        "unique": false,
+        "full": "Ise Kai Ni",
+        "name": "Ise"
+    },
     "hyuuga1": {
         "offset": {
             "x": 0,
@@ -7536,7 +7762,7 @@
             "x": 30,
             "y": -40
         },
-		"offset": {
+		"offset2": {
             "x": 30,
             "y": -40
         },
@@ -7739,6 +7965,21 @@
         "type": "CVL",
         "unique": false,
         "full": "Spring Gambier Bay",
+        "name": "Casablanca"
+     },
+     "gambierbay_ICE": {
+        "offset": {
+            "x": -50,
+            "y": 10
+        },
+        "offset2": {
+            "x": -50,
+            "y": -40
+        },
+        "rarity": 5,
+        "type": "CVL",
+        "unique": false,
+        "full": "Ice Festival Gambier Bay",
         "name": "Casablanca"
      },
     "akagi1": {
@@ -9417,6 +9658,21 @@
         "full": "Summer Commandant Teste",
         "name": "Commandant_Teste"
     },
+    "commandantteste7": {
+        "offset": {
+           "x": 30,
+           "y": 20
+       },
+       "offset2": {
+           "x": 0,
+           "y": -40
+       },
+       "rarity": 7,
+       "type": "AX",
+       "unique": false,
+       "full": "Zuiun Commandant Teste",
+       "name": "Commandant_Teste"
+   },
     "kamoi1": {
         "offset": {
             "x": 0,
