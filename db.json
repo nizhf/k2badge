@@ -1,5 +1,5 @@
 {
-    "shimushu1": {
+    "shimushu": {
         "offset": {
             "x": -35,
             "y": 10
@@ -4049,6 +4049,21 @@
         "full": "Mackerel Pike Okinami",
         "name": "Yuugumo"
     },
+    "kishinami": {
+        "offset": {
+            "x": -50,
+            "y": 10
+        },
+        "offset2": {
+            "x": -50,
+            "y": -30
+        },
+        "rarity": 4,
+        "type": "DD",
+        "unique": true,
+        "full": "Kishinami",
+        "name": "Yuugumo"
+    },
     "kishinami_MPF": {
         "offset": {
             "x": -50,
@@ -4349,6 +4364,36 @@
         "unique": false,
         "full": "Suzutsuki Kai",
         "name": "Akizuki"
+    },
+    "maestrale": {
+        "offset": {
+            "x": 0,
+            "y": -30
+        },
+        "offset2": {
+            "x": -50,
+            "y": -40
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": true,
+        "full": "Maestrale",
+        "name": "Maestrale"
+    },
+    "maestrale-kai": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "offset2": {
+            "x": -35,
+            "y": -15
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Maestrale Kai",
+        "name": "Maestrale"
     },
     "libeccio1": {
         "offset": {
@@ -5639,6 +5684,36 @@
         "unique": false,
         "full": "Casual Kashima",
         "name": "Katori"
+    },
+    "gotland": {
+        "offset": {
+            "x": 90,
+            "y": 60
+        },
+        "offset2": {
+            "x": 50,
+            "y": -25
+        },
+        "rarity": 6,
+        "type": "CL",
+        "unique": true,
+        "full": "Gotland",
+        "name": "Gotland"
+    },
+    "gotland-kai": {
+        "offset": {
+            "x": 30,
+            "y": 65
+        },
+        "offset2": {
+            "x": 55,
+            "y": -15
+        },
+        "rarity": 7,
+        "type": "CL",
+        "unique": false,
+        "full": "Gotland kai",
+        "name": "Gotland"
     },
     "gotland_MPF": {
         "offset": {
@@ -7442,6 +7517,66 @@
         "full": "Haregi Warspite",
         "name": "Queen_Elizabeth"
     },
+    "nelson": {
+        "offset": {
+            "x": 170,
+            "y": -50
+        },
+        "offset2": {
+            "x": 20,
+            "y": -5
+        },
+        "rarity": 7,
+        "type": "BB",
+        "unique": true,
+        "full": "Nelson",
+        "name": "Nelson"
+    },
+	"nelson-kai": {
+        "offset": {
+            "x": 170,
+            "y": -50
+        },
+        "offset2": {
+            "x": 20,
+            "y": -5
+        },
+        "rarity": 7,
+        "type": "BB",
+        "unique": false,
+        "full": "Nelson Kai",
+        "name": "Nelson"
+    },
+    "nelsontouch": {
+        "offset": {
+            "x": 500,
+            "y": 50
+        },
+        "offset2": {
+            "x": 20,
+            "y": -5
+        },
+        "rarity": 7,
+        "type": "BB",
+        "unique": false,
+        "full": "Nelson - 'Nelson Touch' Mode",
+        "name": "Nelson"
+    },
+    "nelsontouch-kai": {
+        "offset": {
+            "x": 500,
+            "y": 50
+        },
+        "offset2": {
+            "x": 20,
+            "y": -5
+        },
+        "rarity": 7,
+        "type": "BB",
+        "unique": false,
+        "full": "Nelson Kai - 'Nelson Touch' Mode",
+        "name": "Nelson"
+    },
     "gangut1": {
         "offset": {
             "x": 30,
@@ -8055,6 +8190,51 @@
         "type": "CVL",
         "unique": false,
         "full": "Taiyou Kai Ni",
+        "name": "Taiyou"
+    },
+    "shinyou": {
+        "offset": {
+            "x": -40,
+            "y": 15
+        },
+		"offset2": {
+            "x": -50,
+            "y": 0
+        },
+        "rarity": 4,
+        "type": "CVL",
+        "unique": false,
+        "full": "Shinyou",
+        "name": "Taiyou"
+    },
+    "shinyou-kai": {
+        "offset": {
+            "x": -40,
+            "y": 15
+        },
+		"offset2": {
+            "x": -50,
+            "y": 0
+        },
+        "rarity": 6,
+        "type": "CVL",
+        "unique": false,
+        "full": "Shinyou Kai",
+        "name": "Taiyou"
+    },
+    "shinyou-kaini": {
+        "offset": {
+            "x": -40,
+            "y": 15
+        },
+		"offset2": {
+            "x": -50,
+            "y": 0
+        },
+        "rarity": 7,
+        "type": "CVL",
+        "unique": false,
+        "full": "Shinyou Kai Ni",
         "name": "Taiyou"
     },
     "gambierbay1": {
