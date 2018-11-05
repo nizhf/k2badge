@@ -3025,7 +3025,7 @@
         },
         "rarity": 7,
         "type": "DD",
-        "unique": true,
+        "unique": false,
         "full": "Kuroshio Kai Ni",
         "name": "Kagerou"
     },
