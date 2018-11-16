@@ -2684,6 +2684,51 @@
         "full": "Asashio Kai Ni D",
         "name": "Asashio"
     },
+    "asashio_HALLOW": {
+        "offset": {
+            "x": -50,
+            "y": -10
+        },
+		"offset2": {
+            "x": 30,
+            "y": -30
+        },
+        "rarity": 3,
+        "type": "DD",
+        "unique": false,
+        "full": "Halloween Asashio",
+        "name": "Asashio"
+    },
+    "asashio-kaini_HALLOW": {
+        "offset": {
+            "x": -50,
+            "y": -10
+        },
+		"offset2": {
+            "x": 30,
+            "y": -30
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
+        "full": "Halloween Asashio Kai Ni",
+        "name": "Asashio"
+    },
+    "asashio-kaini-d_HALLOW": {
+        "offset": {
+            "x": -50,
+            "y": -10
+        },
+		"offset2": {
+            "x": 30,
+            "y": -30
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Halloween Asashio Kai Ni D",
+        "name": "Asashio"
+    },
     "ooshio1": {
         "offset": {
             "x": -20,
