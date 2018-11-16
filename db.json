@@ -779,6 +779,21 @@
         "full": "Sasebo Oboro",
         "name": "Ayanami"
     },
+    "oboro_MPF": {
+        "offset": {
+            "x": -50,
+            "y": 50
+        },
+        "offset2": {
+            "x": -50,
+            "y": 30
+        },
+        "rarity": 1,
+        "type": "DD",
+        "unique": false,
+        "full": "Mackerel Pike Festival Oboro",
+        "name": "Ayanami"
+    },
     "akebono1": {
         "offset": {
             "x": 20,
@@ -914,6 +929,21 @@
         "full": "Akebono Kai",
         "name": "Ayanami"
     },
+    "akebono_MPF": {
+        "offset": {
+            "x": 60,
+            "y": 40
+        },
+        "offset2": {
+            "x": 10,
+            "y": 30
+        },
+        "rarity": 1,
+        "type": "DD",
+        "unique": false,
+        "full": "Mackerel Pike Festival Akebono 2018",
+        "name": "Ayanami"
+    },
     "sazanami1": {
         "offset": {
             "x": 20,
@@ -1017,6 +1047,21 @@
         "type": "DD",
         "unique": false,
         "full": "Rainy Season Sazanami",
+        "name": "Ayanami"
+    },
+    "sazanami_MPF": {
+        "offset": {
+            "x": 20,
+            "y": 55
+        },
+		"offset2": {
+            "x": -30,
+            "y": 5
+        },
+        "rarity": 2,
+        "type": "DD",
+        "unique": false,
+        "full": "Mackerel Pike Festival Sazanami",
         "name": "Ayanami"
     },
     "ushio1": {
@@ -1167,6 +1212,21 @@
         "type": "DD",
         "unique": false,
         "full": "Hinamatsuri Ushio Kai Ni",
+        "name": "Ayanami"
+    },
+    "ushio_MPF": {
+        "offset": {
+            "x": -40,
+            "y": 45
+        },
+        "offset2": {
+            "x": 5,
+            "y": 35
+        },
+        "rarity": 1,
+        "type": "DD",
+        "unique": false,
+        "full": "Mackerel Pike Festival Ushio",
         "name": "Ayanami"
     },
     "sagiri1": {
@@ -2654,6 +2714,36 @@
         "full": "Ooshio Kai Ni",
         "name": "Asashio"
     },
+    "ooshio_MPF": {
+        "offset": {
+            "x": 30,
+            "y": -100
+        },
+		"offset2": {
+            "x": 80,
+            "y": 10
+        },
+        "rarity": 1,
+        "type": "DD",
+        "unique": false,
+        "full": "Mackerel Pike Ooshio",
+        "name": "Asashio"
+    },
+    "ooshio-kaini_MPF": {
+        "offset": {
+            "x": 30,
+            "y": -100
+        },
+		"offset2": {
+            "x": 80,
+            "y": 10
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
+        "full": "Mackerel Pike Ooshio Kai Ni",
+        "name": "Asashio"
+    },
     "michishio1": {
         "offset": {
             "x": 0,
@@ -3237,6 +3327,21 @@
         "type": "DD",
         "unique": false,
         "full": "Christmas Tanikaze",
+        "name": "Kagerou"
+    },
+    "tanikaze-d-kai": {
+        "offset": {
+            "x": 85,
+            "y": -40
+        },
+        "offset2": {
+            "x": 35,
+            "y": -100
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
+        "full": "Tanikaze D Kai",
         "name": "Kagerou"
     },
     "hamakaze1": {
@@ -4332,6 +4437,21 @@
         "rarity": 6,
         "type": "DD",
         "unique": true,
+        "full": "Hatsuzuki",
+        "name": "Akizuki"
+    },
+    "hatsuzuki_MPF": {
+        "offset": {
+            "x": -20,
+            "y": 45
+        },
+        "offset2": {
+            "x": 10,
+            "y": -10
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
         "full": "Hatsuzuki",
         "name": "Akizuki"
     },
