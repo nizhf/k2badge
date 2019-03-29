@@ -163,6 +163,15 @@
             "actionReport": true,
             "conversion": false
         },
+        "kazagumo-kaini": {
+            "base": "kazagumo1",
+            "level": 75,
+            "kai": true,
+            "blueprint": true,
+            "prototype": false,
+            "actionReport": true,
+            "conversion": false
+        },
         "naganami5": {
             "base": "naganami1",
             "level": 75,
@@ -628,6 +637,15 @@
             "actionReport": false,
             "conversion": false
         },
+        "mutsu-kaini": {
+            "base": "mutsu1",
+            "level": 89,
+            "kai": true,
+            "blueprint": true,
+            "prototype": false,
+            "actionReport": false,
+            "conversion": false
+        },
         "musashi3": {
             "base": "musashi1",
             "level": 89,
@@ -713,6 +731,15 @@
         },
         "taiyou3": {
             "base": "taiyou1",
+            "level": 85,
+            "kai": true,
+            "blueprint": true,
+            "prototype": true,
+            "actionReport": false,
+            "conversion": false
+        },
+        "shinyou-kaini": {
+            "base": "shinyou",
             "level": 85,
             "kai": true,
             "blueprint": true,

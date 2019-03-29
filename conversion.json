@@ -519,6 +519,21 @@
         ],
         "nelson-kai": [
             "nelson"
+        ],
+        "mustu-kaini": [
+            "mutsu1"
+        ],
+        "kazagumo-kaini": [
+            "kazagumo1"
+        ],
+        "nisshin-a": [
+            "nisshin"
+        ],
+        "johnston-kai": [
+            "johnston"
+        ],
+        "makigumo-kaini": [
+            "makigumo1"
         ]
     },
     "mstId2FleetIdTable": {
@@ -1017,6 +1032,7 @@
         "525": "matsuwa1",
         "526": "taiyou1",
         "527": "kishinami",
+        "528": "hayanami",
         "529": "taiyou3",
         "530": "i5041",
         "531": "sado1",
@@ -1046,16 +1062,23 @@
         "558": "hamakaze4", 
         "560": "zuihou5",
         "561": "samuelbroberts1",
+        "562": "johnston",
+        "563": "makigumo-kaini",
+        "564": "kazagumo-kaini",
         "565": "fukae1",
         "566": "kagerou2",
         "567": "shiranui3",
         "568": "kuroshio2",
         "571": "nelson",
+        "573": "mutsu-kaini",
         "574": "gotland",
         "575": "maestrale",
         "576": "nelson-kai",
         "579": "gotland-kai",
         "580": "maestrale-kai",
+        "581": "nisshin",
+        "583": "minegumo",
+        "586": "nissin-a",
         "605": "luigitorelli1",
         "606": "i4001",
         "678": "hiburi1",
@@ -1063,7 +1086,11 @@
         "680": "hamanami1",
         "681": "samuelbroberts2",
         "685": "fukae1",
-        "686": "kishinami"
+        "686": "kishinami",
+        "687": "minegumo",
+        "688": "hayanami",
+        "689": "johnston-kai",
+        "690": "nisshin"
     },
     "shipTypes": {
         "DE": {
