@@ -7239,6 +7239,7 @@
         "rarity": 8,
         "type": "BB",
         "unique": false,
+        "damageable": false,
         "full": "Nagato Kai Ni - Special Attack Mode",
         "name": "Nagato"
     },
@@ -7280,6 +7281,7 @@
         "rarity": 8,
         "type": "BB",
         "unique": false,
+        "damageable": false,
         "full": "Mutsu Kai Ni - Special Attack Mode",
         "name": "Nagato"
     },
@@ -8300,6 +8302,7 @@
         "rarity": 7,
         "type": "BB",
         "unique": false,
+        "damageable": false,
         "full": "Nelson - 'Nelson Touch' Mode",
         "name": "Nelson"
     },
@@ -8315,6 +8318,7 @@
         "rarity": 7,
         "type": "BB",
         "unique": false,
+        "damageable": false,
         "full": "Nelson Kai - 'Nelson Touch' Mode",
         "name": "Nelson"
     },
