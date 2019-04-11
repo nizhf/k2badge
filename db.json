@@ -194,6 +194,21 @@
         "full": "Christmas Matsuwa",
         "name": "Etorofu"
     },
+    "matsuwa_CHERRY": {
+        "offset": {
+            "x": 50,
+            "y": 20
+        },
+        "offset2": {
+            "x": 160,
+            "y": 0
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": false,
+        "full": "Cherry Blossom Matsuwa",
+        "name": "Etorofu"
+    },
     "sado1": {
         "offset": {
             "x": -50,
@@ -2627,10 +2642,10 @@
     "umikaze_SHOP": {
         "offset": {
             "x": -20,
-            "y": 10
+            "y": 30
         },
         "offset2": {
-            "x": 0,
+            "x": 200,
             "y": -20
         },
         "rarity": 4,
@@ -4004,6 +4019,21 @@
         "full": "Makigumo",
         "name": "Yuugumo"
     },
+    "makigumo-kaini": {
+        "offset": {
+            "x": 100,
+            "y": -25
+        },
+		"offset2": {
+            "x": 100,
+            "y": -25
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Makigumo Kai Ni",
+        "name": "Yuugumo"
+    },
     "makigumo2": {
         "offset": {
             "x": -50,
@@ -4017,6 +4047,21 @@
         "type": "DD",
         "unique": false,
         "full": "New Year's Makigumo",
+        "name": "Yuugumo"
+    },
+    "makigumo_SUM": {
+        "offset": {
+            "x": 150,
+            "y": 25
+        },
+		"offset2": {
+            "x": 0,
+            "y": 25
+        },
+        "rarity": 5,
+        "type": "DD",
+        "unique": false,
+        "full": "Summer Makigumo",
         "name": "Yuugumo"
     },
     "kazagumo1": {
@@ -7186,14 +7231,10 @@
         "full": "Nagato Kai Ni",
         "name": "Nagato"
     },
-    "nagato_Special": {
+    "nagato-kaini_Special": {
         "offset": {
-            "x": 75,
+            "x": 525,
             "y": 30
-        },
-		"offset2": {
-            "x": -50,
-            "y": -20
         },
         "rarity": 8,
         "type": "BB",
@@ -7234,10 +7275,6 @@
     "mutsu-kaini_Special": {
         "offset": {
             "x": 425,
-            "y": 40
-        },
-		"offset2": {
-            "x": -55,
             "y": 40
         },
         "rarity": 8,
@@ -7784,6 +7821,21 @@
         "type": "BB",
         "unique": false,
         "full": "Hyuuga Kai",
+        "name": "Ise"
+    },
+    "hyuuga-kaini": {
+        "offset": {
+            "x": 200,
+            "y": -160
+        },
+		"offset2": {
+            "x": 150,
+            "y": 30
+        },
+        "rarity": 8,
+        "type": "BB",
+        "unique": false,
+        "full": "Hyuuga Kai Ni",
         "name": "Ise"
     },
     "hyuuga3": {
@@ -10614,7 +10666,7 @@
         "rarity": 6,
         "type": "AX",
         "unique": false,
-        "full": "Halloween Mizuho",
+        "full": "valentines 2019 Mizuho",
         "name": "Mizuho"
     },
     "hayasui1": {

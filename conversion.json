@@ -281,6 +281,10 @@
             "ise2",
             "ise1"
         ],
+        "hyuuga-kaini": [
+            "hyuuga2",
+            "hyuuga1"
+        ],
         "isokaze2": [
             "isokaze1"
         ],
@@ -1056,6 +1060,7 @@
         "551": "hiburi1",
         "552": "daitou1",
         "553": "ise5",
+        "554": "hyuuga5",
         "555": "zuihou4",
         "556": "urakaze3",
         "557": "isokaze5",
