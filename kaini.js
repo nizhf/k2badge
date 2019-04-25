@@ -1034,7 +1034,7 @@ $(document).ready(function() {
         var useBlue = $("#useBlue").prop("checked");
         var maxPerLine = 12;
         var linebarwidth = newLength * (2 * Math.sin(Math.PI / 2) + 1);
-        var line = 50;
+        var line = 30;
         var line4 = 175;
         var evenRow = true;
     
@@ -1064,7 +1064,7 @@ $(document).ready(function() {
             var classLang = shipTypes[key]
             var row = 175;
             var rowbox = row + 15;
-            var loower = key.toLowerCase();
+            var lower = key.toLowerCase();
             var num = 0;
             var blue = $("#" + key.toLowerCase()).find(".blueprint").not(".kai").length;
             var max = $("#" + key.toLowerCase()).find("[type='checkbox']").length;
@@ -1338,7 +1338,10 @@ $(document).ready(function() {
                 if (ship.unique) {
                     $("#colleDiv [data-name='" + ship.name + "']").append('<img title="' + ship.full + '"alt="full/FinalBoss.png" src="icons/' + ship.type + '/' + e + '.png" id="kore' + e + '"></img>').append(extraSpan);
                 }
-                $("#avatars [data-name='" + ship.name + "']").append(newDiv).append(extraSpan);
+                $("#avatars [data-name='" + ship.name + "']").append(newDiv);
+                if (ship.damageable != false) {
+                    $("#avatars [data-name='" + ship.name + "']").append(extraSpan);
+                }
             }
         }
 
