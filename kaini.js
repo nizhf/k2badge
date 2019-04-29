@@ -530,10 +530,10 @@ $(document).ready(function() {
         var avatar = document.getElementById("avatar");
         ctx.save();
         ctx.fillStyle = "transparent";
-        ctx.fillRect(35, 45, 100, 100);
-        ctx.strokeRect(35, 45, 100, 100);
+        ctx.fillRect(35, c.height*0.1875, 100, 100);
+        ctx.strokeRect(35, c.height*0.1875, 100, 100);
         ctx.restore();
-        ctx.drawImage(avatar, 35, 45, 100, 100);
+        ctx.drawImage(avatar, 35, c.height*0.1875, 100, 100);
     }
 
     var redraw = function() {
