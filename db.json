@@ -4945,7 +4945,7 @@
         },
         "rarity": 6,
         "type": "DD",
-        "unique": true,
+        "unique": false,
         "full": "Christmas Maestrale",
         "name": "Maestrale"
     },
@@ -6040,7 +6040,7 @@
         },
         "rarity": 5,
         "type": "CL",
-        "unique": true,
+        "unique": false,
         "full": "Christmas Sakawa",
         "name": "Agano"
     },
