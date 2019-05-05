@@ -3494,7 +3494,7 @@
         "full": "Oyakodon Akigumo",
         "name": "Kagerou"
     },
-    "akigumo_CRUNCH": {
+    "akigumo_Crunch": {
         "offset": {
             "x": 100,
             "y": 50
@@ -3509,7 +3509,7 @@
         "full": "Crunch Time 2018 Akigumo",
         "name": "Kagerou"
     },
-    "akigumo_SCRUNCH": {
+    "akigumo_SCrunch": {
         "offset": {
             "x": 100,
             "y": 50
@@ -3524,7 +3524,7 @@
         "full": "Super Crunch Time 2018 Akigumo",
         "name": "Kagerou"
     },
-    "akigumo_SDCRUNCH": {
+    "akigumo_SDCrunch": {
         "offset": {
             "x": 100,
             "y": 50
