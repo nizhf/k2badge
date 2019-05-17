@@ -1241,8 +1241,9 @@ $(document).ready(function() {
         shipTypes = loader.getShipTypes();
         shipDB = loader.getShips()
         abyssDB = loader.getAbyssals();
-
+        implications = loader.getImplications()
         tabManager = new TabManager(loader);
+        
         tabManager.loadTabs();
         
         
@@ -1260,9 +1261,9 @@ $(document).ready(function() {
                         var ship = mstId2FleetIdTable[importShips[i]];
                         importedColle[ship] = true;
                         // Add implicated ships
-                        if (ship in conversion.implicationTable) {
-                            for (var j in conversion.implicationTable[ship]) {
-                                importedColle[conversion.implicationTable[ship][j]] = true;
+                        if (ship in implications) {
+                            for (var j in implications[ship]) {
+                                importedColle[implications[ship][j]] = true;
                             }
                         }
                     }
