@@ -524,7 +524,7 @@
         "nelson-kai": [
             "nelson"
         ],
-        "mustu-kaini": [
+        "mutsu-kaini": [
             "mutsu1"
         ],
         "kazagumo-kaini": [
@@ -538,6 +538,13 @@
         ],
         "makigumo-kaini": [
             "makigumo1"
+        ],
+        "kongou-kaini-c": [
+            "kongou2",
+            "kongou1"
+        ],
+        "tanikaze-d-kai": [
+            "tanikaze1"
         ]
     },
     "mstId2FleetIdTable": {
@@ -900,7 +907,7 @@
         "373": "fujinami1",
         "374": "i132",
         "375": "i142",
-        "376": "shimushu1",
+        "376": "shimushu",
         "377": "kunashiri1",
         "380": "taiyou2",
         "381": "shinyou-kai",
@@ -1028,7 +1035,7 @@
         "513": "gangut2",
         "515": "arkroyal1",
         "516": "tashkent1",
-        "517": "shimushu1",
+        "517": "shimushu",
         "518": "kunashiri1",
         "519": "jervis1",
         "521": "kasugamaru1",
@@ -1065,6 +1072,7 @@
         "556": "urakaze3",
         "557": "isokaze5",
         "558": "hamakaze4", 
+        "559": "tanikaze-d-kai",
         "560": "zuihou5",
         "561": "samuelbroberts1",
         "562": "johnston",
@@ -1084,6 +1092,7 @@
         "581": "nisshin",
         "583": "minegumo",
         "586": "nissin-a",
+        "591": "kongou-kaini-c",
         "605": "luigitorelli1",
         "606": "i4001",
         "678": "hiburi1",

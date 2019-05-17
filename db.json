@@ -134,6 +134,21 @@
         "full": "Setsubun Etorofu",
         "name": "Etorofu"
     },
+    "etorofu_ZUIUN": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "offset2": {
+            "x": -30,
+            "y": -70
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": false,
+        "full": "Zuiun Etorofu",
+        "name": "Etorofu"
+    },
     "matsuwa1": {
         "offset": {
             "x": -50,
@@ -7328,6 +7343,21 @@
         "type": "BB",
         "unique": false,
         "full": "Kongou Kai Ni",
+        "name": "Kongou"
+    },
+    "kongou-kaini-c": {
+        "offset": {
+            "x": 80,
+            "y": 30
+        },
+		"offset2": {
+            "x": 80,
+            "y": -5
+        },
+        "rarity": 8,
+        "type": "BB",
+        "unique": false,
+        "full": "Kongou Kai Ni C",
         "name": "Kongou"
     },
     "kongou3": {
