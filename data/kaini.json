@@ -547,6 +547,15 @@
             "actionReport": false,
             "conversion": false
         },
+        "kongou-kaini-c": {
+            "base": "kongou2",
+            "level": 92,
+            "kai": false,
+            "blueprint": true,
+            "prototype": false,
+            "actionReport": true,
+            "conversion": false
+        },
         "hiei2": {
             "base": "hiei1",
             "level": 75,

@@ -84,7 +84,7 @@ const DataLoader  = function(language){
     this.getFurniture = function() {return furniture;};
     this.getMstIdTable = function() {return mstIdTable;};
     this.getShipTypes = function() {return shipTypes;};
-    this.getIimplications = function() {return implications;};
+    this.getImplications = function() {return implications;};
     this.getKaiNiData = function() {return kaiNi;};
 }
 
