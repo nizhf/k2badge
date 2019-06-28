@@ -545,6 +545,15 @@
         ],
         "tanikaze-d-kai": [
             "tanikaze1"
+        ],
+        "fletcher-kai": [
+            "fletcher"
+        ],
+        "colorado-kai": [
+            "colorado"
+        ],
+        "ggaribaldi-kai": [
+            "ggaribaldi"
         ]
     },
     "mstId2FleetIdTable": {
@@ -909,6 +918,8 @@
         "375": "i142",
         "376": "shimushu",
         "377": "kunashiri1",
+        "378": "hachijou",
+        "379": "ishigaki",
         "380": "taiyou2",
         "381": "shinyou-kai",
         "383": "etorofu2",
@@ -1091,8 +1102,13 @@
         "580": "maestrale-kai",
         "581": "nisshin",
         "583": "minegumo",
+        "584": "hachijou",
+        "585": "ishigaki",
         "586": "nissin-a",
+        "590": "ggaribaldi",
         "591": "kongou-kaini-c",
+        "596": "fletcher",
+        "601": "colorado",
         "605": "luigitorelli1",
         "606": "i4001",
         "678": "hiburi1",
@@ -1104,7 +1120,10 @@
         "687": "minegumo",
         "688": "hayanami",
         "689": "johnston-kai",
-        "690": "nisshin"
+        "690": "nisshin",
+        "691": "ggaribaldi-kai",
+        "692": "fletcher-kai",
+        "1496": "colorado-kai"
     },
     "shipTypes": {
         "DE": {

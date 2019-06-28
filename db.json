@@ -29,6 +29,36 @@
         "full": "Kunashiri",
         "name": "Shimushu"
     },
+    "hachijou": {
+        "offset": {
+            "x": -35,
+            "y": 10
+        },
+        "offset2": {
+            "x": -70,
+            "y": 15
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": true,
+        "full": "Hachijou",
+        "name": "Shimushu"
+    },
+    "ishigaki": {
+        "offset": {
+            "x": -35,
+            "y": 30
+        },
+        "offset2": {
+            "x": 60,
+            "y": -35
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": true,
+        "full": "Ishigaki",
+        "name": "Shimushu"
+    },
     "etorofu1": {
         "offset": {
             "x": 50,
@@ -5189,6 +5219,36 @@
         "full": "Samuel B. Roberts Kai",
         "name": "John C. Butler"
     },
+    "fletcher": {
+        "offset": {
+            "x": 100,
+            "y": 35
+        },
+        "offset2": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": true,
+        "full": "Fletcher",
+        "name": "Fletcher"
+    },
+    "fletcher-kai": {
+        "offset": {
+            "x": 100,
+            "y": 35
+        },
+        "offset2": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Fletcher kai",
+        "name": "Fletcher"
+    },
     "johnston": {
         "offset": {
             "x": 100,
@@ -7216,6 +7276,36 @@
         "full": "Shopping Pola",
         "name": "Zara"
     },
+    "ggaribaldi": {
+        "offset": {
+            "x": 65,
+            "y": 50
+        },
+        "offset2": {
+            "x": 120,
+            "y": 30
+        },
+        "rarity": 6,
+        "type": "CA",
+        "unique": true,
+        "full": "G. Garibaldi",
+        "name": "Duca_degli_Abruzzi"
+    },
+    "ggaribaldi-kai": {
+        "offset": {
+            "x": 65,
+            "y": 50
+        },
+        "offset2": {
+            "x": 120,
+            "y": 30
+        },
+        "rarity": 7,
+        "type": "CA",
+        "unique": false,
+        "full": "G. Garibaldi Kai",
+        "name": "Duca_degli_Abruzzi"
+    },
     "nagato1": {
         "offset": {
             "x": 75,
@@ -8471,6 +8561,60 @@
         "unique": false,
         "full": "Valentines Richelieu",
         "name": "Richelieu"
+    },
+    "colorado": {
+        "offset": {
+            "x": 170,
+            "y": -50
+        },
+        "offset2": {
+            "x": 170,
+            "y": -155
+        },
+        "rarity": 7,
+        "type": "BB",
+        "unique": true,
+        "full": "Colorado",
+        "name": "Colorado"
+    },
+	"colorado-kai": {
+        "offset": {
+            "x": 170,
+            "y": -50
+        },
+        "offset2": {
+            "x": 170,
+            "y": -155
+        },
+        "rarity": 7,
+        "type": "BB",
+        "unique": false,
+        "full": "Colorado Kai",
+        "name": "Colorado"
+    },
+    "colorado_Special": {
+        "offset": {
+            "x": 300,
+            "y": -70
+        },
+        "rarity": 7,
+        "type": "BB",
+        "unique": false,
+        "damageable": false,
+        "full": "Colorado - 'Special Attack' Mode",
+        "name": "Colorado"
+    },
+    "colorado-kai_Special": {
+        "offset": {
+            "x": 300,
+            "y": -70
+        },
+        "rarity": 7,
+        "type": "BB",
+        "unique": false,
+        "damageable": false,
+        "full": "Colorado Kai - 'Special Attack' Mode",
+        "name": "Colorado"
     },
     "houshou1": {
         "offset": {
