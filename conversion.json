@@ -546,6 +546,12 @@
         "tanikaze-d-kai": [
             "tanikaze1"
         ],
+        "umikaze-kaini": [
+            "umikaze1"
+        ],
+        "akagi-kaini": [
+            "akagi1"
+        ],
         "fletcher-kai": [
             "fletcher"
         ],
@@ -554,6 +560,10 @@
         ],
         "ggaribaldi-kai": [
             "ggaribaldi"
+        ],
+        "akagi-kaini-e": [
+            "akagi-kaini",
+            "akagi1"
         ]
     },
     "mstId2FleetIdTable": {
@@ -1105,9 +1115,12 @@
         "584": "hachijou",
         "585": "ishigaki",
         "586": "nissin-a",
+        "587": "umikaze-kaini",
         "590": "ggaribaldi",
         "591": "kongou-kaini-c",
+        "594": "akagi-kaini",
         "596": "fletcher",
+        "599": "akagi-kaini-e",
         "601": "colorado",
         "605": "luigitorelli1",
         "606": "i4001",
