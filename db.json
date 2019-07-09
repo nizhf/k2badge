@@ -314,6 +314,21 @@
         "full": "Zuiun Sado",
         "name": "Etorofu"
     },
+    "sado_RAIN": {
+        "offset": {
+            "x": 110,
+            "y": -120
+        },
+        "offset2": {
+            "x": -40,
+            "y": -150
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": false,
+        "full": "Rainy Season Sado",
+        "name": "Etorofu"
+    },
     "tsushima1": {
         "offset": {
             "x": -40,
@@ -1529,6 +1544,21 @@
         "full": "Spring Amagiri",
         "name": "Ayanami"
     },
+    "amagiri_RAIN": {
+        "offset": {
+            "x": -40,
+            "y": 50
+        },
+        "offset2": {
+            "x": -40,
+            "y": 55
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
+        "full": "Rainy Season Amagiri",
+        "name": "Ayanami"
+    },
     "mutsuki1": {
         "offset": {
             "x": 0,
@@ -2667,6 +2697,21 @@
         "type": "DD",
         "unique": true,
         "full": "Umikaze",
+        "name": "Shiratsuyu"
+    },
+    "umikaze-kaini": {
+        "offset": {
+            "x": 110,
+            "y": 80
+        },
+        "offset2": {
+            "x": 80,
+            "y": -10
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Umikaze Kai Ni",
         "name": "Shiratsuyu"
     },
     "umikaze2": {
@@ -4709,6 +4754,21 @@
         "full": "Omnomnom Hayanami",
         "name": "Yuugumo"
     },
+    "hayanami_RAIN": {
+        "offset": {
+            "x": 50,
+            "y": 20
+        },
+        "offset2": {
+            "x": 100,
+            "y": 10
+        },
+        "rarity": 4,
+        "type": "DD",
+        "unique": false,
+        "full": "Rainy Season Hayanami",
+        "name": "Yuugumo"
+    },
     "hamanami1": {
         "offset": {
             "x": -50,
@@ -5552,11 +5612,11 @@
     "ooi1": {
         "offset": {
             "x": 10,
-            "y": -85
+            "y": -65
         },
 		"offset2": {
             "x": 10,
-            "y": -85
+            "y": -65
         },
         "rarity": 5,
         "type": "CL",
@@ -5592,6 +5652,21 @@
         "type": "CL",
         "unique": false,
         "full": "Ooi Kai Ni",
+        "name": "Kuma"
+    },
+    "ooi_RAIN": {
+        "offset": {
+            "x": 10,
+            "y": -85
+        },
+		"offset2": {
+            "x": 10,
+            "y": -85
+        },
+        "rarity": 5,
+        "type": "CL",
+        "unique": false,
+        "full": "Rainy Season Ooi",
         "name": "Kuma"
     },
     "nagara1": {
@@ -9246,6 +9321,21 @@
         "full": "Mackerel Pike Gambier Bay",
         "name": "Casablanca"
      },
+     "gambierbay_RAIN": {
+        "offset": {
+            "x": 20,
+            "y": 50
+        },
+        "offset2": {
+            "x": 40,
+            "y": 40
+        },
+        "rarity": 5,
+        "type": "CVL",
+        "unique": false,
+        "full": "Rainy Season Gambier Bay",
+        "name": "Casablanca"
+     },
     "akagi1": {
         "offset": {
             "x": 50,
@@ -9259,6 +9349,36 @@
         "type": "CV",
         "unique": true,
         "full": "Akagi",
+        "name": "Akagi"
+    },
+    "akagi-kaini": {
+        "offset": {
+            "x": 150,
+            "y": 60
+        },
+		"offset2": {
+            "x": 20,
+            "y": -140
+        },
+        "rarity": 8,
+        "type": "CV",
+        "unique": false,
+        "full": "Akagi Kai Ni",
+        "name": "Akagi"
+    },
+    "akagi-kaini-e": {
+        "offset": {
+            "x": 150,
+            "y": 60
+        },
+		"offset2": {
+            "x": 20,
+            "y": -140
+        },
+        "rarity": 8,
+        "type": "CV",
+        "unique": false,
+        "full": "Akagi Kai Ni E",
         "name": "Akagi"
     },
     "akagi2": {
