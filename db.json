@@ -29,6 +29,36 @@
         "full": "Kunashiri",
         "name": "Shimushu"
     },
+    "hachijou": {
+        "offset": {
+            "x": -35,
+            "y": 10
+        },
+        "offset2": {
+            "x": -70,
+            "y": 15
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": true,
+        "full": "Hachijou",
+        "name": "Shimushu"
+    },
+    "ishigaki": {
+        "offset": {
+            "x": -35,
+            "y": 30
+        },
+        "offset2": {
+            "x": 60,
+            "y": -35
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": true,
+        "full": "Ishigaki",
+        "name": "Shimushu"
+    },
     "etorofu1": {
         "offset": {
             "x": 50,
@@ -282,6 +312,21 @@
         "type": "DE",
         "unique": false,
         "full": "Zuiun Sado",
+        "name": "Etorofu"
+    },
+    "sado_RAIN": {
+        "offset": {
+            "x": 110,
+            "y": -120
+        },
+        "offset2": {
+            "x": -40,
+            "y": -150
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": false,
+        "full": "Rainy Season Sado",
         "name": "Etorofu"
     },
     "tsushima1": {
@@ -1499,6 +1544,21 @@
         "full": "Spring Amagiri",
         "name": "Ayanami"
     },
+    "amagiri_RAIN": {
+        "offset": {
+            "x": -40,
+            "y": 50
+        },
+        "offset2": {
+            "x": -40,
+            "y": 55
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
+        "full": "Rainy Season Amagiri",
+        "name": "Ayanami"
+    },
     "mutsuki1": {
         "offset": {
             "x": 0,
@@ -2637,6 +2697,21 @@
         "type": "DD",
         "unique": true,
         "full": "Umikaze",
+        "name": "Shiratsuyu"
+    },
+    "umikaze-kaini": {
+        "offset": {
+            "x": 110,
+            "y": 80
+        },
+        "offset2": {
+            "x": 80,
+            "y": -10
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Umikaze Kai Ni",
         "name": "Shiratsuyu"
     },
     "umikaze2": {
@@ -4679,6 +4754,21 @@
         "full": "Omnomnom Hayanami",
         "name": "Yuugumo"
     },
+    "hayanami_RAIN": {
+        "offset": {
+            "x": 50,
+            "y": 20
+        },
+        "offset2": {
+            "x": 100,
+            "y": 10
+        },
+        "rarity": 4,
+        "type": "DD",
+        "unique": false,
+        "full": "Rainy Season Hayanami",
+        "name": "Yuugumo"
+    },
     "hamanami1": {
         "offset": {
             "x": -50,
@@ -5189,6 +5279,36 @@
         "full": "Samuel B. Roberts Kai",
         "name": "John C. Butler"
     },
+    "fletcher": {
+        "offset": {
+            "x": 100,
+            "y": 35
+        },
+        "offset2": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": true,
+        "full": "Fletcher",
+        "name": "Fletcher"
+    },
+    "fletcher-kai": {
+        "offset": {
+            "x": 100,
+            "y": 35
+        },
+        "offset2": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Fletcher kai",
+        "name": "Fletcher"
+    },
     "johnston": {
         "offset": {
             "x": 100,
@@ -5492,11 +5612,11 @@
     "ooi1": {
         "offset": {
             "x": 10,
-            "y": -85
+            "y": -65
         },
 		"offset2": {
             "x": 10,
-            "y": -85
+            "y": -65
         },
         "rarity": 5,
         "type": "CL",
@@ -5532,6 +5652,21 @@
         "type": "CL",
         "unique": false,
         "full": "Ooi Kai Ni",
+        "name": "Kuma"
+    },
+    "ooi_RAIN": {
+        "offset": {
+            "x": 10,
+            "y": -85
+        },
+		"offset2": {
+            "x": 10,
+            "y": -85
+        },
+        "rarity": 5,
+        "type": "CL",
+        "unique": false,
+        "full": "Rainy Season Ooi",
         "name": "Kuma"
     },
     "nagara1": {
@@ -7216,6 +7351,36 @@
         "full": "Shopping Pola",
         "name": "Zara"
     },
+    "ggaribaldi": {
+        "offset": {
+            "x": 65,
+            "y": 50
+        },
+        "offset2": {
+            "x": 120,
+            "y": 30
+        },
+        "rarity": 6,
+        "type": "CA",
+        "unique": true,
+        "full": "G. Garibaldi",
+        "name": "Duca_degli_Abruzzi"
+    },
+    "ggaribaldi-kai": {
+        "offset": {
+            "x": 65,
+            "y": 50
+        },
+        "offset2": {
+            "x": 120,
+            "y": 30
+        },
+        "rarity": 7,
+        "type": "CA",
+        "unique": false,
+        "full": "G. Garibaldi Kai",
+        "name": "Duca_degli_Abruzzi"
+    },
     "nagato1": {
         "offset": {
             "x": 75,
@@ -8472,6 +8637,60 @@
         "full": "Valentines Richelieu",
         "name": "Richelieu"
     },
+    "colorado": {
+        "offset": {
+            "x": 170,
+            "y": -50
+        },
+        "offset2": {
+            "x": 170,
+            "y": -155
+        },
+        "rarity": 7,
+        "type": "BB",
+        "unique": true,
+        "full": "Colorado",
+        "name": "Colorado"
+    },
+	"colorado-kai": {
+        "offset": {
+            "x": 170,
+            "y": -50
+        },
+        "offset2": {
+            "x": 170,
+            "y": -155
+        },
+        "rarity": 7,
+        "type": "BB",
+        "unique": false,
+        "full": "Colorado Kai",
+        "name": "Colorado"
+    },
+    "colorado_Special": {
+        "offset": {
+            "x": 300,
+            "y": -70
+        },
+        "rarity": 7,
+        "type": "BB",
+        "unique": false,
+        "damageable": false,
+        "full": "Colorado - 'Special Attack' Mode",
+        "name": "Colorado"
+    },
+    "colorado-kai_Special": {
+        "offset": {
+            "x": 300,
+            "y": -70
+        },
+        "rarity": 7,
+        "type": "BB",
+        "unique": false,
+        "damageable": false,
+        "full": "Colorado Kai - 'Special Attack' Mode",
+        "name": "Colorado"
+    },
     "houshou1": {
         "offset": {
             "x": -30,
@@ -9102,6 +9321,21 @@
         "full": "Mackerel Pike Gambier Bay",
         "name": "Casablanca"
      },
+     "gambierbay_RAIN": {
+        "offset": {
+            "x": 20,
+            "y": 50
+        },
+        "offset2": {
+            "x": 40,
+            "y": 40
+        },
+        "rarity": 5,
+        "type": "CVL",
+        "unique": false,
+        "full": "Rainy Season Gambier Bay",
+        "name": "Casablanca"
+     },
     "akagi1": {
         "offset": {
             "x": 50,
@@ -9115,6 +9349,36 @@
         "type": "CV",
         "unique": true,
         "full": "Akagi",
+        "name": "Akagi"
+    },
+    "akagi-kaini": {
+        "offset": {
+            "x": 150,
+            "y": 60
+        },
+		"offset2": {
+            "x": 20,
+            "y": -140
+        },
+        "rarity": 8,
+        "type": "CV",
+        "unique": false,
+        "full": "Akagi Kai Ni",
+        "name": "Akagi"
+    },
+    "akagi-kaini-e": {
+        "offset": {
+            "x": 150,
+            "y": 60
+        },
+		"offset2": {
+            "x": 20,
+            "y": -140
+        },
+        "rarity": 8,
+        "type": "CV",
+        "unique": false,
+        "full": "Akagi Kai Ni E",
         "name": "Akagi"
     },
     "akagi2": {
