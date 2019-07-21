@@ -785,6 +785,15 @@
         }
     },
     "CV": {
+        "akagi-kaini": {
+            "base": "akagi1",
+            "level": 90,
+            "kai": true,
+            "blueprint": true,
+            "prototype": true,
+            "actionReport": true,
+            "conversion": true
+        },
         "souryuu2": {
             "base": "souryuu1",
             "level": 78,
