@@ -102,7 +102,7 @@
         },
         "hatsushimo2": {
             "base": "hatsushimo1",
-            "level": 701,
+            "level": 70,
             "kai": false,
             "blueprint": false,
             "prototype": false,
@@ -150,6 +150,15 @@
             "level": 70,
             "kai": false,
             "blueprint": false,
+            "prototype": false,
+            "actionReport": true,
+            "conversion": false
+        },
+        "umikaze-kaini": {
+            "base": "umikaze1",
+            "level": 82,
+            "kai": true,
+            "blueprint": true,
             "prototype": false,
             "actionReport": true,
             "conversion": false
