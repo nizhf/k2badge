@@ -3947,10 +3947,10 @@
     "yukikaze-kai_SUM": {
         "offset": {
             "x": 0,
-            "y": -30
+            "y": 20
         },
         "offset2": {
-            "x": 30,
+            "x": 0,
             "y": 0
         },
         "rarity": 6,
@@ -5412,6 +5412,36 @@
         "type": "DD",
         "unique": false,
         "full": "Johnston kai",
+        "name": "Fletcher"
+    },
+    "johnston_SUM": {
+        "offset": {
+            "x": 70,
+            "y": 50
+        },
+        "offset2": {
+            "x": 70,
+            "y": 30
+        },
+        "rarity": 5,
+        "type": "DD",
+        "unique": false,
+        "full": "Summer Johnston",
+        "name": "Fletcher"
+    },
+    "johnston-kai_SUM": {
+        "offset": {
+            "x": 70,
+            "y": 50
+        },
+        "offset2": {
+            "x": 70,
+            "y": 30
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
+        "full": "Summer Johnston kai",
         "name": "Fletcher"
     },
     "tenryuu1": {
