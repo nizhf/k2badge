@@ -2429,6 +2429,21 @@
         "full": "Early Summer Murasame",
         "name": "Shiratsuyu"
     },
+    "murasame-kaini_SUM": {
+        "offset": {
+            "x": 70,
+            "y": 10
+        },
+        "offset2": {
+            "x": 0,
+            "y": -20
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Summer Murasame Kai Ni",
+        "name": "Shiratsuyu"
+    },
     "murasame5": {
         "offset": {
             "x": -50,
@@ -3914,6 +3929,36 @@
         "full": "Yukikaze",
         "name": "Kagerou"
     },
+    "yukikaze_SUM": {
+        "offset": {
+            "x": 0,
+            "y": 30
+        },
+        "offset2": {
+            "x": 30,
+            "y": -20
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
+        "full": "Summer Yukikaze",
+        "name": "Kagerou"
+    },
+    "yukikaze-kai_SUM": {
+        "offset": {
+            "x": 0,
+            "y": -30
+        },
+        "offset2": {
+            "x": 30,
+            "y": 0
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
+        "full": "Summer Yukikaze Kai",
+        "name": "Kagerou"
+    },
     "amatsukaze1": {
         "offset": {
             "x": 10,
@@ -5277,6 +5322,36 @@
         "type": "DD",
         "unique": false,
         "full": "Samuel B. Roberts Kai",
+        "name": "John C. Butler"
+    },
+    "samuelbroberts_SUM": {
+        "offset": {
+            "x": 0,
+            "y": -30
+        },
+        "offset2": {
+            "x": -30,
+            "y": -30
+        },
+        "rarity": 5,
+        "type": "DD",
+        "unique": false,
+        "full": "Summer Samuel B. Roberts",
+        "name": "John C. Butler"
+    },
+    "samuelbroberts-kai_SUM": {
+        "offset": {
+            "x": 0,
+            "y": -30
+        },
+        "offset2": {
+            "x": -30,
+            "y": -30
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
+        "full": "Summer Samuel B. Roberts Kai",
         "name": "John C. Butler"
     },
     "fletcher": {
