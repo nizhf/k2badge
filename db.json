@@ -419,6 +419,36 @@
         "full": "Hinamatsuri Tsushima",
         "name": "Etorofu"
     },
+    "tsushima_HAPPI": {
+        "offset": {
+            "x": -20,
+            "y": 10
+        },
+        "offset2": {
+            "x": -30,
+            "y": 20
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": false,
+        "full": "Happi Tsushima",
+        "name": "Etorofu"
+    },
+    "hirato": {
+        "offset": {
+            "x": -60,
+            "y": -80
+        },
+        "offset2": {
+            "x": 20,
+            "y": -120
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": true,
+        "full": "Hirato",
+        "name": "Etorofu"
+    },
     "fukae1": {
         "offset": {
             "x": -60,
