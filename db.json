@@ -509,6 +509,36 @@
         "full": "Daitou",
         "name": "Hiburi"
     },
+    "mikura": {
+        "offset": {
+            "x": -45,
+            "y": -10
+        },
+        "offset2": {
+            "x": 155,
+            "y": -10
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": true,
+        "full": "Mikura",
+        "name": "Mikura"
+    },
+    "mikura-kai": {
+        "offset": {
+            "x": -45,
+            "y": -10
+        },
+        "offset2": {
+            "x": 155,
+            "y": -10
+        },
+        "rarity": 5,
+        "type": "DE",
+        "unique": false,
+        "full": "Mikura Kai",
+        "name": "Mikura"
+    },
     "shimakaze1": {
         "offset": {
             "x": 100,
@@ -5099,6 +5129,36 @@
         "full": "Christmas Maestrale",
         "name": "Maestrale"
     },
+    "grecale": {
+        "offset": {
+            "x": -90,
+            "y": -30
+        },
+        "offset2": {
+            "x": 40,
+            "y": 0
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": true,
+        "full": "Grecale",
+        "name": "Maestrale"
+    },
+    "grecale-kai": {
+        "offset": {
+            "x": -90,
+            "y": -30
+        },
+        "offset2": {
+            "x": 40,
+            "y": 0
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Grecale Kai",
+        "name": "Maestrale"
+    },
     "libeccio1": {
         "offset": {
             "x": 0,
@@ -5277,6 +5337,21 @@
         "type": "DD",
         "unique": false,
         "full": "Jervis Kai",
+        "name": "J Class"
+    },
+    "janus": {
+        "offset": {
+            "x": -20,
+            "y": 10
+        },
+        "offset2": {
+            "x": 20,
+            "y": 0
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": true,
+        "full": "Janus",
         "name": "J Class"
     },
     "tashkent1": {
@@ -6592,6 +6667,51 @@
         "offset2": {
             "x": 15,
             "y": -15
+    "ducadegliabruzzi": {
+        "offset": {
+            "x": 130,
+            "y": 50
+        },
+        "offset2": {
+            "x": 90,
+            "y": 0
+        },
+        "rarity": 6,
+        "type": "CL",
+        "unique": true,
+        "full": "L.d.S.D.d.Abruzzi",
+        "name": "Duca_degli_Abruzzi"
+    },
+    "ggaribaldi": {
+        "offset": {
+            "x": 65,
+            "y": 50
+        },
+        "offset2": {
+            "x": 120,
+            "y": 30
+        },
+        "rarity": 6,
+        "type": "CL",
+        "unique": true,
+        "full": "G. Garibaldi",
+        "name": "Duca_degli_Abruzzi"
+    },
+    "ggaribaldi-kai": {
+        "offset": {
+            "x": 65,
+            "y": 50
+        },
+        "offset2": {
+            "x": 120,
+            "y": 30
+        },
+        "rarity": 7,
+        "type": "CL",
+        "unique": false,
+        "full": "G. Garibaldi Kai",
+        "name": "Duca_degli_Abruzzi"
+    },
         },
         "rarity": 6,
         "type": "CL",
@@ -7455,36 +7575,6 @@
         "unique": false,
         "full": "Shopping Pola",
         "name": "Zara"
-    },
-    "ggaribaldi": {
-        "offset": {
-            "x": 65,
-            "y": 50
-        },
-        "offset2": {
-            "x": 120,
-            "y": 30
-        },
-        "rarity": 6,
-        "type": "CA",
-        "unique": true,
-        "full": "G. Garibaldi",
-        "name": "Duca_degli_Abruzzi"
-    },
-    "ggaribaldi-kai": {
-        "offset": {
-            "x": 65,
-            "y": 50
-        },
-        "offset2": {
-            "x": 120,
-            "y": 30
-        },
-        "rarity": 7,
-        "type": "CA",
-        "unique": false,
-        "full": "G. Garibaldi Kai",
-        "name": "Duca_degli_Abruzzi"
     },
     "nagato1": {
         "offset": {
