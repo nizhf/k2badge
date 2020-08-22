@@ -564,6 +564,15 @@
         "akagi-kaini-e": [
             "akagi-kaini",
             "akagi1"
+        ],
+        "asashimo-kaini": [
+            "asashimo"
+        ],
+        "grecale-kai": [
+            "grecale"
+        ],
+        "mikura-kai": [
+            "mikura"
         ]
     },
     "mstId2FleetIdTable": {
@@ -1059,6 +1068,7 @@
         "517": "shimushu",
         "518": "kunashiri1",
         "519": "jervis1",
+        "520": "janus",
         "521": "kasugamaru1",
         "524": "etorofu1",
         "525": "matsuwa1",
@@ -1108,6 +1118,7 @@
         "574": "gotland",
         "575": "maestrale",
         "576": "nelson-kai",
+        "578": "asashimo-kaini",
         "579": "gotland-kai",
         "580": "maestrale-kai",
         "581": "nisshin",
@@ -1116,6 +1127,7 @@
         "585": "ishigaki",
         "586": "nissin-a",
         "587": "umikaze-kaini",
+        "589": "ducadegliabruzzi",
         "590": "ggaribaldi",
         "591": "kongou-kaini-c",
         "594": "akagi-kaini",
@@ -1124,6 +1136,10 @@
         "601": "colorado",
         "605": "luigitorelli1",
         "606": "i4001",
+        "611": "mikura",
+        "614": "grecale",
+        "616": "mikura-kai",
+        "619": "grecale-kai",
         "678": "hiburi1",
         "679": "daitou1",
         "680": "hamanami1",
@@ -1136,6 +1152,8 @@
         "690": "nisshin",
         "691": "ggaribaldi-kai",
         "692": "fletcher-kai",
+        "693": "ducadegliabruzzi",
+        "893": "janus",
         "1496": "colorado-kai"
     },
     "shipTypes": {
