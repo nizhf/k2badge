@@ -565,6 +565,15 @@
             "akagi-kaini",
             "akagi1"
         ],
+        "shinshuumaru-kai": [
+            "shinshuumaru"
+        ],
+        "houston-kai": [
+            "houston"
+        ],
+        "perth-kai": [
+            "perth"
+        ],
         "asashimo-kaini": [
             "asashimo"
         ],
@@ -1113,6 +1122,7 @@
         "566": "kagerou2",
         "567": "shiranui3",
         "568": "kuroshio2",
+        "570": "hirato",
         "571": "nelson",
         "573": "mutsu-kaini",
         "574": "gotland",
@@ -1131,15 +1141,24 @@
         "590": "ggaribaldi",
         "591": "kongou-kaini-c",
         "594": "akagi-kaini",
+        "595": "houston",
         "596": "fletcher",
+        "597": "atlanta",
         "599": "akagi-kaini-e",
+        "600": "houston-kai",
         "601": "colorado",
+        "604": "deruyter",
         "605": "luigitorelli1",
         "606": "i4001",
+        "609": "deruyter",
         "611": "mikura",
+        "613": "perth",
         "614": "grecale",
         "616": "mikura-kai",
+        "618": "perth-kai",
         "619": "grecale-kai",
+        "621": "shinshuumaru",
+        "625": "akishimo",
         "678": "hiburi1",
         "679": "daitou1",
         "680": "hamanami1",
@@ -1153,6 +1172,7 @@
         "691": "ggaribaldi-kai",
         "692": "fletcher-kai",
         "693": "ducadegliabruzzi",
+        "696": "atlanta",
         "893": "janus",
         "1496": "colorado-kai"
     },

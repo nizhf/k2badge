@@ -440,7 +440,7 @@
             "y": -80
         },
         "offset2": {
-            "x": 20,
+            "x": -30,
             "y": -120
         },
         "rarity": 4,
@@ -2654,6 +2654,36 @@
         "full": "Udon Yuudachi Kai Ni",
         "name": "Shiratsuyu"
     },
+    "yuudachi_HALLOW": {
+        "offset": {
+            "x": -35,
+            "y": 0
+        },
+        "offset2": {
+            "x": -60,
+            "y": 0
+        },
+        "rarity": 2,
+        "type": "DD",
+        "unique": false,
+        "full": "Halloween Yuudachi",
+        "name": "Shiratsuyu"
+    },
+    "yuudachi-kaini_HALLOW": {
+        "offset": {
+            "x": -35,
+            "y": 0
+        },
+        "offset2": {
+            "x": -60,
+            "y": 0
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
+        "full": "Halloween Yuudachi Kai Ni",
+        "name": "Shiratsuyu"
+    },
     "samidare1": {
         "offset": {
             "x": 0,
@@ -4619,6 +4649,21 @@
         "full": "Asashimo Kai",
         "name": "Yuugumo"
     },
+    "asashimo-kaini": {
+        "offset": {
+            "x": 70,
+            "y": 0
+        },
+        "offset2": {
+            "x": 130,
+            "y": 5
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Asashimo Kai Ni",
+        "name": "Yuugumo"
+    },
     "asashimo3": {
         "offset": {
             "x": -10,
@@ -4902,6 +4947,21 @@
         "type": "DD",
         "unique": false,
         "full": "Rainy Season Hamanami",
+        "name": "Yuugumo"
+    },
+    "akishimo": {
+        "offset": {
+            "x": -50,
+            "y": 10
+        },
+        "offset2": {
+            "x": 200,
+            "y": 0
+        },
+        "rarity": 4,
+        "type": "DD",
+        "unique": true,
+        "full": "Akishimo",
         "name": "Yuugumo"
     },
     "z11": {
@@ -6697,6 +6757,28 @@
         "offset2": {
             "x": 15,
             "y": -15
+        },
+        "rarity": 6,
+        "type": "CL",
+        "unique": false,
+        "full": "Mackerel Pike Gotland",
+        "name": "Gotland"
+    },
+    "gotland_XMAS": {
+        "offset": {
+            "x": 140,
+            "y": 65
+        },
+        "offset2": {
+            "x": 65,
+            "y": 25
+        },
+        "rarity": 6,
+        "type": "CL",
+        "unique": false,
+        "full": "Christmas Gotland",
+        "name": "Gotland"
+    },
     "ducadegliabruzzi": {
         "offset": {
             "x": 130,
@@ -6742,27 +6824,65 @@
         "full": "G. Garibaldi Kai",
         "name": "Duca_degli_Abruzzi"
     },
-        },
-        "rarity": 6,
-        "type": "CL",
-        "unique": false,
-        "full": "Mackerel Pike Gotland",
-        "name": "Gotland"
-    },
-    "gotland_XMAS": {
+    "deruyter": {
         "offset": {
-            "x": 140,
-            "y": 65
+            "x": 100,
+            "y": 20
         },
-        "offset2": {
-            "x": 65,
-            "y": 25
+		"offset2": {
+            "x": 100,
+            "y": -20
+        },
+        "rarity": 4,
+        "type": "CL",
+        "unique": true,
+        "full": "De Ruyter",
+        "name": "De Ruyter"
+    },
+    "perth": {
+        "offset": {
+            "x": 80,
+            "y": 30
+        },
+		"offset2": {
+            "x": 0,
+            "y": -50
+        },
+        "rarity": 4,
+        "type": "CL",
+        "unique": true,
+        "full": "Perth",
+        "name": "Perth"
+    },
+    "perth-kai": {
+        "offset": {
+            "x": 80,
+            "y": 30
+        },
+		"offset2": {
+            "x": 0,
+            "y": -50
+        },
+        "rarity": 5,
+        "type": "CL",
+        "unique": false,
+        "full": "Perth Kai",
+        "name": "Perth"
+    },
+    "atlanta": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+		"offset2": {
+            "x": 0,
+            "y": -40
         },
         "rarity": 6,
         "type": "CL",
-        "unique": false,
-        "full": "Christmas Gotland",
-        "name": "Gotland"
+        "unique": true,
+        "full": "Atlanta",
+        "name": "Atlanta"
     },
     "furutaka1": {
         "offset": {
@@ -7605,6 +7725,36 @@
         "unique": false,
         "full": "Shopping Pola",
         "name": "Zara"
+    },
+    "houston": {
+        "offset": {
+            "x": 170,
+            "y": 50
+        },
+        "offset2": {
+            "x": 170,
+            "y": 5
+        },
+        "rarity": 6,
+        "type": "CA",
+        "unique": true,
+        "full": "Houston",
+        "name": "Northampton"
+    },
+	"houston-kai": {
+        "offset": {
+            "x": 170,
+            "y": 50
+        },
+        "offset2": {
+            "x": 170,
+            "y": 5
+        },
+        "rarity": 7,
+        "type": "CA",
+        "unique": false,
+        "full": "Houston Kai",
+        "name": "Northampton"
     },
     "nagato1": {
         "offset": {
@@ -11506,5 +11656,35 @@
         "unique": false,
         "full": "Nisshin A",
         "name": "Nisshin"
+    },
+    "shinshuumaru": {
+        "offset": {
+            "x": 50,
+            "y": -25
+        },
+		"offset2": {
+            "x": 100,
+            "y": -65
+        },
+        "rarity": 6,
+        "type": "AX",
+        "unique": true,
+        "full": "Shinshuu Maru",
+        "name": "IJA_R1"
+    },
+    "shinshuumaru-kai": {
+        "offset": {
+            "x": 50,
+            "y": -25
+        },
+		"offset2": {
+            "x": 100,
+            "y": -65
+        },
+        "rarity": 7,
+        "type": "AX",
+        "unique": false,
+        "full": "Shinshuu Maru Kai",
+        "name": "IJA_R1"
     }
 }
