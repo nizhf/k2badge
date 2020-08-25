@@ -4364,6 +4364,21 @@
         "full": "Salesgirl Kazagumo",
         "name": "Yuugumo"
     },
+    "kazagumo_NY": {
+        "offset": {
+            "x": -25,
+            "y": 55
+        },
+        "offset2": {
+            "x": 70,
+            "y": 55
+        },
+        "rarity": 5,
+        "type": "DD",
+        "unique": false,
+        "full": "New Year's Kazagumo",
+        "name": "Yuugumo"
+    },
     "naganami1": {
         "offset": {
             "x": -40,
@@ -5517,6 +5532,36 @@
         "type": "DD",
         "unique": false,
         "full": "Summer Samuel B. Roberts Kai",
+        "name": "John C. Butler"
+    },
+    "samuelbroberts_NY": {
+        "offset": {
+            "x": 0,
+            "y": 10
+        },
+        "offset2": {
+            "x": -50,
+            "y": -30
+        },
+        "rarity": 5,
+        "type": "DD",
+        "unique": false,
+        "full": "New Year's Samuel B. Roberts",
+        "name": "John C. Butler"
+    },
+    "samuelbroberts-kai_NY": {
+        "offset": {
+            "x": 0,
+            "y": 10
+        },
+        "offset2": {
+            "x": -50,
+            "y": -30
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
+        "full": "New Year's Samuel B. Roberts Kai",
         "name": "John C. Butler"
     },
     "fletcher": {
@@ -7960,6 +8005,21 @@
         "full": "Hiei Kai Ni",
         "name": "Kongou"
     },
+    "hiei-kaini_NY": {
+        "offset": {
+            "x": 50,
+            "y": 80
+        },
+		"offset2": {
+            "x": 80,
+            "y": 70
+        },
+        "rarity": 7,
+        "type": "BB",
+        "unique": false,
+        "full": "Haregi Hiei Kai Ni",
+        "name": "Kongou"
+    },
     "haruna1": {
         "offset": {
             "x": 45,
@@ -9769,6 +9829,21 @@
         "type": "CV",
         "unique": false,
         "full": "Oyakodon Akagi",
+        "name": "Akagi"
+    },
+    "akagi_NY": {
+        "offset": {
+            "x": -60,
+            "y": 50
+        },
+		"offset2": {
+            "x": -60,
+            "y": 50
+        },
+        "rarity": 6,
+        "type": "CV",
+        "unique": false,
+        "full": "Haregi Akagi",
         "name": "Akagi"
     },
     "kaga1": {
