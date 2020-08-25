@@ -28,6 +28,15 @@
             "actionReport": false,
             "conversion": false
         },
+        "shikinami-kaini": {
+            "base": "shikinami1",
+            "level": 80,
+            "kai": false,
+            "blueprint": false,
+            "prototype": false,
+            "actionReport": false,
+            "conversion": false
+        },
         "ushio2": {
             "base": "ushio1",
             "level": 60,

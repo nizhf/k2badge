@@ -591,6 +591,9 @@
         "grecale-kai": [
             "grecale"
         ],
+        "shikinami-kaini": [
+            "shikinami"
+        ],
         "mikura-kai": [
             "mikura"
         ]
@@ -1174,6 +1177,7 @@
         "624": "yuubari-kaini-d",
         "625": "akishimo",
         "626": "shinshuumaru-kai",
+        "627": "shikinami-kaini",
         "678": "hiburi1",
         "679": "daitou1",
         "680": "hamanami1",
@@ -1187,6 +1191,7 @@
         "691": "ggaribaldi-kai",
         "692": "fletcher-kai",
         "693": "ducadegliabruzzi",
+        "695": "akishimo",
         "696": "atlanta",
         "893": "janus",
         "1496": "colorado-kai"

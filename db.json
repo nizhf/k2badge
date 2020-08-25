@@ -524,6 +524,21 @@
         "full": "Hinamatsuri Fukae",
         "name": "Etorofu"
     },
+    "fukae_VAL": {
+        "offset": {
+            "x": -10,
+            "y": 10
+        },
+        "offset2": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": false,
+        "full": "Valentine Fukae",
+        "name": "Etorofu"
+    },
     "hiburi1": {
         "offset": {
             "x": -40,
@@ -882,6 +897,21 @@
         "type": "DD",
         "unique": true,
         "full": "Shikinami",
+        "name": "Ayanami"
+    },
+    "shikinami-kaini": {
+        "offset": {
+            "x": 80,
+            "y": -120
+        },
+		"offset2": {
+            "x": -50,
+            "y": -70
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
+        "full": "Shikinami Kai Ni",
         "name": "Ayanami"
     },
     "shikinami2": {
@@ -4949,6 +4979,21 @@
         "full": "Rainy Season Hayanami",
         "name": "Yuugumo"
     },
+    "hayanami_VAL": {
+        "offset": {
+            "x": 0,
+            "y": 40
+        },
+        "offset2": {
+            "x": 0,
+            "y": 40
+        },
+        "rarity": 4,
+        "type": "DD",
+        "unique": false,
+        "full": "Valentine Hayanami",
+        "name": "Yuugumo"
+    },
     "hamanami1": {
         "offset": {
             "x": -50,
@@ -4992,6 +5037,21 @@
         "type": "DD",
         "unique": true,
         "full": "Akishimo",
+        "name": "Yuugumo"
+    },
+    "akishimo_VAL": {
+        "offset": {
+            "x": -50,
+            "y": 10
+        },
+        "offset2": {
+            "x": 200,
+            "y": 0
+        },
+        "rarity": 4,
+        "type": "DD",
+        "unique": false,
+        "full": "Valentines Akishimo",
         "name": "Yuugumo"
     },
     "z11": {
@@ -5277,6 +5337,21 @@
         "type": "DD",
         "unique": false,
         "full": "Grecale Kai",
+        "name": "Maestrale"
+    },
+    "grecale_VAL": {
+        "offset": {
+            "x": 30,
+            "y": 40
+        },
+        "offset2": {
+            "x": 30,
+            "y": 40
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
+        "full": "Valentine Grecale",
         "name": "Maestrale"
     },
     "libeccio1": {
