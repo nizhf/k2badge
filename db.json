@@ -254,6 +254,21 @@
         "full": "Cherry Blossom Matsuwa",
         "name": "Etorofu"
     },
+    "matsuwa_SETS": {
+        "offset": {
+            "x": 50,
+            "y": 20
+        },
+        "offset2": {
+            "x": 60,
+            "y": -50
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": false,
+        "full": "Setsubun Matsuwa",
+        "name": "Etorofu"
+    },
     "sado1": {
         "offset": {
             "x": -50,
@@ -6419,6 +6434,51 @@
         "full": "Rainy Season Yuubari",
         "name": "Yuubari"
     },
+    "yuubari-kaini": {
+        "offset": {
+            "x": 170,
+            "y": 45
+        },
+		"offset2": {
+            "x": 140,
+            "y": -5
+        },
+        "rarity": 7,
+        "type": "CL",
+        "unique": false,
+        "full": "Yuubari Kai Ni",
+        "name": "Yuubari"
+    },
+    "yuubari-kaini-d": {
+        "offset": {
+            "x": 170,
+            "y": 45
+        },
+		"offset2": {
+            "x": 140,
+            "y": -5
+        },
+        "rarity": 7,
+        "type": "CL",
+        "unique": false,
+        "full": "Yuubari Kai Ni D",
+        "name": "Yuubari"
+    },
+    "yuubari-kaini-toku": {
+        "offset": {
+            "x": 170,
+            "y": 45
+        },
+		"offset2": {
+            "x": 140,
+            "y": -5
+        },
+        "rarity": 7,
+        "type": "CL",
+        "unique": false,
+        "full": "Yuubari Kai Ni Toku",
+        "name": "Yuubari"
+    },
     "agano1": {
         "offset": {
             "x": 75,
@@ -6882,6 +6942,21 @@
         "type": "CL",
         "unique": true,
         "full": "De Ruyter",
+        "name": "De Ruyter"
+    },
+    "deruyter_SETS": {
+        "offset": {
+            "x": 50,
+            "y": 20
+        },
+		"offset2": {
+            "x": 50,
+            "y": 20
+        },
+        "rarity": 4,
+        "type": "CL",
+        "unique": false,
+        "full": "Setsubun De Ruyter",
         "name": "De Ruyter"
     },
     "perth": {

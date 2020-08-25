@@ -574,6 +574,17 @@
         "perth-kai": [
             "perth"
         ],
+        "yuubari-kaini": [
+            "yuubari1"
+        ],
+        "yuubari-kaini-d": [
+            "yuubari-kaini",
+            "yuubari1"
+        ],
+        "yuubari-kaini-toku": [
+            "yuubari-kaini-d",
+            "yuubari1"
+        ],
         "asashimo-kaini": [
             "asashimo"
         ],
@@ -1158,7 +1169,11 @@
         "618": "perth-kai",
         "619": "grecale-kai",
         "621": "shinshuumaru",
+        "622": "yuubari-kaini",
+        "623": "yuubari-kaini-toku",
+        "624": "yuubari-kaini-d",
         "625": "akishimo",
+        "626": "shinshuumaru-kai",
         "678": "hiburi1",
         "679": "daitou1",
         "680": "hamanami1",

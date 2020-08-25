@@ -190,6 +190,15 @@
             "actionReport": true,
             "conversion": false
         },
+        "asashimo-kaini": {
+            "base": "asashimo1",
+            "level": 770,
+            "kai": false,
+            "blueprint": true,
+            "prototype": false,
+            "actionReport": true,
+            "conversion": true
+        },
         "asashio2": {
             "base": "asashio1",
             "level": 70,
@@ -406,6 +415,15 @@
             "blueprint": false,
             "prototype": false,
             "actionReport": false,
+            "conversion": false
+        },
+        "yuubari-kaini": {
+            "base": "yuubari1",
+            "level": 84,
+            "kai": false,
+            "blueprint": true,
+            "prototype": false,
+            "actionReport": true,
             "conversion": false
         }
     },
