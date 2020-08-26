@@ -599,6 +599,21 @@
         "full": "Mikura Kai",
         "name": "Mikura"
     },
+    "mikura_SHOP": {
+        "offset": {
+            "x": -45,
+            "y": 30
+        },
+        "offset2": {
+            "x": 110,
+            "y": 0
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": false,
+        "full": "Shopping Mikura",
+        "name": "Mikura"
+    },
     "shimakaze1": {
         "offset": {
             "x": 100,
@@ -3462,6 +3477,21 @@
         "type": "DD",
         "unique": false,
         "full": "Setsubun Minegumo",
+        "name": "Asashio"
+    },
+    "minegumo_HINA": {
+        "offset": {
+            "x": 0,
+            "y": 40
+        },
+		"offset2": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 4,
+        "type": "DD",
+        "unique": false,
+        "full": "Hinamatsuri Minegumo",
         "name": "Asashio"
     },
     "kagerou1": {
@@ -6959,6 +6989,21 @@
         "full": "Christmas Gotland",
         "name": "Gotland"
     },
+    "gotland_HINA": {
+        "offset": {
+            "x": 0,
+            "y": 20
+        },
+        "offset2": {
+            "x": -30,
+            "y": 0
+        },
+        "rarity": 6,
+        "type": "CL",
+        "unique": false,
+        "full": "Hinamatsuri Gotland",
+        "name": "Gotland"
+    },
     "ducadegliabruzzi": {
         "offset": {
             "x": 130,
@@ -9220,6 +9265,21 @@
         "type": "BB",
         "unique": false,
         "full": "Valentines Richelieu",
+        "name": "Richelieu"
+    },
+    "richelieu_HINA": {
+        "offset": {
+            "x": 0,
+            "y": 20
+        },
+        "offset2": {
+            "x": 0,
+            "y": -20
+        },
+        "rarity": 7,
+        "type": "BB",
+        "unique": false,
+        "full": "Hinamatsuri Richelieu",
         "name": "Richelieu"
     },
     "colorado": {
