@@ -426,6 +426,15 @@
             "actionReport": false,
             "conversion": false
         },
+        "gotland-andra": {
+            "base": "gotland",
+            "level": 85,
+            "kai": false,
+            "blueprint": true,
+            "prototype": true,
+            "actionReport": false,
+            "conversion": false
+        },
         "yuubari-kaini": {
             "base": "yuubari1",
             "level": 84,
@@ -590,6 +599,15 @@
             "blueprint": false,
             "prototype": false,
             "actionReport": false,
+            "conversion": false
+        },
+        "hiei-kaini-c": {
+            "base": "hiei2",
+            "level": 90,
+            "kai": false,
+            "blueprint": true,
+            "prototype": false,
+            "actionReport": true,
             "conversion": false
         },
         "haruna2": {

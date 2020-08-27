@@ -7019,6 +7019,21 @@
         "full": "Gotland kai",
         "name": "Gotland"
     },
+    "gotland-andra": {
+        "offset": {
+            "x": 200,
+            "y": 10
+        },
+        "offset2": {
+            "x": -20,
+            "y": -20
+        },
+        "rarity": 8,
+        "type": "CL",
+        "unique": false,
+        "full": "Gotland Andra",
+        "name": "Gotland"
+    },
     "gotland_MPF": {
         "offset": {
             "x": -10,
@@ -8273,6 +8288,21 @@
         "type": "BB",
         "unique": false,
         "full": "Hiei Kai Ni",
+        "name": "Kongou"
+    },
+    "hiei-kaini-c": {
+        "offset": {
+            "x": 200,
+            "y": 70
+        },
+		"offset2": {
+            "x": 200,
+            "y": 70
+        },
+        "rarity": 8,
+        "type": "BB",
+        "unique": false,
+        "full": "Hiei Kai Ni C",
         "name": "Kongou"
     },
     "hiei-kaini_NY": {

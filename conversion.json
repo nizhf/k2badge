@@ -568,8 +568,16 @@
         "shinshuumaru-kai": [
             "shinshuumaru"
         ],
+        "hiei-kaini-c": [
+            "hiei2",
+            "hiei1"
+        ],
         "houston-kai": [
             "houston"
+        ],
+        "gotland-andra": [
+            "gotland-kai",
+            "gotland"
         ],
         "perth-kai": [
             "perth"
@@ -1154,6 +1162,7 @@
         "589": "ducadegliabruzzi",
         "590": "ggaribaldi",
         "591": "kongou-kaini-c",
+        "592": "hiei-kaini-c",
         "594": "akagi-kaini",
         "595": "houston",
         "596": "fletcher",
@@ -1178,6 +1187,7 @@
         "625": "akishimo",
         "626": "shinshuumaru-kai",
         "627": "shikinami-kaini",
+        "630": "gotland-andra",
         "678": "hiburi1",
         "679": "daitou1",
         "680": "hamanami1",
