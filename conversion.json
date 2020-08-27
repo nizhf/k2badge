@@ -596,6 +596,13 @@
         "asashimo-kaini": [
             "asashimo"
         ],
+        "fletcher-kai-mod2": [
+            "fletcher"
+        ],
+        "fletcher-mkii": [
+            "fletcher-kai-mod2",
+            "fletcher"
+        ],
         "grecale-kai": [
             "grecale"
         ],
@@ -1187,6 +1194,8 @@
         "625": "akishimo",
         "626": "shinshuumaru-kai",
         "627": "shikinami-kaini",
+        "628": "fletcher-kai-mod2",
+        "629": "fletcher-mkii",
         "630": "gotland-andra",
         "678": "hiburi1",
         "679": "daitou1",

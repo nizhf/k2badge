@@ -1409,6 +1409,21 @@
         "full": "Mackerel Pike Festival Sazanami",
         "name": "Ayanami"
     },
+    "sazanami_CELE": {
+        "offset": {
+            "x": -20,
+            "y": 10
+        },
+		"offset2": {
+            "x": -20,
+            "y": 10
+        },
+        "rarity": 2,
+        "type": "DD",
+        "unique": false,
+        "full": "Celebration Sazanami",
+        "name": "Ayanami"
+    },
     "ushio1": {
         "offset": {
             "x": 0,
@@ -1572,6 +1587,21 @@
         "type": "DD",
         "unique": false,
         "full": "Mackerel Pike Festival Ushio",
+        "name": "Ayanami"
+    },
+    "ushio_CELE": {
+        "offset": {
+            "x": -20,
+            "y": 40
+        },
+        "offset2": {
+            "x": -20,
+            "y": 40
+        },
+        "rarity": 1,
+        "type": "DD",
+        "unique": false,
+        "full": "Celebration Ushio",
         "name": "Ayanami"
     },
     "sagiri1": {
@@ -2967,6 +2997,21 @@
         "type": "DD",
         "unique": false,
         "full": "Shopping Umikaze",
+        "name": "Shiratsuyu"
+    },
+    "umikaze-kaini_SPNG": {
+        "offset": {
+            "x": 0,
+            "y": 30
+        },
+        "offset2": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Spring Bouquet Umikaze Kai Ni",
         "name": "Shiratsuyu"
     },
     "kawakaze1": {
@@ -5774,6 +5819,36 @@
         "full": "Fletcher kai",
         "name": "Fletcher"
     },
+    "fletcher-kai-mod2": {
+        "offset": {
+            "x": 30,
+            "y": 40
+        },
+        "offset2": {
+            "x": -30,
+            "y": 0
+        },
+        "rarity": 8,
+        "type": "DD",
+        "unique": false,
+        "full": "Fletcher kai Mod.2",
+        "name": "Fletcher"
+    },
+    "fletcher-mkii": {
+        "offset": {
+            "x": 70,
+            "y": 40
+        },
+        "offset2": {
+            "x": 70,
+            "y": -20
+        },
+        "rarity": 8,
+        "type": "DD",
+        "unique": false,
+        "full": "Fletcher Mk II",
+        "name": "Fletcher"
+    },
     "johnston": {
         "offset": {
             "x": 100,
@@ -5832,6 +5907,21 @@
         "type": "DD",
         "unique": false,
         "full": "Summer Johnston kai",
+        "name": "Fletcher"
+    },
+    "johnston_SPNG": {
+        "offset": {
+            "x": -50,
+            "y": 40
+        },
+        "offset2": {
+            "x": 0,
+            "y": 30
+        },
+        "rarity": 5,
+        "type": "DD",
+        "unique": false,
+        "full": "Spring Bouquet Johnston",
         "name": "Fletcher"
     },
     "tenryuu1": {

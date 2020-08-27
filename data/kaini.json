@@ -306,6 +306,15 @@
             "prototype": false,
             "actionReport": false,
             "conversion": false
+        },
+        "fletcher-kai-mod2": {
+            "base": "fletcher",
+            "level": 88,
+            "kai": false,
+            "blueprint": true,
+            "prototype": false,
+            "actionReport": false,
+            "conversion": true
         }
     },
     "CL": {
