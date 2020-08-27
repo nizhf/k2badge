@@ -179,6 +179,21 @@
         "full": "Zuiun Etorofu",
         "name": "Etorofu"
     },
+    "etorofu-kai_SPNG": {
+        "offset": {
+            "x": 30,
+            "y": -100
+        },
+        "offset2": {
+            "x": 30,
+            "y": -100
+        },
+        "rarity": 5,
+        "type": "DE",
+        "unique": false,
+        "full": "Spring Bouquet Etorofu Kai",
+        "name": "Etorofu"
+    },
     "matsuwa1": {
         "offset": {
             "x": -50,
@@ -1079,6 +1094,36 @@
         "full": "Mackerel Pike Festival Oboro",
         "name": "Ayanami"
     },
+    "oboro-kai_SPNG": {
+        "offset": {
+            "x": 0,
+            "y": -40
+        },
+        "offset2": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 1,
+        "type": "DD",
+        "unique": false,
+        "full": "Spring Bouquet Oboro kai",
+        "name": "Ayanami"
+    },
+    "oboro_CELE": {
+        "offset": {
+            "x": -50,
+            "y": 50
+        },
+        "offset2": {
+            "x": -50,
+            "y": 30
+        },
+        "rarity": 1,
+        "type": "DD",
+        "unique": false,
+        "full": "Celebration Oboro",
+        "name": "Ayanami"
+    },
     "akebono1": {
         "offset": {
             "x": 20,
@@ -1227,6 +1272,21 @@
         "type": "DD",
         "unique": false,
         "full": "Mackerel Pike Festival Akebono 2018",
+        "name": "Ayanami"
+    },
+    "akebono-kai_SPNG": {
+        "offset": {
+            "x": 0,
+            "y": -120
+        },
+        "offset2": {
+            "x": 20,
+            "y": -50
+        },
+        "rarity": 1,
+        "type": "DD",
+        "unique": false,
+        "full": "Spring Bouquet Akebono Kai",
         "name": "Ayanami"
     },
     "sazanami1": {
@@ -8170,6 +8230,21 @@
         "full": "Shopping Kongou Kai Ni",
         "name": "Kongou"
     },
+    "kongou-kaini-c_SPNG": {
+        "offset": {
+            "x": 170,
+            "y": 50
+        },
+		"offset2": {
+            "x": 200,
+            "y": 40
+        },
+        "rarity": 8,
+        "type": "BB",
+        "unique": false,
+        "full": "Spring Bouquet Kongou Kai Ni C",
+        "name": "Kongou"
+    },
     "hiei1": {
         "offset": {
             "x": 50,
@@ -11280,6 +11355,21 @@
         "type": "AX",
         "unique": false,
         "full": "Tekkotsu Bancho Akashi Kai",
+        "name": "Akashi"
+    },
+    "akashi_OUT": {
+        "offset": {
+            "x": -50,
+            "y": -10
+        },
+        "offset2": {
+            "x": 20,
+            "y": 10
+        },
+        "rarity": 7,
+        "type": "AX",
+        "unique": false,
+        "full": "Outing Akashi",
         "name": "Akashi"
     },
     "taigei1": {
