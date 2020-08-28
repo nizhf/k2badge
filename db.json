@@ -1111,12 +1111,12 @@
     },
     "oboro_CELE": {
         "offset": {
-            "x": -50,
+            "x": 0,
             "y": 50
         },
         "offset2": {
-            "x": -50,
-            "y": 30
+            "x": 0,
+            "y": 50
         },
         "rarity": 1,
         "type": "DD",
@@ -1287,6 +1287,21 @@
         "type": "DD",
         "unique": false,
         "full": "Spring Bouquet Akebono Kai",
+        "name": "Ayanami"
+    },
+    "akebono_CELE": {
+        "offset": {
+            "x": -50,
+            "y": 40
+        },
+        "offset2": {
+            "x": -50,
+            "y": 40
+        },
+        "rarity": 1,
+        "type": "DD",
+        "unique": false,
+        "full": "Celebration Akebono",
         "name": "Ayanami"
     },
     "sazanami1": {
