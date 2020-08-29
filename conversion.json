@@ -565,6 +565,9 @@
             "akagi-kaini",
             "akagi1"
         ],
+        "jingei-kai": [
+            "jingei"
+        ],
         "shinshuumaru-kai": [
             "shinshuumaru"
         ],
@@ -572,12 +575,18 @@
             "hiei2",
             "hiei1"
         ],
+        "southdakota-kai": [
+            "southdakota"
+        ],
         "houston-kai": [
             "houston"
         ],
         "gotland-andra": [
             "gotland-kai",
             "gotland"
+        ],
+        "helena-kai": [
+            "helena"
         ],
         "perth-kai": [
             "perth"
@@ -611,6 +620,9 @@
         ],
         "mikura-kai": [
             "mikura"
+        ],
+        "yashiro-kai": [
+            "yashiro"
         ]
     },
     "mstId2FleetIdTable": {
@@ -1177,16 +1189,23 @@
         "599": "akagi-kaini-e",
         "600": "houston-kai",
         "601": "colorado",
+        "602": "southdakota",
+        "603": "hornet",
         "604": "deruyter",
         "605": "luigitorelli1",
         "606": "i4001",
+        "607": "i47",
         "609": "deruyter",
         "611": "mikura",
+        "612": "yashiro",
         "613": "perth",
         "614": "grecale",
+        "615": "helena",
         "616": "mikura-kai",
+        "617": "yashiro-kai",
         "618": "perth-kai",
         "619": "grecale-kai",
+        "620": "helena-kai",
         "621": "shinshuumaru",
         "622": "yuubari-kaini",
         "623": "yuubari-kaini-toku",
@@ -1197,6 +1216,13 @@
         "628": "fletcher-kai-mod2",
         "629": "fletcher-mkii",
         "630": "gotland-andra",
+        "631": "usugumo",
+        "632": "ariake",
+        "634": "jingei",
+        "636": "i47",
+        "637": "kaiboukan4",
+        "639": "jingei-kai",
+        "641": "matsu",
         "678": "hiburi1",
         "679": "daitou1",
         "680": "hamanami1",
@@ -1212,6 +1238,12 @@
         "693": "ducadegliabruzzi",
         "695": "akishimo",
         "696": "atlanta",
+        "697": "southdakota-kai",
+        "700": "usugumo",
+        "701": "kaiboukan4",
+        "702": "matsu",
+        "703": "ariake",
+        "704": "hornet",
         "893": "janus",
         "1496": "colorado-kai"
     },

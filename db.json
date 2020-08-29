@@ -629,6 +629,51 @@
         "full": "Shopping Mikura",
         "name": "Mikura"
     },
+    "yashiro": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "offset2": {
+            "x": 50,
+            "y": 0
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": true,
+        "full": "Yashiro",
+        "name": "Mikura"
+    },
+    "yashiro-kai": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "offset2": {
+            "x": 50,
+            "y": 0
+        },
+        "rarity": 5,
+        "type": "DE",
+        "unique": false,
+        "full": "Yashiro Kai",
+        "name": "Mikura"
+    },
+    "kaiboukan4": {
+        "offset": {
+            "x": 80,
+            "y": 0
+        },
+        "offset2": {
+            "x": 80,
+            "y": 0
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": true,
+        "full": "Yotsu",
+        "name": "Type_D"
+    },
     "shimakaze1": {
         "offset": {
             "x": 100,
@@ -867,6 +912,21 @@
         "type": "DD",
         "unique": false,
         "full": "Naval Review Uranami",
+        "name": "Fubuki"
+    },
+    "usugumo": {
+        "offset": {
+            "x": 0,
+            "y": -40
+        },
+		"offset2": {
+            "x": 0,
+            "y": -60
+        },
+        "rarity": 4,
+        "type": "DD",
+        "unique": true,
+        "full": "Usugumo",
         "name": "Fubuki"
     },
     "ayanami1": {
@@ -2382,6 +2442,21 @@
         "type": "DD",
         "unique": false,
         "full": "Hatsushimo Kai Ni",
+        "name": "Hatsuharu"
+    },
+    "ariake": {
+        "offset": {
+            "x": -20,
+            "y": 10
+        },
+		"offset2": {
+            "x": 0,
+            "y": -50
+        },
+        "rarity": 4,
+        "type": "DD",
+        "unique": true,
+        "full": "Ariake",
         "name": "Hatsuharu"
     },
     "shiratsuyu1": {
@@ -5654,6 +5729,21 @@
         "full": "Hatakaze",
         "name": "Kamikaze"
     },
+    "matsu": {
+        "offset": {
+            "x": 50,
+            "y": -100
+        },
+        "offset2": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 5,
+        "type": "DD",
+        "unique": true,
+        "full": "Matsu",
+        "name": "Matsu"
+    },
     "jervis1": {
         "offset": {
             "x": -40,
@@ -7288,6 +7378,36 @@
         "unique": false,
         "full": "Perth Kai",
         "name": "Perth"
+    },
+    "helena": {
+        "offset": {
+            "x": 100,
+            "y": -60
+        },
+		"offset2": {
+            "x": 100,
+            "y": -60
+        },
+        "rarity": 5,
+        "type": "CL",
+        "unique": true,
+        "full": "Helena",
+        "name": "St_Louis"
+    },
+    "helena-kai": {
+        "offset": {
+            "x": 100,
+            "y": -60
+        },
+		"offset2": {
+            "x": -50,
+            "y": -200
+        },
+        "rarity": 6,
+        "type": "CL",
+        "unique": false,
+        "full": "Helena Kai",
+        "name": "St_Louis"
     },
     "atlanta": {
         "offset": {
@@ -9546,6 +9666,36 @@
         "full": "Colorado Kai - 'Special Attack' Mode",
         "name": "Colorado"
     },
+    "southdakota": {
+        "offset": {
+            "x": 70,
+            "y": -100
+        },
+        "offset2": {
+            "x": 200,
+            "y": 20
+        },
+        "rarity": 7,
+        "type": "BB",
+        "unique": true,
+        "full": "South Dakota",
+        "name": "South_Dakota"
+    },
+	"southdakota-kai": {
+        "offset": {
+            "x": 90,
+            "y": -100
+        },
+        "offset2": {
+            "x": 260,
+            "y": 40
+        },
+        "rarity": 8,
+        "type": "BB",
+        "unique": false,
+        "full": "South Dakota Kai",
+        "name": "South_Dakota"
+    },
     "houshou1": {
         "offset": {
             "x": -30,
@@ -10802,6 +10952,21 @@
         "full": "Intrepid Kai",
         "name": "Essex"
     },
+    "hornet": {
+        "offset": {
+            "x": 0,
+            "y": 20
+        },
+        "offset2": {
+            "x": 0,
+            "y": 20
+        },
+        "rarity": 7,
+        "type": "CV",
+        "unique": true,
+        "full": "Hornet",
+        "name": "Yorktown"
+    },
     "arkroyal1": {
         "offset": {
             "x": 0,
@@ -11071,6 +11236,36 @@
         "unique": false,
         "full": "Iyo Kai",
         "name": "Type AM"
+    },
+    "i47": {
+        "offset": {
+            "x": -50,
+            "y": 40
+        },
+        "offset2": {
+            "x": -50,
+            "y": 0
+        },
+        "rarity": 5,
+        "type": "SS",
+        "unique": true,
+        "full": "Yonna",
+        "name": "Junsen_Type_C"
+    },
+    "i47-kai_SUM": {
+        "offset": {
+            "x": 100,
+            "y": 50
+        },
+        "offset2": {
+            "x": 100,
+            "y": -30
+        },
+        "rarity": 6,
+        "type": "SS",
+        "unique": false,
+        "full": "Summer Yonna Kai",
+        "name": "Junsen_Type_C"
     },
     "luigitorelli1": {
         "offset": {
@@ -12196,5 +12391,35 @@
         "unique": false,
         "full": "Shinshuu Maru Kai",
         "name": "IJA_R1"
+    },
+    "jingei": {
+        "offset": {
+            "x": 0,
+            "y": 60
+        },
+        "offset2": {
+            "x": 130,
+            "y": -30
+        },
+        "rarity": 4,
+        "type": "AX",
+        "unique": true,
+        "full": "jingei",
+        "name": "Jingei"
+    },
+    "jingei-kai": {
+        "offset": {
+            "x": 0,
+            "y": 60
+        },
+        "offset2": {
+            "x": 130,
+            "y": -30
+        },
+        "rarity": 5,
+        "type": "AX",
+        "unique": false,
+        "full": "Jingei Kai",
+        "name": "Jingei"
     }
 }
