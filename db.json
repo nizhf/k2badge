@@ -2459,6 +2459,21 @@
         "full": "Ariake",
         "name": "Hatsuharu"
     },
+    "ariake-kai_SUM": {
+        "offset": {
+            "x": 0,
+            "y": 50
+        },
+		"offset2": {
+            "x": -80,
+            "y": 0
+        },
+        "rarity": 5,
+        "type": "DD",
+        "unique": false,
+        "full": "Summer Ariake Kai",
+        "name": "Hatsuharu"
+    },
     "shiratsuyu1": {
         "offset": {
             "x": 0,
@@ -2562,6 +2577,21 @@
         "type": "DD",
         "unique": false,
         "full": "Casual Shiratsuyu",
+        "name": "Shiratsuyu"
+    },
+    "shiratsuyu-kaini_SUM": {
+        "offset": {
+            "x": 30,
+            "y": 40
+        },
+        "offset2": {
+            "x": 0,
+            "y": -30
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Summer Shiratsuyu Kai Ni",
         "name": "Shiratsuyu"
     },
     "shigure1": {
@@ -4649,6 +4679,21 @@
         "full": "New Year's Kazagumo",
         "name": "Yuugumo"
     },
+    "kazagumo-kaini_SUM": {
+        "offset": {
+            "x": -50,
+            "y": 40
+        },
+        "offset2": {
+            "x": 70,
+            "y": -20
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Summer Kazagumo Kai Ni",
+        "name": "Yuugumo"
+    },
     "naganami1": {
         "offset": {
             "x": -40,
@@ -5052,6 +5097,21 @@
         "type": "DD",
         "unique": false,
         "full": "Mackerel Pike Okinami",
+        "name": "Yuugumo"
+    },
+    "okinami-kaini_SUM": {
+        "offset": {
+            "x": -30,
+            "y": 20
+        },
+        "offset2": {
+            "x": 30,
+            "y": 0
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Summer Okinami Kai Ni",
         "name": "Yuugumo"
     },
     "kishinami": {
@@ -5534,6 +5594,36 @@
         "full": "Christmas Maestrale",
         "name": "Maestrale"
     },
+    "maestrale_SUM": {
+        "offset": {
+            "x": 40,
+            "y": 20
+        },
+        "offset2": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
+        "full": "Summer Maestrale",
+        "name": "Maestrale"
+    },
+    "maestrale-kai_SUM": {
+        "offset": {
+            "x": 40,
+            "y": 20
+        },
+        "offset2": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Summer Maestrale Kai",
+        "name": "Maestrale"
+    },
     "grecale": {
         "offset": {
             "x": -90,
@@ -5952,6 +6042,51 @@
         "type": "DD",
         "unique": false,
         "full": "Fletcher Mk II",
+        "name": "Fletcher"
+    },
+    "fletcher_SUM": {
+        "offset": {
+            "x": 80,
+            "y": -30
+        },
+        "offset2": {
+            "x": 0,
+            "y": 40
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": true,
+        "full": "Summer Fletcher",
+        "name": "Fletcher"
+    },
+    "fletcher-kai_SUM": {
+        "offset": {
+            "x": 80,
+            "y": -30
+        },
+        "offset2": {
+            "x": 0,
+            "y": 40
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Summer Fletcher kai",
+        "name": "Fletcher"
+    },
+    "fletcher-kai-mod2_SUM": {
+        "offset": {
+            "x": 80,
+            "y": -30
+        },
+        "offset2": {
+            "x": 0,
+            "y": 40
+        },
+        "rarity": 8,
+        "type": "DD",
+        "unique": false,
+        "full": "Summer Fletcher kai Mod.2",
         "name": "Fletcher"
     },
     "johnston": {
@@ -8294,6 +8429,36 @@
         "type": "CA",
         "unique": false,
         "full": "Houston Kai",
+        "name": "Northampton"
+    },
+    "houston_SUM": {
+        "offset": {
+            "x": -70,
+            "y": 60
+        },
+        "offset2": {
+            "x": 230,
+            "y": -30
+        },
+        "rarity": 6,
+        "type": "CA",
+        "unique": false,
+        "full": "Summer Houston",
+        "name": "Northampton"
+    },
+	"houston-kai_SUM": {
+        "offset": {
+            "x": -70,
+            "y": 60
+        },
+        "offset2": {
+            "x": 230,
+            "y": -30
+        },
+        "rarity": 7,
+        "type": "CA",
+        "unique": false,
+        "full": "Summer Houston Kai",
         "name": "Northampton"
     },
     "nagato1": {
@@ -11820,6 +11985,21 @@
         "type": "AX",
         "unique": false,
         "full": "New Year's Akitsushima 2017",
+        "name": "Akitsushima"
+    },
+    "akitsushima_SUM": {
+        "offset": {
+            "x": -20,
+            "y": 10
+        },
+        "offset2": {
+            "x": -50,
+            "y": -130
+        },
+        "rarity": 7,
+        "type": "AX",
+        "unique": false,
+        "full": "Summer Akitsushima",
         "name": "Akitsushima"
     },
     "mizuho1": {
