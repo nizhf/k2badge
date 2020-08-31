@@ -4589,6 +4589,21 @@
         "full": "Summer Makigumo",
         "name": "Yuugumo"
     },
+    "makigumo-kaini_SUM": {
+        "offset": {
+            "x": 150,
+            "y": 0
+        },
+		"offset2": {
+            "x": 0,
+            "y": 0
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Summer Makigumo Kai Ni",
+        "name": "Yuugumo"
+    },
     "kazagumo1": {
         "offset": {
             "x": -45,
@@ -5669,6 +5684,21 @@
         "full": "Valentine Grecale",
         "name": "Maestrale"
     },
+    "grecale_SUM": {
+        "offset": {
+            "x": -60,
+            "y": 40
+        },
+        "offset2": {
+            "x": 0,
+            "y": -10
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
+        "full": "Summmer Grecale",
+        "name": "Maestrale"
+    },
     "libeccio1": {
         "offset": {
             "x": 0,
@@ -6087,6 +6117,21 @@
         "type": "DD",
         "unique": false,
         "full": "Summer Fletcher kai Mod.2",
+        "name": "Fletcher"
+    },
+    "fletcher-mkii_SUM": {
+        "offset": {
+            "x": 0,
+            "y": 40
+        },
+        "offset2": {
+            "x": 80,
+            "y": 0
+        },
+        "rarity": 8,
+        "type": "DD",
+        "unique": false,
+        "full": "Summer Fletcher Mk II",
         "name": "Fletcher"
     },
     "johnston": {
@@ -6974,6 +7019,51 @@
         "full": "Yuubari Kai Ni Toku",
         "name": "Yuubari"
     },
+    "yuubari-kaini_SUM": {
+        "offset": {
+            "x": 0,
+            "y": 30
+        },
+		"offset2": {
+            "x": -50,
+            "y": -20
+        },
+        "rarity": 7,
+        "type": "CL",
+        "unique": false,
+        "full": "Summer Yuubari Kai Ni",
+        "name": "Yuubari"
+    },
+    "yuubari-kaini-d_SUM": {
+        "offset": {
+            "x": 0,
+            "y": 30
+        },
+		"offset2": {
+            "x": -50,
+            "y": -20
+        },
+        "rarity": 7,
+        "type": "CL",
+        "unique": false,
+        "full": "Summer Yuubari Kai Ni D",
+        "name": "Yuubari"
+    },
+    "yuubari-kaini-toku_SUM": {
+        "offset": {
+            "x": 0,
+            "y": 30
+        },
+		"offset2": {
+            "x": -50,
+            "y": -20
+        },
+        "rarity": 7,
+        "type": "CL",
+        "unique": false,
+        "full": "Summer Yuubari Kai Ni Toku",
+        "name": "Yuubari"
+    },
     "agano1": {
         "offset": {
             "x": 75,
@@ -7407,6 +7497,36 @@
         "type": "CL",
         "unique": false,
         "full": "Hinamatsuri Gotland",
+        "name": "Gotland"
+    },
+    "gotland_SUM": {
+        "offset": {
+            "x": 0,
+            "y": 30
+        },
+        "offset2": {
+            "x": -50,
+            "y": -30
+        },
+        "rarity": 6,
+        "type": "CL",
+        "unique": false,
+        "full": "Summer Gotland",
+        "name": "Gotland"
+    },
+    "gotland-andra_SUM": {
+        "offset": {
+            "x": 0,
+            "y": 30
+        },
+        "offset2": {
+            "x": -50,
+            "y": -30
+        },
+        "rarity": 8,
+        "type": "CL",
+        "unique": false,
+        "full": "Summer Gotland Andra",
         "name": "Gotland"
     },
     "ducadegliabruzzi": {
@@ -9775,6 +9895,21 @@
         "type": "BB",
         "unique": false,
         "full": "Hinamatsuri Richelieu",
+        "name": "Richelieu"
+    },
+    "richelieu_SUM": {
+        "offset": {
+            "x": -50,
+            "y": 60
+        },
+        "offset2": {
+            "x": -50,
+            "y": 60
+        },
+        "rarity": 7,
+        "type": "BB",
+        "unique": false,
+        "full": "Summer Richelieu",
         "name": "Richelieu"
     },
     "colorado": {
