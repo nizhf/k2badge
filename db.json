@@ -659,6 +659,21 @@
         "full": "Yashiro Kai",
         "name": "Mikura"
     },
+    "yashiro_YKT": {
+        "offset": {
+            "x": 0,
+            "y": 40
+        },
+        "offset2": {
+            "x": 100,
+            "y": -30
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": false,
+        "full": "Yukata Yashiro",
+        "name": "Mikura"
+    },
     "kaiboukan4": {
         "offset": {
             "x": 80,
@@ -9996,6 +10011,36 @@
         "full": "South Dakota Kai",
         "name": "South_Dakota"
     },
+    "southdakota_YKT": {
+        "offset": {
+            "x": 100,
+            "y": 0
+        },
+        "offset2": {
+            "x": 130,
+            "y": 20
+        },
+        "rarity": 7,
+        "type": "BB",
+        "unique": false,
+        "full": "Yukata South Dakota",
+        "name": "South_Dakota"
+    },
+	"southdakota-kai_YKT": {
+        "offset": {
+            "x": 100,
+            "y": 0
+        },
+        "offset2": {
+            "x": 130,
+            "y": 20
+        },
+        "rarity": 8,
+        "type": "BB",
+        "unique": false,
+        "full": "Yukata South Dakota Kai",
+        "name": "South_Dakota"
+    },
     "houshou1": {
         "offset": {
             "x": -30,
@@ -10729,6 +10774,51 @@
         "type": "CV",
         "unique": true,
         "full": "Kaga",
+        "name": "Kaga"
+    },
+    "kaga-kaini": {
+        "offset": {
+            "x": 0,
+            "y": -130
+        },
+		"offset2": {
+            "x": 100,
+            "y": -280
+        },
+        "rarity": 8,
+        "type": "CV",
+        "unique": false,
+        "full": "Kaga Kai Ni",
+        "name": "Kaga"
+    },
+    "kaga-kaini-e": {
+        "offset": {
+            "x": 0,
+            "y": -130
+        },
+		"offset2": {
+            "x": 100,
+            "y": -280
+        },
+        "rarity": 8,
+        "type": "CV",
+        "unique": false,
+        "full": "Kaga Kai Ni E",
+        "name": "Kaga"
+    },
+    "kaga-kaini-go": {
+        "offset": {
+            "x": 0,
+            "y": -130
+        },
+		"offset2": {
+            "x": 100,
+            "y": -280
+        },
+        "rarity": 8,
+        "type": "CV",
+        "unique": false,
+        "full": "Kaga Kai Ni Go",
         "name": "Kaga"
     },
     "kaga_NY": {

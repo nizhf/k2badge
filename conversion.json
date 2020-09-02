@@ -623,6 +623,17 @@
         ],
         "yashiro-kai": [
             "yashiro"
+        ],
+        "kaga-kaini": [
+            "kaga1"
+        ],
+        "kaga-kaini-e": [
+            "kaga-kaini",
+            "kaga1"
+        ],
+        "kaga-kaini-go": [
+            "kaga-kaini",
+            "kaga1"
         ]
     },
     "mstId2FleetIdTable": {
@@ -1196,6 +1207,7 @@
         "606": "i4001",
         "607": "i47",
         "609": "deruyter",
+        "610": "kaga-kaini-e",
         "611": "mikura",
         "612": "yashiro",
         "613": "perth",
@@ -1223,6 +1235,7 @@
         "637": "kaiboukan4",
         "639": "jingei-kai",
         "641": "matsu",
+        "646": "kaga-kaini-go",
         "678": "hiburi1",
         "679": "daitou1",
         "680": "hamanami1",
@@ -1239,6 +1252,7 @@
         "695": "akishimo",
         "696": "atlanta",
         "697": "southdakota-kai",
+        "698": "kaga-kaini",
         "700": "usugumo",
         "701": "kaiboukan4",
         "702": "matsu",

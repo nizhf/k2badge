@@ -839,6 +839,15 @@
         }
     },
     "CV": {
+        "kaga-kaini": {
+            "base": "kaga1",
+            "level": 82,
+            "kai": true,
+            "blueprint": true,
+            "prototype": true,
+            "actionReport": true,
+            "conversion": true
+        },
         "souryuu2": {
             "base": "souryuu1",
             "level": 78,
