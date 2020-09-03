@@ -83,7 +83,7 @@
             "x": 0,
             "y": -90
         },
-        "rarity": 4,
+        "rarity": 5,
         "type": "DE",
         "unique": false,
         "full": "Etorofu Kai",
@@ -272,7 +272,7 @@
     "matsuwa_SETS": {
         "offset": {
             "x": 50,
-            "y": 20
+            "y": 10
         },
         "offset2": {
             "x": 60,
@@ -477,6 +477,21 @@
         "type": "DE",
         "unique": true,
         "full": "Hirato",
+        "name": "Etorofu"
+    },
+    "hirato_SHOP": {
+        "offset": {
+            "x": -40,
+            "y": 0
+        },
+        "offset2": {
+            "x": -40,
+            "y": 0
+        },
+        "rarity": 4,
+        "type": "DE",
+        "unique": false,
+        "full": "Shopping Hirato",
         "name": "Etorofu"
     },
     "fukae1": {
@@ -1349,6 +1364,21 @@
         "full": "Mackerel Pike Festival Akebono 2018",
         "name": "Ayanami"
     },
+    "akebono_OYA": {
+        "offset": {
+            "x": -50,
+            "y": -20
+        },
+        "offset2": {
+            "x": -20,
+            "y": -90
+        },
+        "rarity": 1,
+        "type": "DD",
+        "unique": false,
+        "full": "Oyakodon Akebono",
+        "name": "Ayanami"
+    },
     "akebono-kai_SPNG": {
         "offset": {
             "x": 0,
@@ -1467,6 +1497,21 @@
         "type": "DD",
         "unique": false,
         "full": "Christmas Sazanami 2016",
+        "name": "Ayanami"
+    },
+    "sazanami-kai_XMAS2016": {
+        "offset": {
+            "x": 20,
+            "y": 20
+        },
+		"offset2": {
+            "x": 20,
+            "y": 20
+        },
+        "rarity": 4,
+        "type": "DD",
+        "unique": false,
+        "full": "Christmas Sazanami Kai 2016",
         "name": "Ayanami"
     },
     "sazanami7": {
@@ -1677,6 +1722,21 @@
         "type": "DD",
         "unique": false,
         "full": "Mackerel Pike Festival Ushio",
+        "name": "Ayanami"
+    },
+    "ushio_VAL": {
+        "offset": {
+            "x": 0,
+            "y": 20
+        },
+        "offset2": {
+            "x": -20,
+            "y": -30
+        },
+        "rarity": 1,
+        "type": "DD",
+        "unique": false,
+        "full": "Valentine Ushio",
         "name": "Ayanami"
     },
     "ushio_CELE": {
@@ -2594,6 +2654,21 @@
         "full": "Casual Shiratsuyu",
         "name": "Shiratsuyu"
     },
+    "shiratsuyu-kaini_AUTCAS": {
+        "offset": {
+            "x": 0,
+            "y": 80
+        },
+        "offset2": {
+            "x": 80,
+            "y": 0
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Autumn Casual Shiratsuyu Kai Ni",
+        "name": "Shiratsuyu"
+    },
     "shiratsuyu-kaini_SUM": {
         "offset": {
             "x": 30,
@@ -2744,6 +2819,21 @@
         "full": "Murasame Kai",
         "name": "Shiratsuyu"
     },
+    "murasame6": {
+        "offset": {
+            "x": -50,
+            "y": 10
+        },
+        "offset2": {
+            "x": 0,
+            "y": 10
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Murasame Kai Ni",
+        "name": "Shiratsuyu"
+    },
     "murasame3": {
         "offset": {
             "x": 0,
@@ -2780,8 +2870,8 @@
             "y": 10
         },
         "offset2": {
-            "x": 0,
-            "y": -20
+            "x": -50,
+            "y": -50
         },
         "rarity": 7,
         "type": "DD",
@@ -2802,21 +2892,6 @@
         "type": "DD",
         "unique": false,
         "full": "Autumn Murasame",
-        "name": "Shiratsuyu"
-    },
-	"murasame6": {
-        "offset": {
-            "x": -50,
-            "y": 10
-        },
-        "offset2": {
-            "x": 0,
-            "y": 10
-        },
-        "rarity": 7,
-        "type": "DD",
-        "unique": false,
-        "full": "Murasame Kai Ni",
         "name": "Shiratsuyu"
     },
     "murasame7": {
@@ -5099,6 +5174,21 @@
         "full": "Okinami",
         "name": "Yuugumo"
     },
+    "okinami-kaini": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "offset2": {
+            "x": 30,
+            "y": 10
+        },
+        "rarity": 7,
+        "type": "DD",
+        "unique": false,
+        "full": "Okinami Kai Ni",
+        "name": "Yuugumo"
+    },
     "okinami2": {
         "offset": {
             "x": -50,
@@ -5697,6 +5787,21 @@
         "type": "DD",
         "unique": false,
         "full": "Valentine Grecale",
+        "name": "Maestrale"
+    },
+    "grecale_HALLOW": {
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "offset2": {
+            "x": 20,
+            "y": -40
+        },
+        "rarity": 6,
+        "type": "DD",
+        "unique": false,
+        "full": "Halloween Grecale",
         "name": "Maestrale"
     },
     "grecale_SUM": {
@@ -6983,7 +7088,7 @@
             "x": -30,
             "y": 25
         },
-        "rarity": 6,
+        "rarity": 5,
         "type": "CL",
         "unique": false,
         "full": "Rainy Season Yuubari",
@@ -7602,6 +7707,36 @@
         "type": "CL",
         "unique": true,
         "full": "De Ruyter",
+        "name": "De Ruyter"
+    },
+    "deruyter_XMAS": {
+        "offset": {
+            "x": 30,
+            "y": -40
+        },
+		"offset2": {
+            "x": 100,
+            "y": 30
+        },
+        "rarity": 4,
+        "type": "CL",
+        "unique": true,
+        "full": "Christmas De Ruyter",
+        "name": "De Ruyter"
+    },
+    "deruyter_XMAS2": {
+        "offset": {
+            "x": 30,
+            "y": -40
+        },
+		"offset2": {
+            "x": 100,
+            "y": 30
+        },
+        "rarity": 4,
+        "type": "CL",
+        "unique": false,
+        "full": "Christmas De Ruyter v2",
         "name": "De Ruyter"
     },
     "deruyter_SETS": {
@@ -11580,7 +11715,7 @@
         "type": "SS",
         "unique": true,
         "full": "Hitomi",
-        "name": "Type AM"
+        "name": "Type_AM"
     },
     "i132": {
         "offset": {
@@ -11595,7 +11730,7 @@
         "type": "SS",
         "unique": false,
         "full": "Hitomi Kai",
-        "name": "Type AM"
+        "name": "Type_AM"
     },
     "i141": {
         "offset": {
@@ -11610,7 +11745,7 @@
         "type": "SS",
         "unique": true,
         "full": "Iyo",
-        "name": "Type AM"
+        "name": "Type_AM"
     },
     "i142": {
         "offset": {
@@ -11625,7 +11760,7 @@
         "type": "SS",
         "unique": false,
         "full": "Iyo Kai",
-        "name": "Type AM"
+        "name": "Type_AM"
     },
     "i47": {
         "offset": {
@@ -12090,6 +12225,21 @@
         "type": "AX",
         "unique": false,
         "full": "Outing Akashi",
+        "name": "Akashi"
+    },
+    "akashi_YKT": {
+        "offset": {
+            "x": -80,
+            "y": 50
+        },
+        "offset2": {
+            "x": -80,
+            "y": 50
+        },
+        "rarity": 7,
+        "type": "AX",
+        "unique": false,
+        "full": "Yukata Akashi",
         "name": "Akashi"
     },
     "taigei1": {
@@ -12825,6 +12975,21 @@
         "type": "AX",
         "unique": false,
         "full": "Jingei Kai",
+        "name": "Jingei"
+    },
+    "jingei_YKT": {
+        "offset": {
+            "x": -50,
+            "y": 50
+        },
+        "offset2": {
+            "x": -50,
+            "y": 20
+        },
+        "rarity": 4,
+        "type": "AX",
+        "unique": true,
+        "full": "Yukata Jingei",
         "name": "Jingei"
     }
 }

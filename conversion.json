@@ -624,6 +624,9 @@
         "yashiro-kai": [
             "yashiro"
         ],
+        "okinami-kaini": [
+            "okinami1"
+        ],
         "kaga-kaini": [
             "kaga1"
         ],
@@ -1174,6 +1177,7 @@
         "566": "kagerou2",
         "567": "shiranui3",
         "568": "kuroshio2",
+        "569": "okinami-kaini",
         "570": "hirato",
         "571": "nelson",
         "573": "mutsu-kaini",
