@@ -907,7 +907,7 @@ $(document).ready(function() {
         ctx.restore();
 
         ctx.font = "20px " + numberfont;
-        drawText(ships + " (" + (shipPct * 100).toFixed(1) + "%)", progressrowbox + barWidth, c.height - 20, 3);
+        drawText(ships + " (" + (shipPct * 100).toFixed(1) + "%)", progressrowbox + barWidth, c.height - 25, 3);
     };
 
     var drawNewBadge = function() {
@@ -1034,7 +1034,7 @@ $(document).ready(function() {
         var useBlue = $("#useBlue").prop("checked");
         var maxPerLine = 12;
         var linebarwidth = newLength * (2 * Math.sin(Math.PI / 2) + 1);
-        var line = 30;
+        var line = 10;
         var line4 = 175;
         var evenRow = true;
     

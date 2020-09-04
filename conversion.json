@@ -564,6 +564,79 @@
         "akagi-kaini-e": [
             "akagi-kaini",
             "akagi1"
+        ],
+        "jingei-kai": [
+            "jingei"
+        ],
+        "shinshuumaru-kai": [
+            "shinshuumaru"
+        ],
+        "hiei-kaini-c": [
+            "hiei2",
+            "hiei1"
+        ],
+        "southdakota-kai": [
+            "southdakota"
+        ],
+        "houston-kai": [
+            "houston"
+        ],
+        "gotland-andra": [
+            "gotland-kai",
+            "gotland"
+        ],
+        "helena-kai": [
+            "helena"
+        ],
+        "perth-kai": [
+            "perth"
+        ],
+        "yuubari-kaini": [
+            "yuubari1"
+        ],
+        "yuubari-kaini-d": [
+            "yuubari-kaini",
+            "yuubari1"
+        ],
+        "yuubari-kaini-toku": [
+            "yuubari-kaini-d",
+            "yuubari1"
+        ],
+        "asashimo-kaini": [
+            "asashimo"
+        ],
+        "fletcher-kai-mod2": [
+            "fletcher"
+        ],
+        "fletcher-mkii": [
+            "fletcher-kai-mod2",
+            "fletcher"
+        ],
+        "grecale-kai": [
+            "grecale"
+        ],
+        "shikinami-kaini": [
+            "shikinami"
+        ],
+        "mikura-kai": [
+            "mikura"
+        ],
+        "yashiro-kai": [
+            "yashiro"
+        ],
+        "okinami-kaini": [
+            "okinami1"
+        ],
+        "kaga-kaini": [
+            "kaga1"
+        ],
+        "kaga-kaini-e": [
+            "kaga-kaini",
+            "kaga1"
+        ],
+        "kaga-kaini-go": [
+            "kaga-kaini",
+            "kaga1"
         ]
     },
     "mstId2FleetIdTable": {
@@ -1059,6 +1132,7 @@
         "517": "shimushu",
         "518": "kunashiri1",
         "519": "jervis1",
+        "520": "janus",
         "521": "kasugamaru1",
         "524": "etorofu1",
         "525": "matsuwa1",
@@ -1103,11 +1177,14 @@
         "566": "kagerou2",
         "567": "shiranui3",
         "568": "kuroshio2",
+        "569": "okinami-kaini",
+        "570": "hirato",
         "571": "nelson",
         "573": "mutsu-kaini",
         "574": "gotland",
         "575": "maestrale",
         "576": "nelson-kai",
+        "578": "asashimo-kaini",
         "579": "gotland-kai",
         "580": "maestrale-kai",
         "581": "nisshin",
@@ -1116,14 +1193,53 @@
         "585": "ishigaki",
         "586": "nissin-a",
         "587": "umikaze-kaini",
+        "589": "ducadegliabruzzi",
         "590": "ggaribaldi",
         "591": "kongou-kaini-c",
+        "592": "hiei-kaini-c",
         "594": "akagi-kaini",
+        "595": "houston",
         "596": "fletcher",
+        "597": "atlanta",
         "599": "akagi-kaini-e",
+        "600": "houston-kai",
         "601": "colorado",
+        "602": "southdakota",
+        "603": "hornet",
+        "604": "deruyter",
         "605": "luigitorelli1",
         "606": "i4001",
+        "607": "i47",
+        "609": "deruyter",
+        "610": "kaga-kaini-e",
+        "611": "mikura",
+        "612": "yashiro",
+        "613": "perth",
+        "614": "grecale",
+        "615": "helena",
+        "616": "mikura-kai",
+        "617": "yashiro-kai",
+        "618": "perth-kai",
+        "619": "grecale-kai",
+        "620": "helena-kai",
+        "621": "shinshuumaru",
+        "622": "yuubari-kaini",
+        "623": "yuubari-kaini-toku",
+        "624": "yuubari-kaini-d",
+        "625": "akishimo",
+        "626": "shinshuumaru-kai",
+        "627": "shikinami-kaini",
+        "628": "fletcher-kai-mod2",
+        "629": "fletcher-mkii",
+        "630": "gotland-andra",
+        "631": "usugumo",
+        "632": "ariake",
+        "634": "jingei",
+        "636": "i47",
+        "637": "kaiboukan4",
+        "639": "jingei-kai",
+        "641": "matsu",
+        "646": "kaga-kaini-go",
         "678": "hiburi1",
         "679": "daitou1",
         "680": "hamanami1",
@@ -1136,6 +1252,17 @@
         "690": "nisshin",
         "691": "ggaribaldi-kai",
         "692": "fletcher-kai",
+        "693": "ducadegliabruzzi",
+        "695": "akishimo",
+        "696": "atlanta",
+        "697": "southdakota-kai",
+        "698": "kaga-kaini",
+        "700": "usugumo",
+        "701": "kaiboukan4",
+        "702": "matsu",
+        "703": "ariake",
+        "704": "hornet",
+        "893": "janus",
         "1496": "colorado-kai"
     },
     "shipTypes": {
