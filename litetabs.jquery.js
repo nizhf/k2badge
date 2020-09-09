@@ -48,8 +48,8 @@
     		});
 
     		// on tab click...
-    		$tab.click(function(e) {
-    			var filterHash = $div.removeClass('selected').filter('[name=' + this.hash + ']');
+    		$tab.on("click", function(e) {
+    			var filterHash = $div.removeClass('selected').filter('[name="' + this.hash + '"]');
 			
     			// defaults: add selected class to tab
     			$tab.removeClass('selected').filter(this).addClass('selected');
@@ -63,7 +63,7 @@
     		});	
 
     		// option: set selected tab
-    		settings.selectedTab && $tab.eq(settings.selectedTab - 1).click();
+    		settings.selectedTab && $tab.eq(settings.selectedTab - 1).trigger("click");
 
     		// option: set rounded corners
     		settings.rounded && $this.addClass('rounded');

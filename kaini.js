@@ -156,7 +156,7 @@ $(document).ready(function() {
         store("ttkHexOpa", $("#hexOpa").val());
         store("k2", Base64.encode(JSON.stringify(k2)));
         store("secretaryCam", JSON.stringify([$("#customX").val(), $("#customY").val(), $("#customZ").val()]));
-        store("secretaryHit", $(".damaged").size() > 0 && !$($(".damaged")[0]).hasClass("abyss")) ? true : false;
+        store("secretaryHit", $(".damaged").length > 0 && !$($(".damaged")[0]).hasClass("abyss")) ? true : false;
         store("fleet", Base64.encode(fleets.join("|")));
         store("fleetLvl", Base64.encode(fleetLevels.join("|")));
         store("colle", Base64.encode(JSON.stringify(colle)));
@@ -294,7 +294,7 @@ $(document).ready(function() {
                         }
                     }
                 } else {
-                    activeImg.load(function() {
+                    activeImg.on("load", function() {
                             loadCount++;
                             if (loadCount == Object.keys(furnTemp).length) {
                                 $("#buttons button").prop("disabled", false);
@@ -333,9 +333,9 @@ $(document).ready(function() {
             }
             $(this).toggleClass("damaged");
             $(".flagship").removeClass("flagship");
-            var flagship = $(this).prev("img");
+            var flagship = $(this).prev("span");
             flagship.toggleClass("flagship");
-            flagRarity = shipDB[$(this).prev("img").attr("id").substring(4)] ? shipDB[$(this).prev("img").attr("id").substring(4)].rarity : 0;
+            flagRarity = shipDB[$(this).prev("span").attr("id").substring(4)] ? shipDB[$(this).prev("span").attr("id").substring(4)].rarity : 0;
             generateFunction("fleetFlagshipChange");
         }
     }
@@ -1324,7 +1324,7 @@ $(document).ready(function() {
         for (var e in shipDB) {
             var ship = shipDB[e];
             if (ship.name) {
-                var newDiv = $('<img class="tooltip" title="' + ship.full + '" src="icons/' + ship.type + '/' + e + '.png" id="icon' + e + '"></img>');
+                var newDiv = $('<span class="tooltip ' + e + ' sprite" title="' + ship.full + '" id="icon' + e + '"></span>');
                 var extraSpan = $('<span id="hit' + e + '">破</span>');
                 newDiv.on("load", function() {
                     i++;
@@ -1349,7 +1349,7 @@ $(document).ready(function() {
         $("#colleDiv .shipClasses").each(function(i) {
             var selectClass = $("<div class='colleAll'><input id='selectAll-" + i + "' type='checkbox'/><label for='selectAll-" + i + "'>" + (lang == "jp" ? "全て選択" : (lang == "cn" || lang == "tw") ? "全選" : "Select All") + "</label></div>");
             $(this).append(selectClass);
-            selectClass.find("input").change(function() {
+            selectClass.find("input").on("change", function() {
                 var imgs = $(this).parent().parent().find("img");
                 for (var e in imgs.toArray()) {
                     var img = $(imgs[e]);
@@ -1362,13 +1362,13 @@ $(document).ready(function() {
 
         $('.tooltip').tooltipster();
 
-        $(".shipClasses").find("label").next("div").each(function() {
+        /*$(".shipClasses").find("label").next("div").each(function() {
             if ($(this).find("img").length == 0) {
                 $(this).parent().remove();
             }
-        });
+        });*/
 
-        $("#fleetSelect div").click(function() {
+        $("#fleetSelect div").on("click", function() {
             $("#fleetSelect .chosen").removeClass("chosen");
             $(this).toggleClass("chosen");
             var index = this.id.substring(5);
@@ -1387,14 +1387,14 @@ $(document).ready(function() {
             }
         });
 
-        $("#fleets div").click(function() {
+        $("#fleets div").on("click", function() {
             $("#fleets .chosen").removeClass("chosen");
             $(this).toggleClass("chosen");
             var index = this.id.substring(4);
             selectedSlot = parseInt(index) - 1;
         });
 
-        $("#fleetLevels input").change(function() {
+        $("#fleetLevels input").on("change", function() {
             var index = this.id.substring(5);
             selectedSlot = parseInt(index) - 1;
             fleetLevels[selectedFleet][selectedSlot] = this.value;
@@ -1428,15 +1428,15 @@ $(document).ready(function() {
 
         $("#avatars span").on("click", bindAvatars);
 
-        $(".shipList > label").click(function() {
+        $(".shipList > label").on("click", function() {
             $(this).next("div").slideToggle();
         });
 
-        $(".shipClasses label").click(function() {
+        $(".shipClasses label").on("click", function() {
             $(this).next("div").toggle();
         });
 
-        $("#removeSlot").click(function() {
+        $("#removeSlot").on("click", function() {
             if (selectedFleet == 0 && selectedSlot == 0) {
                 $(".damaged").removeClass("damaged");
                 $(".flagship").removeClass("flagship");
@@ -1448,7 +1448,7 @@ $(document).ready(function() {
             generateFunction("fleetRemoveSlot");
         });
 
-        $(".shipOptions input[type='checkbox']").change(function() {
+        $(".shipOptions input[type='checkbox']").on("change", function() {
             generateFunction("kainiShipChange");
         });
 
@@ -1504,7 +1504,7 @@ $(document).ready(function() {
                 loading[type] = imgToLoad;
                 $("#buttons button").prop("disabled", true);
                 $("#loadingDiv").html("Rendering...");
-                activeImg.load(function() {
+                activeImg.on("load", function() {
                         delete loading[type];
                         if ($.isEmptyObject(loading)) {
                             $("#buttons button").prop("disabled", false);
@@ -1524,7 +1524,7 @@ $(document).ready(function() {
             }
 
             if (type == "Window") {
-                $("#Outside").change();
+                $("#Outside").on("change", );
             }
         });
 
@@ -1544,7 +1544,7 @@ $(document).ready(function() {
                     drawRoom(132);
                 } else generateFunction("furnitureOutsideCache");
             } else {
-                activeOut.load(function() {
+                activeOut.on("load", function() {
                     delete loading["Outside"];
                     if ($.isEmptyObject(loading)) {
                         $("#buttons button").prop("disabled", false);
@@ -1558,19 +1558,19 @@ $(document).ready(function() {
 
         })
 
-        $("#ttkInfo input[type='text'],#ttkInfo input[type='number']").blur(function() {
+        $("#ttkInfo input[type='text'],#ttkInfo input[type='number']").on("blur", function() {
             generateFunction("ttkInfo");
         });
 
-        $("#ttkInfo select").click(function() {
+        $("#ttkInfo select").on("click", function() {
             generateFunction("ttkServer");
         });
 
-        $("#ttkInfo input[type='checkbox']").click(function() {
+        $("#ttkInfo input[type='checkbox']").on("click", function() {
             generateFunction("ttkLevel");
         });
 
-        $("#loadAbyss").click(function() {
+        $("#loadAbyss").on("click", function() {
             loadAbyssalShips();
         });
 
@@ -1602,23 +1602,23 @@ $(document).ready(function() {
             $(".export-container").remove();
         });
 
-        $('#avatar').load(function() {
+        $('#avatar').on("load", function() {
             if ($.isEmptyObject(loading)) generateFunction("avatarImgChange");
         });
 
-        $('#bg').load(function() {
+        $('#bg').on("load", function() {
             if ($.isEmptyObject(loading)) generateFunction("bgImgChange");
         });
 
-        $("#customInputs input[type='checkbox']").change(function() {
+        $("#customInputs input[type='checkbox']").on("change", function() {
             generateFunction("customInputChange");
         });
 
-        $("#customInputs input[type='number']").change(function() {
+        $("#customInputs input[type='number']").on("change", function() {
             generateFunction("customInputChange");
         });
 
-        $("#avatarImg").change(function() {
+        $("#avatarImg").on("change", function() {
             if (this.files && this.files[0]) {
                 var reader = new FileReader();
 
@@ -1631,7 +1631,7 @@ $(document).ready(function() {
             }
         });
 
-        $("#shipImg").change(function() {
+        $("#shipImg").on("change", function() {
             if (this.files && this.files[0]) {
                 var reader = new FileReader();
 
@@ -1645,7 +1645,7 @@ $(document).ready(function() {
             }
         });
 
-        $("#bgImg").change(function() {
+        $("#bgImg").on("change", function() {
             $("#useBG").prop("checked", false);
             if (this.files && this.files[0]) {
                 var reader = new FileReader();
@@ -1659,21 +1659,21 @@ $(document).ready(function() {
             }
         });
 
-        $("#shipClear").click(function() {
+        $("#shipClear").on("click", function() {
             globalship = null;
             $('#shipImg').val("");
             $('#customShip').removeAttr('src');
             generateFunction('clear');
         });
 
-        $("#avatarClear").click(function() {
+        $("#avatarClear").on("click", function() {
             globalavatar = null;
             $('#avatarImg').val("");
             $('#avatar').removeAttr('src');
             generateFunction('clear');
         });
 
-        $("#bgClear").click(function() {
+        $("#bgClear").on("click", function() {
             globalbg = null;
             $('#bgImg').val("");
             $('#bg').attr('src', 'bg.jpg');
@@ -1685,7 +1685,7 @@ $(document).ready(function() {
     loader.initData(init);
 });
 
-$(window).load(function() {
+$(window).on("load", function() {
     $("#tabs").liteTabs({ "width": "100%" });
     $("#tabs").show();
 
