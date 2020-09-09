@@ -6,7 +6,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 		<script type="text/javascript" src="./jquery.min.js"></script>
 		<script type="text/javascript" src="./litetabs.jquery.js"></script>
-		<script type="text/javascript" src="./jquery.tooltipster.min.js"></script>
+		<script type="text/javascript" src="js/tooltipster/tooltipster.bundle.min.js"></script>
 		<script>
 			var importName = <?php echo isset($_POST["ttkName"]) ? "'" . $_POST["ttkName"] . "'" : "undefined" ?>;
 			var importLvl = <?php echo isset($_POST["ttkLvl"]) ? $_POST["ttkLvl"] : "undefined" ?>;
@@ -19,14 +19,14 @@
 		</script>
 		<script type="text/javascript" src="./Base64.js"></script>
 		<script type="text/javascript" src="./js/DataManager.js"></script>
-		<script type="text/javascript" src="./kaini.min.js?version=19"></script>
+		<script type="text/javascript" src="./kaini.min.js?version=20"></script>
 		<script type="text/javascript">
 			lang = "en";
 		</script>
 		<script type="text/javascript" src="./ga.js"></script>
 		
 		<link href="./kaini.css" rel="stylesheet" type="text/css"/>
-		<link href="./tooltipster.css" rel="stylesheet" type="text/css"/>
+		<link href="./css/tooltipster/tooltipster.bundle.min.css" rel="stylesheet" type="text/css"/>
 	</head>
 	<body>
 		<div id="wrapper">

@@ -7720,7 +7720,7 @@
         },
         "rarity": 4,
         "type": "CL",
-        "unique": true,
+        "unique": false,
         "full": "Christmas De Ruyter",
         "name": "De Ruyter"
     },
@@ -12988,8 +12988,9 @@
         },
         "rarity": 4,
         "type": "AX",
-        "unique": true,
+        "unique": false,
         "full": "Yukata Jingei",
         "name": "Jingei"
     }
 }
+ 
