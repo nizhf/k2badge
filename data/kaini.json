@@ -986,6 +986,15 @@
             "prototype": false,
             "actionReport": false,
             "conversion": false
+        },
+        "nissin-a": {
+            "base": "nissin",
+            "level": 60,
+            "kai": false,
+            "blueprint": false,
+            "prototype": false,
+            "actionReport": false,
+            "conversion": false
         }
     }
 }
