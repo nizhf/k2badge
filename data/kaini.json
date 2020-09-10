@@ -987,8 +987,8 @@
             "actionReport": false,
             "conversion": false
         },
-        "nissin-a": {
-            "base": "nissin",
+        "nisshin-a": {
+            "base": "nisshin",
             "level": 60,
             "kai": false,
             "blueprint": false,
