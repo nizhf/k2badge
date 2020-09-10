@@ -6205,7 +6205,7 @@
         },
         "rarity": 6,
         "type": "DD",
-        "unique": true,
+        "unique": false,
         "full": "Summer Fletcher",
         "name": "Fletcher"
     },
@@ -10712,7 +10712,7 @@
         },
         "rarity": 4,
         "type": "CVL",
-        "unique": false,
+        "unique": true,
         "full": "Shinyou",
         "name": "Taiyou"
     },
