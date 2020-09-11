@@ -1324,7 +1324,7 @@ $(document).ready(function() {
         for (var e in shipDB) {
             var ship = shipDB[e];
             if (ship.name) {
-                var newDiv = $('<span class="tooltip ' + e + ' sprite" title="' + ship.full + '" id="icon' + e + '"></span>');
+                var newDiv = $('<img class="tooltip" title="' + ship.full + '" src="icons/' + ship.type + '/' + e + '.png" id="icon' + e + '"></img>');
                 var extraSpan = $('<span id="hit' + e + '">破</span>');
                 newDiv.on("load", function() {
                     i++;
