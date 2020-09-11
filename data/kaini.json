@@ -986,6 +986,15 @@
             "prototype": false,
             "actionReport": false,
             "conversion": false
+        },
+        "nisshin-a": {
+            "base": "nisshin",
+            "level": 60,
+            "kai": false,
+            "blueprint": false,
+            "prototype": false,
+            "actionReport": false,
+            "conversion": false
         }
     }
 }

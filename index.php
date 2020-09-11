@@ -19,7 +19,7 @@
 		</script>
 		<script type="text/javascript" src="./Base64.js"></script>
 		<script type="text/javascript" src="./js/DataManager.js"></script>
-		<script type="text/javascript" src="./kaini.min.js?version=20"></script>
+		<script type="text/javascript" src="./kaini.min.js?version=21"></script>
 		<script type="text/javascript">
 			lang = "en";
 		</script>

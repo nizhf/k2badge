@@ -599,11 +599,11 @@
             "yuubari1"
         ],
         "yuubari-kaini-toku": [
-            "yuubari-kaini-d",
+            "yuubari-kaini",
             "yuubari1"
         ],
         "asashimo-kaini": [
-            "asashimo"
+            "asashimo1"
         ],
         "fletcher-kai-mod2": [
             "fletcher"
@@ -616,7 +616,7 @@
             "grecale"
         ],
         "shikinami-kaini": [
-            "shikinami"
+            "shikinami1"
         ],
         "mikura-kai": [
             "mikura"
@@ -1162,7 +1162,7 @@
         "551": "hiburi1",
         "552": "daitou1",
         "553": "ise5",
-        "554": "hyuuga5",
+        "554": "hyuuga-kaini",
         "555": "zuihou4",
         "556": "urakaze3",
         "557": "isokaze5",
@@ -1191,7 +1191,7 @@
         "583": "minegumo",
         "584": "hachijou",
         "585": "ishigaki",
-        "586": "nissin-a",
+        "586": "nisshin-a",
         "587": "umikaze-kaini",
         "589": "ducadegliabruzzi",
         "590": "ggaribaldi",
@@ -1244,6 +1244,7 @@
         "679": "daitou1",
         "680": "hamanami1",
         "681": "samuelbroberts2",
+        "684": "hirato",
         "685": "fukae1",
         "686": "kishinami",
         "687": "minegumo",
