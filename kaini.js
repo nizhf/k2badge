@@ -333,9 +333,9 @@ $(document).ready(function() {
             }
             $(this).toggleClass("damaged");
             $(".flagship").removeClass("flagship");
-            var flagship = $(this).prev("span");
+            var flagship = $(this).prev("img");
             flagship.toggleClass("flagship");
-            flagRarity = shipDB[$(this).prev("span").attr("id").substring(4)] ? shipDB[$(this).prev("span").attr("id").substring(4)].rarity : 0;
+            flagRarity = shipDB[$(this).prev("img").attr("id").substring(4)] ? shipDB[$(this).prev("img").attr("id").substring(4)].rarity : 0;
             generateFunction("fleetFlagshipChange");
         }
     }
