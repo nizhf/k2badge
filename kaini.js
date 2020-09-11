@@ -914,7 +914,7 @@ $(document).ready(function() {
         recalculateSides(22);
 
         ctx.save();
-        ctx.strokeRect(35, 45, 100, 100);
+        ctx.strokeRect(35, c.height*0.1875, 100, 100);
         var name = $("[name='name']")[0];
         var alevel = $("[name='level']")[0];
         var server = $("[name='server'] :selected").text();
@@ -1009,12 +1009,12 @@ $(document).ready(function() {
 
         ctx.font = "12px " + textfont;
         ctx.textAlign = "center";
-        drawText("Lv. " + (alevel.value ? alevel.value : "?"), 85, line4 - 1);
-
-        if (server != "Your Server") {
-            drawText(server.substring(server.indexOf(" ") + 1), 85, line4 + 14);
+        drawText("Lv. " + (level.value ? level.value : "?"), 85, line4 + 5);
+    
+        if (server !== "------") {
+            drawText((lang == "en" ? server.substring(server.indexOf(" ") + 1) : server), 85, line4 + 19);
         } else {
-            drawText((lang == "en" ? "Unknown Server" : "不明サーバ"), 85, line4 + 14);
+            drawText((lang == "en" ? "Unknown Server" : "不明サーバ"), 85, line4 + 22);
         }
         ctx.textAlign = "left";
         ctx.restore();
