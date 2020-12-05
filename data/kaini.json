@@ -28,6 +28,15 @@
             "actionReport": false,
             "conversion": false
         },
+        "shikinami-kaini": {
+            "base": "shikinami1",
+            "level": 80,
+            "kai": false,
+            "blueprint": false,
+            "prototype": false,
+            "actionReport": false,
+            "conversion": false
+        },
         "ushio2": {
             "base": "ushio1",
             "level": 60,
@@ -181,6 +190,15 @@
             "actionReport": true,
             "conversion": false
         },
+        "okinami-kaini": {
+            "base": "okinami1",
+            "level": 79,
+            "kai": true,
+            "blueprint": true,
+            "prototype": false,
+            "actionReport": true,
+            "conversion": false
+        },
         "kazagumo-kaini": {
             "base": "kazagumo1",
             "level": 75,
@@ -198,6 +216,15 @@
             "prototype": false,
             "actionReport": true,
             "conversion": false
+        },
+        "asashimo-kaini": {
+            "base": "asashimo1",
+            "level": 770,
+            "kai": true,
+            "blueprint": true,
+            "prototype": false,
+            "actionReport": true,
+            "conversion": true
         },
         "asashio2": {
             "base": "asashio1",
@@ -297,6 +324,15 @@
             "prototype": false,
             "actionReport": false,
             "conversion": false
+        },
+        "fletcher-kai-mod2": {
+            "base": "fletcher",
+            "level": 88,
+            "kai": true,
+            "blueprint": true,
+            "prototype": false,
+            "actionReport": false,
+            "conversion": true
         }
     },
     "CL": {
@@ -415,6 +451,24 @@
             "blueprint": false,
             "prototype": false,
             "actionReport": false,
+            "conversion": false
+        },
+        "gotland-andra": {
+            "base": "gotland",
+            "level": 85,
+            "kai": true,
+            "blueprint": true,
+            "prototype": true,
+            "actionReport": false,
+            "conversion": false
+        },
+        "yuubari-kaini": {
+            "base": "yuubari1",
+            "level": 84,
+            "kai": true,
+            "blueprint": true,
+            "prototype": false,
+            "actionReport": true,
             "conversion": false
         }
     },
@@ -559,7 +613,7 @@
         "kongou-kaini-c": {
             "base": "kongou2",
             "level": 92,
-            "kai": false,
+            "kai": true,
             "blueprint": true,
             "prototype": false,
             "actionReport": true,
@@ -572,6 +626,15 @@
             "blueprint": false,
             "prototype": false,
             "actionReport": false,
+            "conversion": false
+        },
+        "hiei-kaini-c": {
+            "base": "hiei2",
+            "level": 90,
+            "kai": true,
+            "blueprint": true,
+            "prototype": false,
+            "actionReport": true,
             "conversion": false
         },
         "haruna2": {
@@ -803,6 +866,15 @@
             "actionReport": true,
             "conversion": true
         },
+        "kaga-kaini": {
+            "base": "kaga1",
+            "level": 82,
+            "kai": true,
+            "blueprint": true,
+            "prototype": true,
+            "actionReport": true,
+            "conversion": true
+        },
         "souryuu2": {
             "base": "souryuu1",
             "level": 78,
@@ -917,6 +989,15 @@
         },
         "kamoi3": {
             "base": "kamoi1",
+            "level": 60,
+            "kai": false,
+            "blueprint": false,
+            "prototype": false,
+            "actionReport": false,
+            "conversion": false
+        },
+        "nisshin-a": {
+            "base": "nisshin",
             "level": 60,
             "kai": false,
             "blueprint": false,

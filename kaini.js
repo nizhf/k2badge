@@ -156,7 +156,7 @@ $(document).ready(function() {
         store("ttkHexOpa", $("#hexOpa").val());
         store("k2", Base64.encode(JSON.stringify(k2)));
         store("secretaryCam", JSON.stringify([$("#customX").val(), $("#customY").val(), $("#customZ").val()]));
-        store("secretaryHit", $(".damaged").size() > 0 && !$($(".damaged")[0]).hasClass("abyss")) ? true : false;
+        store("secretaryHit", $(".damaged").length > 0 && !$($(".damaged")[0]).hasClass("abyss")) ? true : false;
         store("fleet", Base64.encode(fleets.join("|")));
         store("fleetLvl", Base64.encode(fleetLevels.join("|")));
         store("colle", Base64.encode(JSON.stringify(colle)));
@@ -294,7 +294,7 @@ $(document).ready(function() {
                         }
                     }
                 } else {
-                    activeImg.load(function() {
+                    activeImg.on("load", function() {
                             loadCount++;
                             if (loadCount == Object.keys(furnTemp).length) {
                                 $("#buttons button").prop("disabled", false);
@@ -907,14 +907,14 @@ $(document).ready(function() {
         ctx.restore();
 
         ctx.font = "20px " + numberfont;
-        drawText(ships + " (" + (shipPct * 100).toFixed(1) + "%)", progressrowbox + barWidth, c.height - 20, 3);
+        drawText(ships + " (" + (shipPct * 100).toFixed(1) + "%)", progressrowbox + barWidth, c.height - 25, 3);
     };
 
     var drawNewBadge = function() {
         recalculateSides(22);
 
         ctx.save();
-        ctx.strokeRect(35, 45, 100, 100);
+        ctx.strokeRect(35, c.height*0.1875, 100, 100);
         var name = $("[name='name']")[0];
         var alevel = $("[name='level']")[0];
         var server = $("[name='server'] :selected").text();
@@ -1009,12 +1009,12 @@ $(document).ready(function() {
 
         ctx.font = "12px " + textfont;
         ctx.textAlign = "center";
-        drawText("Lv. " + (alevel.value ? alevel.value : "?"), 85, line4 - 1);
-
-        if (server != "Your Server") {
-            drawText(server.substring(server.indexOf(" ") + 1), 85, line4 + 14);
+        drawText("Lv. " + (level.value ? level.value : "?"), 85, line4 + 5);
+    
+        if (server !== "------") {
+            drawText((lang == "en" ? server.substring(server.indexOf(" ") + 1) : server), 85, line4 + 19);
         } else {
-            drawText((lang == "en" ? "Unknown Server" : "不明サーバ"), 85, line4 + 14);
+            drawText((lang == "en" ? "Unknown Server" : "不明サーバ"), 85, line4 + 22);
         }
         ctx.textAlign = "left";
         ctx.restore();
@@ -1034,7 +1034,7 @@ $(document).ready(function() {
         var useBlue = $("#useBlue").prop("checked");
         var maxPerLine = 12;
         var linebarwidth = newLength * (2 * Math.sin(Math.PI / 2) + 1);
-        var line = 30;
+        var line = 10;
         var line4 = 175;
         var evenRow = true;
     
@@ -1349,7 +1349,7 @@ $(document).ready(function() {
         $("#colleDiv .shipClasses").each(function(i) {
             var selectClass = $("<div class='colleAll'><input id='selectAll-" + i + "' type='checkbox'/><label for='selectAll-" + i + "'>" + (lang == "jp" ? "全て選択" : (lang == "cn" || lang == "tw") ? "全選" : "Select All") + "</label></div>");
             $(this).append(selectClass);
-            selectClass.find("input").change(function() {
+            selectClass.find("input").on("change", function() {
                 var imgs = $(this).parent().parent().find("img");
                 for (var e in imgs.toArray()) {
                     var img = $(imgs[e]);
@@ -1362,13 +1362,13 @@ $(document).ready(function() {
 
         $('.tooltip').tooltipster();
 
-        $(".shipClasses").find("label").next("div").each(function() {
+        /*$(".shipClasses").find("label").next("div").each(function() {
             if ($(this).find("img").length == 0) {
                 $(this).parent().remove();
             }
-        });
+        });*/
 
-        $("#fleetSelect div").click(function() {
+        $("#fleetSelect div").on("click", function() {
             $("#fleetSelect .chosen").removeClass("chosen");
             $(this).toggleClass("chosen");
             var index = this.id.substring(5);
@@ -1387,14 +1387,14 @@ $(document).ready(function() {
             }
         });
 
-        $("#fleets div").click(function() {
+        $("#fleets div").on("click", function() {
             $("#fleets .chosen").removeClass("chosen");
             $(this).toggleClass("chosen");
             var index = this.id.substring(4);
             selectedSlot = parseInt(index) - 1;
         });
 
-        $("#fleetLevels input").change(function() {
+        $("#fleetLevels input").on("change", function() {
             var index = this.id.substring(5);
             selectedSlot = parseInt(index) - 1;
             fleetLevels[selectedFleet][selectedSlot] = this.value;
@@ -1428,15 +1428,15 @@ $(document).ready(function() {
 
         $("#avatars span").on("click", bindAvatars);
 
-        $(".shipList > label").click(function() {
+        $(".shipList > label").on("click", function() {
             $(this).next("div").slideToggle();
         });
 
-        $(".shipClasses label").click(function() {
+        $(".shipClasses label").on("click", function() {
             $(this).next("div").toggle();
         });
 
-        $("#removeSlot").click(function() {
+        $("#removeSlot").on("click", function() {
             if (selectedFleet == 0 && selectedSlot == 0) {
                 $(".damaged").removeClass("damaged");
                 $(".flagship").removeClass("flagship");
@@ -1448,7 +1448,7 @@ $(document).ready(function() {
             generateFunction("fleetRemoveSlot");
         });
 
-        $(".shipOptions input[type='checkbox']").change(function() {
+        $(".shipOptions input[type='checkbox']").on("change", function() {
             generateFunction("kainiShipChange");
         });
 
@@ -1504,7 +1504,7 @@ $(document).ready(function() {
                 loading[type] = imgToLoad;
                 $("#buttons button").prop("disabled", true);
                 $("#loadingDiv").html("Rendering...");
-                activeImg.load(function() {
+                activeImg.on("load", function() {
                         delete loading[type];
                         if ($.isEmptyObject(loading)) {
                             $("#buttons button").prop("disabled", false);
@@ -1524,7 +1524,7 @@ $(document).ready(function() {
             }
 
             if (type == "Window") {
-                $("#Outside").change();
+                $("#Outside").on("change", );
             }
         });
 
@@ -1544,7 +1544,7 @@ $(document).ready(function() {
                     drawRoom(132);
                 } else generateFunction("furnitureOutsideCache");
             } else {
-                activeOut.load(function() {
+                activeOut.on("load", function() {
                     delete loading["Outside"];
                     if ($.isEmptyObject(loading)) {
                         $("#buttons button").prop("disabled", false);
@@ -1558,19 +1558,19 @@ $(document).ready(function() {
 
         })
 
-        $("#ttkInfo input[type='text'],#ttkInfo input[type='number']").blur(function() {
+        $("#ttkInfo input[type='text'],#ttkInfo input[type='number']").on("blur", function() {
             generateFunction("ttkInfo");
         });
 
-        $("#ttkInfo select").click(function() {
+        $("#ttkInfo select").on("click", function() {
             generateFunction("ttkServer");
         });
 
-        $("#ttkInfo input[type='checkbox']").click(function() {
+        $("#ttkInfo input[type='checkbox']").on("click", function() {
             generateFunction("ttkLevel");
         });
 
-        $("#loadAbyss").click(function() {
+        $("#loadAbyss").on("click", function() {
             loadAbyssalShips();
         });
 
@@ -1602,23 +1602,23 @@ $(document).ready(function() {
             $(".export-container").remove();
         });
 
-        $('#avatar').load(function() {
+        $('#avatar').on("load", function() {
             if ($.isEmptyObject(loading)) generateFunction("avatarImgChange");
         });
 
-        $('#bg').load(function() {
+        $('#bg').on("load", function() {
             if ($.isEmptyObject(loading)) generateFunction("bgImgChange");
         });
 
-        $("#customInputs input[type='checkbox']").change(function() {
+        $("#customInputs input[type='checkbox']").on("change", function() {
             generateFunction("customInputChange");
         });
 
-        $("#customInputs input[type='number']").change(function() {
+        $("#customInputs input[type='number']").on("change", function() {
             generateFunction("customInputChange");
         });
 
-        $("#avatarImg").change(function() {
+        $("#avatarImg").on("change", function() {
             if (this.files && this.files[0]) {
                 var reader = new FileReader();
 
@@ -1631,7 +1631,7 @@ $(document).ready(function() {
             }
         });
 
-        $("#shipImg").change(function() {
+        $("#shipImg").on("change", function() {
             if (this.files && this.files[0]) {
                 var reader = new FileReader();
 
@@ -1645,7 +1645,7 @@ $(document).ready(function() {
             }
         });
 
-        $("#bgImg").change(function() {
+        $("#bgImg").on("change", function() {
             $("#useBG").prop("checked", false);
             if (this.files && this.files[0]) {
                 var reader = new FileReader();
@@ -1659,21 +1659,21 @@ $(document).ready(function() {
             }
         });
 
-        $("#shipClear").click(function() {
+        $("#shipClear").on("click", function() {
             globalship = null;
             $('#shipImg').val("");
             $('#customShip').removeAttr('src');
             generateFunction('clear');
         });
 
-        $("#avatarClear").click(function() {
+        $("#avatarClear").on("click", function() {
             globalavatar = null;
             $('#avatarImg').val("");
             $('#avatar').removeAttr('src');
             generateFunction('clear');
         });
 
-        $("#bgClear").click(function() {
+        $("#bgClear").on("click", function() {
             globalbg = null;
             $('#bgImg').val("");
             $('#bg').attr('src', 'bg.jpg');
@@ -1685,7 +1685,7 @@ $(document).ready(function() {
     loader.initData(init);
 });
 
-$(window).load(function() {
+$(window).on("load", function() {
     $("#tabs").liteTabs({ "width": "100%" });
     $("#tabs").show();
 
